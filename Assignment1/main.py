@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 import sys
-from ibm import Model1, Model2
+from ibm import *
 
 if __name__ == '__main__':
     if len(sys.argv) != 3:
@@ -18,9 +18,9 @@ if __name__ == '__main__':
     source_corpus  = [[''] + line.split() for line in open(source_corpus_file, 'r')]
                 
     iterations = 3
-    model1 = Model1(iterations)
-    model1.train(foreign_corpus, source_corpus)
+    model1 = Model(model_setup=Model1Setup(), num_iter=iterations)
+    model1.train(foreign_corpus, source_corpus, clear=True)
 
     iterations = 1
-    model2 = Model2(model1.t, model1.q, iterations)
-    model2.train(foreign_corpus, source_corpus)
+    model2 = Model(model1.t, model1.q, model_setup=Model2Setup(), num_iter=iterations)
+    model2.train(foreign_corpus, source_corpus, clear=False)
