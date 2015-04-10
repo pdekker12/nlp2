@@ -1,9 +1,4 @@
+import numpy as np
 
-import numpy as
-
-def compute_perplexity(t):
-    # Sum log_2 probabilities for word pairs in t
-    sum = 0.0
-    for pair in t:
-        sum += np.log2(t[pair])
-    return -sum
+def compute_perplexity(translation_probs):
+    return -sum(np.log2(translation_probs))

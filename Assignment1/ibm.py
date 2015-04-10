@@ -1,4 +1,5 @@
 import random
+from evaluation import compute_perplexity
 
 class Model1Setup:
     def __init__(self):
@@ -32,6 +33,14 @@ class Model:
         self.model_setup = model_setup
         self.model_setup.t = self.t
         self.model_setup.q = self.q
+
+    def _translation_prob(self, f, e):
+        prob = 0
+        for w_f in f:
+            for w_e in e:
+                prob += self.t[(w_f, w_e)]
+
+        return prob / (len(f) ** len(e))
 
     """
         Length of the foreign_corpus and source_corpus collections
@@ -85,10 +94,10 @@ class Model:
                     for j in range(l):
                         c_ji_l_m[(j, i, l, m)] = 0
 
-            k = 0
+            #k = 0
             for f, e in zip(foreign_corpus, source_corpus):
-                k += 1
-                print('Sentence', k)
+                #k += 1
+                #print('Sentence', k)
                 m = len(f)
                 l = len(e)
 
@@ -110,3 +119,7 @@ class Model:
                     for e_w, j in zip(e, range(l)):
                         self.t[(f_w, e_w)] = c_e_f[(e_w, f_w)] / c_e[e_w]
                         self.q[(j, i, l, m)] = c_ji_l_m[(j, i, l, m)] / c_i_l_m[(i, l, m)]
+
+            perplexity = compute_perplexity([self._translation_prob(f, e)
+                                             for f, e in zip(foreign_corpus, source_corpus)])
+            print(perplexity)
