@@ -60,7 +60,7 @@ if __name__ == '__main__':
     with open('debug', 'w') as debug:
         for f, e, i in zip(foreign_corpus, source_corpus, range(len(foreign_corpus))):
             print('# Sentence pair (%s) source length %s target length %s alignment score : %s'
-                      % (i, len(e), len(f), model2.translation_score(f, e)), file=debug)
+                      % (i + 1, len(e), len(f), model2.translation_score(f, e)), file=debug)
             print(' '.join([index_to_foreign[w_f] for w_f in f]), file=debug)
             alignments = [' '.join([str(index + 1) for index in lst]) for lst in model2.align_viterbi(f, e)]
 
