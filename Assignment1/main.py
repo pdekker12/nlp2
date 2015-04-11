@@ -24,7 +24,7 @@ def gen_dict(corpus):
 
 
 if __name__ == '__main__':
-    if len(sys.argv) != 3:
+    if len(sys.argv) != 3 and len(sys.argv) != 4:
         sys.exit(-1)
 
     foreign_corpus_file = sys.argv[1]
@@ -40,20 +40,20 @@ if __name__ == '__main__':
     # Replace by word indexes
     foreign_corpus = [[foreign_dict[word] for word in sentence] for sentence in foreign_corpus]
     source_corpus = [[source_dict[word] for word in sentence] for sentence in source_corpus]
-
+    
+    if len(sys.argv) == 3:
+        iterations = 3
+        print("IBM model 1")
+        model1 = Model(model_setup=Model1Setup(), num_iter=iterations)
+        model1.train(foreign_corpus, source_corpus, clear=True)
+    else: 
+        iterations = 3
+        print("IBM model 1 with improvements")
+        model1 = Model(model_setup=Model1ImprovedSetup(), num_iter=iterations)
+        model1.train(foreign_corpus, source_corpus, clear=True)
     
     iterations = 3
-    print "IBM model 1"
-    model1 = Model(model_setup=Model1Setup(), num_iter=iterations)
-    model1.train(foreign_corpus, source_corpus, clear=True)
-    
-    iterations = 3
-    print "IBM model 1 with improvements"
-    model1 = Model(model_setup=Model1ImprovedSetup(), num_iter=iterations)
-    model1.train(foreign_corpus, source_corpus, clear=True)
-    
-    iterations = 3
-    print "IBM model 2"
+    print("IBM model 2")
     model2 = Model(model1.t, model1.q, model_setup=Model2Setup(), num_iter=iterations)
     model2.train(foreign_corpus, source_corpus, clear=False)
 
