@@ -34,13 +34,36 @@ class Model:
         self.model_setup.t = self.t
         self.model_setup.q = self.q
 
-    def _translation_score(self, f, e):
+    """
+        Calculates a translation score between a pair of sentences f and e
+        * f - foreign sentence
+        * e - source sentence
+
+        Each sentence is a collection of indexes of words from the dictionary
+    """
+    def translation_score(self, f, e):
         score = 0
         for w_f in f:
             for w_e in e:
                 score += self.t[(w_f, w_e)]
 
         return score / (len(f) ** len(e))
+
+    """
+        Calculates a viterbi alignment between a pair of sentences f and e
+        * f - foreign sentence
+        * e - source sentence
+
+        Each sentence is a collection of indexes of words from the dictionary
+    """
+    def align_viterbi(self, f, e):
+        alignments = [[] for i in range(len(e))]
+        for w_f, i in zip(f, range(len(f))):
+            values = [self.t[(w_f, w_e)] for w_e in e]
+            max_index = values.index(max(values))
+            alignments[max_index].append(i)
+
+        return alignments
 
     """
         Length of the foreign_corpus and source_corpus collections
@@ -120,6 +143,6 @@ class Model:
                         self.t[(f_w, e_w)] = c_e_f[(e_w, f_w)] / c_e[e_w]
                         self.q[(j, i, l, m)] = c_ji_l_m[(j, i, l, m)] / c_i_l_m[(i, l, m)]
 
-            perplexity = compute_perplexity([self._translation_score(f, e)
+            perplexity = compute_perplexity([self.translation_score(f, e)
                                              for f, e in zip(foreign_corpus, source_corpus)])
             print(perplexity)
