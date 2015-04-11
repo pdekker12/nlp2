@@ -9,6 +9,14 @@ class Model1Setup:
     def delta(self, f_w, i, e_w, j, e, l, m):
         return self.t[(f_w, e_w)] / sum([self.t[(f_w, w)] for w in e])
 
+class Model1ImprovedSetup:
+    def __init__(self):
+        self.t = None
+        self.q = None
+
+    def delta(self, f_w, i, e_w, j, e, l, m):
+        return self.t[(f_w, e_w)] / sum([self.t[(f_w, w)] for w in e])
+
 class Model2Setup:
     def __init__(self):
         self.t = None
