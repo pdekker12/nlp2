@@ -8,14 +8,30 @@ class Model1Setup:
 
     def delta(self, f_w, i, e_w, j, e, l, m):
         return self.t[(f_w, e_w)] / sum([self.t[(f_w, w)] for w in e])
+    
+    # compute t without smoothing
+    def compute_t(self,count,total_count):
+        return count/total_count
 
 class Model1ImprovedSetup:
-    def __init__(self):
+    
+    def __init__(self,foreign_voc_size,n):
         self.t = None
         self.q = None
+        
+        # Parameters needed for smoothing.
+        # Add_n value
+        self.n = n
+        # Hypothesized vocabulary size.
+        # Is initialized with foreign corpus set size
+        self.V = foreign_voc_size
 
     def delta(self, f_w, i, e_w, j, e, l, m):
         return self.t[(f_w, e_w)] / sum([self.t[(f_w, w)] for w in e])
+    
+    
+    def compute_t(self,count,total_count):
+        return (count + self.n)/(total_count + self.n * self.V)
 
 class Model2Setup:
     def __init__(self):
@@ -25,6 +41,10 @@ class Model2Setup:
     def delta(self, f_w, i, e_w, j, e, l, m):
         return self.q[(j, i, l, m)] * self.t[(f_w, e_w)] /\
             sum([self.q[(w_j, i, l, m)] * self.t[(f_w, w)] for w, w_j in zip(e, range(l))])
+    
+    # compute t without smoothing
+    def compute_t(self,count,total_count):
+        return count/total_count
 
 
 class Model:
@@ -62,7 +82,7 @@ class Model:
             # A bit blood hack to link t and q again
             self.model_setup.t = self.t
             self.model_setup.q = self.q
-
+            
 
             # Initialize language model's parameters by random variables
             # from 0 to 1
@@ -125,7 +145,9 @@ class Model:
 
                 for f_w, i in zip(f, range(m)):
                     for e_w, j in zip(e, range(l)):
-                        self.t[(f_w, e_w)] = c_e_f[(e_w, f_w)] / c_e[e_w]
+                        # Compute t based on count and total,
+                        # smoothing is dependent on model
+                        self.t[(f_w, e_w)] = self.model_setup.compute_t(c_e_f[(e_w, f_w)],c_e[e_w])
                         self.q[(j, i, l, m)] = c_ji_l_m[(j, i, l, m)] / c_i_l_m[(i, l, m)]
 
             perplexity = compute_perplexity([self._translation_prob(f, e)

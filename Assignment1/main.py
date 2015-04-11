@@ -20,6 +20,8 @@ if __name__ == '__main__':
     source_corpus_file  = sys.argv[2]
 
     foreign_corpus = [line.split() for line in open(foreign_corpus_file, 'r')]
+    flattened_foreign_corpus = [item for sublist in foreign_corpus for item in sublist]
+    foreign_voc_size = len(set(flattened_foreign_corpus))
     # Adding the NULL symbol for the source corpus
     source_corpus  = [['NULL'] + line.split() for line in open(source_corpus_file, 'r')]
 
@@ -28,9 +30,8 @@ if __name__ == '__main__':
     corpus_to_dict(foreign_corpus, foreign_dict)
     corpus_to_dict(source_corpus, source_dict)
 
-    foreign_corpus = [[foreign_dict[word] for word in sentence] for sentence in foreign_corpus]
-    source_corpus = [[source_dict[word] for word in sentence] for sentence in source_corpus]
-
+    foreign_corpus_num = [[foreign_dict[word] for word in sentence] for sentence in foreign_corpus]
+    source_corpus_num = [[source_dict[word] for word in sentence] for sentence in source_corpus]
     index_to_foreign = [0] * len(foreign_dict)
     index_to_source = [0] * len(source_dict)
 
@@ -43,14 +44,16 @@ if __name__ == '__main__':
     iterations = 3
     print "IBM model 1"
     model1 = Model(model_setup=Model1Setup(), num_iter=iterations)
-    model1.train(foreign_corpus, source_corpus, clear=True)
+    model1.train(foreign_corpus_num, source_corpus_num, clear=True)
     
     iterations = 3
     print "IBM model 1 with improvements"
-    model1 = Model(model_setup=Model1ImprovedSetup(), num_iter=iterations)
-    model1.train(foreign_corpus, source_corpus, clear=True)
+    for n in [1,10,20,50]:
+        print "n=" + str(n)
+        model1 = Model(model_setup=Model1ImprovedSetup(foreign_voc_size,n), num_iter=iterations)
+        model1.train(foreign_corpus_num, source_corpus_num, clear=True)
     
     iterations = 3
     print "IBM model 2"
     model2 = Model(model1.t, model1.q, model_setup=Model2Setup(), num_iter=iterations)
-    model2.train(foreign_corpus, source_corpus, clear=False)
+    model2.train(foreign_corpus_num, source_corpus_num, clear=False)
