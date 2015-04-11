@@ -41,9 +41,16 @@ if __name__ == '__main__':
         index_to_source[j] = word
 
     iterations = 3
+    print "IBM model 1"
     model1 = Model(model_setup=Model1Setup(), num_iter=iterations)
     model1.train(foreign_corpus, source_corpus, clear=True)
-
-    iterations = 1
+    
+    iterations = 3
+    print "IBM model 1 with improvements"
+    model1 = Model(model_setup=Model1ImprovedSetup(), num_iter=iterations)
+    model1.train(foreign_corpus, source_corpus, clear=True)
+    
+    iterations = 3
+    print "IBM model 2"
     model2 = Model(model1.t, model1.q, model_setup=Model2Setup(), num_iter=iterations)
     model2.train(foreign_corpus, source_corpus, clear=False)
