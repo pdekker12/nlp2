@@ -21,7 +21,7 @@ if __name__ == '__main__':
 
     foreign_corpus = [line.split() for line in open(foreign_corpus_file, 'r')]
     # Adding the NULL symbol for the source corpus
-    source_corpus  = [[''] + line.split() for line in open(source_corpus_file, 'r')]
+    source_corpus  = [['NULL'] + line.split() for line in open(source_corpus_file, 'r')]
 
     foreign_dict = {}
     source_dict = {}
@@ -40,7 +40,7 @@ if __name__ == '__main__':
     for word, j in zip(source_dict, range(len(source_dict))):
         index_to_source[j] = word
 
-    iterations = 3
+    iterations = 1
     model1 = Model(model_setup=Model1Setup(), num_iter=iterations)
     model1.train(foreign_corpus, source_corpus, clear=True)
 
