@@ -1,5 +1,5 @@
 import random
-from evaluation import compute_perplexity
+from evaluation import compute_perplexity, compute_log_likelihood
 
 class Model1Setup:
     def __init__(self):
@@ -69,13 +69,15 @@ class Model:
 
         Each sentence is a collection of indexes of words from the dictionary
     """
-    def translation_score(self, f, e):
+    def translation_score_normalized(self, f, e):
+        return self.translation_prob(f, e) / (len(f) ** len(e))
+
+    def translation_prob(self, f, e):
         score = 0
         for w_f in f:
             for w_e in e:
                 score += self.t[(w_f, w_e)]
-
-        return score / (len(f) ** len(e))
+        return score
 
     """
         Calculates a viterbi alignment between a pair of sentences f and e
@@ -173,6 +175,9 @@ class Model:
                         self.t[(f_w, e_w)] = self.model_setup.compute_t(c_e_f[(e_w, f_w)],c_e[e_w])
                         self.q[(j, i, l, m)] = c_ji_l_m[(j, i, l, m)] / c_i_l_m[(i, l, m)]
 
-            perplexity = compute_perplexity([self.translation_score(f, e)
+            perplexity = compute_perplexity([self.translation_score_normalized(f, e)
                                              for f, e in zip(foreign_corpus, source_corpus)])
-            print(perplexity)
+            log_likelihood = compute_log_likelihood([self.translation_prob(f, e)
+                                                     for f, e in zip(foreign_corpus, source_corpus)])
+            print('Perplexity: %s, Log-likelihood: %s' % (perplexity, log_likelihood))
+
