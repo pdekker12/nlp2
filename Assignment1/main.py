@@ -31,6 +31,8 @@ if __name__ == '__main__':
     source_corpus_file  = sys.argv[2]
 
     foreign_corpus = [line.split() for line in open(foreign_corpus_file, 'r')]
+    flattened_foreign_corpus = [item for sublist in foreign_corpus for item in sublist]
+    foreign_voc_size = len(set(flattened_foreign_corpus))
     # Adding the NULL symbol for the source corpus
     source_corpus  = [['NULL'] + line.split() for line in open(source_corpus_file, 'r')]
 
@@ -49,8 +51,10 @@ if __name__ == '__main__':
     else: 
         iterations = 3
         print("IBM model 1 with improvements")
-        model1 = Model(model_setup=Model1ImprovedSetup(), num_iter=iterations)
-        model1.train(foreign_corpus, source_corpus, clear=True)
+        for n in [1,10,20,50]:
+            print("n=" + str(n))
+            model1 = Model(model_setup=Model1ImprovedSetup(foreign_voc_size,n), num_iter=iterations)
+            model1.train(foreign_corpus, source_corpus, clear=True)
     
     iterations = 3
     print("IBM model 2")
