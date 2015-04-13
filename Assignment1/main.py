@@ -51,7 +51,7 @@ Copyright (c) Minh Ngo, Peter Dekker
     parser.add_argument('--iter-2', dest='iter2', default=3,
                         help='Number of iterations for the second stage', type=int)
 
-    ibm_mode = ['IBM-M1', 'IBM-M2-Rand', 'IBM-M2-1', 'IBM-M2-AddN']
+    ibm_mode = ['IBM-M1', 'IBM-M2-Rand', 'IBM-M2-1', 'IBM-M1-AddN','IBM-M1-HeavyNull','IBM-M1-HeurInit']
     parser.add_argument('--ibm', choices=ibm_mode, default='IBM-M1', help='IBM Model mode')
     
     args = parser.parse_args()
@@ -81,13 +81,24 @@ Copyright (c) Minh Ngo, Peter Dekker
         model1 = Model(model_setup=Model1Setup(), num_iter=iterations)
         model1.train(foreign_corpus, source_corpus, clear=True)
         model = model1
-    elif args.ibm == 'IBM-M2-AddN': 
-        print("IBM model 1 with improvements")
+    elif args.ibm == 'IBM-M1-AddN': 
+        print("IBM model 1 with add-n smoothing")
         for n in [1,10,20,50]:
             print("n=" + str(n))
-            model1 = Model(model_setup=Model1ImprovedSetup(foreign_voc_size,n), num_iter=iterations)
+            model1 = Model(model_setup=Model1ImprovedSetup(0,foreign_voc_size,n), num_iter=iterations)
             model1.train(foreign_corpus, source_corpus, clear=True)
             model = model1
+    elif args.ibm == 'IBM-M1-HeavyNull': 
+        print("IBM model 1 with more weight on null alignment")
+        model1 = Model(model_setup=Model1ImprovedSetup(1), num_iter=iterations)
+        model1.train(foreign_corpus, source_corpus, clear=True)
+        model = model1
+    elif args.ibm == 'IBM-M1-HeurInit': 
+        print("IBM model 1 with heuristic initialization")
+        print("n=" + str(n))
+        model1 = Model(model_setup=Model1ImprovedSetup(2), num_iter=iterations)
+        model1.train(foreign_corpus, source_corpus, clear=True)
+        model = model1
 
 
     iterations = args.iter2
@@ -105,8 +116,7 @@ Copyright (c) Minh Ngo, Peter Dekker
     if args.debug != None:
         with open(args.debug, 'w') as debug:
             for f, e, i in zip(foreign_corpus, source_corpus, range(len(foreign_corpus))):
-                print('# Sentence pair (%s) source length %s target length %s alignment score : %s'
-                          % (i + 1, len(e), len(f), model.translation_score_normalized(f, e)), file=debug)
+                print("# Sentence pair (%s) source length %s target length %s alignment score : %s" % (i + 1, len(e), len(f), model.translation_score_normalized(f, e)), file=debug)
                 print(' '.join([index_to_foreign[w_f] for w_f in f]), file=debug)
                 alignments = [' '.join([str(index + 1) for index in lst]) for lst in model.align_viterbi(f, e)]
 

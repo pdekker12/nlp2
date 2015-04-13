@@ -10,14 +10,20 @@ class Model1Setup:
         return self.t[(f_w, e_w)] / sum([self.t[(f_w, w)] for w in e])
     
     # compute t without smoothing
-    def compute_t(self,count,total_count):
+    def compute_t(self,count,total_count,ind):
         return count/total_count
 
 class Model1ImprovedSetup:
     
-    def __init__(self,foreign_voc_size,n):
+    def __init__(self,option,foreign_voc_size=5000,n=1):
         self.t = None
         self.q = None
+        
+        self.null_weight = 3
+        # option parameter stores improvement option:
+        # 0: Add-N smoothing
+        # 1: Heavy NULL
+        # 2: Heuristic initialization
         
         # Parameters needed for smoothing.
         # Add_n value
@@ -25,13 +31,24 @@ class Model1ImprovedSetup:
         # Hypothesized vocabulary size.
         # Is initialized with foreign corpus set size
         self.V = foreign_voc_size
+        self.option = option
 
     def delta(self, f_w, i, e_w, j, e, l, m):
         return self.t[(f_w, e_w)] / sum([self.t[(f_w, w)] for w in e])
     
     
-    def compute_t(self,count,total_count):
-        return (count + self.n)/(total_count + self.n * self.V)
+    def compute_t(self,count,total_count,index):
+        if self.option==0:
+            return (count + self.n)/(total_count + self.n * self.V)
+        elif self.option==1:
+            # Multiply weights of null words by a factor
+            if index == 0:
+                return self.null_weight * (count/total_count)
+            else:
+                # Normal formula for other words
+                return count/total_count
+        else:
+            return count/total_count
 
 class Model2Setup:
     def __init__(self):
@@ -43,7 +60,7 @@ class Model2Setup:
             sum([self.q[(w_j, i, l, m)] * self.t[(f_w, w)] for w, w_j in zip(e, range(l))])
     
     # compute t without smoothing
-    def compute_t(self,count,total_count):
+    def compute_t(self,count,total_count,ind):
         return count/total_count
 
 
@@ -172,7 +189,7 @@ class Model:
                     for e_w, j in zip(e, range(l)):
                         # Compute t based on count and total,
                         # smoothing is dependent on model
-                        self.t[(f_w, e_w)] = self.model_setup.compute_t(c_e_f[(e_w, f_w)],c_e[e_w])
+                        self.t[(f_w, e_w)] = self.model_setup.compute_t(c_e_f[(e_w, f_w)],c_e[e_w],j)
                         self.q[(j, i, l, m)] = c_ji_l_m[(j, i, l, m)] / c_i_l_m[(i, l, m)]
 
             perplexity = compute_perplexity([self.translation_score_normalized(f, e)
