@@ -158,7 +158,7 @@ Copyright (c) Minh Ngo, Peter Dekker
         model = model2
     elif args.ibm == 'IBM-M2-1' or args.ibm == 'IBM-M2-AddN':
         print("IBM model 2")
-        model2 = Model(model1.t, model1.q, model_setup=Model2Setup(), num_iter=iterations)
+        model2 = Model(t=model.t, q=model.q, model_setup=Model2Setup(), num_iter=iterations)
         model2.train(foreign_corpus, source_corpus, clear=False, callback=stat_calculate)
         model = model2
 
@@ -168,7 +168,7 @@ Copyright (c) Minh Ngo, Peter Dekker
                 viterbi_alignment = model.align_viterbi(f, e)
                 for i, j in zip(range(len(viterbi_alignment)), viterbi_alignment):
                     if j != 0:
-                        print('%s %s %s' % (k + 1, i + 1, j),file=output)
+                        print('%04d %d %d' % (k + 1, i + 1, j),file=output)
 
     if args.debug != None:
         with open(args.debug, 'w') as debug:

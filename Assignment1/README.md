@@ -21,3 +21,4 @@ Evaluation
 ----------
 
     $ perl EvaluationTools/wa_check_align.pl alignments.out
+    $ perl EvaluationTools/wa_eval_align.pl ../data/test.wa.nonullalign alignments.out
