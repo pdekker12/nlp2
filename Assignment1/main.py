@@ -156,7 +156,7 @@ Copyright (c) Minh Ngo, Peter Dekker
         model = model2
     elif args.ibm == 'IBM-M2-1' or args.ibm == 'IBM-M2-AddN':
         print("IBM model 2")
-        model2 = Model(model1.t, model1.q, model_setup=Model2Setup(), num_iter=iterations)
+        model2 = Model(t=model.t, q=model.q, model_setup=Model2Setup(), num_iter=iterations)
         model2.train(foreign_corpus, source_corpus, clear=False, callback=stat_calculate)
         model = model2
 
