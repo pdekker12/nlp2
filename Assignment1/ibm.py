@@ -15,15 +15,12 @@ class Model1Setup:
 
 class Model1ImprovedSetup:
     
-    def __init__(self,option,foreign_voc_size=5000,n=1):
+    def __init__(self,option,foreign_voc_size=5000,n=1,null_weight=3):
         self.t = None
         self.q = None
         
-        self.null_weight = 3
-        # option parameter stores improvement option:
-        # 0: Add-N smoothing
-        # 1: Heavy NULL
-        # 2: Heuristic initialization
+        self.null_weight = null_weight
+       
         
         # Parameters needed for smoothing.
         # Add_n value
@@ -31,6 +28,11 @@ class Model1ImprovedSetup:
         # Hypothesized vocabulary size.
         # Is initialized with foreign corpus set size
         self.V = foreign_voc_size
+        
+        # option parameter stores improvement option:
+        # 0: Add-N smoothing
+        # 1: Heavy NULL
+        # 2: Heuristic initialization
         self.option = option
 
     def delta(self, f_w, i, e_w, j, e, l, m):
