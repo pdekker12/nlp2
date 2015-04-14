@@ -59,7 +59,7 @@ class Model2Setup:
 
     def delta(self, f_w, i, e_w, j, e, l, m):
         return self.q[(j, i, l, m)] * self.t[(f_w, e_w)] /\
-            sum([self.q[(w_j, i, l, m)] * self.t[(f_w, w)] for w, w_j in zip(e, range(l))])
+            sum(self.q[(w_j, i, l, m)] * self.t[(f_w, w)] for w, w_j in zip(e, range(l)))
     
     # compute t without smoothing
     def compute_t(self,count,total_count,ind):

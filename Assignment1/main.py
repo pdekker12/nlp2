@@ -177,14 +177,16 @@ Copyright (c) Minh Ngo, Peter Dekker
     if args.debug != None:
         with open(args.debug, 'w') as debug:
             for f, e, i in zip(foreign_corpus, source_corpus, range(len(foreign_corpus))):
-                print("# Sentence pair (%s) source length %s target length %s alignment score : %s" % (i + 1, len(e), len(f), model.translation_score_normalized(f, e)), file=debug)
-                print(' '.join([index_to_foreign[w_f] for w_f in f]), file=debug)
+                print("# Sentence pair (%s) source length %s target length %s alignment score : %s"
+                        % (i + 1, len(e), len(f), model.translation_score_normalized(f, e)), file=debug)
+                print(' '.join(index_to_foreign[w_f] for w_f in f), file=debug)
 
                 f_to_e_alignment = model.align_viterbi(f, e)
                 e_to_f_alignment = [[] for i in range(len(e))]
                 for i in range(len(f_to_e_alignment)):
                     e_to_f_alignment[f_to_e_alignment[i]].append(i)
 
-                alignments = [' '.join([str(index + 1) for index in lst]) for lst in e_to_f_alignment]
+                alignments = [' '.join(str(index + 1) for index in lst) for lst in e_to_f_alignment]
 
-                print(' '.join([index_to_source[w_e] + ' ({ ' + al  + ' })' for w_e, al in zip(e, alignments)]), file=debug)
+                print(' '.join('%s ({ %s })' % (index_to_source[w_e], al)
+                               for w_e, al in zip(e, alignments)), file=debug)
