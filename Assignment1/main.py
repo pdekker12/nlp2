@@ -104,17 +104,21 @@ Copyright (c) Minh Ngo, Peter Dekker
             stat = {'A' : 0, 'A & P' : 0, 'A & S': 0}
             for f, e, gold_alignment in zip(foreign_corpus, source_corpus, gold_alignments):
                 viterbi_alignment = model.align_viterbi(f, e)
-                stat['A'] += len(f)
                 for i in range(len(viterbi_alignment)):
                     # i -> viterbi_alignment[i]
-                    word_alignment = (i, viterbi_alignment[i])
+                    word_alignment = (i + 1, viterbi_alignment[i])
+                    if viterbi_alignment[i] != 0:
+                        stat['A'] += 1
+
                     for alignment in gold_alignment['S']:
                         if word_alignment == alignment:
                             stat['A & S'] += 1
+                            break
 
                     for alignment in gold_alignment['P']:
                         if word_alignment == alignment:
                             stat['A & P'] += 1
+                            break
 
             recall = stat['A & S'] / alignment_count['S']
             precision = stat['A & P'] / stat['A']
