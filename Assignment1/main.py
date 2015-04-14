@@ -55,6 +55,7 @@ Copyright (c) Minh Ngo, Peter Dekker
     parser.add_argument('--ibm', choices=ibm_mode, default='IBM-M1', help='IBM Model mode')
 
     parser.add_argument('--wa', help='Denoted alignment file')
+    parser.add_argument('--output', help='Output result file')
     
     args = parser.parse_args()
     if len(sys.argv) == 1:
@@ -158,6 +159,14 @@ Copyright (c) Minh Ngo, Peter Dekker
         model2 = Model(model1.t, model1.q, model_setup=Model2Setup(), num_iter=iterations)
         model2.train(foreign_corpus, source_corpus, clear=False, callback=stat_calculate)
         model = model2
+
+    if args.output != None:
+        with open(args.output, 'w') as output:
+            for f, e, k in zip(foreign_corpus, source_corpus, range(len(foreign_corpus))):
+                viterbi_alignment = model.align_viterbi(f, e)
+                for i, j in zip(range(len(viterbi_alignment)), viterbi_alignment):
+                    if j != 0:
+                        print('%s %s %s' % (k + 1, i + 1, j),file=output)
 
     if args.debug != None:
         with open(args.debug, 'w') as debug:

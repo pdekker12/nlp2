@@ -9,4 +9,15 @@ Please download corpus files into this folder before running the application.
 Running
 -------
 
-    $ python3 main.py < foreign corpus file > < source corpus file >
+To show all available options:
+
+    $ python3 main.py --help
+
+An example of options:
+
+    $ python3 main.py --foreign ../data/test.f --source ../data/test.e --debug debug.out --ibm IBM-M2-1 --wa ../data/test.wa.nonullalign --iter-2 5 --output alignments.out
+
+Evaluation
+----------
+
+    $ perl EvaluationTools/wa_check_align.pl alignments.out
