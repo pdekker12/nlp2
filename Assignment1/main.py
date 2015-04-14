@@ -97,26 +97,28 @@ Copyright (c) Minh Ngo, Peter Dekker
         log_likelihood = compute_log_likelihood([model.translation_prob(f, e)
                                                  for f, e in zip(foreign_corpus, source_corpus)])
 
-        stat = {'A' : 0, 'A & P' : 0, 'A & S': 0}
-        for f, e, gold_alignment in zip(foreign_corpus, source_corpus, gold_alignments):
-            viterbi_alignment = model.align_viterbi(f, e)
-            stat['A'] += len(f)
-            for i in range(len(viterbi_alignment)):
-                # i -> viterbi_alignment[i]
-                word_alignment = (i, viterbi_alignment[i])
-                for alignment in gold_alignment['S']:
-                    if word_alignment == alignment:
-                        stat['A & S'] += 1
+        print('Perplexity = %s, Log-likelihood = %s' % (perplexity, log_likelihood))
 
-                for alignment in gold_alignment['P']:
-                    if word_alignment == alignment:
-                        stat['A & P'] += 1
+        if args.wa:
+            stat = {'A' : 0, 'A & P' : 0, 'A & S': 0}
+            for f, e, gold_alignment in zip(foreign_corpus, source_corpus, gold_alignments):
+                viterbi_alignment = model.align_viterbi(f, e)
+                stat['A'] += len(f)
+                for i in range(len(viterbi_alignment)):
+                    # i -> viterbi_alignment[i]
+                    word_alignment = (i, viterbi_alignment[i])
+                    for alignment in gold_alignment['S']:
+                        if word_alignment == alignment:
+                            stat['A & S'] += 1
 
-        recall = stat['A & S'] / alignment_count['S']
-        precision = stat['A & P'] / stat['A']
-        aer = 1 - (stat['A & S'] + stat['A & P']) / (stat['A'] + alignment_count['S'])
-        print('Perplexity = %s, Log-likelihood = %s, Recall = %s, Precision = %s, AER = %s'
-                % (perplexity, log_likelihood, recall, precision, aer))
+                    for alignment in gold_alignment['P']:
+                        if word_alignment == alignment:
+                            stat['A & P'] += 1
+
+            recall = stat['A & S'] / alignment_count['S']
+            precision = stat['A & P'] / stat['A']
+            aer = 1 - (stat['A & S'] + stat['A & P']) / (stat['A'] + alignment_count['S'])
+            print('Recall = %s, Precision = %s, AER = %s' % (recall, precision, aer))
     
     iterations = args.iter1
     model = None
