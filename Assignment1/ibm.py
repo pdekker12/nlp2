@@ -104,11 +104,10 @@ class Model:
         Each sentence is a collection of indexes of words from the dictionary
     """
     def align_viterbi(self, f, e):
-        alignments = [[] for i in range(len(e))]
+        alignments = []
         for w_f, i in zip(f, range(len(f))):
             values = [self.t[(w_f, w_e)] for w_e in e]
-            max_index = values.index(max(values))
-            alignments[max_index].append(i)
+            alignments.append(values.index(max(values)))
 
         return alignments
 
