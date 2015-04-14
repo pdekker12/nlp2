@@ -115,7 +115,7 @@ class Model:
         Length of the foreign_corpus and source_corpus collections
         should be the same
     """
-    def train(self, foreign_corpus, source_corpus, clear=False):
+    def train(self, foreign_corpus, source_corpus, clear=False, callback=None):
         if clear:
             self.t = {}
             self.q = {}
@@ -191,9 +191,5 @@ class Model:
                         self.t[(f_w, e_w)] = self.model_setup.compute_t(c_e_f[(e_w, f_w)],c_e[e_w],j)
                         self.q[(j, i, l, m)] = c_ji_l_m[(j, i, l, m)] / c_i_l_m[(i, l, m)]
 
-            perplexity = compute_perplexity([self.translation_score_normalized(f, e)
-                                             for f, e in zip(foreign_corpus, source_corpus)])
-            log_likelihood = compute_log_likelihood([self.translation_prob(f, e)
-                                                     for f, e in zip(foreign_corpus, source_corpus)])
-            print('Perplexity: %s, Log-likelihood: %s' % (perplexity, log_likelihood))
-
+            if callback != None:
+                callback(self)
