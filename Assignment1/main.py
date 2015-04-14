@@ -166,9 +166,13 @@ Copyright (c) Minh Ngo, Peter Dekker
         model2.train(foreign_corpus, source_corpus, clear=False, callback=stat_calculate)
         model = model2
 
+    def parallel_corpus(foreign_corpus, source_corpus):
+        for f, e, i in zip(foreign_corpus, source_corpus, range(len(foreign_corpus))):
+            yield (f, e, i)
+
     if args.output != None:
         with open(args.output, 'w') as output:
-            for f, e, k in zip(foreign_corpus, source_corpus, range(len(foreign_corpus))):
+            for f, e, k in parallel_corpus(foreign_corpus, source_corpus):
                 viterbi_alignment = model.align_viterbi(f, e)
                 for i, j in zip(range(len(viterbi_alignment)), viterbi_alignment):
                     if j != 0:
@@ -176,7 +180,7 @@ Copyright (c) Minh Ngo, Peter Dekker
 
     if args.debug != None:
         with open(args.debug, 'w') as debug:
-            for f, e, i in zip(foreign_corpus, source_corpus, range(len(foreign_corpus))):
+            for f, e, i in parallel_corpus(foreign_corpus, source_corpus):
                 print("# Sentence pair (%s) source length %s target length %s alignment score : %s"
                         % (i + 1, len(e), len(f), model.translation_score_normalized(f, e)), file=debug)
                 print(' '.join(index_to_foreign[w_f] for w_f in f), file=debug)
