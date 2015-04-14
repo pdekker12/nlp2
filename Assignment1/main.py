@@ -166,7 +166,7 @@ Copyright (c) Minh Ngo, Peter Dekker
                 viterbi_alignment = model.align_viterbi(f, e)
                 for i, j in zip(range(len(viterbi_alignment)), viterbi_alignment):
                     if j != 0:
-                        print('%s %s %s' % (k + 1, i + 1, j),file=output)
+                        print('%04d %d %d' % (k + 1, i + 1, j),file=output)
 
     if args.debug != None:
         with open(args.debug, 'w') as debug:
