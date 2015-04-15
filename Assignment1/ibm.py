@@ -126,10 +126,14 @@ class Model:
             # Initialize language model's parameters by random variables
             # from 0 to 1
             for f, e in zip(foreign_corpus, source_corpus):
-                for f_w in f:
-                    for e_w in e:
+                m = len(f)
+                l = len(e)
+                for f_w, i in zip(f, range(m)):
+                    for e_w, j in zip(e, range(l)):
                         if (f_w, e_w) not in self.t:
                             self.t[(f_w, e_w)] = random.random()
+                        if (j, i, l, m) not in self.q:
+                            self.q[(j, i, l, m)] = random.random()
 
         # A bit bloody hack to link t and q again
         self.model_setup.t = self.t
