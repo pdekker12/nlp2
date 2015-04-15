@@ -59,7 +59,7 @@ class Model2Setup:
 
     def delta(self, f_w, i, e_w, j, e, l, m):
         return self.q[(j, i, l, m)] * self.t[(f_w, e_w)] /\
-            sum([self.q[(w_j, i, l, m)] * self.t[(f_w, w)] for w, w_j in zip(e, range(l))])
+            sum(self.q[(w_j, i, l, m)] * self.t[(f_w, w)] for w, w_j in zip(e, range(l)))
     
     # compute t without smoothing
     def compute_t(self,count,total_count,ind):
@@ -119,13 +119,9 @@ class Model:
     """
     def train(self, foreign_corpus, source_corpus, clear=False, callback=None):
         if clear:
+            print('Resetting weights')
             self.t = {}
             self.q = {}
-
-            # A bit blood hack to link t and q again
-            self.model_setup.t = self.t
-            self.model_setup.q = self.q
-            
 
             # Initialize language model's parameters by random variables
             # from 0 to 1
@@ -134,6 +130,10 @@ class Model:
                     for e_w in e:
                         if (f_w, e_w) not in self.t:
                             self.t[(f_w, e_w)] = random.random()
+
+        # A bit bloody hack to link t and q again
+        self.model_setup.t = self.t
+        self.model_setup.q = self.q
 
         for t in range(self.num_iter):
             # e and f words occurence at the same time
@@ -165,10 +165,7 @@ class Model:
                     for j in range(l):
                         c_ji_l_m[(j, i, l, m)] = 0
 
-            #k = 0
             for f, e in zip(foreign_corpus, source_corpus):
-                #k += 1
-                #print('Sentence', k)
                 m = len(f)
                 l = len(e)
 

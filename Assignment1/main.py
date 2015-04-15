@@ -23,6 +23,32 @@ def gen_dict(corpus):
 
     return lang_dict, index_to_word
 
+def export_weights(file_name, model):
+    print('Exporting weights...')
+    with open(file_name + '.t', 'w') as output:
+        for (f_w, e_w), weight in model.t.items():
+            print('%d %d %f' % (f_w, e_w, weight), file=output)
+
+    with open(file_name + '.q', 'w') as output:
+        for (j, i, l, m), weight in model.q.items():
+            print('%d %d %d %d %f' % (j, i, l, m, weight), file=output)
+
+def import_weights(file_name):
+    print('Importing weights...')
+    t = {}
+    q = {}
+    with open(file_name + '.t', 'r') as input_file:
+        for line in input_file:
+            lexemes = line.split()
+            t[tuple(map(int, lexemes[:-1]))] = float(lexemes[-1])
+
+    with open(file_name + '.q', 'r') as input_file:
+        for line in input_file:
+            lexemes = line.split()
+            q[tuple(map(int, lexemes[:-1]))] = float(lexemes[-1])
+
+    return t, q
+
 def choices_descriptions():
    return """
 --ibm key supports the following: 
@@ -56,6 +82,9 @@ Copyright (c) Minh Ngo, Peter Dekker
 
     parser.add_argument('--wa', help='Denoted alignment file')
     parser.add_argument('--output', help='Output result file')
+
+    parser.add_argument('--export', help='Export weights')
+    parser.add_argument('--import', dest='import_file', help='Import weights')
     
     args = parser.parse_args()
     if len(sys.argv) == 1:
@@ -79,6 +108,11 @@ Copyright (c) Minh Ngo, Peter Dekker
 
     gold_alignments = [{'S' : [], 'P' : []} for i in range(len(foreign_corpus))]
     alignment_count = {'S' : 0, 'P' : 0}
+
+    imported_t = None
+    imported_q = None
+    if args.import_file != None:
+        imported_t, imported_q = import_weights(args.import_file)
 
     if args.wa != None:
         # Calculate AER
@@ -127,64 +161,85 @@ Copyright (c) Minh Ngo, Peter Dekker
     
     iterations = args.iter1
     model = None
+
+    def train_model1(model1):
+        global model
+        if args.import_file:
+            model1.t = imported_t
+            model1.q = imported_q
+        model1.train(foreign_corpus, source_corpus, clear=(args.import_file == None), callback=stat_calculate)
+        model = model1
+
     if args.ibm == 'IBM-M1' or args.ibm == 'IBM-M2-1':
-        print("IBM model 1")
+        print('IBM model 1')
         model1 = Model(model_setup=Model1Setup(), num_iter=iterations)
-        model1.train(foreign_corpus, source_corpus, clear=True, callback=stat_calculate)
-        model = model1
+        train_model1(model1)
     elif args.ibm == 'IBM-M1-AddN': 
-        print("IBM model 1 with add-n smoothing")
+        print('IBM model 1 with add-n smoothing')
         for n in [1,10,20,50]:
-            print("n=" + str(n))
+            print('n=' + str(n))
             model1 = Model(model_setup=Model1ImprovedSetup(0,foreign_voc_size,n), num_iter=iterations)
-            model1.train(foreign_corpus, source_corpus, clear=True, callback=stat_calculate)
-            model = model1
+            train_model1(model1)
     elif args.ibm == 'IBM-M1-HeavyNull': 
-        print("IBM model 1 with more weight on null alignment")
+        print('IBM model 1 with more weight on null alignment')
         for null_weight in [2,3,5,10]:
-            print("null_weight=" + str(null_weight))
+            print('null_weight=' + str(null_weight))
             model1 = Model(model_setup=Model1ImprovedSetup(1,-1,-1,null_weight), num_iter=iterations)
-            model1.train(foreign_corpus, source_corpus, clear=True, callback=stat_calculate)
-            model = model1
+            train_model1(model1)
     elif args.ibm == 'IBM-M1-HeurInit': 
-        print("IBM model 1 with heuristic initialization")
-        print("n=" + str(n))
+        print('IBM model 1 with heuristic initialization')
+        print('n=' + str(n))
         model1 = Model(model_setup=Model1ImprovedSetup(2), num_iter=iterations)
-        model1.train(foreign_corpus, source_corpus, clear=True, callback=stat_calculate)
-        model = model1
+        train_model1(model1)
 
 
+    print('Model 1 instance:', model)
     iterations = args.iter2
     if args.ibm == 'IBM-M2-Rand':
-        print("IBM model 2")
+        print('IBM model 2 with random weights')
         model2 = Model(model_setup=Model2Setup(), num_iter=iterations)
-        model2.train(foreign_corpus, source_corpus, clear=True, callback=stat_calculate)
+
+        if args.import_file:
+            model2.t = imported_t
+            model2.q = imported_q
+
+        model2.train(foreign_corpus, source_corpus, clear=(args.import_file == None), callback=stat_calculate)
         model = model2
     elif args.ibm == 'IBM-M2-1' or args.ibm == 'IBM-M2-AddN':
-        print("IBM model 2")
+        print('IBM model 2 initialized by IBM-M1')
         model2 = Model(t=model.t, q=model.q, model_setup=Model2Setup(), num_iter=iterations)
         model2.train(foreign_corpus, source_corpus, clear=False, callback=stat_calculate)
         model = model2
 
+    def parallel_corpus(foreign_corpus, source_corpus):
+        for f, e, i in zip(foreign_corpus, source_corpus, range(len(foreign_corpus))):
+            yield (f, e, i)
+
     if args.output != None:
         with open(args.output, 'w') as output:
-            for f, e, k in zip(foreign_corpus, source_corpus, range(len(foreign_corpus))):
+            for f, e, k in parallel_corpus(foreign_corpus, source_corpus):
                 viterbi_alignment = model.align_viterbi(f, e)
                 for i, j in zip(range(len(viterbi_alignment)), viterbi_alignment):
                     if j != 0:
                         print('%04d %d %d' % (k + 1, i + 1, j),file=output)
 
+    if args.export != None:
+        export_weights(args.export, model)
+
     if args.debug != None:
+        print('Generating the debug file...')
         with open(args.debug, 'w') as debug:
-            for f, e, i in zip(foreign_corpus, source_corpus, range(len(foreign_corpus))):
-                print("# Sentence pair (%s) source length %s target length %s alignment score : %s" % (i + 1, len(e), len(f), model.translation_score_normalized(f, e)), file=debug)
-                print(' '.join([index_to_foreign[w_f] for w_f in f]), file=debug)
+            for f, e, i in parallel_corpus(foreign_corpus, source_corpus):
+                print('# Sentence pair (%s) source length %s target length %s alignment score : %s'
+                        % (i + 1, len(e), len(f), model.translation_score_normalized(f, e)), file=debug)
+                print(' '.join(index_to_foreign[w_f] for w_f in f), file=debug)
 
                 f_to_e_alignment = model.align_viterbi(f, e)
                 e_to_f_alignment = [[] for i in range(len(e))]
                 for i in range(len(f_to_e_alignment)):
                     e_to_f_alignment[f_to_e_alignment[i]].append(i)
 
-                alignments = [' '.join([str(index + 1) for index in lst]) for lst in e_to_f_alignment]
+                alignments = [' '.join(str(index + 1) for index in lst) for lst in e_to_f_alignment]
 
-                print(' '.join([index_to_source[w_e] + ' ({ ' + al  + ' })' for w_e, al in zip(e, alignments)]), file=debug)
+                print(' '.join('%s ({ %s })' % (index_to_source[w_e], al)
+                               for w_e, al in zip(e, alignments)), file=debug)
