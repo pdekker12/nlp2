@@ -140,7 +140,7 @@ Copyright (c) Minh Ngo, Peter Dekker
         for null_weight in [2,3,5,10]:
             print("null_weight=" + str(null_weight))
             model1 = Model(model_setup=Model1ImprovedSetup(1,-1,-1,null_weight), num_iter=iterations)
-            model1.train(foreign_corpus, source_corpus, clear=True)
+            model1.train(foreign_corpus, source_corpus, clear=True, callback=stat_calculate)
             model = model1
     elif args.ibm == 'IBM-M1-HeurInit': 
         print("IBM model 1 with heuristic initialization")
