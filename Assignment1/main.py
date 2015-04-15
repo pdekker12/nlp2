@@ -148,8 +148,10 @@ Copyright (c) Minh Ngo, Peter Dekker
             model = model1
     elif args.ibm == 'IBM-M1-HeurInit': 
         print("IBM model 1 with heuristic initialization")
-        print("n=" + str(n))
-        model1 = Model(model_setup=Model1ImprovedSetup(2), num_iter=iterations)
+        init_model = InitModel()
+        # Get heuristically initialized t from init model
+        t_heur = init_model.train(foreign_corpus,source_corpus)
+        model1 = Model(t=t_heur, model_setup=Model1ImprovedSetup(2), num_iter=iterations)
         model1.train(foreign_corpus, source_corpus, clear=True, callback=stat_calculate)
         model = model1
 

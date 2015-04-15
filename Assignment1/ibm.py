@@ -1,5 +1,63 @@
 import random
 from evaluation import compute_perplexity, compute_log_likelihood
+import math
+import numpy as np
+from collections import defaultdict
+
+# InitModel, used to find heuristic initial parameters for model 1
+class InitModel:
+    def train(self, foreign_corpus,source_corpus):
+        c_e = defaultdict(int)
+        c_f = defaultdict(int)
+        c_e_f = init_c_e_f(foreign_corpus,source_corpus)
+        
+        # Compute co-occurence counts of f_w and e_w in parallel sentences
+        total_f_words = 0
+        for f, e in zip(foreign_corpus, source_corpus):
+            for f_w in f:
+                for e_w in e:
+                    c_e[e_w] += 1 ##?? counted again for every alignment
+                    if f_w == e_w:
+                        c_e_w += 1
+                c_f[f_w] += 1 ##?? counted only once
+            total_f_words += len(f)
+        
+        # Compute p_f: take c_f[f_w] and divide by total_f_words
+        p_f = {}
+        for f_w in c_f:
+            p_f[f_w] = c_f[f_w]/total_f_words
+        
+        # TODO: Implement p_f_e
+        p_f_e = {}
+        
+        # Compute LLR for every pair (e,f)
+        llr = {}
+        llr_source_sum = {}
+        for (e_w,f_w) in c_e_f:
+            if e_w not in llr:
+                llr[e_w] = {}
+            # + +
+            llr[e_w][f_w] = c_e_f[(e_w,f_w)] * log(p_f_e[f_w][e_w]/p_f[f_w])
+            # TODO: implement further
+            # + -
+            # - +
+            # - -
+            llr_source_sum[e_w] += llr[e_w][f_w]
+        
+        # Take highest llr source sentence sum
+        denominator = np.amax(llr_source_sum.values())
+        
+        # Use this to normalize* all llr's
+        # *)not summing to 1 except for llr's from source sentence
+        #   where sum originates from
+        for e_w in llr:
+            for f_w in llr[e_w]:
+                llr[e_w][f_w] = float(llr[e_w][f_w]) / float(denominator)
+        
+        return llr
+                
+        
+        
 
 class Model1Setup:
     def __init__(self):
@@ -136,34 +194,15 @@ class Model:
                             self.t[(f_w, e_w)] = random.random()
 
         for t in range(self.num_iter):
-            # e and f words occurence at the same time
-            c_e_f = {}
-
-            # e word occurence
-            c_e = {}
-
-            # alignment from j <- i (Eng <- Fra) occurence
-            c_ji_l_m = {}
-
-            # alignment from i (Fra) occurence
-            c_i_l_m = {}
+           
 
             # Set all count c(...) = 0
-            # TODO: Move these initilizations into the separate function
-            # to avoid duplicates
-            for f, e in zip(foreign_corpus, source_corpus):
-                for e_w in e:
-                    c_e[e_w] = 0
-                    for f_w in f:
-                        c_e_f[(e_w, f_w)] = 0
-
-            for f, e in zip(foreign_corpus, source_corpus):
-                m = len(f)
-                l = len(e)
-                for i in range(m):
-                    c_i_l_m[(i, l, m)] = 0
-                    for j in range(l):
-                        c_ji_l_m[(j, i, l, m)] = 0
+            # c_e: e word occurence
+            # c_e_f: e and f words occurence at the same time
+            c_e,c_e_f = init_c_e_f(foreign_corpus,source_corpus)
+            # c_i_l_m: alignment from i (Fra) occurence
+            # c_ji_l_m: alignment from j <- i (Eng <- Fra) occurence
+            c_i_l_m,c_ji_l_m = init_c_ji_l_m(foreign_corpus,source_corpus)
 
             #k = 0
             for f, e in zip(foreign_corpus, source_corpus):
@@ -195,3 +234,27 @@ class Model:
 
             if callback != None:
                 callback(self)
+
+
+def init_c_e_f(foreign_corpus,source_corpus):
+    c_e={}
+    c_e_f = {}
+    for f, e in zip(foreign_corpus, source_corpus):
+        for e_w in e:
+            c_e[e_w] = 0
+            for f_w in f:
+                c_e_f[(e_w, f_w)] = 0
+    return c_e,c_e_f
+
+
+def init_c_ji_l_m(foreign_corpus,source_corpus):
+    c_i_l_m = {}
+    c_ji_l_m = {}
+    for f, e in zip(foreign_corpus, source_corpus):
+        m = len(f)
+        l = len(e)
+        for i in range(m):
+            c_i_l_m[(i, l, m)] = 0
+            for j in range(l):
+                c_ji_l_m[(j, i, l, m)] = 0
+    return c_i_l_m, c_ji_l_m
