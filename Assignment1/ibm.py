@@ -7,19 +7,21 @@ from collections import defaultdict
 # InitModel, used to find heuristic initial parameters for model 1
 class InitModel:
     def train(self, foreign_corpus,source_corpus):
-        c_e = defaultdict(int)
         c_f = defaultdict(int)
-        c_e_f = init_c_e_f(foreign_corpus,source_corpus)
-        
+        c_e,c_e_f = init_c_e_f(foreign_corpus,source_corpus)
         # Compute co-occurence counts of f_w and e_w in parallel sentences
         total_f_words = 0
+        total_e_words = 0
         for f, e in zip(foreign_corpus, source_corpus):
             for f_w in f:
                 for e_w in e:
                     c_e[e_w] += 1 ##?? counted again for every alignment
                     if f_w == e_w:
-                        c_e_w += 1
+                        print(f_w)
+                        print(e_w)
+                        c_e_f[(e_w,f_w)] += 1
                 c_f[f_w] += 1 ##?? counted only once
+                total_e_words += len(e)
             total_f_words += len(f)
         
         # Compute p_f: take c_f[f_w] and divide by total_f_words
@@ -27,8 +29,12 @@ class InitModel:
         for f_w in c_f:
             p_f[f_w] = c_f[f_w]/total_f_words
         
-        # TODO: Implement p_f_e
+        # Implement p_f_e
         p_f_e = {}
+        for (e_w,f_w) in c_e_f:
+            if f_w not in p_f_e:
+                p_f_e[f_w] = {}
+                p_f_e[f_w][e_w] = c_e_f[(e_w,f_w)] / float(c_f[f_w])
         
         # Compute LLR for every pair (e,f)
         llr = {}
@@ -36,12 +42,31 @@ class InitModel:
         for (e_w,f_w) in c_e_f:
             if e_w not in llr:
                 llr[e_w] = {}
-            # + +
-            llr[e_w][f_w] = c_e_f[(e_w,f_w)] * log(p_f_e[f_w][e_w]/p_f[f_w])
-            # TODO: implement further
-            # + -
-            # - +
-            # - -
+            # The llr score consists of 4 terms, all combinations of
+            # e_w and f_w occurring or not occurring.
+            # The 4 terms are composed one after eachother.
+            
+            # e+ f+
+            llr[e_w][f_w] = c_e_f[(e_w,f_w)] * math.log(p_f_e[f_w][e_w]/p_f[f_w])
+            
+            # e+ f-
+            c_e_notf = total_e_words - c_e_f[(e_w,f_w)]
+            p_notf_e = 1 - p_f_e_[f_w][e_w]
+            p_notf = 1 - p_f[f_w]
+            llr[e_w][f_w] += c_e_notf * math.log(p_notf_e/p_notf)
+            
+            # e- f+
+            c_note_f = total_f_words - c_e_f[(e_w,f_w)]
+            p_f_note = p_f[f_w] - p_f_e_[f_w][e_w]
+            llr[e_w][f_w] += c_note_f * math.log(p_f_note/p_f[f_w])
+            
+            # e- f-
+            c_note_notf = total_e_words - c_e[e_w] - c_f[f_w]
+            p_notf_note = (1 - p_f[f_w]) - p_notf_e
+            # p_notf has already been calculated
+            llr[e_w][f_w] += c_note_notf * math.log(p_notf_note/p_notf)
+            
+            # Add this llr to the sum for this source sentence
             llr_source_sum[e_w] += llr[e_w][f_w]
         
         # Take highest llr source sentence sum
