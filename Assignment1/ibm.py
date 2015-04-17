@@ -7,38 +7,52 @@ from collections import defaultdict
 # InitModel, used to find heuristic initial parameters for model 1
 class InitModel:
     def train(self, foreign_corpus,source_corpus):
-        c_f = defaultdict(int)
-        c_e,c_e_f = init_c_e_f(foreign_corpus,source_corpus)
-        # Compute co-occurence counts of f_w and e_w in parallel sentences
-        total_f_words = 0
-        total_e_words = 0
-        for f, e in zip(foreign_corpus, source_corpus):
-            for f_w in f:
-                for e_w in e:
-                    c_e[e_w] += 1 ##?? counted again for every alignment
-                    if f_w == e_w:
-                        print(f_w)
-                        print(e_w)
-                        c_e_f[(e_w,f_w)] += 1
-                c_f[f_w] += 1 ##?? counted only once
-                total_e_words += len(e)
-            total_f_words += len(f)
+        c_e,c_f,c_e_f = init_c_e_f(foreign_corpus,source_corpus)
         
-        # Compute p_f: take c_f[f_w] and divide by total_f_words
+        llr_source_sum = defaultdict(int)
+        
+        # Compute counts and co-occurence counts of f_w and e_w in parallel sentences
+        n_sentences = len(foreign_corpus)
+        # For every sentence in the corpus
+        for f, e in zip(foreign_corpus, source_corpus):
+            #for e_w in e:
+                #c_e[e_w] += 1
+            #for f_w in f:
+                #c_f[f_w] += 1
+                #for e_w in e:
+                    #c_e_f[(e_w,f_w)] += 1
+                
+            #total_e_words += len(e)
+            #total_f_words += len(f)
+            
+            # Check occurence of words
+            # Use c_e and c_f of dictionaries of possible words
+            for e_w in c_e:
+                if e_w in e:
+                    c_e[e_w] += 1
+                    # Co-occurence
+                    for f_w in c_f:
+                        if (f_w in f):
+                            c_e_f[(e_w,f_w)] += 1
+            for f_w in c_f:
+                if f_w in f:
+                    c_f[f_w] += 1
+        
+        # Compute p(f): take c_f[f_w] and divide by total_f_words
         p_f = {}
         for f_w in c_f:
-            p_f[f_w] = c_f[f_w]/total_f_words
+            p_f[f_w] = float(c_f[f_w]+1)/float(n_sentences+2)
         
-        # Implement p_f_e
+        # Compute p(f|e) = p(f,e)/p(e)
         p_f_e = {}
         for (e_w,f_w) in c_e_f:
             if f_w not in p_f_e:
                 p_f_e[f_w] = {}
-                p_f_e[f_w][e_w] = c_e_f[(e_w,f_w)] / float(c_f[f_w])
+            p_f_e[f_w][e_w] = float(c_e_f[(e_w,f_w)]+1) / float(c_e[e_w] +2)
+                
         
         # Compute LLR for every pair (e,f)
         llr = {}
-        llr_source_sum = {}
         for (e_w,f_w) in c_e_f:
             if e_w not in llr:
                 llr[e_w] = {}
@@ -50,19 +64,25 @@ class InitModel:
             llr[e_w][f_w] = c_e_f[(e_w,f_w)] * math.log(p_f_e[f_w][e_w]/p_f[f_w])
             
             # e+ f-
-            c_e_notf = total_e_words - c_e_f[(e_w,f_w)]
-            p_notf_e = 1 - p_f_e_[f_w][e_w]
+            c_e_notf = c_e[e_w] - c_e_f[(e_w,f_w)]
+            p_notf_e = 1 - p_f_e[f_w][e_w]
             p_notf = 1 - p_f[f_w]
             llr[e_w][f_w] += c_e_notf * math.log(p_notf_e/p_notf)
             
             # e- f+
-            c_note_f = total_f_words - c_e_f[(e_w,f_w)]
-            p_f_note = p_f[f_w] - p_f_e_[f_w][e_w]
+            c_note_f = c_f[f_w] - c_e_f[(e_w,f_w)]
+            c_note = n_sentences - c_e[e_w]
+            ## Sum conditional probabilities of all p(f|x) where x != e
+            #p_f_note = 0
+            #for x in c_e:
+                #if ex is not e_w:
+                    #p_f_note += p_f_e[f_w][x]
+            p_f_note=float(c_note_f+1)/float(c_note+2)
             llr[e_w][f_w] += c_note_f * math.log(p_f_note/p_f[f_w])
             
             # e- f-
-            c_note_notf = total_e_words - c_e[e_w] - c_f[f_w]
-            p_notf_note = (1 - p_f[f_w]) - p_notf_e
+            c_note_notf = n_sentences - c_e[e_w] - c_f[f_w]
+            p_notf_note = float(c_note_notf+1)/float(c_note+2)
             # p_notf has already been calculated
             llr[e_w][f_w] += c_note_notf * math.log(p_notf_note/p_notf)
             
@@ -228,7 +248,7 @@ class Model:
             # Set all count c(...) = 0
             # c_e: e word occurence
             # c_e_f: e and f words occurence at the same time
-            c_e,c_e_f = init_c_e_f(foreign_corpus,source_corpus)
+            c_e,_,c_e_f = init_c_e_f(foreign_corpus,source_corpus)
             # c_i_l_m: alignment from i (Fra) occurence
             # c_ji_l_m: alignment from j <- i (Eng <- Fra) occurence
             c_i_l_m,c_ji_l_m = init_c_ji_l_m(foreign_corpus,source_corpus)
@@ -264,13 +284,15 @@ class Model:
 
 def init_c_e_f(foreign_corpus,source_corpus):
     c_e={}
+    c_f={}
     c_e_f = {}
     for f, e in zip(foreign_corpus, source_corpus):
         for e_w in e:
             c_e[e_w] = 0
             for f_w in f:
+                c_f[f_w] = 0
                 c_e_f[(e_w, f_w)] = 0
-    return c_e,c_e_f
+    return c_e,c_f,c_e_f
 
 
 def init_c_ji_l_m(foreign_corpus,source_corpus):
