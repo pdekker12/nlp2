@@ -38,7 +38,7 @@ class InitModel:
                 if f_w in f:
                     c_f[f_w] += 1
         
-        # Compute p(f): take c_f[f_w] and divide by total_f_words
+        # Compute p(f): take c_f[f_w] and divide by n_sentences
         p_f = {}
         for f_w in c_f:
             p_f[f_w] = float(c_f[f_w]+1)/float(n_sentences+2)
@@ -81,7 +81,7 @@ class InitModel:
             llr[e_w][f_w] += c_note_f * math.log(p_f_note/p_f[f_w])
             
             # e- f-
-            c_note_notf = n_sentences - c_e[e_w] - c_f[f_w]
+            c_note_notf = n_sentences - c_e[e_w] - c_f[f_w] + c_e_f[(e_w,f_w)]
             p_notf_note = float(c_note_notf+1)/float(c_note+2)
             # p_notf has already been calculated
             llr[e_w][f_w] += c_note_notf * math.log(p_notf_note/p_notf)
@@ -90,14 +90,18 @@ class InitModel:
             llr_source_sum[e_w] += llr[e_w][f_w]
         
         # Take highest llr source sentence sum
-        denominator = np.amax(llr_source_sum.values())
-        
+        denominator = np.amax(list(llr_source_sum.values()))
         # Use this to normalize* all llr's
         # *)not summing to 1 except for llr's from source sentence
         #   where sum originates from
         for e_w in llr:
             for f_w in llr[e_w]:
-                llr[e_w][f_w] = float(llr[e_w][f_w]) / float(denominator)
+                # NULL words get target value probabilities
+                if (e_w == 0):
+                    llr[e_w][f_w] = p_f[f_w]
+                # All other get normalized llr
+                else:
+                    llr[e_w][f_w] = float(llr[e_w][f_w]) / float(denominator)
         
         return llr
                 
@@ -136,6 +140,7 @@ class Model1ImprovedSetup:
         # 0: Add-N smoothing
         # 1: Heavy NULL
         # 2: Heuristic initialization
+        # 3: all improvements
         self.option = option
 
     def delta(self, f_w, i, e_w, j, e, l, m):
@@ -143,17 +148,16 @@ class Model1ImprovedSetup:
     
     
     def compute_t(self,count,total_count,index):
-        if self.option==0:
+        if self.option==0 or self.option==3:
             return (count + self.n)/(total_count + self.n * self.V)
-        elif self.option==1:
+        if self.option==1 or self.option==3:
             # Multiply weights of null words by a factor
             if index == 0:
                 return self.null_weight * (count/total_count)
             else:
                 # Normal formula for other words
                 return count/total_count
-        else:
-            return count/total_count
+        return count/total_count
 
 class Model2Setup:
     def __init__(self):

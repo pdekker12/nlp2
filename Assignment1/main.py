@@ -5,15 +5,15 @@ import sys
 from ibm import *
 from pprint import pprint
 
-def gen_dict(corpus):
-    def corpus_to_dict(corpus, acc):
-        index = 0
-        for sentence in corpus:
-            for word in sentence:
-                if word not in acc:
-                    acc[word] = index
-                    index += 1
+def corpus_to_dict(corpus, acc):
+    index = 0
+    for sentence in corpus:
+        for word in sentence:
+            if word not in acc:
+                acc[word] = index
+                index += 1
 
+def gen_dict(corpus):
     lang_dict = {}
     corpus_to_dict(corpus, lang_dict)
 
@@ -77,7 +77,7 @@ Copyright (c) Minh Ngo, Peter Dekker
     parser.add_argument('--iter-2', dest='iter2', default=3,
                         help='Number of iterations for the second stage', type=int)
 
-    ibm_mode = ['IBM-M1', 'IBM-M2-Rand', 'IBM-M2-1', 'IBM-M1-AddN','IBM-M1-HeavyNull','IBM-M1-HeurInit']
+    ibm_mode = ['IBM-M1', 'IBM-M2-Rand', 'IBM-M2-1', 'IBM-M1-AddN','IBM-M1-HeavyNull','IBM-M1-HeurInit','IBM-M1-AllImprove']
     parser.add_argument('--ibm', choices=ibm_mode, default='IBM-M1', help='IBM Model mode')
 
     parser.add_argument('--wa', help='Denoted alignment file')
@@ -192,6 +192,13 @@ Copyright (c) Minh Ngo, Peter Dekker
         # Get heuristically initialized t from init model
         t_heur = init_model.train(foreign_corpus,source_corpus)
         model1 = Model(t=t_heur, model_setup=Model1ImprovedSetup(2), num_iter=iterations)
+        train_model1(model1)
+    elif args.ibm == 'IBM-M1-AllImprove': 
+        print('IBM model 1 with all Moore improvements')
+        init_model = InitModel()
+        # Get heuristically initialized t from init model
+        t_heur = init_model.train(foreign_corpus,source_corpus)
+        model1 = Model(t=t_heur, model_setup=Model1ImprovedSetup(3), num_iter=iterations)
         train_model1(model1)
 
 
