@@ -120,8 +120,8 @@ Copyright (c) Minh Ngo, Peter Dekker
             for line in wa:
                 lexemes = line.split()
                 sentence_id = int(lexemes[0])
-                f_align = int(lexemes[1])
-                e_align = int(lexemes[2])
+                e_align = int(lexemes[1])
+                f_align = int(lexemes[2])
                 type_align = lexemes[3]
                 gold_alignments[sentence_id - 1][type_align].append((f_align, e_align))
                 alignment_count[type_align] += 1
@@ -230,7 +230,7 @@ Copyright (c) Minh Ngo, Peter Dekker
                 viterbi_alignment = model.align_viterbi(f, e)
                 for i, j in zip(range(len(viterbi_alignment)), viterbi_alignment):
                     if j != 0:
-                        print('%04d %d %d' % (k + 1, i + 1, j),file=output)
+                        print('%04d %d %d' % (k + 1, j, i + 1),file=output)
 
     if args.export != None:
         export_weights(args.export, model)
