@@ -98,13 +98,22 @@ Copyright (c) Minh Ngo, Peter Dekker
 
     # Adding the NULL symbol for the source corpus
     source_corpus  = [['NULL'] + line.split() for line in open(args.source, 'r')]
-
-    foreign_dict, index_to_foreign = gen_dict(foreign_corpus)
-    source_dict, index_to_source = gen_dict(source_corpus)
+    
+    
+    # Remove sentence pairs where source or foreign sentence has length > 100
+    short_source_corpus = []
+    short_foreign_corpus = []
+    for f,e in zip(source_corpus,foreign_corpus):
+        if len(f) < 100 and len(e) < 100:
+            short_source_corpus.append(e)
+            short_foreign_corpus.append(f)
+        
+    foreign_dict, index_to_foreign = gen_dict(short_foreign_corpus)
+    source_dict, index_to_source = gen_dict(short_source_corpus)
 
     # Replace by word indexes
-    foreign_corpus = [[foreign_dict[word] for word in sentence] for sentence in foreign_corpus]
-    source_corpus = [[source_dict[word] for word in sentence] for sentence in source_corpus]
+    foreign_corpus = [[foreign_dict[word] for word in sentence] for sentence in short_foreign_corpus]
+    source_corpus = [[source_dict[word] for word in sentence] for sentence in short_source_corpus]
 
     gold_alignments = [{'S' : [], 'P' : []} for i in range(len(foreign_corpus))]
     alignment_count = {'S' : 0, 'P' : 0}
@@ -177,7 +186,7 @@ Copyright (c) Minh Ngo, Peter Dekker
     elif args.ibm == 'IBM-M1-AddN': 
         print('IBM model 1 with add-n smoothing')
         for n in [1,2,5]:
-            for v in [0.01,0.05,0.1]:
+            for v in [0.01,0.05,0.1,0.5,1]:
                 print('n=' + str(n))
                 print('v=' + str(v * foreign_voc_size))
                 model1 = Model(model_setup=Model1ImprovedSetup(0,voc_size=v*foreign_voc_size,add_n=n), num_iter=iterations)

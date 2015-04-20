@@ -1,7 +1,6 @@
 import random
 from evaluation import compute_perplexity, compute_log_likelihood
 import math
-import numpy as np
 from collections import defaultdict
 
 # InitModel, used to find heuristic initial parameters for model 1
@@ -89,8 +88,13 @@ class InitModel:
             # Add this llr to the sum for this source sentence
             llr_source_sum[e_w] += llr[e_w][f_w]
         
+        max_value = 0
         # Take highest llr source sentence sum
-        denominator = np.amax(list(llr_source_sum.values()))
+        for value in list(llr_source_sum.values()):
+            if value > max_value:
+                max_value = value
+        print(max_value)
+        denominator = max_value
         # Use this to normalize* all llr's
         # *)not summing to 1 except for llr's from source sentence
         #   where sum originates from
