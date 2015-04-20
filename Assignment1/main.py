@@ -116,7 +116,7 @@ Copyright (c) Minh Ngo, Peter Dekker
     source_corpus = [[source_dict[word] for word in sentence] for sentence in short_source_corpus]
 
     gold_alignments = [{'S' : [], 'P' : []} for i in range(len(foreign_corpus))]
-    alignment_count = {'S' : 0, 'P' : 0}
+    alignment_count_s = 0
 
     imported_t = None
     imported_q = None
@@ -133,7 +133,8 @@ Copyright (c) Minh Ngo, Peter Dekker
                 f_align = int(lexemes[2])
                 type_align = lexemes[3]
                 gold_alignments[sentence_id - 1][type_align].append((f_align, e_align))
-                alignment_count[type_align] += 1
+                if type_align == 'S':
+                    alignment_count_s += 1
 
     def stat_calculate(model):
         perplexity = compute_perplexity([model.translation_score_normalized(f, e)
@@ -144,28 +145,36 @@ Copyright (c) Minh Ngo, Peter Dekker
         print('Perplexity = %s, Log-likelihood = %s' % (perplexity, log_likelihood))
 
         if args.wa:
-            stat = {'A' : 0, 'A & P' : 0, 'A & S': 0}
+            stat_a = 0
+            stat_a_and_p = 0
+            stat_a_and_s = 0
             for f, e, gold_alignment in zip(foreign_corpus, source_corpus, gold_alignments):
                 viterbi_alignment = model.align_viterbi(f, e)
-                for i in range(len(viterbi_alignment)):
+                gold_alignment_s = gold_alignment['S']
+                gold_alignment_p = gold_alignment['P']
+                for i in range(len(f)):
                     # i -> viterbi_alignment[i]
+                    if viterbi_alignment[i] == 0:
+                        continue
+                    stat_a += 1
+
                     word_alignment = (i + 1, viterbi_alignment[i])
-                    if viterbi_alignment[i] != 0:
-                        stat['A'] += 1
 
-                    for alignment in gold_alignment['S']:
+                    for alignment in gold_alignment_s:
                         if word_alignment == alignment:
-                            stat['A & S'] += 1
+                            stat_a_and_s += 1
+                            stat_a_and_p += 1
                             break
 
-                    for alignment in gold_alignment['P']:
+                    for alignment in gold_alignment_p:
                         if word_alignment == alignment:
-                            stat['A & P'] += 1
+                            stat_a_and_p += 1
                             break
 
-            recall = stat['A & S'] / alignment_count['S']
-            precision = stat['A & P'] / stat['A']
-            aer = 1 - (stat['A & S'] + stat['A & P']) / (stat['A'] + alignment_count['S'])
+            recall = stat_a_and_s / alignment_count_s
+            precision = stat_a_and_p / stat_a
+            print('Stat_A_and_S, Stat_A_and_P', stat_a_and_s, stat_a_and_p, stat_a, alignment_count_s)
+            aer = 1 - (stat_a_and_s + stat_a_and_p) / (stat_a + alignment_count_s)
             print('Recall = %s, Precision = %s, AER = %s' % (recall, precision, aer))
     
     iterations = args.iter1
