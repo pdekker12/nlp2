@@ -122,7 +122,7 @@ class Model1Setup:
 
 class Model1ImprovedSetup:
     
-    def __init__(self,option,foreign_voc_size=5000,n=1,null_weight=3):
+    def __init__(self,option,voc_size=5000,add_n=1,null_weight=3):
         self.t = None
         self.q = None
         
@@ -131,10 +131,10 @@ class Model1ImprovedSetup:
         
         # Parameters needed for smoothing.
         # Add_n value
-        self.n = n
+        self.n = add_n
         # Hypothesized vocabulary size.
         # Is initialized with foreign corpus set size
-        self.V = foreign_voc_size
+        self.V = voc_size
         
         # option parameter stores improvement option:
         # 0: Add-N smoothing

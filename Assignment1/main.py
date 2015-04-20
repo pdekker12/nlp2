@@ -176,22 +176,27 @@ Copyright (c) Minh Ngo, Peter Dekker
         train_model1(model1)
     elif args.ibm == 'IBM-M1-AddN': 
         print('IBM model 1 with add-n smoothing')
-        for n in [1,10,20,50]:
-            print('n=' + str(n))
-            model1 = Model(model_setup=Model1ImprovedSetup(0,foreign_voc_size,n), num_iter=iterations)
-            train_model1(model1)
+        for n in [1,2,5]:
+            for v in [0.01,0.05,0.1]:
+                print('n=' + str(n))
+                print('v=' + str(v * foreign_voc_size))
+                model1 = Model(model_setup=Model1ImprovedSetup(0,voc_size=v*foreign_voc_size,add_n=n), num_iter=iterations)
+                train_model1(model1)
     elif args.ibm == 'IBM-M1-HeavyNull': 
         print('IBM model 1 with more weight on null alignment')
-        for null_weight in [2,3,5,10]:
-            print('null_weight=' + str(null_weight))
-            model1 = Model(model_setup=Model1ImprovedSetup(1,-1,-1,null_weight), num_iter=iterations)
+        for w in [2,3,5,10]:
+            print('null_weight=' + str(w))
+            model1 = Model(model_setup=Model1ImprovedSetup(1,null_weight=w), num_iter=iterations)
             train_model1(model1)
     elif args.ibm == 'IBM-M1-HeurInit': 
         print('IBM model 1 with heuristic initialization')
         init_model = InitModel()
         # Get heuristically initialized t from init model
+        # v and n are best values of running only AddN extension on small test corpus
+        v = 0.05* foreign_voc_size
+        n = 1
         t_heur = init_model.train(foreign_corpus,source_corpus)
-        model1 = Model(t=t_heur, model_setup=Model1ImprovedSetup(2), num_iter=iterations)
+        model1 = Model(t=t_heur, model_setup=Model1ImprovedSetup(2,voc_size=v,add_n=n,null_weight=2), num_iter=iterations)
         train_model1(model1)
     elif args.ibm == 'IBM-M1-AllImprove': 
         print('IBM model 1 with all Moore improvements')
