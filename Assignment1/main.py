@@ -173,7 +173,6 @@ Copyright (c) Minh Ngo, Peter Dekker
 
             recall = stat_a_and_s / alignment_count_s
             precision = stat_a_and_p / stat_a
-            print('Stat_A_and_S, Stat_A_and_P', stat_a_and_s, stat_a_and_p, stat_a, alignment_count_s)
             aer = 1 - (stat_a_and_s + stat_a_and_p) / (stat_a + alignment_count_s)
             print('Recall = %s, Precision = %s, AER = %s' % (recall, precision, aer))
     
