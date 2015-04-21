@@ -104,7 +104,7 @@ Copyright (c) Minh Ngo, Peter Dekker
     short_source_corpus = []
     short_foreign_corpus = []
     for f,e in zip(source_corpus,foreign_corpus):
-        if len(f) < 100 and len(e) < 100:
+        if len(f) < MAX_SENTENCE_LENGTH and len(e) < MAX_SENTENCE_LENGTH:
             short_source_corpus.append(e)
             short_foreign_corpus.append(f)
         
