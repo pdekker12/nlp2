@@ -93,7 +93,6 @@ class InitModel:
         for value in list(llr_source_sum.values()):
             if value > max_value:
                 max_value = value
-        print(max_value)
         denominator = max_value
         # Use this to normalize* all llr's
         # *)not summing to 1 except for llr's from source sentence
