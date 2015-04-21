@@ -3,6 +3,17 @@ from evaluation import compute_perplexity, compute_log_likelihood
 import math
 from collections import defaultdict
 
+MAX_SENTENCE_LENGTH = 100
+MAX_DICT_SIZE = 100000
+
+# e_w - word index from the e sentence, f_w - word index from the f sentence
+pair_to_int = lambda e_w, f_w: e_w * MAX_DICT_SIZE + f_w
+
+# j - index of the e sentence, i - index of the f sentence, l - len(e), m - len(f)
+quadruple_to_int = lambda j, i, l, m:  ((j * MAX_SENTENCE_LENGTH + i) * MAX_SENTENCE_LENGTH + l) * MAX_SENTENCE_LENGTH + m
+
+triple_to_int = lambda i, l, m: (i * MAX_SENTENCE_LENGTH + l) * MAX_SENTENCE_LENGTH + m
+
 # InitModel, used to find heuristic initial parameters for model 1
 class InitModel:
     def train(self, foreign_corpus,source_corpus):
@@ -32,7 +43,7 @@ class InitModel:
                     # Co-occurence
                     for f_w in c_f:
                         if (f_w in f):
-                            c_e_f[(e_w,f_w)] += 1
+                            c_e_f[pair_to_int(e_w,f_w)] += 1
             for f_w in c_f:
                 if f_w in f:
                     c_f[f_w] += 1
@@ -47,7 +58,7 @@ class InitModel:
         for (e_w,f_w) in c_e_f:
             if f_w not in p_f_e:
                 p_f_e[f_w] = {}
-            p_f_e[f_w][e_w] = float(c_e_f[(e_w,f_w)]+1) / float(c_e[e_w] +2)
+            p_f_e[f_w][e_w] = float(c_e_f[pair_to_int(e_w,f_w)]+1) / float(c_e[e_w] +2)
                 
         
         # Compute LLR for every pair (e,f)
@@ -60,16 +71,16 @@ class InitModel:
             # The 4 terms are composed one after eachother.
             
             # e+ f+
-            llr[e_w][f_w] = c_e_f[(e_w,f_w)] * math.log(p_f_e[f_w][e_w]/p_f[f_w])
+            llr[e_w][f_w] = c_e_f[pair_to_int(e_w,f_w)] * math.log(p_f_e[f_w][e_w]/p_f[f_w])
             
             # e+ f-
-            c_e_notf = c_e[e_w] - c_e_f[(e_w,f_w)]
+            c_e_notf = c_e[e_w] - c_e_f[pair_to_int(e_w,f_w)]
             p_notf_e = 1 - p_f_e[f_w][e_w]
             p_notf = 1 - p_f[f_w]
             llr[e_w][f_w] += c_e_notf * math.log(p_notf_e/p_notf)
             
             # e- f+
-            c_note_f = c_f[f_w] - c_e_f[(e_w,f_w)]
+            c_note_f = c_f[f_w] - c_e_f[pair_to_int(e_w,f_w)]
             c_note = n_sentences - c_e[e_w]
             ## Sum conditional probabilities of all p(f|x) where x != e
             #p_f_note = 0
@@ -80,7 +91,7 @@ class InitModel:
             llr[e_w][f_w] += c_note_f * math.log(p_f_note/p_f[f_w])
             
             # e- f-
-            c_note_notf = n_sentences - c_e[e_w] - c_f[f_w] + c_e_f[(e_w,f_w)]
+            c_note_notf = n_sentences - c_e[e_w] - c_f[f_w] + c_e_f[pair_to_int(e_w,f_w)]
             p_notf_note = float(c_note_notf+1)/float(c_note+2)
             # p_notf has already been calculated
             llr[e_w][f_w] += c_note_notf * math.log(p_notf_note/p_notf)
@@ -118,7 +129,7 @@ class Model1Setup:
         self.q = None
 
     def delta(self, f_w, i, e_w, j, e, l, m):
-        return self.t[(f_w, e_w)] / sum([self.t[(f_w, w)] for w in e])
+        return self.t[pair_to_int(e_w, f_w)] / sum([self.t[pair_to_int(w, f_w)] for w in e])
     
     # compute t without smoothing
     def compute_t(self,count,total_count,ind):
@@ -148,7 +159,7 @@ class Model1ImprovedSetup:
         self.option = option
 
     def delta(self, f_w, i, e_w, j, e, l, m):
-        return self.t[(f_w, e_w)] / sum([self.t[(f_w, w)] for w in e])
+        return self.t[pair_to_int(e_w, f_w)] / sum([self.t[pair_to_int(w, f_w)] for w in e])
     
     
     def compute_t(self,count,total_count,index):
@@ -169,8 +180,8 @@ class Model2Setup:
         self.q = None
 
     def delta(self, f_w, i, e_w, j, e, l, m):
-        return self.q[(j, i, l, m)] * self.t[(f_w, e_w)] /\
-            sum(self.q[(w_j, i, l, m)] * self.t[(f_w, w)] for w, w_j in zip(e, range(l)))
+        return self.q[quadruple_to_int(j, i, l, m)] * self.t[pair_to_int(e_w, f_w)] /\
+            sum(self.q[quadruple_to_int(w_j, i, l, m)] * self.t[pair_to_int(w, f_w)] for w, w_j in zip(e, range(l)))
     
     # compute t without smoothing
     def compute_t(self,count,total_count,ind):
@@ -206,7 +217,7 @@ class Model:
         score = 0
         for w_f in f:
             for w_e in e:
-                score += self.t[(w_f, w_e)]
+                score += self.t[pair_to_int(w_e, w_f)]
         return score
 
     """
@@ -219,7 +230,7 @@ class Model:
     def align_viterbi(self, f, e):
         alignments = []
         for w_f, i in zip(f, range(len(f))):
-            values = [self.t[(w_f, w_e)] for w_e in e]
+            values = [self.t[pair_to_int(w_e, w_f)] for w_e in e]
             alignments.append(values.index(max(values)))
 
         return alignments
@@ -242,17 +253,15 @@ class Model:
                 for f_w, i in zip(f, range(m)):
                     for e_w, j in zip(e, range(l)):
                         if (f_w, e_w) not in self.t:
-                            self.t[(f_w, e_w)] = random.random()
+                            self.t[pair_to_int(e_w, f_w)] = random.random()
                         if (j, i, l, m) not in self.q:
-                            self.q[(j, i, l, m)] = random.random()
+                            self.q[quadruple_to_int(j, i, l, m)] = random.random()
 
         # A bit bloody hack to link t and q again
         self.model_setup.t = self.t
         self.model_setup.q = self.q
 
         for t in range(self.num_iter):
-           
-
             # Set all count c(...) = 0
             # c_e: e word occurence
             # c_e_f: e and f words occurence at the same time
@@ -269,10 +278,10 @@ class Model:
                 for f_w, i in zip(f, range(m)):
                     for e_w, j in zip(e, range(l)):
                         delta = self.model_setup.delta(f_w, i, e_w, j, e, l, m)
-                        c_e_f[(e_w, f_w)] += delta
+                        c_e_f[pair_to_int(e_w, f_w)] += delta
                         c_e[e_w] += delta
-                        c_ji_l_m[(j, i, l, m)] += delta
-                        c_i_l_m[(i, l, m)] += delta
+                        c_ji_l_m[quadruple_to_int(j, i, l, m)] += delta
+                        c_i_l_m[triple_to_int(i, l, m)] += delta
 
             # Update LM and alignment probs
             for f, e in zip(foreign_corpus, source_corpus):
@@ -283,8 +292,8 @@ class Model:
                     for e_w, j in zip(e, range(l)):
                         # Compute t based on count and total,
                         # smoothing is dependent on model
-                        self.t[(f_w, e_w)] = self.model_setup.compute_t(c_e_f[(e_w, f_w)],c_e[e_w],j)
-                        self.q[(j, i, l, m)] = c_ji_l_m[(j, i, l, m)] / c_i_l_m[(i, l, m)]
+                        self.t[pair_to_int(f_w, e_w)] = self.model_setup.compute_t(c_e_f[pair_to_int(e_w, f_w)],c_e[e_w],j)
+                        self.q[quadruple_to_int(j, i, l, m)] = c_ji_l_m[quadruple_to_int(j, i, l, m)] / c_i_l_m[triple_to_int(i, l, m)]
 
             if callback != None:
                 callback(self)
@@ -299,7 +308,7 @@ def init_c_e_f(foreign_corpus,source_corpus):
             c_e[e_w] = 0
             for f_w in f:
                 c_f[f_w] = 0
-                c_e_f[(e_w, f_w)] = 0
+                c_e_f[pair_to_int(e_w, f_w)] = 0
     return c_e,c_f,c_e_f
 
 
@@ -310,7 +319,7 @@ def init_c_ji_l_m(foreign_corpus,source_corpus):
         m = len(f)
         l = len(e)
         for i in range(m):
-            c_i_l_m[(i, l, m)] = 0
+            c_i_l_m[triple_to_int(i, l, m)] = 0
             for j in range(l):
-                c_ji_l_m[(j, i, l, m)] = 0
+                c_ji_l_m[quadruple_to_int(j, i, l, m)] = 0
     return c_i_l_m, c_ji_l_m
