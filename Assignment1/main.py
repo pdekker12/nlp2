@@ -5,7 +5,7 @@ import sys
 from ibm import *
 from pprint import pprint
 
-test_length=447+1
+test_length=0
 
 def corpus_to_dict(corpus, acc):
     index = 0
@@ -117,6 +117,15 @@ Copyright (c) Minh Ngo, Peter Dekker
     foreign_corpus = [[foreign_dict[word] for word in sentence] for sentence in short_foreign_corpus]
     source_corpus = [[source_dict[word] for word in sentence] for sentence in short_source_corpus]
     
+    # Calculate test_length: highest sentence number in evaluation file
+    if args.wa != None:
+        with open(args.wa, 'r') as wa:
+            for line in wa:
+                sid = int(line.split()[0])
+                if sid > test_length:
+                    test_length = sid
+            test_length +=1
+    print(test_length)
     gold_alignments = [{'S' : [], 'P' : []} for i in range(test_length)]
     alignment_count_s = 0
 
