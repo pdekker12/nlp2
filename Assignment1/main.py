@@ -26,12 +26,12 @@ def gen_dict(corpus):
 def export_weights(file_name, model):
     print('Exporting weights...')
     with open(file_name + '.t', 'w') as output:
-        for (f_w, e_w), weight in model.t.items():
-            print('%d %d %f' % (f_w, e_w, weight), file=output)
+        for key, weight in model.t.items():
+            print('%d %f' % (key, weight), file=output)
 
     with open(file_name + '.q', 'w') as output:
-        for (j, i, l, m), weight in model.q.items():
-            print('%d %d %d %d %f' % (j, i, l, m, weight), file=output)
+        for key, weight in model.q.items():
+            print('%d %f' % (key, weight), file=output)
 
 def import_weights(file_name):
     print('Importing weights...')
@@ -40,12 +40,12 @@ def import_weights(file_name):
     with open(file_name + '.t', 'r') as input_file:
         for line in input_file:
             lexemes = line.split()
-            t[tuple(map(int, lexemes[:-1]))] = float(lexemes[-1])
+            t[int(lexemes[0])] = float(lexemes[-1])
 
     with open(file_name + '.q', 'r') as input_file:
         for line in input_file:
             lexemes = line.split()
-            q[tuple(map(int, lexemes[:-1]))] = float(lexemes[-1])
+            q[int(lexemes[0])] = float(lexemes[-1])
 
     return t, q
 
@@ -104,7 +104,7 @@ Copyright (c) Minh Ngo, Peter Dekker
     short_source_corpus = []
     short_foreign_corpus = []
     for f,e in zip(source_corpus,foreign_corpus):
-        if len(f) < 100 and len(e) < 100:
+        if len(f) < MAX_SENTENCE_LENGTH and len(e) < MAX_SENTENCE_LENGTH:
             short_source_corpus.append(e)
             short_foreign_corpus.append(f)
         
@@ -173,7 +173,6 @@ Copyright (c) Minh Ngo, Peter Dekker
 
             recall = stat_a_and_s / alignment_count_s
             precision = stat_a_and_p / stat_a
-            print('Stat_A_and_S, Stat_A_and_P', stat_a_and_s, stat_a_and_p, stat_a, alignment_count_s)
             aer = 1 - (stat_a_and_s + stat_a_and_p) / (stat_a + alignment_count_s)
             print('Recall = %s, Precision = %s, AER = %s' % (recall, precision, aer))
     
