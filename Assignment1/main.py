@@ -5,6 +5,8 @@ import sys
 from ibm import *
 from pprint import pprint
 
+test_length=447+1
+
 def corpus_to_dict(corpus, acc):
     index = 0
     for sentence in corpus:
@@ -114,8 +116,8 @@ Copyright (c) Minh Ngo, Peter Dekker
     # Replace by word indexes
     foreign_corpus = [[foreign_dict[word] for word in sentence] for sentence in short_foreign_corpus]
     source_corpus = [[source_dict[word] for word in sentence] for sentence in short_source_corpus]
-
-    gold_alignments = [{'S' : [], 'P' : []} for i in range(len(foreign_corpus))]
+    
+    gold_alignments = [{'S' : [], 'P' : []} for i in range(test_length)]
     alignment_count_s = 0
 
     imported_t = None
@@ -148,7 +150,7 @@ Copyright (c) Minh Ngo, Peter Dekker
             stat_a = 0
             stat_a_and_p = 0
             stat_a_and_s = 0
-            for f, e, gold_alignment in zip(foreign_corpus, source_corpus, gold_alignments):
+            for f, e, gold_alignment in zip(foreign_corpus[:test_length], source_corpus[:test_length], gold_alignments):
                 viterbi_alignment = model.align_viterbi(f, e)
                 gold_alignment_s = gold_alignment['S']
                 gold_alignment_p = gold_alignment['P']
