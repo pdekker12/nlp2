@@ -124,8 +124,8 @@ Copyright (c) Minh Ngo, Peter Dekker
                 sid = int(line.split()[0])
                 if sid > test_length:
                     test_length = sid
-            test_length +=1
-    print(test_length)
+
+
     gold_alignments = [{'S' : [], 'P' : []} for i in range(test_length)]
     alignment_count_s = 0
 
@@ -205,7 +205,7 @@ Copyright (c) Minh Ngo, Peter Dekker
     elif args.ibm == 'IBM-M1-AddN': 
         print('IBM model 1 with add-n smoothing')
         for n in [1,2,5]:
-            for v in [0.01,0.05,0.1,0.5,1]:
+            for v in [0.1,0.5,0.7,1]:
                 print('n=' + str(n))
                 print('v=' + str(v * foreign_voc_size))
                 model1 = Model(model_setup=Model1ImprovedSetup(0,voc_size=v*foreign_voc_size,add_n=n), num_iter=iterations)
