@@ -213,12 +213,12 @@ Copyright (c) Minh Ngo, Peter Dekker
         train_model1(model1)
     elif args.ibm == 'IBM-M1-AddN': 
         print('IBM model 1 with add-n smoothing')
-        for n in [1,2,5]:
-            for v in [0.1,0.5,0.7,1]:
-                print('n=' + str(n))
-                print('v=' + str(v * foreign_voc_size))
-                model1 = Model(model_setup=Model1ImprovedSetup(0,voc_size=v*foreign_voc_size,add_n=n), num_iter=iterations)
-                train_model1(model1)
+        #for n in [5]:
+        #    for v in [0.7,1]:
+        #        print('n=' + str(n))
+        #        print('v=' + str(v * foreign_voc_size))
+        model1 = Model(model_setup=Model1ImprovedSetup(0,voc_size=0.5*foreign_voc_size,add_n=2), num_iter=iterations)
+        train_model1(model1)
     elif args.ibm == 'IBM-M1-HeavyNull': 
         print('IBM model 1 with more weight on null alignment')
         #for w in [2,3,5,10]:
