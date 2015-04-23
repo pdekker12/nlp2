@@ -3,6 +3,7 @@
 import argparse
 import sys
 from ibm import *
+from evaluation import compute_perplexity
 from pprint import pprint
 
 test_length=0
@@ -55,9 +56,10 @@ def choices_descriptions():
    return """
 --ibm key supports the following: 
     IBM-M1           - IBM-Model 1, Initialized randomly
+    IBM-M1-AddN      - IBM-M2-1 with add-n-smoothing
     IBM-M2-Rand      - IBM-Model 2, Initialized randomly
     IBM-M2-1         - IBM-Model 2, Initialized by parameters from IBM-M1
-    IBM-M2-AddN    - IBM-M2-1 with add-n-smoothing
+    IBM-M2-Uniform   - IBM-Model 2, Initialized uniformly
 """
 
 
@@ -79,7 +81,8 @@ Copyright (c) Minh Ngo, Peter Dekker
     parser.add_argument('--iter-2', dest='iter2', default=3,
                         help='Number of iterations for the second stage', type=int)
 
-    ibm_mode = ['IBM-M1', 'IBM-M2-Rand', 'IBM-M2-1', 'IBM-M1-AddN','IBM-M1-HeavyNull','IBM-M1-HeurInit','IBM-M1-SmoothHeavyNull','IBM-M1-AllImprove']
+    ibm_mode = ['IBM-M1', 'IBM-M2-Rand', 'IBM-M2-1', 'IBM-M2-Uniform',
+                'IBM-M1-AddN','IBM-M1-HeavyNull','IBM-M1-HeurInit','IBM-M1-SmoothHeavyNull','IBM-M1-AllImprove']
     parser.add_argument('--ibm', choices=ibm_mode, default='IBM-M1', help='IBM Model mode')
 
     parser.add_argument('--wa', help='Denoted alignment file')
@@ -87,7 +90,6 @@ Copyright (c) Minh Ngo, Peter Dekker
 
     parser.add_argument('--export', help='Export weights')
     parser.add_argument('--import', dest='import_file', help='Import weights')
-    parser.add_argument('--plot', default="", help='filenames to export plot to')
     
     args = parser.parse_args()
     if len(sys.argv) == 1:
@@ -148,18 +150,10 @@ Copyright (c) Minh Ngo, Peter Dekker
                 if type_align == 'S':
                     alignment_count_s += 1
 
-    def stat_calculate(model,iteration):
+    def stat_calculate(model):
         perplexity = compute_perplexity([model.translation_score_normalized(f, e)
                                          for f, e in zip(foreign_corpus, source_corpus)])
-        log_likelihood = compute_log_likelihood([model.translation_prob(f, e)
-                                                 for f, e in zip(foreign_corpus, source_corpus)])
-
-
-        filename = args.plot
-        aer_file = open(filename+".aer.txt","a")
-        llh_file = open(filename+".llh.txt","a")
-        perpl_file = open(filename+".perpl.txt","a")
-        print('Perplexity = %s, Log-likelihood = %s' % (perplexity, log_likelihood))
+        print('Perplexity = %s' % (perplexity))
 
         if args.wa:
             stat_a = 0
@@ -192,9 +186,6 @@ Copyright (c) Minh Ngo, Peter Dekker
             precision = stat_a_and_p / stat_a
             aer = 1 - (stat_a_and_s + stat_a_and_p) / (stat_a + alignment_count_s)
             print('Recall = %s, Precision = %s, AER = %s' % (recall, precision, aer))
-            llh_file.write("("+str(iteration)+","+str(log_likelihood)+")\n")
-            aer_file.write("("+str(iteration)+","+str(aer)+")\n")
-            perpl_file.write("("+str(iteration)+","+str(perplexity)+")\n")
     
     iterations = args.iter1
     model = None
@@ -257,7 +248,7 @@ Copyright (c) Minh Ngo, Peter Dekker
 
     print('Model 1 instance:', model)
     iterations = args.iter2
-    if args.ibm == 'IBM-M2-Rand':
+    if args.ibm == 'IBM-M2-Rand' or args.ibm == 'IBM-M2-Uniform':
         print('IBM model 2 with random weights')
         model2 = Model(model_setup=Model2Setup(), num_iter=iterations)
 
@@ -265,9 +256,10 @@ Copyright (c) Minh Ngo, Peter Dekker
             model2.t = imported_t
             model2.q = imported_q
 
-        model2.train(foreign_corpus, source_corpus, clear=(args.import_file == None), callback=stat_calculate)
+        model2.train(foreign_corpus, source_corpus, clear=(args.import_file == None),
+                     callback=stat_calculate, uniform=(args.ibm == 'IBM-M2-Uniform'))
         model = model2
-    elif args.ibm == 'IBM-M2-1' or args.ibm == 'IBM-M2-AddN':
+    elif args.ibm == 'IBM-M2-1':
         print('IBM model 2 initialized by IBM-M1')
         model2 = Model(t=model.t, q=model.q, model_setup=Model2Setup(), num_iter=iterations)
         model2.train(foreign_corpus, source_corpus, clear=False, callback=stat_calculate)
