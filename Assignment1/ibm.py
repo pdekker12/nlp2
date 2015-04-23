@@ -9,6 +9,11 @@ MAX_DICT_SIZE = 100000
 # e_w - word index from the e sentence, f_w - word index from the f sentence
 pair_to_int = lambda e_w, f_w: e_w * MAX_DICT_SIZE + f_w
 
+def int_to_pair(e_w_f_w):
+    f_w = e_w_f_w % MAX_DICT_SIZE
+    e_w = (e_w_f_w - f_w) // MAX_DICT_SIZE
+    return (e_w,f_w)
+
 # j - index of the e sentence, i - index of the f sentence, l - len(e), m - len(f)
 quadruple_to_int = lambda j, i, l, m:  ((j * MAX_SENTENCE_LENGTH + i) * MAX_SENTENCE_LENGTH + l) * MAX_SENTENCE_LENGTH + m
 
@@ -52,35 +57,35 @@ class InitModel:
         p_f = {}
         for f_w in c_f:
             p_f[f_w] = float(c_f[f_w]+1)/float(n_sentences+2)
-        
         # Compute p(f|e) = p(f,e)/p(e)
         p_f_e = {}
-        for (e_w,f_w) in c_e_f:
-            if f_w not in p_f_e:
-                p_f_e[f_w] = {}
-            p_f_e[f_w][e_w] = float(c_e_f[pair_to_int(e_w,f_w)]+1) / float(c_e[e_w] +2)
+        for e_w_f_w in c_e_f:
+            e_w,f_w = int_to_pair(e_w_f_w) # convert back to pair
+            p_f_e[pair_to_int(f_w,e_w)] = float(c_e_f[e_w_f_w]+1) / float(c_e[e_w] +2)
                 
         
         # Compute LLR for every pair (e,f)
         llr = {}
-        for (e_w,f_w) in c_e_f:
-            if e_w not in llr:
-                llr[e_w] = {}
+        for e_w_f_w in c_e_f:
             # The llr score consists of 4 terms, all combinations of
             # e_w and f_w occurring or not occurring.
             # The 4 terms are composed one after eachother.
-            
+            e_w,f_w = int_to_pair(e_w_f_w)
+            f_w_e_w = pair_to_int(f_w,e_w)
             # e+ f+
-            llr[e_w][f_w] = c_e_f[pair_to_int(e_w,f_w)] * math.log(p_f_e[f_w][e_w]/p_f[f_w])
+            if e_w not in llr:
+                llr[e_w] = {}
+            
+            llr[e_w][f_w] = c_e_f[e_w_f_w] * math.log(p_f_e[f_w_e_w]/p_f[f_w])
             
             # e+ f-
-            c_e_notf = c_e[e_w] - c_e_f[pair_to_int(e_w,f_w)]
-            p_notf_e = 1 - p_f_e[f_w][e_w]
+            c_e_notf = c_e[e_w] - c_e_f[e_w_f_w]
+            p_notf_e = 1 - p_f_e[f_w_e_w]
             p_notf = 1 - p_f[f_w]
             llr[e_w][f_w] += c_e_notf * math.log(p_notf_e/p_notf)
             
             # e- f+
-            c_note_f = c_f[f_w] - c_e_f[pair_to_int(e_w,f_w)]
+            c_note_f = c_f[f_w] - c_e_f[e_w_f_w]
             c_note = n_sentences - c_e[e_w]
             ## Sum conditional probabilities of all p(f|x) where x != e
             #p_f_note = 0
@@ -91,7 +96,7 @@ class InitModel:
             llr[e_w][f_w] += c_note_f * math.log(p_f_note/p_f[f_w])
             
             # e- f-
-            c_note_notf = n_sentences - c_e[e_w] - c_f[f_w] + c_e_f[pair_to_int(e_w,f_w)]
+            c_note_notf = n_sentences - c_e[e_w] - c_f[f_w] + c_e_f[e_w_f_w]
             p_notf_note = float(c_note_notf+1)/float(c_note+2)
             # p_notf has already been calculated
             llr[e_w][f_w] += c_note_notf * math.log(p_notf_note/p_notf)
