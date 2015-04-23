@@ -1,7 +1,7 @@
 import random
-from evaluation import compute_perplexity, compute_log_likelihood
 import math
 from collections import defaultdict
+import time
 
 MAX_SENTENCE_LENGTH = 100
 MAX_DICT_SIZE = 100000
@@ -197,7 +197,6 @@ class Model:
     def __init__(self, t={}, q={}, model_setup=Model1Setup(), num_iter=3):
         self.num_iter = num_iter
 
-        # TODO: Optimize
         self.t = t
         self.q = q
         self.model_setup = model_setup
@@ -240,7 +239,7 @@ class Model:
         Length of the foreign_corpus and source_corpus collections
         should be the same
     """
-    def train(self, foreign_corpus, source_corpus, clear=False, callback=None):
+    def train(self, foreign_corpus, source_corpus, clear=False, callback=None, uniform=False):
         if clear:
             print('Resetting weights')
             self.t = {}
@@ -254,15 +253,16 @@ class Model:
                 for f_w, i in zip(f, range(m)):
                     for e_w, j in zip(e, range(l)):
                         if (f_w, e_w) not in self.t:
-                            self.t[pair_to_int(e_w, f_w)] = random.random()
+                            self.t[pair_to_int(e_w, f_w)] = random.random() if not uniform else 0.1
                         if (j, i, l, m) not in self.q:
-                            self.q[quadruple_to_int(j, i, l, m)] = random.random()
+                            self.q[quadruple_to_int(j, i, l, m)] = random.random() if not uniform else 0.1
 
         # A bit bloody hack to link t and q again
         self.model_setup.t = self.t
         self.model_setup.q = self.q
 
         for t in range(self.num_iter):
+            print('Timestamp:', time.time())
             # Set all count c(...) = 0
             # c_e: e word occurence
             # c_e_f: e and f words occurence at the same time
@@ -297,7 +297,7 @@ class Model:
                         self.q[quadruple_to_int(j, i, l, m)] = c_ji_l_m[quadruple_to_int(j, i, l, m)] / c_i_l_m[triple_to_int(i, l, m)]
 
             if callback != None:
-                callback(self,t)
+                callback(self)
 
 
 def init_c_e_f(foreign_corpus,source_corpus):
