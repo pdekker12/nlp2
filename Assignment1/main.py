@@ -206,19 +206,19 @@ Copyright (c) Minh Ngo, Peter Dekker
         train_model1(model1)
     elif args.ibm == 'IBM-M1-AddN': 
         print('IBM model 1 with add-n smoothing')
-        for n in [1,2,5]:
-            for v in [0.1,0.5,0.7,1]:
-                print('n=' + str(n))
-                print('v=' + str(v * foreign_voc_size))
-                model1 = Model(model_setup=Model1ImprovedSetup(0,voc_size=v*foreign_voc_size,add_n=n), num_iter=iterations)
-                train_model1(model1)
+        #for n in [5]:
+        #    for v in [0.7,1]:
+        #        print('n=' + str(n))
+        #        print('v=' + str(v * foreign_voc_size))
+        model1 = Model(model_setup=Model1ImprovedSetup(0,voc_size=0.7*foreign_voc_size,add_n=2), num_iter=iterations)
+        train_model1(model1)
     elif args.ibm == 'IBM-M1-HeavyNull': 
         print('IBM model 1 with more weight on null alignment')
         #for w in [2,3,5,10]:
         #    print('null_weight=' + str(w))
         #    model1 = Model(model_setup=Model1ImprovedSetup(1,null_weight=w), num_iter=iterations)
         #    train_model1(model1)
-        model1 = Model(model_setup=Model1ImprovedSetup(1,null_weight=2), num_iter=iterations)
+        model1 = Model(model_setup=Model1ImprovedSetup(1,null_weight=10), num_iter=iterations)
         train_model1(model1)
     elif args.ibm == 'IBM-M1-HeurInit': 
         print('IBM model 1 with heuristic initialization')
@@ -231,9 +231,9 @@ Copyright (c) Minh Ngo, Peter Dekker
     elif args.ibm == 'IBM-M1-SmoothHeavyNull': 
         print('IBM model 1 with smoothing and heavy null')
         init_model = InitModel()
-        v = 0.05* foreign_voc_size
-        n = 1
-        w = 2
+        v = 0.7* foreign_voc_size
+        n = 2
+        w = 10
         model1 = Model(model_setup=Model1ImprovedSetup(3,voc_size=v,add_n=n,null_weight=w), num_iter=iterations)
         train_model1(model1)
     elif args.ibm == 'IBM-M1-AllImprove': 
@@ -241,9 +241,9 @@ Copyright (c) Minh Ngo, Peter Dekker
         init_model = InitModel()
         # Get heuristically initialized t from init model
         t_heur = init_model.train(foreign_corpus,source_corpus)
-        v = 0.05* foreign_voc_size
-        n = 1
-        w=2
+        v = 0.7* foreign_voc_size
+        n = 2
+        w=10
         model1 = Model(t=t_heur, model_setup=Model1ImprovedSetup(4,voc_size=v,add_n=n,null_weight=w), num_iter=iterations)
         train_model1(model1)
 
