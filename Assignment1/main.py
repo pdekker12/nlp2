@@ -108,7 +108,7 @@ Copyright (c) Minh Ngo, Peter Dekker
     # Remove sentence pairs where source or foreign sentence has length > 100
     short_source_corpus = []
     short_foreign_corpus = []
-    for f,e in zip(source_corpus,foreign_corpus):
+    for f,e in zip(foreign_corpus, source_corpus):
         if len(f) < MAX_SENTENCE_LENGTH and len(e) < MAX_SENTENCE_LENGTH:
             short_source_corpus.append(e)
             short_foreign_corpus.append(f)
