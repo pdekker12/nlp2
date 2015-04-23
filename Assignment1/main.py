@@ -3,6 +3,7 @@
 import argparse
 import sys
 from ibm import *
+from evaluation import compute_perplexity
 from pprint import pprint
 
 test_length=0
@@ -152,10 +153,7 @@ Copyright (c) Minh Ngo, Peter Dekker
     def stat_calculate(model):
         perplexity = compute_perplexity([model.translation_score_normalized(f, e)
                                          for f, e in zip(foreign_corpus, source_corpus)])
-        log_likelihood = compute_log_likelihood([model.translation_prob(f, e)
-                                                 for f, e in zip(foreign_corpus, source_corpus)])
-
-        print('Perplexity = %s, Log-likelihood = %s' % (perplexity, log_likelihood))
+        print('Perplexity = %s' % (perplexity))
 
         if args.wa:
             stat_a = 0
