@@ -10,7 +10,7 @@ MAX_DICT_SIZE = 100000
 pair_to_int = lambda e_w, f_w: e_w * MAX_DICT_SIZE + f_w
 
 # j - index of the e sentence, i - index of the f sentence, l - len(e), m - len(f)
-quadruple_to_int = lambda j, i, l, m:  ((j * MAX_SENTENCE_LENGTH + i) * MAX_SENTENCE_LENGTH + l) * MAX_SENTENCE_LENGTH + m
+quadruple_to_int = lambda j, i, l, m:  ((i * MAX_SENTENCE_LENGTH + j) * MAX_SENTENCE_LENGTH + l) * MAX_SENTENCE_LENGTH + m
 
 triple_to_int = lambda i, l, m: (i * MAX_SENTENCE_LENGTH + l) * MAX_SENTENCE_LENGTH + m
 
@@ -247,15 +247,33 @@ class Model:
 
             # Initialize language model's parameters by random variables
             # from 0 to 1
+            normalizing_coef_t = {}
+            normalizing_coef_q = {}
+            def add(collection, key, val):
+                if key in collection:
+                    collection[key] += val
+                else:
+                    collection[key] = 0
             for f, e in zip(foreign_corpus, source_corpus):
                 m = len(f)
                 l = len(e)
                 for f_w, i in zip(f, range(m)):
                     for e_w, j in zip(e, range(l)):
                         if (f_w, e_w) not in self.t:
-                            self.t[pair_to_int(e_w, f_w)] = random.random() if not uniform else 0.1
+                            val = random.random() if not uniform else 0.1
+                            add(normalizing_coef_t, e_w, val)
+                            self.t[pair_to_int(e_w, f_w)] = val
                         if (j, i, l, m) not in self.q:
-                            self.q[quadruple_to_int(j, i, l, m)] = random.random() if not uniform else 0.1
+                            val = random.random() if not uniform else 0.1
+                            add(normalizing_coef_q, triple_to_int(j, l, m), val)
+                            self.q[quadruple_to_int(j, i, l, m)] = val
+
+            for item_key, item_val in self.t.items():
+                self.t[item_key] = item_val / normalizing_coef_t[item_key // MAX_DICT_SIZE]
+            
+            for item_key, item_val in self.q.items():
+                self.q[item_key] = item_val / normalizing_coef_q[item_key % (MAX_SENTENCE_LENGTH ** 3)]
+                
 
         # A bit bloody hack to link t and q again
         self.model_setup.t = self.t
