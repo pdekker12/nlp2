@@ -162,16 +162,18 @@ class Model1ImprovedSetup:
     
     
     def compute_t(self,count,total_count,index):
-        if self.option==0 or self.option==3:
-            return (count + self.n)/(total_count + self.n * self.V)
-        if self.option==1 or self.option==3:
+        factor = 1
+        # Heavy null
+        if self.option==1 or self.option==3 or self.option==4:
             # Multiply weights of null words by a factor
             if index == 0:
-                return self.null_weight * (count/total_count)
-            else:
-                # Normal formula for other words
-                return count/total_count
-        return count/total_count
+                factor = self.null_weight
+        
+        # Add-n smoothing
+        if self.option==0 or self.option==3 or self.option==4:
+            return factor * ((count + self.n)/(total_count + self.n * self.V))
+        else:
+            return factor * (count/total_count)
 
 class Model2Setup:
     def __init__(self):
@@ -296,7 +298,7 @@ class Model:
                         self.q[quadruple_to_int(j, i, l, m)] = c_ji_l_m[quadruple_to_int(j, i, l, m)] / c_i_l_m[triple_to_int(i, l, m)]
 
             if callback != None:
-                callback(self)
+                callback(self,t)
 
 
 def init_c_e_f(foreign_corpus,source_corpus):

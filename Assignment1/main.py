@@ -82,7 +82,7 @@ Copyright (c) Minh Ngo, Peter Dekker
                         help='Number of iterations for the second stage', type=int)
 
     ibm_mode = ['IBM-M1', 'IBM-M2-Rand', 'IBM-M2-1', 'IBM-M2-Uniform',
-                'IBM-M1-AddN','IBM-M1-HeavyNull','IBM-M1-HeurInit','IBM-M1-AllImprove']
+                'IBM-M1-AddN','IBM-M1-HeavyNull','IBM-M1-HeurInit','IBM-M1-SmoothHeavyNull','IBM-M1-AllImprove']
     parser.add_argument('--ibm', choices=ibm_mode, default='IBM-M1', help='IBM Model mode')
 
     parser.add_argument('--wa', help='Denoted alignment file')
@@ -150,7 +150,7 @@ Copyright (c) Minh Ngo, Peter Dekker
                 if type_align == 'S':
                     alignment_count_s += 1
 
-    def stat_calculate(model):
+    def stat_calculate(model,iteration):
         perplexity = compute_perplexity([model.translation_score_normalized(f, e)
                                          for f, e in zip(foreign_corpus, source_corpus)])
         print('Perplexity = %s' % (perplexity))
@@ -212,26 +212,37 @@ Copyright (c) Minh Ngo, Peter Dekker
                 train_model1(model1)
     elif args.ibm == 'IBM-M1-HeavyNull': 
         print('IBM model 1 with more weight on null alignment')
-        for w in [2,3,5,10]:
-            print('null_weight=' + str(w))
-            model1 = Model(model_setup=Model1ImprovedSetup(1,null_weight=w), num_iter=iterations)
-            train_model1(model1)
+        #for w in [2,3,5,10]:
+        #    print('null_weight=' + str(w))
+        #    model1 = Model(model_setup=Model1ImprovedSetup(1,null_weight=w), num_iter=iterations)
+        #    train_model1(model1)
+        model1 = Model(model_setup=Model1ImprovedSetup(1,null_weight=2), num_iter=iterations)
+        train_model1(model1)
     elif args.ibm == 'IBM-M1-HeurInit': 
         print('IBM model 1 with heuristic initialization')
         init_model = InitModel()
         # Get heuristically initialized t from init model
         # v and n are best values of running only AddN extension on small test corpus
+        t_heur = init_model.train(foreign_corpus,source_corpus)
+        model1 = Model(t=t_heur, model_setup=Model1ImprovedSetup(2), num_iter=iterations)
+        train_model1(model1)
+    elif args.ibm == 'IBM-M1-SmoothHeavyNull': 
+        print('IBM model 1 with smoothing and heavy null')
+        init_model = InitModel()
         v = 0.05* foreign_voc_size
         n = 1
-        t_heur = init_model.train(foreign_corpus,source_corpus)
-        model1 = Model(t=t_heur, model_setup=Model1ImprovedSetup(2,voc_size=v,add_n=n,null_weight=2), num_iter=iterations)
+        w = 2
+        model1 = Model(model_setup=Model1ImprovedSetup(3,voc_size=v,add_n=n,null_weight=w), num_iter=iterations)
         train_model1(model1)
     elif args.ibm == 'IBM-M1-AllImprove': 
         print('IBM model 1 with all Moore improvements')
         init_model = InitModel()
         # Get heuristically initialized t from init model
         t_heur = init_model.train(foreign_corpus,source_corpus)
-        model1 = Model(t=t_heur, model_setup=Model1ImprovedSetup(3), num_iter=iterations)
+        v = 0.05* foreign_voc_size
+        n = 1
+        w=2
+        model1 = Model(t=t_heur, model_setup=Model1ImprovedSetup(4,voc_size=v,add_n=n,null_weight=w), num_iter=iterations)
         train_model1(model1)
 
 
