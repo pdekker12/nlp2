@@ -1,3 +1,450 @@
+2 . 
+2 . 
+oh , oh ! 
+oh , oh ! 
+oh , oh ! 
+let us remember , Mr. Speaker , that these segments of our society form the backbone of our economy . 
+hear , hear ! 
+hear , hear ! 
+Mr. Speaker , my question is directed to the Minister of Transport . 
+both have many years experience in the manufacture and distribution of forest products . 
+1 . 
+another point I should like to discuss is the right of the supplier to choose his customers as he sees fit . 
+i am getting sick and tired of ministers who seem to have some hang - up with regard to the collective bargaining process . 
+there is just one specific item more that I would like to comment upon and then I will sit down , Mr. Speaker . 
+order , please . 
+3 . 
+i can refer him to no better authority on the subject than the hon. member for Don Valley , not just myself . 
+it is quite understandable . 
+in addition , it could become a serious threat to Confederation and national unity . 
+in view of this , we deemed it inadvisable to attend the meeting and so informed COJO . 
+Mr. Speaker , the minister suggested that a greater building program might lead to inflationary pressure . 
+i disagree with the argument advanced by the minister . 
+there is a lot to be said on both sides of that question . 
+order . 
+Mr. Speaker , as I indicated to the Leader of the Opposition , I would hope to make an announcement on this question on November 1 . 
+quite right . 
+it does not bring anybody closer to rehabilitation to isolate him from the public . 
+he left a wife and family . 
+on a point of order , Mr. Chairman , I am sure the hon. member for Verdun would not have denigrated my position . 
+can the insurance industry in turn act as an airline ? 
+i say this to you , Mr. Speaker : the people of Toronto know the government has no answers . 
+their evidence on the state of each stock was taken fully into account . 
+thank you very much , Mr. Speaker , and I thank hon. members for allowing me the privilege to continue . 
+i urge this intensive study , Mr. Speaker , for we know so little about the reasons that turn people into criminals . 
+the government must assist its own employees who may need another language to advance their careers . 
+i do not have any qualms about the type of language I use . 
+motion agreed to . 
+Mr. Speaker , no decision has been reached as yet but I should think so . 
+the matter of trade relations with our European counterparts should be very seriously considered . 
+what we should be concerned with in this country is the situation when these animals are shipped out of Canada for this purpose . 
+they have already given an indication of the branches they intend to close . 
+this minister watched while half the proceeds and profits of the Canadian agriculture industry were swept away in a budget speech . 
+Mr. Chairman , absolutely none . 
+we are analysing the report now and I hope to have some information for the House in the near future . 
+hear , hear ! 
+hear , hear ! 
+i would therefore move , seconded by the hon. member for Dartmouth - Halifax East ( Mr. Forrestall ) : 
+when we realize the extent of the ravages caused by organized crime in our country , we must consider deep - rooted solutions . 
+but oh how their popularity soared and they coasted through on that . 
+( 2 ) A committee is bound by , and not at liberty to depart from , the order of reference . 
+there is one other point I should like to make , and I do so as I feel this is a general debate . 
+in December there was an announcement that British Columbia would be withdrawing from CEMA . 
+they have also given rise to considerable opposition by hon. members in all parties on this side of the House . 
+those are not the lines that one should be concerned about at this time . 
+i have allowed the hon. member two supplementaries and in fairness I think we should go to some other hon. members . 
+i think that is good . 
+i think that the time taken in handling routine applications for changes of facilities along a pipeline , for example , has been too long . 
+he is the minister who is responsible for science and technology , and he does not know . 
+federal government carpenters get $ 6.42 in Toronto and $ 5.23 in Halifax and Moncton . 
+for the record I would like to refer to a press release which followed the federal - provincial conference of attorneys general in October , 1975 . 
+Mr. Speaker , I rise on a point of order . 
+i think the railroad term is « demand loading » . 
+i will come to the cost of boats these days . 
+in most provinces , general noise regulations have been implemented , the main principle of which is as follows : 
+agreed . 
+after all , energy is used by people throughout the nation , and the government might well consider an approach using the incentive to which I have referred . 
+6 . 
+i will be glad , when we have time , to sit down with hon. members and work this matter out on a productive and prospective basis . 
+will the minister take action to clear up any difficulties because of the absolute need for placing the orders now , and not some months from now ? 
+it will spur the construction of new fishing boats and cause new processing facilities to be built . 
+there are many things I could say about Bill C - 19 . 
+i am going to say something a bit later on about that because I think it is essential to the kind of debate we are having this afternoon . 
+companies find that the rules are complicated , cumbersome and changing all the time . 
+Mr. Speaker , my question is for the minister in charge of the Canadian Wheat Board . 
+i understand that a rate of at least 70 per cent per annum is being contemplated . 
+it is our hope to make a decision this week . 
+we accept your view . 
+they fought an election on that position . 
+12 . 
+Mr. Speaker , I say to that : what a cruel hoax , because a hoax it is . 
+Mr. Speaker , we will try to stick to that suggestion . 
+1 . ( a ) $ 98,355 . ( b ) They are distributed through major post offices across the country . 
+crime is a national problem according to our constitution , while law enforcement is a provincial and local responsibility . 
+i submit that what I say is pertinent to the bill , to moneys being spent on medicare and the manner in which they are spent . 
+a few words about this disease might help to put things into perspective . 
+fortunately they are fewer this year , more reasonable and responsible , more conciliatory . 
+this bill has been before the House for more than a year . 
+retired December 30 , 1975 following completion of 34 years of public service . 
+passage of the hon. member 's motion would mean that the content requirements are spelled out in the statute and we could debate them . 
+this does not necessarily indicate non - compliance on the part of the parties . 
+i was not asking for a detailed explanation as to what he was doing . 
+how can so much be asked , on the one hand , and so little answered on the other ? 
+as a result , perhaps he will bring in different legislation which will not lay him open to the charge of censorship . 
+either they do their job properly , or you must get the power so that you can be sure that they do it properly . 
+in our national capital we have all the strains and all the divergencies of our country . 
+hon. John N . Turner ( Minister of Finance ) moved : 
+as much as I hate to admit it , there has been good legislation brought in by Liberal governments in this country -- 
+as the member for the neighbouring riding I am well aware of his persistence and hard work . 
+where is the AIB ? 
+at the moment , that fact , unfortunately , is seen in two - thirds of the country not as an opportunity , but as a barrier to opportunity . 
+do not force a moratorium down our throats . 
+this not the first time that members of parliament are going to hear that . 
+the same recommendation was made in the report of the Standing Committee on Privileges and Elections on April 29 of last year . 
+Mr. Speaker , I am afraid the hon. member is ill informed . 
+in the MOT accident report it is stated : 
+Mr. Speaker , the federal offer was for a $ 100 million program . 
+in most samples of this size -- that is , a group of over 500 -- this would be called negligible . 
+the traditional procedure for seeking new borrowing powers is to attach a clause to supply bills brought before the House . 
+this strikes at the roots of democracy , and it is the right of the people to know . 
+this would relieve the pressure on oil . 
+the Special Investigation Division has not been in existence since early 1975 . 
+moreover , this is not a matter of saying whether we are for or against some sort of assistance for adoptive parents . 
+let us see the documents . 
+canada has continued to give its support to the NATO alliance as an absolutely indispensable deterrent and an absolutely indispensable assurance of our security . 
+can you believe such a ban in 1978 ? 
+no , Mr. Chairman . 
+naturally , the government attempts to get the best possible deal for the Canadian public in any series of negotiations . 
+i would add , Mr. Speaker , that it must be continued . 
+if I want any statistics as to where this country stands , certainly I will not refer to the speech made by the Prime Minister . 
+we looked at all the implications of that . 
+perhaps it would be a good idea for me to quote a Timmins newspaper because maybe it relates to the hon. member . 
+Mr. Speaker , indeed I have the final report from the Prairie Rail Action Committee . 
+( ii ) ( a ) Three vehicles will be used by six Canadian experts related to the provision of technical assistance . 
+1979 . 
+and we will implement every recommendation in the Auditor General 's report , something which we have been calling for over the last ten years . 
+first , Mr. Speaker , I should like to make a few general remarks . 
+Mr. Chairman , I will see if there is such a figure available , but I would quarrel with the words of the hon. member . 
+i know he would not want to divert me from responding to a very serious question by his colleague . 
+continually we get the message from across the way that this program will cost the government something . 
+that is the crowd which did not like the 18 cents . 
+what is at issue here is the principle that the public of Canada has a right to know about the constitution of Canada . 
+they want to pick and choose what they will support . 
+do you have it in writing ? 
+i realize , Mr. Chairman , that there is no magic solution . 
+in 1978 Americans divorced 1,122,000 times . 
+the very result of unemployment breaks up families , and contributes to excessive alcohol and drug use . 
+the official opposition was trying to destroy Petro - Canada in the short six months it was in office . 
+instead of causing an internal schism , 
+and now they are applauding themselves for voting against security of supply . 
+as to making contributions , I am reminded of a story . 
+madam Speaker , I would like to hear from the hon. member before I move my motion . 
+the previous speaker also mentioned they would like to have the provinces involved in preparations for any meetings . 
+my friend from Toronto says 53 more years . 
+all of those estimates indicate that Canada will be in much more trouble as a result of the National Energy Program than we were in before . 
+Mr. Prime Minister : 
+indeed , there will be more divisiveness than positive effects . 
+world - wide inflation is causing a severe form of economic dislocation . 
+the PT7 represents the beginning of a new family of engines in a power range above that of the highly successful PT6 engine . 
+Mr. Speaker , I welcome the opportunity to join in this adjournment debate -- 
+the competition policy is as vital to an industrial strategy as the over - all plan or the specific set of plans which should be developed . 
+we are now talking about $ 45 billion to construct the pipeline . 
+these flaws are all reflected in this bill . 
+at this stage of the debate of the resolution , there are three specific amendments which my party proposes to introduce . 
+the government cannot claim that there is any change in the balance of ways and means . 
+a substantial provision of federal assistance for regional development comes under this program , RIDA , and subsidiary units . 
+what did the government do ? 
+he said that if we use unemployment as the solution to inflation , we will get recovery . 
+conservation is beginning to have its effect . 
+there could be a steel mill in British Columbia , for example . 
+order , please . 
+that is why professionals should not be charged for their work in progress . 
+i believe , Mr. Speaker , that what is happening today is a good thing but it is just the beginning . 
+however , the people of Canada are responsible for making those payments . 
+we are now faced with legislation that is designed to withdraw from programs that were introduced at a time when we could afford them . 
+that is why we had to import 25,000 skilled workers into this country at a time when unemployment was rising . 
+as Carter said back in the 1960s , « A buck is a buck is a buck » and should be taxed as such . 
+order , please . 
+all of this means a total cut over the next two years of $ 2,958 , or 15 per cent of the original $ 20,000 salary . 
+we heard in the news this morning that the Heath - Steele mine in northern New Brunswick is being closed down . 
+they are ready to follow our leadership . 
+we have a number of those kinds of programs and discussions going on at the present moment . 
+out of that momentum of ideas and activity , we have to ask ourselves , why has the development problem not been solved ? 
+i would like to end on a positive note , Mr. Speaker . 
+i want to make it plain , Mr. Speaker , that the federal government does not set retail prices . 
+the House met at 2 p.m. 
+i remind hon. members that the minister in respect of transmission lines referred to the same power that now exist . 
+that is truly a laudable goal with which we all agree . 
+madam Speaker , I have a supplementary question for the Minister of Transport . 
+let me come now to Petro - Canada . 
+this will result in tremendous savings . 
+unfortunately , no one seems to know what the effect will be . 
+we have allowed a subgovernment across the country to remove power from the House of Commons . 
+that is quite substantial . 
+what exactly is going on over there ? 
+madam Speaker , I will be very brief . 
+that Government simply tells the people what is good for them . 
+it is the seasonally adjusted figures which show the .5 per cent drop which are the important figures . 
+the Chair is really embarrassed by what is taking place . 
+Mr. Speaker , I am sorry , I have not seen the statement by a British firm . 
+fewer volunteers are available because so many women have returned to the work force . 
+they work with them . 
+it depends on the extent to which they apply themselves . 
+i do not know if there is a Member in this House who would oppose allocating more money for the elderly . 
+they also have a role to play in the food chain . 
+this has given a more democratic element to the things we were faced with in our constituency . 
+the problem is to obscure the memories of everyone who heard the Minister 's stupid statements of a week ago . 
+will the Ministry fill in the ravine at the end of runway 24L at the Pearson International Airport at Toronto ? 
+if we ever introduce such legislation , I will remind him of his offer . 
+my response is , so what ? 
+this , Sir , is what I recommend to the House . 
+whether that will do any good , I do not know . 
+that is the principle which must guide the Alliance in the future as we seek fair and verifiable agreements with the Soviet Union . 
+i guess the same kind of answer would have to apply to the matter of automobiles . 
+they are bringing before the House a Bill that will restrict those liberties . 
+for debate , the Hon. Member for Bow River ( Mr. Taylor ) . 
+Mr. Speaker , I rise on a point of order . 
+the Government refuses to believe it . 
+those were very challenging commitments , a sort of preview of what the very important agricultural sector might become . 
+there are two revolving - door syndrome and gating . 
+i hope he will be back with that mobilized public opinion . 
+i think the argument being made by the Government is faulty . 
+however , we do have enough money to bail out two banks . 
+order . 
+it can be stolen just as other types of property can be stolen . 
+and , second , Mr. Speaker , what we have been doing since last November is building up a climate of confidence . 
+members should know that credit unions are a very big factor in financial institutions in western Canada . 
+the Member for Cochrane - Superior ( Mr. Penner ) said earlier tonight that the onus is on the Government to free up its Members . 
+that is my point . 
+what of women who live far from centres where these services are available ? 
+they ask the Members of this House to put an end to all cuts in personnel at these shops . 
+it is not a question of joining ; we are well ahead . 
+in an article written by Dr. Kenneth Hare , recognized in this country as being one of our foremost atmospheric scientists , the following appears : 
+the impact is pervasive . 
+in other words , a subsidy of about $ 2 per bushel will come from the Reagan administration to the grain farmers of the United States . 
+the full report will be coming in before the fall . 
+if these rules were put in place , would we indeed be treating everyone in the same way ? 
+in them this former distinguished Speaker of the House talked about sexual harassment where some women had to disrobe to qualify for their jobs . 
+i am simply alerting Members to a problem that I see , given what has been happening . 
+the Conservatives while in Opposition , of course , said quite the contrary to what they are doing now . 
+in point of fact , both the Minister of Justice and the Solicitor General have responded fully , as best human beings can . 
+does the Deputy Prime Minister believe that this is the way for a responsible Government , or an independent nation , to make an international treaty ? 
+the parliamentary subcommittee is considering the whole question of equality rights . 
+the fact is that no applications involving fewer than four student employees is being subjected to any test of whether or not the jobs are career oriented . 
+we also want a series of objective criteria based on factors such as those I am referring to . 
+if we proceed on that basis in this or in any other direction in public life , we will always be able to find excuses . 
+then you brought in your program , the hotel went down the tube and Fort St. John became a ghost town . 
+well , in six months , we did consult , we sat down with the Minister and hammered out an agreement . 
+the Right Hon. Member might disagree with her perspective as well . 
+" let us try it , " they say , " and see if it works . 
+approximately $ 3 million of this amount is allocated from DREE funds , with the remainder being committed by the Department of Indian Affairs and Northern Development . 
+it cannot be stressed too often that Canadians are disturbed by the increase in violent crime . 
+grain exports are projected to fall by 25 per cent in the 1984 - 85 crop year . 
+we are so far behind in this field it makes the whole country feel embarassed . 
+they do not really change the status . 
+there is no longer any distinction to be made on a rational basis between an intermediate range and an intercontinental range nuclear missile . 
+could I ask the Member for Western Arctic for a brief answer , if possible . 
+greater Victoria is a tourist mecca . 
+that tax will not be collected and then refunded . 
+there has been a commitment in the past that their participation rate would go at least to historic levels if not traditional levels . 
+that is to say , at the request of the person who may be going to declare his refugee claim . 
+that is the actual situation . 
+equalization payments have become quite considerable through the years . 
+it has been a matter of concern to representatives of all parties . 
+i would also like to advise the House that there was a degree of consultation with respect to the PC caucus members from Manitoba . 
+the part played by military personnel and their families in the life of the town will be long remembered in a most favourable light . 
+with great respect , I must interrupt . 
+i explained it then . 
+if the Prime Minister said that he was willing to resume negociations with Quebec , why are they in such a hurry to pass this Bill ? 
+in fact , that is why a number of my colleagues have spoken out quite vigorously on the subject . 
+i should like to put on the record just exactly what is in the notes on the financial statement of March 31 , 1984 . 
+that judgment is sent to the individual in question . 
+that does not make sense . 
+Mr. Speaker , many authorities were involved in acting on this emergency . 
+however , what happened to the studies that were conducted after that incident occurred ? 
+there was a clear understanding by the former Minister of Transport that these regulations would not be promulgated for a year . 
+i feel that is an attitude in Cabinet which we do not have the luxury of allowing to continue . 
+in other words , Mr. Speaker , the Government must implement the recommendations of the Commissioner of Official Languages . 
+they will then reduce the number of jobs because what they buy will be a duplication of other operations they have . 
+it is at the second stage of review that the Supreme Court has ruled that a hearing is compulsory . 
+as for lawyers specialized in immigration matters , the Bar takes upon itself to penalize them . 
+the alternative in terms of foreign investment is loan capital . 
+does he want to wait until the economy of those rural areas is completely down before responding to the acid rain problem ? 
+i think that should not be too difficult to understand . 
+however , we must not forget that the majority of beef and pork producers have rejected outright any mechanisms for marketing stabilization . 
+if I had been in Bryce 's position , I would have been right in there with my nose to the public trough with the rest of them . 
+in other words , we consider that the political role and the administrative role should be kept separate . 
+as a result , the Government had to take steps to see that the company was taken over . 
+all of these heritage places are managed by Parks Canada for the benefit and enjoyment of all Canadians . 
+as I indicated earlier in this ruling , such discrimination was not envisaged in the Bill when it was given second reading . 
+there is a role for both the public and the private sector . 
+there will be more criticism , perhaps , because this Government , as I understand it , is committed to making things more open to the public . 
+that is not good enough . 
+he was the one who told us that the construction of a maintenance centre for VIA Rail in Montreal would be indefinitely postponed . 
+but then Mr. Baldwin said : 
+we want full public disclosure of company commitments involved in take - overs of Canadian business . 
+there is also a need to co - ordinate with provincial Governments as to what certain areas require . 
+they are of the opinion that by just changing the name from FIRA to Investment Canada we are going to have an automatic inflow of dollars . 
+can the Minister tell this House what position the Canadian Government will take in this regard ? 
+it is nine months since the election of this Government and we have yet to see a Budget . 
+we currently allow the Canadian amateur athletic associations to be registered , and it is my belief that we should allow the provincial groups as well to be registered . 
+a Canadian amateur athletic association by definition includes federal associations but does not include their provincial counterparts . 
+to this battle Canada gave 1,800 gallant sailors and 24 proud ships . 
+i find it incredible that the President of the Treasury Board would be laughing about a matter as serious as this . 
+they have also asked for additional funding . 
+well , everyone would agree with that . 
+it is no wonder that there was no permanent chief executive officer for over 12 months . 
+the Minister spoke of meetings and I applaud that . 
+we had to put that in St. John 's . 
+that is an accurate description of what is happening . 
+they cannot be treated in isolation . 
+he obviously does not like the co - op people in eastern Canada . 
+the federal Government has a responsibility to be a policing agent . 
+it wants to increase the percentage of its part - time workers to 45 per cent of its total work force . 
+in the last Manitoba provincial election , 900 mail - in votes were received and were mostly from urban voters . 
+what does basic common sense say ? 
+standards are actually stricter in abattoirs built according to Quebec regulations . 
+technicians make more than the writers and playwrights whose works are being performed . 
+they were all leftists . 
+it is well done . 
+yes , we are a small nation and we are vulnerable because of our size . 
+Mr. Wyman has many years of experience in the financial market sector . 
+let 's think about that for just a moment . 
+i do not think we should beat around the bush any longer about how to set things right . 
+it says that resource impact funding helps Indian people to get a piece of the action . 
+one of the major objectives of these consultations is to make sure that the recovery benefits all . 
+Mr. Speaker , I think that in his speech , the Hon. Member from Baie - Comeau misrepresented reality . 
+it is a matter of elementary justice that women 's jobs be fairly evaluated . 
+we intend to continue this discussion with the benefit of the views of a wide range of interested parties . 
+i think particularly of single parents . 
+the Minister of Regional Economic Expansion treats all matters related to Quebec with a great deal of fairness and honesty . 
+as a matter of fact that net farm income reached its lowest level since 1970 and the third lowest level since 1938 , some 45 years ago . 
+in the Laval - Deux - Montagnes area , $ 225,000 was spent in 1984 but only $ 30,000 will be spent this year Mr. Speaker . 
+this particular Minister made personal election promises that he would not only consult with fishermen but that he would be readily available when problems arise . 
+that investment is being neglected , primarily in British Columbia . 
+the outstanding issue has been the failure to make a funding commitment for the ERDA agreement . 
+he should come clean on this issue this afternoon instead of giving us all this gobbledy - gook . 
+he said that British Telecom « has not demonstrated its marketing savvy or product management ability » . 
+foreign investment was running Canada as though it were the fifty - first State . 
+it does not conduct research and development . 
+the first question is : why does agriculture require stabilization ? 
+as a general rule , all the producers of any given commodity are affected simultaneously by a cost - price squeeze . 
+we have a diversified riding . 
+so the real problem is that farmers are leaving farming . 
+let us go to the question of what the public seems to be saying on this issue of Senate reform . 
+as this is what is required , it is the target the Government has in mind . 
+that , I believe , we all find unacceptable , regardless of political Party . 
+let me return to the Bill which is before us . 
+it is a mistake to do what the Tories are proposing to do to differentiate their Bill . 
+we know how painful that can be for people who are going through a period of their life which is not particularly joyful . 
+the establishment of such a system should therefore be a priority in each province where it does not already exist . 
+we have been colleagues for a long time . 
+it will help Canadian companies to accelerate their return to a healthy financial position by attracting new equity investment . 
+the universal family allowance is maintained . 
+research is a low priority . 
+oh ? 
+there are increased costs for shampoo and drinks for kids , pet food , gas , and even heating the home . 
+this technique is not unusual on the basis of precedents . 
+similarly , under the last Liberal Budget , personal income increased in 1984 by 7 per cent . 
+but the Government treats itself to lavish spending and engages in bailing out corporations . 
+there will be improved survivor benefit regulations for women , standards for pension benefit splitting on marriage breakdown , and equality standards . 
+in fact , if one adds in some other things resulting from the Western Accord , I think it is more likely to be 2.8 cents per litre . 
+we follow through with our election pledges . 
+we must revive our economy , create jobs , rationalize government spending , administer with increased efficiency . 
+it does not make a lot of sense , particularly when you look at who is paying . 
+what will they do with that capital ? 
+that is roughly equal to the $ 440 million paid to Canadair in two years . 
+from these hearings , it became obvious that the major concern was capital gains . 
+it indicates to individual Canadians that for too long Government has made their decisions for them . 
+that brings to mind the hundreds of young Canadians I met recently , most of them quite disillusioned . 
+this is why I cannot find myself supportive of the request for additional funding for the Government by way of borrowing . 
+the Hon. Member says : « neglected Quebec » , and I agree . 
+i was glad to hear that Crown corporations with a commercial value but no ongoing public policy purpose will be sold . 
+we have taken these considerations very much into account when we designed the Budget . 
+will the Prime Minister live up to that commitment ? 
+can the Minister clarify the effect of the reduction ? 
+thus far , I have been describing the physical aspects of my constituency . 
+we believe they will accept the challenge . 
+can he tell them that is fair ? 
+it has been years and years since our business community got such a vote of confidence from Government . 
+the Progressive Conservative Party of Canada is providing the opposition . 
+they stood to a person and applauded loudly . 
+eight . 
+no , Mr. Speaker , not quite . 
+i would like now to go into the theory behind the removal of capital gains tax . 
+it will increase poverty in the most vulnerable people , senior citizens , who will not be able to go out and find other sources of income . 
+CFB Moose Jaw is also the home of the Snowbirds , Canada 's aerobatic air team . 
+our caucus heard the other day from the Atlantic provinces economic council . 
+come on , give us a break ! 
+that is one major problem . 
+i wish to direct the majority of my comments today to the many improvements offered in the pension programs available to all Canadians . 
+furthermore , the erosion of the cost base of assets by inflation was also regarded as something that should be compensated for . 
+the Budget is realistic because it takes a balanced and sensible approach . 
+that is not the interest or concern of this Government . 
+they voted for a change in the national affairs of our nation . 
+on a point of order , Mr. Speaker . 
+the facts are clear . 
+the motion of the Hon. Member for Beaches therefore gives us an opportunity to do in this House what everyone else is now doing throughout the country . 
+they also have a technical library , and the company spends nearly $ 2 million annually on these research services . 
+second , we want to assist Canadian businesses to exploit opportunities for investment and technological advancement . 
+not only are the risks greater but the time required to prepare for marine re - supply is lengthy . 
+Mr. Speaker , once again the Liberal and NDP forecasters of economic doom and gloom have been proven wrong . 
+i am not going to bother boring the House with those answers again . 
+however , when we came into office we discovered that the trend line was going up . 
+only the document cited need to be tabled by a Minister . 
+furthermore , there is the provision in our resolution of having had to serve for a period in excess of 365 days in Canada as the basis of eligibility . 
+the Government said that it had not had time to talk to either group about that proposal . 
+in other words , the writing is on the wall . 
+they were saying that homeowners would lose again because interest rates were rising . 
+our international role has somehow collapsed . 
+for instance , if we look at crop insurance , the federal Government has put up half the premiums and the producers have put up the other half . 
+so we cannot think in those terms . 
+the Minister has said that the only problem with Candu and the whole nuclear power option is a marketing one . 
+why was it that I was receiving those kind of representations ? 
+» that is what the present Prime Minister told the former Prime Minister . 
+most of them are unable to work . 
+a few days ago my colleague from Essex - Windsor gave the House a history lesson . 
+the article reads : 
+he said that he was burning oil . 
+the Government has yet to come to the point of determining how and when this change should take place . 
+i referred earlier to the bet taken up by the Prime Minister ( Mr. Mulroney ) concerning employment as related to immigration . 
+however , we see in the legislation before us today only two substantive amendments and a number of housekeeping amendments to the Bill . 
+we as a society cannot afford to discriminate among individuals on that sort of basis . 
+this type of federal - provincial co - operation is required to increase the sensitivity and efficiency of our current disease surveillance systems . 
+he suggested that June at least would be a better time . 
+in 1934 , the company was renamed the Northern Transportation Company Limited , still under private ownership . 
+i do commend the Minister of Transport for following through on the original terms of reference . 
+then and only then does the private sector rush in saying that it cannot have all these publicly - owned corporations interfering in the private sector . 
+specialty services such as stand - by supply vessels for the Beaufort Sea oil and gas industry can be provided by others . 
+unfortunately or fortunately , however one views the issue , that particular Minister has not met with very much success . 
+however , perhaps the Chair could dispose of Motion No. 1 . 
+on the west coast we have the Minister 's Advisory Committee which , while not perfect , is at least of assistance . 
+this is a fine example of a partnership in progress between government and industry . 
+Mr. Speaker , my question is directed to the Minister of Transport . 
+Mr. Speaker , let me be clear . 
+within the Government of Canada , a number of Departments have been actively involved and have been proceeding in a co - operative and coordinated fashion . 
+however , the contradiction between what he said and what has been said by his officials requires further independent investigation . 
+i know that we are trying to do it , at the federal level through the Farm Credit Corporation . 
+these are key economic indicators . 
+production is being expanded with the development of a sixth farm at Bowden Institution in Alberta . 
+that was the principle of the Bill as passed on second reading . 
+surely no one , and particularly no member of the Conservative Party , would believe that . 
+the people of Canada did that on September 4 . 
+call in the Members . 
+we think that now is the time for the regulations and procedures to be properly established . 
+the point was well taken because the success of these agreements will depend to a considerable degree upon the quality of their administration . 
+canada can be proud of its record on human rights and should serve as an example of tolerance to other countries . 
+whose advice did he follow in making his decision , in that his officials rejected it ? 
+Mr. Speaker , I am pleased that the Prime Minister has provided the information in the House . 
+may I therefore ask the Hon. Member to refrain from any further displays . 
+why did the Prime Minister appear prepared to disregard his promise in the first place ? 
+Mr. Speaker , I am always amused by these probing questions from the Liberal Party , the Party which says that it would control the deficit . 
+surely the Hon. Member is not suggesting that we levy taxes on companies that have been losing money . 
+Mr. Speaker , the premise of the question put by the Hon. Member is wrong . 
+how many people are employed ( a ) directly or by contract ( b ) full time and part time , in the Office of the Prime Minister ? 
+the fees paid to each performer were in keeping with the role played in the gala and with the standards of the Union des Artistes . 
+during the Liberal administration nothing was done about it . 
+they know about the overproduction problem . 
 36 th Parliament , 2 nd Session 
 edited HANSARD * NUMBER 1 
 contents 
@@ -4998,450 +5445,3 @@ the Deputy Speaker :
 the Chair is satisfied that the bill is in the same form as Bill C - 440 was at the time of prorogation of the 1 st session of the 36 th parliament . 
 accordingly , pursuant to Standing Order 86 ( 1 ) the bill is deemed read the second time and referred to the Standing Committee on Justice and Human Rights . 
 ( bill read the second time and referred to a committee ) 
-* * * 
-auditor GENERAL ACT 
-Mrs. Christiane Gagnon ( Qu é bec , BQ ) moved for leave to introduce Bill C - 203 , an act to amend the Auditor General Act ( Poverty Commissioner ) . 
-the bill is the same in form as Bill C - 490 , which I introduced in the House of Commons during the preceding session . 
-( motions deemed adopted , bill read the first time and printed ) 
-the Deputy Speaker : 
-the Chair is of the opinion that this bill is in the same form as Bill C - 490 was when the first session of the 36 th Parliament was prorogued . 
-therefore , pursuant to Standing Order 86 ( 1 ) , the order for second reading of this bill will be placed at the bottom of the order of precedence in the Order Paper . 
-* * * 
-employment INSURANCE ACT 
-Mr. Paul Szabo ( Mississauga South , Lib . ) moved for leave to introduce Bill C - 204 , an act to amend the Employment Insurance Act ( parental benefits ) . 
-the 1996 national longitudinal survey on children and youth found that 25 % of Canadian children enter adult life with significant emotional , behavioural , academic or social problems . 
-the bill responds in part to the need to provide more flexibility , options and choices to parents by amending the Employment Insurance Act to provide up to one full year of maternity and parental leave benefits under that act . 
-i am pleased to reintroduce the bill and I hope we will have the support of the entire House . 
-( motions deemed adopted , bill read the first time and printed ) 
-* * * 
-income TAX ACT 
-Mr. Michel Guimond ( Beauport - Montmorency - C ô te - de - Beaupr é - Î le - d ' Orl é ans , BQ ) moved for leave to introduce Bill C - 205 , an act to amend the Income Tax Act ( deduction of expenses incurred by a mechanic for tools required in employment ) . 
-this bill is at the same stage and in the same form as was Bill C - 502 at the time of prorogation of the first session of the 36 th Parliament , and I am requesting that it be reinstated in the order of precedence . 
-i would remind hon. members that this bill was a votable item . 
-i would remind the government House leader that , in the rather chaotic end of session last June 10 , I had to cut 20 minutes off my speech . 
-he had then given me his consent to have another 20 minutes to speak . 
-( motions deemed adopted , bill read the first time and printed ) 
-the Deputy Speaker : 
-the chair is of the opinion that this bill is at the same stage as was Bill C - 502 at the time the first session of the 36 th Parliament was prorogued . 
-consequently , pursuant to Standing Order 86 ( 1 ) , the order for second reading of this bill will be placed at the bottom of the order of precedence in the Order Paper and it will be designated as a votable item . 
-* * * 
-access TO INFORMATION ACT 
-Mr. John Bryden ( Wentworth - Burlington , Lib . ) moved for leave to introduce Bill C - 206 , an act to amend the Access to Information Act and to make amendments to other acts . 
-what it does is substantially reforms the Access to Information Act . 
-i have 112 seconders to this bill , mainly from the Liberals , the Reform and the Bloc Quebecois . 
-( motions deemed adopted , bill read the first time and printed ) 
-* * * 
-criminal CODE 
-Mr. Speaker , I am very pleased to introduce the former Bill C - 461 , an act to amend the Criminal Code to prohibit coercion in medical procedures that offend a person ' s religion or belief that human life is inviolable . 
-the seconder for the bill is the hon. member for Huron - Bruce . 
-the purpose of the bill is to ensure that health providers working in medical facilities of various kinds will never be forced to participate against their wills in procedures such as abortions or acts of euthanasia . 
-the bill itself does not ban abortion or euthanasia , but it makes it illegal to force another person to participate in an abortion procedure or an act of euthanasia . 
-incredibly there are medical personnel in Canada who have been fired because the law is not explicit enough in spelling out their conscience rights . 
-the bill will make those rights explicit . 
-( motions deemed adopted , bill read the first time and printed ) 
-* * * 
-crown LIABILITY AND PROCEEDINGS ACT 
-Mr. Speaker , it is my pleasure to reintroduce this bill . 
-its purpose is to ensure that a person serving time in prison will not be able to sue the federal government or its employees under any federal legislation in respect of a claim arising while the person is under sentence . 
-if enacted , the bill would put an end to the practice of prisoners engaging in frivolous lawsuits against the federal government and their abuse of the legal system . 
-i urge all members in the House to give serious consideration to the bill . 
-( motions deemed adopted , bill read the first time and printed ) 
-* * * 
-criminal CODE 
-it would thus make it a criminal offence for an adult to engage in sex with children under the age of 16 . 
-the bill was first introduced in 1996 and reintroduced in 1997 . 
-however , the growing concern over child pornography and child prostitution in the country makes it even more urgent for the enactment of this legislation to protect the young and vulnerable in our society from predators among us . 
-for the sake of our children I appeal to members of the House to give serious consideration to the bill and lend their support accordingly . 
-( motions deemed adopted , bill read the first time and printed ) 
-* * * 
-bank OF CANADA ACT 
-withdrawing the $ 1,000 note will allow us to lead a more effective fight against money launderers , something most Quebecers and Canadians support . 
-( motions deemed adopted , bill read the first time and printed ) 
-* * * 
-income TAX ACT 
-Mr. Paul Cr ê te ( Kamouraska - Rivi è re - du - Loup - T é miscouata - Les Basques , BQ ) moved for leave to introduce Bill C - 211 , an act to amend the Income Tax Act ( travel expenses for a motor vehicle used by a forestry worker ) . 
-this legislation seeks to amend the Income Tax Act to allow a reasonable tax deduction for forestry workers who work far from their place of residence , so that the Income Tax Act is an incentive to work and not the reverse . 
-this bill is in response to a request made by several forestry workers in my riding and in my region . 
-these people deserve to be encouraged . 
-when a person agrees to travel 300 , 400 , 500 or 600 kilometres to make a living , it is normal that the government should grant a corresponding deduction . 
-( motions deemed adopted , bill read the first time and printed ) 
-* * * 
-canada LABOUR CODE 
-Mrs. Monique Guay ( Laurentides , BQ ) moved for leave to introduce Bill C - 212 , an act to amend the Canada Labour Code , the Parliamentary Employment and Staff Relations Act , and the Public Service Staff Relations Act ( prohibited provision in a collective agreement ) . 
-the bill ' s purpose is to prohibit clauses in collective agreements that discriminate against new arrivals in the labour market and to ensure that these workers enjoy the same pay and benefits as previously hired workers . 
-( motions deemed adopted , bill read the first time and printed ) 
-* * * 
-shipbuilding ACT , 1999 
-Mr. Antoine Dub é ( L é vis - et - Chutes - de - la - Chaudi è re , BQ ) moved for leave to introduce Bill C - 213 , an act to promote shipbuilding , 1999 . 
-basically , it consists of three measures : a loan guarantee program specific to shipbuilding ; a leasing write - off provision ; a shipbuilding tax credit similar to the one that already exists in Quebec . 
-these three measures were proposed two years ago by the Canadian shipbuilders ' association and had the support of the interunion coalition of 4,000 shipbuilding workers in Canada . 
-( motions deemed adopted , bill read the first time and printed ) 
-* * * 
-treaties ACT 
-Mr. Daniel Turp ( Beauharnois - Salaberry , BQ ) moved for leave to introduce Bill C - 214 , an act to provide for the participation of the House of Commons when treaties are concluded . 
-its ultimate aim is to democratize the process whereby Canada concludes such treaties . 
-( motions deemed adopted , bill read the first time and printed ) 
-* * * 
-tabling OF TREATIES ACT 
-Mr. Daniel Turp ( Beauharnois - Salaberry , BQ ) moved for leave to introduce Bill C - 215 , an act for the tabling of treaties in the House of Commons . 
-( motions deemed adopted , bill read the first time and printed ) 
-* * * 
-treaty APPROVAL ACT 
-Mr. Daniel Turp ( Beauharnois - Salaberry , BQ ) moved for leave to introduce Bill C - 216 , an act to provide for the approval of treaties by the House of Commons . 
-( motions deemed adopted , bill read the first time and printed ) 
-* * * 
-treaty PUBLICATION ACT 
-Mr. Daniel Turp ( Beauharnois - Salaberry , BQ ) moved for leave to introduce Bill C - 217 , an act to provide for the publication of treaties . 
-( motions deemed adopted , bill read the first time and printed ) 
-* * * 
-conclusion OF TREATIES ACT 
-Mr. Daniel Turp ( Beauharnois - Salaberry , BQ ) moved for leave to introduce Bill C - 218 , an act to provide for consultation with provincial governments when treaties are negotiated and concluded . 
-i am pleased to introduce this bill and I hope that it will be passed so the signing of treaties can be made a truly democratic process by involving parliamentarians . 
-( motions deemed adopted , bill read the first time and printed ) 
-* * * 
-business OF THE HOUSE 
-hon. Don Boudria ( Leader of the Government in the House of Commons , Lib . ) moved : 
-that , during the first thirty sitting days of the present Session of Parliament , whenever a Minister of the Crown , when proposing a motion for first reading of a public bill , states that the said bill is in the same form as a bill introduced by a Minister of the Crown in the previous session , if the Speaker is satisfied that the said bill is in the same form as at prorogation , notwithstanding Standing Order 71 , the said bill shall be deemed in the current session to have been considered and approved at all stages completed at the time of prorogation of the previous session . 
-i would then later ask for two other motions to be put as well . 
-the Deputy Speaker : 
-does the House give its unanimous consent to proceed in the manner outlined by the government House leader ? 
-some hon. members : 
-agreed . 
-the Deputy Speaker : 
-accordingly the question is deemed to have been put , a division deemed demanded and deferred until the conclusion of Government Orders later this day . 
-the matter is therefore disposed of at this time . 
-i will proceed to put Motion No. 2 to the House . 
-hon. Don Boudria ( Leader of the Government in the House of Commons , Lib . ) moved : 
-that , during the first thirty sitting days of the present Session of Parliament , whenever a private Member submits a notice of motion that he or she submitted in the previous Session and that stood in the order of precedence pursuant to Standing Order 87 at the time of prorogation , if the Speaker is satisfied that the said motion is in the same form as at prorogation , it shall stand on the Order Paper pursuant to Standing Order 87 after those of the same class , with the same designation accorded to it pursuant to Standing Order 92 ( 1 ) in the previous Session . 
-the Deputy Speaker : 
-is it the pleasure of the House to adopt the motion ? 
-some hon. members : 
-agreed . 
-( motion agreed to ) 
-hon. Don Boudria ( Leader of the Government in the House of Commons , Lib . ) moved : 
-that , notwithstanding the provisions of Standing Order 81 ( 10 ) ( b ) , there shall be seven days allotted to the business of supply pursuant to Standing Order 81 in the period ending December 10 , 1999 . 
-the Deputy Speaker : 
-is it the pleasure of the House to adopt the motion ? 
-some hon. members : 
-agreed . 
-( motion agreed to ) 
-Mr. Sarkis Assadourian : 
-Mr. Speaker , I rise on a point of order . 
-i was a few minutes late and I would ask for the unanimous consent of the House to present a private members ' bill . 
-the Deputy Speaker : 
-* * * 
-petitions 
-gasoline ADDITIVES 
-Mrs. Rose - Marie Ur ( Lambton - Kent - Middlesex , Lib . ) : 
-Mr. Speaker , pursuant to Standing Order 36 , I wish to present a petition which has been certified correct as to form and content . 
-the petitioners are from the Grand Bend and London areas . 
-the petition states that the use of the additive MMT in Canadian gasoline presents an environmental problem affecting every man , woman and child in Canada . 
-the petitioners call upon parliament to set by the end of this calendar year national clean fuel standards for gasoline with zero MMT and low sulphur content . 
-the CONSTITUTION 
-Mr. Randy White ( Langley - Abbotsford , Ref. ) : 
-Mr. Speaker , I wish to table a petition incited by the hon. member of the New Democratic Party as being a problem in this country . 
-the petitioners ask the House that parliament oppose any amendments to the Canadian Charter of Rights and Freedoms or any other federal legislation which will provide for the exclusion of reference to the supremacy of God in our Constitution and laws . 
-the petitioners also mention that the majority of Canadians believe in the God who created heaven and earth and are not offended by the mention of his name in the preamble of the charter of rights and freedoms . 
-this is tabled for the attention of the House and for the attention of the hon. member of the NDP who created this mess in the first place . 
-agriculture 
-Mr. Rick Borotsik ( Brandon - Souris , PC ) : 
-Mr. Speaker , I have two petitions to table that are of the same nature with respect to agriculture . 
-there are 122 pages of signatures . 
-the petitions state that the federal minister of agriculture has introduced the agricultural income disaster assistance program fully knowing the shortfall as it relates to agriculture in western Canada and that he has failed to set forth a support program that fully reflects the true needs of agriculture . 
-* * * 
-questions ON THE ORDER PAPER 
-Mr. Derek Lee ( Parliamentary Secretary to Leader of the Government in the House of Commons , Lib . ) : 
-Mr. Speaker , I ask that all questions be allowed to stand . 
-the Deputy Speaker : 
-is that agreed ? 
-some hon. members : 
-agreed . 
-* * * 
-request FOR EMERGENCY DEBATE 
-immigration 
-Mr. Leon E . Benoit ( Lakeland , Ref. ) : 
-Mr. Speaker , pursuant to Standing Order 52 I request leave to make a motion for adjournment of the House for the purpose of discussing a specific and important matter requiring urgent consideration . 
-over the summer months it became evident that a crisis exists in our immigration and refugee determination system . 
-canada has become a primary target for illegal migration . 
-this is causing a problem with queue jumping . 
-people who are using the normal process are extremely concerned that their process is being held up as a result of poor handling of the refugee determination process by the government . 
-there are three recent events I would like to quickly refer to which demonstrate the need for an emergency debate . 
-i do not think it is acceptable in a country like Canada to have a system that is working so poorly that people are being detained for months and years while they await the outcome of the determination process . 
-second , Mayor Lastman , the mayor of Toronto , Canada ' s largest city , has publicly expressed concern about our immigration system , in particular our refugee determination system which is working so poorly that it is putting an extra cost burden on his city . 
-he wants the government rather than the city to bear that burden if the government is not going to fix the system . 
-third , yesterday , according to media reports the premier of Ontario has written a letter to the government and to the immigration minister saying he is fed up with the system working so poorly . 
-he wants the government to fix the system because his province cannot bear the costs . 
-it is important that we debate this issue immediately to send a signal to people smugglers and those who would use their services that Canada will no longer be an easy mark . 
-we must put in place legislation that will make this process happen within days and weeks rather than months and years as is currently the situation and which will quickly end the virtual slave trade that is building in our country . 
-people smugglers are bringing people in illegally and putting them into slave - like conditions . 
-that is something Canadians cannot accept . 
-for those reasons , it is important that we have an emergency debate today to change the law to fix these problems . 
-the Deputy Speaker : 
-the Chair appreciates the intervention of the hon. member for Lakeland . 
-it is the view of the Chair that his application for an emergency debate does not meet the exigencies of the standing order at this time . 
-government ORDERS 
-speech FROM THE THRONE 
-resumption OF DEBATE ON ADDRESS IN REPLY 
-Mr. Chuck Strahl : 
-Mr. Speaker , I rise on a point of order . 
-during the remainder of the debate on the Speech from the Throne the Reform Party members will be dividing their speaking time . 
-Mrs. Karen Redman ( Kitchener Centre , Lib . ) : 
-Mr. Speaker , I will be sharing my time with the member for Parkdale - High Park . 
-as in the last six years , Canada continues to be the UN ' s choice as the number one country in which to live . 
-this week ' s throne speech set out a strategy that will ensure we maintain our number one ranking . 
-it signalled the government ' s plan to build on the quality of life for all Canadians . 
-in the years to come we will address the challenges of globalization and the demands placed on a knowledge based society . 
-we have committed to bring down the personal income tax levels of Canadians and to invest in families and in children . 
-the government has set out a plan that addresses our diversity and responds to our responsibilities as a global leader . 
-today I will take some time to explore this throne speech and how it relates to my riding and the constituents of Kitchener Centre . 
-first I would like to review the government ' s record . 
-let me begin with unemployment rates . 
-they are at their lowest level since 1990 . 
-i am pleased to report to this House that the Waterloo region has the lowest unemployment rate among municipal centres across the nation , a rate of 4.9 % . 
-we have consistently increased our investments in research and technology and we have supported small and medium size enterprises . 
-in my community Industry Canada has worked in partnership on the creation of the business enterprise centre which houses the Canada - Ontario Business Service Centre . 
-this centre provides one stop shopping for entrepreneurs . 
-users of the centre have access to extensive and current information and tools which enable them to both succeed and grow . 
-the region of Waterloo is a microcosm of the changes that are happening across the nation . 
-a generation ago no one could have envisaged a vibrant local economy that lacked the kind of family businesses such as Seagram ' s and Labatt ' s , nor could they have imagined the changes that we have seen at Schneider ' s meats , yet these changes have occurred . 
-today in Kitchener we see an ever increasing number of small businesses starting up . 
-across the country over 80 % of the new jobs created are by this sector and many are in the high tech area . 
-Waterloo region has seen incredible growth in the high tech sector . 
-our community has not only thrived but remained on the cutting edge of a competitive global economy . 
-this week ' s throne speech clearly indicates a strong commitment to building our economy through developing a skilled labour force and providing the necessary research dollars and tools for small emerging companies . 
-the Liberal government will ensure that skilled development keeps pace with the evolving industries and markets . 
-this will be accomplished through the sectoral councils in close consultation with industry leaders . 
-the government has once again acknowledged the importance of foreign investors in Canada . 
-for Canada ' s technology triangle this is good news . 
-the CTT has been funded by the federal government to attract foreign investors to areas such as Kitchener . 
-they are working and spreading the news about Canada . 
-it is this type of organization with which we must encourage and foster relationships . 
-we must also support companies that will help us meet our environmental obligations under agreements such as the Kyoto protocol . 
-our environment is also affected by our infrastructure . 
-as a former regional and municipal representative I have witnessed the benefits of working in partnership on programs such as our national physical infrastructure . 
-in the throne speech we have indicated our will to continue to work with all levels of government and the private sector to achieve a five year plan for improving the infrastructure in both urban and rural areas across Canada . 
-this will be a commitment that will be reached by the end of the year 2000 . 
-children and youth are the country ' s key to success in the 21 st century . 
-it is the responsibility of government and community , family , friends and teachers to open doors and encourage young people to seize their dreams . 
-i first entered politics to assure that the decisions of government were working in the best interests of my four children . 
-during my 10 years as a member of parliament I have taken special interest in the youth of Kitchener . 
-through visits to classrooms and graduations , I have had the pleasure to meet the young people who will be the leaders of tomorrow . 
-i have been pleased to support organizations such as the KOR Gallery and art studio . 
-this studio was created by another mother who wanted to see the greatest opportunities possible for her very talented son and other young artists in the Waterloo region . 
-KOR Gallery has been supported by the federal government and has received half a million dollars throughout its years . 
-in the spring of this year the Prime Minister ' s task force on youth entrepreneurship spent a day in my community meeting with young entrepreneurs and visiting their businesses . 
-the task force heard that our youth need support to gain access to funding and resources . 
-we are responding to those requests . 
-our goal is to give today ' s young generation of Canadians , no matter where they live , the tools and the opportunities for personal success in the knowledge economy . 
-we will provide them with career information and access to work experience and learning . 
-we will hire them to work on Internet projects . 
-we will offer them the opportunity to apply their talents overseas through youth international internship programs . 
-for example , this past summer Kitchener was the proud host of the skills Canada competition . 
-the event , in connection with two other competitions , received $ 800,000 from the youth employment strategy fund . 
-skills Canada is an important project because it gives our youth the opportunity to compete with young people from around the world . 
-the competition tested participants in over 40 trade , technological and other skill areas . 
-i can think of no better way to encourage tomorrow ' s leaders . 
-our children and our families deserve a high standard of living . 
-this will require , as never before , an adaptable , resilient population that is ready to learn throughout life . 
-it is clear that the foundation for such capacities is laid in the very early years of life . 
-i firmly believe that the strength of our society will depend on the investments we make today as a nation in families and in children . 
-the government has committed to making a third significant investment in the national child benefit by the year 2002 . 
-we will put more dollars in the hands of families with children through further tax relief . 
-we will lengthen and make more flexible employment insurance benefits for parental leave . 
-we have been responding to these areas in the past years and we will continue to be committed to these issues . 
-this nation has a high quality of life . 
-it is a nation of which we should be proud . 
-it is a nation that others envy . 
-our Prime Minister has provided us with a strong direction and an unwavering commitment for unity . 
-the new millennium will be wonderful for all Canadians . 
-the new millennium will be a bright one for all Canadians . 
-Mr. Myron Thompson ( Wild Rose , Ref. ) : 
-Mr. Speaker , with all the fluff that flies around here it is a wonder we do not break out with allergies . 
-i wonder if the member has ever visited the reserves across our country , as I have for the last two years , to see the quality of life . 
-the government continually talks about how wonderful we are in this land . 
-i wonder if the member of parliament has ever walked the streets of Toronto , Vancouver or other major cities and visited with the people who are on the streets , who are homeless , who are experiencing this wonderful quality of life we keep hearing about from this minister . 
-i wonder if the member and the government recognize the extreme value of Mike Harris , Ralph Klein and other premiers , and how much they have contributed and sacrificed in order to make things happen in their provinces , with no thanks to this government . 
-in spite of the government , they have managed to achieve many things . 
-i wonder if the member is aware that only this morning it was declared that there has been a 66 % increase in poverty in one year . 
-one out of every six children is going to school hungry . 
-one year ago it was not that bad . 
-i wonder if the member is proud of a government that spends money to hang dead rabbits in a museum or to form a committee to study whether we should have a national insect . 
-the government is doing all this funny fuzzy spending while we get these kinds of reports . 
-what kind of a record is that ? 
-what are the member and the government going to do about these things that are real and actual , that are happening on our reserves and on the streets of our country ? 
-we talk about the quality of life while we hang dead rabbits in museums and search for a national insect . 
-when is the government going to wake up , and what is the member going to do about it ? 
-Mrs. Karen Redman : 
-Mr. Speaker , I would like to thank the member opposite for the temporary promotion to minister . 
-i had the pleasure this past summer of going to the Arctic region and the Northwest Territories of this land and was very proud to see the process in place for self - government . 
-as recently as last April we saw the creation of Nunavut . 
-i will tell the member that the government is working very hard with our aboriginal people , who do not speak with one voice , to come up with self - government and empower them to use their voices to create what the next century will look like for them . 
-i also point out for the member opposite , if he would like to look at the Speech from the Throne , that there is reference made to the social union . 
-one of the things that the social union does is allow all levels of government , with the leadership of the federal government , to stop pointing fingers at each other and to engage in solutions of the kind the Minister of Labour has heard in communities as she crossed Canada looking at the homelessness issue and looking at a variety of ways that all governments can work together to solve this problem . 
-it is a national concern of the government , but not one that merely demands having money thrown at it . 
-the social union structure allows Canadians to hold all levels of government accountable . 
-the one thing the government will not do is risk financial gains by having a balanced financial picture and dressing down the deficit . 
-we will not run deficits to give tax cuts , which is happening in Ontario . 
-Ms. Sarmite Bulte ( Parkdale - High Park , Lib . ) : 
-Mr. Speaker , it is with great pride that I rise today in the House of Commons as a member of the government to address the Speech from the Throne , a speech which I can proudly say has been heralded as a return to traditional Liberalism . 
-i would like to thank our new governor general for her eloquent delivery of the Speech from the Throne and I congratulate her on her appointment . 
-the Government of Canada cannot undertake this strategy alone . 
-it can only do so in partnership and in collaboration , by working together with other governments , the provinces and the territories , the private sector , the volunteer sector and individuals . 
-in fact , there is not a page in the Speech from the Throne which does not note the importance of working together or use the words " collaboration " or " partnership '' . 
-at the very beginning of the Speech from the Throne it is stated unequivocally as follows : 
-the best way to achieve the promise of Canada for every citizen is to work together to build the highest quality of life for all Canadians . 
-as a passionate advocate of Canada ' s arts and culture and as the member of parliament for a constituency which is home to many of Canada ' s artists , including writers , singers , actors , performers , filmmakers and producers , I had started to hear concerns that investments in Canada ' s culture had become stagnant , that other interests and interest groups had overshadowed the importance of a continued investment in the arts. 
-i was actually confronted with concerns that the last two budgets had not addressed any new programs or incentives for our arts and cultural sectors , save and except those programs which had been envisaged in red book II , the Liberal election platform . 
-while those programs and funding proposals had indeed been implemented , the fact still remained that these were not new commitments . 
-where was the vision for this sector that would lead Canada into the next century and ensure our cultural sovereignty and our national identity ? 
-the concerns voiced by the arts community have been addressed and I applaud the government on its vision and leadership in continuing to promote our Canadian arts and cultural sectors . 
-the following are the themes that I trust will reassure and enhance our arts and cultural communities . 
-the government is now committed to ensuring that younger Canadians , from age 13 , are given an opportunity to apply their creative abilities by providing them with a chance to produce their first works using traditional approaches and new technologies in the arts , cultural , digital and other industries . 
-this commitment acknowledges the importance of arts in making children creative and preparing them for a knowledge based economy . 
-there is substantial empirical evidence to show that children who are exposed to the arts , especially music , at a very early age score much higher on the math and science components of the SAT examinations than those who are not exposed . 
-in November 1997 an article appeared on the front page of the arts section of the Globe and Mail which confirmed this evidence and concluded that arts , not computers , make kids creative . 
-the article stated : 
-arts education is not only cheaper , it may be essential training for a more creative flexible world . 
-arts , not IBM , makes kids smarter . 
-the article also went on to say that arts education by focusing on the creative process prepares our youth for the highly skilled jobs that our country requires and will require in the future . 
-this statement gives new meaning and life to the maxim that culture is a third pillar of our foreign policy . 
-the government also committed to use the upcoming WTO negotiations to build a more transparent rules based trading system which not only provides for better access in world markets for Canadian companies in all sectors but also respects the needs of Canadians , especially culture as is noted . 
-it will put collections from the National Archives , the National Library and other key institutions on line . 
-specifically the speech also notes and vows to increase support for the production of Canadian stories and images in print , theatre , film , music and video , and the government has committed to increase support for the use of new media . 
-in dealing with physical infrastructure the government has agreed that it will work with other levels of government and the private sector to reach agreement on a five year plan for improving physical infrastructure in urban and rural communities across the country . 
-one of the areas of focus specifically noted for physical infrastucture was culture . 
-in the city of Toronto plans are under way to build a new state of the art opera house . 
-in Winnipeg the Manitoba Theatre Centre , at 41 years of age and Canada ' s oldest English speaking regional theatre , is in desperate need of repair . 
-this need has also launched a private sector campaign to refurbish its two buildings . 
-this theme brings new hope to a request by the cultural community to restore funding for the arts in general and infrastructure matters in particular . 
-more important , this commitment to improve physical infrastructure for culture appears to be a direct response to recommendations 32 and 33 of the Standing Committee on Canadian Heritage report entitled " A Sense of Place , A Sense of Being : 
-the Evolving Role of the Federal Government in Support of Culture in Canada '' , which was tabled in the House of Commons in June . 
-these recommendations call upon the Government of Canada to re - establish a capital fund and a long term financial strategy to deal with Canada ' s deteriorating cultural facilities . 
-i applaud the government for its quick response to the committee ' s report . 
-in the section of the Speech from the Throne entitled " Canada ' s Place in the World '' , the government stated that it would act like like - minded countries to reform and strengthen international institutions such as the World Trade Organization . 
-it also specifically noted that it would work to develop a new approach internationally to support the diversity of cultural expression in countries around the world . 
-this commitment is a direct endorsement of the report of the cultural industries sectoral advisory group dated February 1999 wherein it was recommended that the government champion a new cultural trade covenant , a new international instrument that would lay out the ground rules for cultural policy . 
-in addition , this commitment to a new approach internationally to support the diversity of cultural expression also is a direct response to recommendation 29 of the report of the Standing Committee on Foreign Affairs and International Trade entitled " Canada and the Future of the World Trade Organization : 
-advancing a Millennium Agenda in the Public Interest '' , tabled in the House of Commons in June . 
-recommendation 29 specifically calls upon the government to pursue the policy alternative contained in the cultural SAGIT report for a new international instrument on cultural diversity . 
-again I applaud the government for its quick response to the report and for the commitment to implement this recommendation . 
-all Canadians , every citizen , every government , every business and every community organization , have a part to play . 
-Mr. Jason Kenney ( Calgary Southeast , Ref. ) : 
-Mr. Speaker , I have a lot of time for the hon. member and I appreciate her commitment to the arts. 
-it is very heart warming . 
-however I would like to know what the member thinks about what the federal government actually does with its so - called investments , that is to say wasteful spending in arts and culture . 
-what does the hon. member think of the quarter of a million dollar investment of the minister of heritage in Bubbles Galore ? 
-does she think the federal government ' s cultural agenda should include producing pornographic films ? 
-what does she think about Hanging the Dead Rabbits ? 
-does she think that is an important investment in the cultural future of Canada in the 21 st century ? 
-does she think that is necessary to defend our cultural sovereignty ? 
-a few years ago , in part through a federal grant , the Vancouver Art Gallery exhibited something called Piss Pope , a picture of the Holy Father submerged in a jar of the artist ' s urine . 
-that was another expenditure by the federal government of our tax dollars . 
-we could go on and on and on about the kind of absurd , disgusting , wasteful excuse for art which the government finances . 
-how does the hon. member apologize for that ? 
-Ms. Sarmite Bulte : 
-Mr. Speaker , the opposition member has reported some instances of what he calls wasteful expenditure . 
-i must say that I see any kind of expenditure in our art and cultural industries as an investment . 
-it is an investment in who we are and what we are . 
-everyone does not have the same taste but culture and art is a wide - ranging sector . 
-it gives us a sense of place and a sense of being , as the Standing Committee on Canadian Heritage so eloquently put it . 
-i recommend to my hon. colleague that he actually take a look at that report and at the recommendations made by that committee . 
-Mr. Richard M. Harris ( Prince George - Bulkley Valley , Ref. ) : 
-Mr. Speaker , there must be many Canadians who voted for the Liberal Party that are feeling pretty embarrassed right now that the member would stand to defend the disgusting display of art or excuse for art that was just talked about by my colleague from Calgary . 
-the Liberal member stood to defend spending on that trash that she refers to as art and a good investment . 
-she owes Canadians a huge apology for her confirmation that taxpayers dollars were spent on that kind of disgusting culture and art , as she referred to it . 
-she probably owes an apology to some of her colleagues that were not very pleased with her response to the member from Calgary . 
-Ms. Sarmite Bulte : 
-Mr. Speaker , I am pleased to rise today to support the government and the Minister of Canadian Heritage on continuing investment in the arts and cultural industries in our country . 
-they are not only a vital part of our economic growth but , as I have said time and time again , they are an investment in who we are , what we are , our identity and our cultural sovereignty . 
-let us never forget that arts and culture sovereignty is inextricably involved with our economic sovereignty . 
-i am proud to be a member of the government and to support its commitment to arts and culture . 
-Mr. Monte Solberg ( Medicine Hat , Ref. ) : 
-Mr. Speaker , it is a pleasure to speak to the throne speech today and to be back with colleagues on this side of the House . 
-in response to the hon. member who just spoke , it is contrary to what most Canadians believe when she suggests that they should have their tax money forcibly taken from them and given to projects which are completely contrary to their values , the things they believe in . 
-some people have very strong religious beliefs , for instance . 
-it is completely wrong and I believe most Canadians think it is completely wrong when their tax dollars are forcibly taken to devote to things those people would consider to be blasphemous . 
-that is exactly what the Liberal government does , and I cannot believe it sits there and defends it . 
-at the beginning of a year most people sit down to make some new year resolutions . 
-when they have the resources to do that , that is exactly what they do . 
-as the government moves into not only a new year but a new decade , a new century , and a new millennium , I would think it would want to do that too . 
-it should want to make a special effort to set about reforming how it does things . 
-i would argue , and I think most Canadians would agree with me when I say it , there are many areas where the government is simply not doing a good job . 
-it is not doing a good job in providing national defence . 
-it is not doing a good job in our justice system . 
-there is lots of room for improvement in the delivery of health care and social services . 
-it is not doing a good job in ensuring that government is accountable . 
-it was a lot of tinkering , and that certainly characterizes this administration . 
-when we wipe away all the rhetoric in the 24 page throne speech , what are we left with ? 
-we are left with an announcement that the government will make an announcement about tax relief at some point in the future . 
-we are also left with a whole slew of tax increases which are coming our way very soon . 
-on January 1 we will see a payroll tax hike because Canada pension plan taxes are going up once again . 
-we will see small business face a tax increase because their small business exemption will be eroded by inflation . 
-they will pay more in taxes . 
-it will be the same for the small business capital gains exemption and for farmers and their capital gains exemption . 
-that will mean a tax increase for all those people . 
-that is the reality . 
-all this talk that we hear on the other side about how much the government cares about taxes really does not amount to a whole lot when we look at what it will actually do . 
-it will raise taxes . 
-the government talks about its plan to cut taxes . 
-we will hear about that in the next few days . 
-it is to reduce taxes by $ 16.5 billion , but it does not say at the same time that it is raising taxes by over $ 18 billion . 
-the net result is that Canadians who now face the highest taxes in Canadian history will face even higher taxes thanks to the finance minister and the Liberal government . 
-that is wrong . 
-it is wrong for a couple of reasons . 
-first and probably most important , it is wrong because it hurts people . 
-if the government really were compassionate and wanted to be fair and provide people with options and opportunities , it would have devoted the first 12 pages of the throne speech to explaining how it would deliver tax relief to help hard - pressed Canadians . 
-it is unbelievable that we stagger under this tremendous tax burden today where families who earn less than $ 20,000 a year are paying $ 6 billion a year in taxes . 
-my friend from Crowfoot told me not long ago about a woman and in fact I saw her income tax return . 
-she made $ 11,000 and paid $ 600 in federal income tax . 
-that is shameful and that party claims to be compassionate . 
-we have raised many examples in this place of people who make extraordinarily low incomes and pay extraordinarily high taxes . 
-i could go through some examples but I want to talk for a moment about an example presented to me yesterday by my friend from North Vancouver . 
-he gave me a letter from a woman whose husband makes $ 65,000 a year , which is a pretty good salary in most people ' s minds . 
-the result is the family has to take one car off the road . 
-they simply cannot put aside enough money to help them get through what will be a layoff period for this man . 
-it is very disturbing when a person makes $ 65,000 and he can barely make it because of the tax burden imposed by the government . 
-i happened to be looking through some documents which were confidential until we received them through access to information a little while ago . 
-even the minister ' s own briefing notes acknowledge that Canada has by far the highest tax burden in the entire G - 7 . 
-out of all of our trading partners , out of all of the most prosperous nations in the world , we have by far the highest personal income taxes . 
-i always find it amazing that in Canada today people pay more in taxes than they spend on food , shelter and clothing combined . 
-when we add all of that up , it does not leave much left over . 
-when all those taxes are paid and money is spent on the bare necessities of life , there is very little left over . 
-that is why we are in a position in Canada today where we have seen disposable incomes mired at 1980 levels . 
-for 20 years we have had our disposable incomes mired at that 1980 level . 
-there was much airy talk in the throne speech about Internet programs and acting as a big travel agency for young people and sending them around . 
-that is really nice but it is not a luxury we can afford today , not when Canadians are staggering under that level of taxation . 
-it is ridiculous . 
-if the government were really fair , it would acknowledge that it was Canadians who balanced that budget for it . 
-does the House realize that the average family today is paying taxes 30 % higher than it was six years ago ? 
-that is $ 4,300 , a staggering number . 
-it is not the finance minister nor the government that balanced the budget ; it was balanced on the backs of taxpayers . 
-fairness decrees that they should now get some tax relief . 
-i want to speak just a little bit about the situation on the farm today . 
-i come from a farm riding . 
-i want to talk about how taxes hurt farmers . 
-do hon. members realize that taxes are embedded in just about every input they can think of ? 
-fuel taxes take up about 50 % of the price of fuel . 
-on fertilizer and chemicals and machinery , taxes take up 15 % , 20 % to 30 % of the price of those things . 
-if we could lower taxes we could help people in a direct way on the farm , but we do not see that coming from this government . 
-in conclusion , I simply want to say that the fairest way to treat Canadians as we go into the next millennium is to lower their tax burden . 
-they will take those resources and use them to help their families and to help children , which is something that the government claims it is concerned about . 
-Canadians will use those resources to help their friends and their neighbours and to strengthen their own situation . 
-ultimately , I think most Canadians would agree that a dollar left in the hands of the taxpayer will be a lot better utilized than a dollar left in the hands of a politician or a bureaucrat . 
-Mr. Richard M. Harris ( Prince George - Bulkley Valley , Ref. ) : 
-Mr. Speaker , I would like to thank my colleague , the Reform Party finance critic , for his excellent presentation in debate today . 
-i would like him to centre in on one thing which I think is of a huge concern to Canadian families . 
-Mr. Monte Solberg : 
-Mr. Speaker , I am pleased to address that question from my colleague from Prince George - Bulkley Valley . 
-the fact is that Canadians have seen their disposable income stuck at 1980 levels . 
-for the things the government claims it cares about most , for instance children , it means that children are put in a terrible position . 
-not long ago I received a letter which had been passed on to me by the member for Cariboo - Chilcotin . 
-in that letter a young woman explained that because of the EI rate of this government and the fact that people were not getting those employment insurance premiums back , she could not afford to put her young son into hockey . 
-that is the sort of thing that happens on a day to day basis across the country . 
-it was not very long ago when the leader of the Reform Party brought a family from New Brunswick to Ottawa and explained what the Reform plan of reducing taxes would do for that family . 
-about $ 3,000 would go back to that family . 
-we actually gave them that money . 
-what did they use it on ? 
-they also used it to pay back an RRSP that they had to cash in to pay their tax bill . 
-Mr. Grant McNally ( Dewdney - Alouette , Ref. ) : 
-Mr. Speaker , it has become quite clear that the Liberal Party , the Government of Canada , is using a new code word for its favourite thing to do which is spending , and that word is investment . 

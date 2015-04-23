@@ -1,3 +1,450 @@
+2 . 
+2 . 
+oh , oh ! 
+oh , oh ! 
+oh , oh ! 
+souvenons - nous , monsieur le Orateur , que ce sont ces secteurs de notre société qui servent de épine dorsale à notre économie . 
+bravo ! 
+bravo ! 
+monsieur le Orateur , ma question se adresse à le ministre chargé de les transports . 
+tous deux possèdent de nombreuses années de expérience dans la fabrication et la distribution de les produits forestiers . 
+1 . 
+je voudrais aussi parler de le droit de le fournisseur de choisir ses clients à son gré . 
+je en ai assez de voir que les ministres semblent éprouver certains complexes à le égard de la négociation collective . 
+je voudrais commenter un autre point particulier , monsieur le Orateur , avant de me taire . 
+a le ordre . 
+3 . 
+il ne y a pas de meilleure autorité en la matière que le député de Don Valley , non pas moi exclusivement . 
+ce est tout à fait compréhensible . 
+en outre , elle pourrait constituer une sérieuse menace pour la Confédération et le unité nationale . 
+pour cette raison , nous ne avons pas cru bon de assister à la réunion et en avons informé le COJO en conséquence . 
+monsieur le Orateur , le ministre a laissé entendre que un programme de construction plus considérable peut - être une poussée inflationniste . 
+je ne partage pas le avis de le ministre . 
+il y a beaucoup à dire sur les deux aspects de cette question . 
+a le ordre . 
+monsieur le Orateur , comme je le ai signalé à le chef de le opposition , je espère faire une déclaration à ce sujet le1er novembre . 
+ce est bien cela . 
+ce ne est pas en isolant quelque un que on le aide à se réadapter . 
+il laissait une femme et une famille . 
+monsieur le président je invoque le Règlement ; je suis persuadé que le député de Verdun ne aurait pas déprécié ma position . 
+les compagnies de assurance peuvent - elles à leur tour , agir comme compagnies aériennes ? 
+je vous le déclare , monsieur le Orateur , la population de Toronto sait que le gouvernement est incapable de fournir une réponse . 
+on a tout à fait tenu compte de leur avis sur le état de la réserve de poisson . 
+je vous remercie , monsieur le Orateur , et je remercie les députés de me permettre de poursuivre . 
+je réclame instamment cette étude approfondie , monsieur le Orateur , car nous ne savons presque rien de les raisons qui transforment les gens en criminels . 
+le gouvernement doit aider ses propres employés qui peuvent avoir besoin de une autre langue pour leur avancement . 
+je ne ai pas de scrupule quant à le genre de langage que je tiens . 
+( la motion est adoptée . ) 
+monsieur le président , la décision ne est pas prise à ce moment - ci , mais je imagine que ce est oui . 
+la question de les relations commerciales avec nos homologues européens devrait être envisagée très sérieusement . 
+ce dont nous , les Canadiens , devons nous soucier , ce est les cas où on exporte ces animaux dans ce but - là . 
+ils ont déjà indiqué les embranchements que ils songeaient à fermer . 
+ce ministre assurait la garde tandis que la moitié de les recettes et de les bénéfices de le industrie agricole canadienne étaient balayés par le exposé budgétaire . 
+en aucune façon , monsieur le président . 
+nous en faisons actuellement le analyse et je espère que bientôt la Chambre pourra être saisie de les renseignements pertinents . 
+bravo ! 
+bravo ! 
+je proposerais donc , avec le appui de le député de Halifax - East ( M. Forrestall ) : 
+quand on a saisi le énormité de le ravage exercé par le crime organisé dans notre pays , on doit envisager de les solutions en profondeur . 
+leur popularité a monté en flèche et ils ont traversé la crise avec facilité grâce à cela . 
+( 2 ) Un comité doit se en tenir à le ordre de renvoi et ne saurait y déroger . 
+je voudrais préciser un autre point , et je le fais parce que je estime que il se agit de un débat général . 
+en décembre , la Colombie - Britannique a fait savoir que elle allait se retirer de le Office canadien de commercialisation de les oeufs . 
+bien de les députés de tous les partis de ce côté - ci de la Chambre se y sont également fortement opposés . 
+ce ne est pas de ces lignes que il faudrait se inquiéter pour le instant . 
+le député a pu poser deux questions supplémentaires et , en toute justice , je pense que nous devrions laisser la parole à de autres députés . 
+je crois que ce est une bonne chose . 
+je crois que il a pris trop de temps à étudier de les demandes courantes de changements de installations le long de un pipe - line , par exemple . 
+le ministre de État chargé de les Sciences et de la Technologie devrait connaître son rayon . 
+les menuisiers de le gouvernement fédéral touchent $ 6.42 à Toronto contre $ 5.23 à Halifax et Moncton . 
+je aimerais mentionner à ce sujet un communiqué de presse qui a suivi la conférence fédérale - provinciale de les procureurs généraux de octobre 1975 . 
+monsieur le Orateur , je invoque le Règlement . 
+je pense que le terme ferroviaire est « chargement sur demande » . 
+je reviendrai plus tard à ce que coûte un bâtiment de pêche de nos jours . 
+dans la plupart de les provinces , de les règlements généraux sur le bruit ont été mis en application , et dont le principe général se énonce ainsi : 
+de accord . 
+après tout , le énergie est un bien collectif et le gouvernement pourrait fort bien adopter une politique de encouragement comme celle dont je ai parlé . 
+6 . 
+je serai heureux , quand nous en aurons le temps , de me asseoir avec les député et de explorer la question de façon productive . 
+le ministre prendra il de les mesures pour résoudre les difficultés , car il est absolument nécessaire de passer les commandes maintenant et non dans quelques mois ? 
+cela encouragera la construction de nouvelles embarcations de pêche et la création de nouvelles conserveries . 
+il y a bien de les choses que je pourrais dire à propos de le bill C - 19 . 
+je reviendrai sur cet aspect un peu plus tard , car je pense que ce est un élément que il est essentiel de souligner cet après - midi . 
+les sociétés trouvent que les règlements sont compliqués , lourds et que on les modifie sans cesse . 
+monsieur le Orateur , ma question se adresse à le ministre chargé de la Commission canadienne de le blé . 
+si je comprends bien , on prévoit un taux de intérêts annuel de 70 % . 
+nous souhaitons parvenir à une décision cette semaine . 
+nous acceptons votre opinion . 
+il fit campagne là - dessus pendant les élections . 
+12 . 
+monsieur le Orateur , voici ce que je ai à en dire : quelle cruelle comédie , car ce est jouer la comédie . 
+monsieur le Orateur , nous essaierons de nous en tenir à cette suggestion . 
+1 . a ) $ 98,355 . b ) Ils sont disponibles dans tous les grands bureaux de poste de le pays . 
+en vertu de la constitution , le activité criminelle est de compétence fédérale , tandis que le application de la loi relève de les provinces et de les municipalités . 
+je prétends que mes remarques concernant le bill , le argent dépensé pour les soins médicaux et la façon dont on le dépense . 
+de abord quelques mots à le sujet de cette maladie pour vous situer . 
+heureusement , il y en a moins cette année , elles sont plus raisonnables , plus sérieuses et plus conciliantes . 
+ce projet de loi est à le étude à la Chambre depuis plus de un an . 
+cette personne a pris sa retraite le 30 décembre 1975 après avoir complété 34 années à le service de le public . 
+le adoption de la motion de le député signifierait que la loi préciserait en détail les exigences de contenu et que nous pourrions les discuter . 
+cela ne veut pas dire nécessairement que il y a défaut de se y conformer de la part de les parties . 
+je ne lui ai pas demandé de me fournir de telles explications sur ces activités . 
+comment peut - on tant demander de une part et être assuré de si peu de le autre ? 
+peut - être proposera il ensuite une mesure nouvelle et différente qui ne le exposera pas à les accusations de censure . 
+ou ils font leur travail convenablement , ou ce est à vous de obtenir le pouvoir nécessaire pour les amener à le faire . 
+on y retrouve en effet toutes les tensions et toutes les divergences de notre pays . 
+le hon. John N . Turner ( ministre de les Finances ) propose : 
+bien que il me coûte de le admettre , les gouvernements libéraux à le Canada ont présenté de bonnes mesures législatives ... 
+en tant que député de une circonscription voisine , je connais fort bien sa persévérance et son acharnement à le travail . 
+où est la CAI ? 
+malheureusement , à le heure actuelle , cette réalité est perçue par les deux tiers de la population non pas comme un avantage , mais comme un obstacle . 
+ne nous forcez pas à accepter un moratoire . 
+ce ne est pas la première fois que les députés en entendront parler . 
+on trouvait la même recommandation dans le rapport de le 29 avril de le an dernier de le comité permanent de les privilèges et élections . 
+je crois , monsieur le président , que le ministre est mal informé . 
+dans le rapport de le ministère de les Transports sur le accident , il est dit : 
+monsieur le Orateur , le gouvernement fédéral a offert un programme de 100 millions de dollars . 
+dans la plupart de les échantillons de cette importance , ce est - à - dire un groupe de plus de 500 personnes , cela serait considéré comme négligeable . 
+de ordinaire pour demander de nouveaux pouvoirs de emprunt ou annexer un article à les bills de finances provisoires présentés à la Chambre . 
+cela touche à le coeur même de notre démocratie puisque il se agit de le droit de le peuple à le information . 
+cela réduirait la demande de pétrole . 
+la Division de les enquêtes spéciales a été abolie à le début de 1975 . 
+de plus , il ne se agit pas de faire savoir si le on est pour ou contre une forme de aide à les parents adoptifs . 
+montrez - nous les documents . 
+le Canada continue à accorder son soutien à le alliance de le OTAN comme force de dissuasion et comme assurance absolument indispensables à notre sécurité . 
+pouvez - vous imaginer une telle mesure en 1978 ? 
+non , monsieur le président . 
+bien entendu , le gouvernement tente de conclure le meilleur marché possible pour les Canadiens en faisant une série de négociations . 
+je ajouterais , monsieur le Orateur , que il faut la maintenir à ce niveau . 
+si je veux obtenir de les chiffres sur la situation de le Canada , je ne irai certainement pas consulter le discours prononcé par le premier ministre . 
+nous avons étudié tous les aspects de la question . 
+mieux vaut sans doute que je cite un journaliste de Timmins qui songeait vraisemblablement à le député . 
+monsieur le Orateur , il est vrai que je ai reçu le rapport de le comité de action de les chemins de fer de les Prairies . 
+( ii ) a ) 3 véhicules seront utilisés par 6 spécialistes canadiens dans le cadre de la prestation de aide technique . 
+1979 . 
+et nous allons appliquer chacune de les recommandations contenues dans le rapport de le Vérificateur général , chose que nous réclamons depuis dix ans . 
+je voudrais commencer , monsieur le Orateur , en faisant quelques observations générales . 
+monsieur le Orateur , je vais voir si ces chiffres sont disponibles , mais je déplore les expressions que le député a utilisées . 
+je sais que il ne a pas le intention de me empêcher de répondre à la question fort sérieuse que me a posée son collègue . 
+le opposition nous chante toujours la même rengaine : ce programme coûtera de le argent à le gouvernement . 
+notre taxe de 18 cents ne leur plaisait pas . 
+le problème est de savoir si la population canadienne a le droit de être informée sur sa constitution . 
+ils veulent choisir eux - mêmes qui ils vont défendre . 
+est - ce que cela a été mis par écrit ? 
+je suis conscient , monsieur le président , que il ne existe pas de solution miracle . 
+en 1978 , on a enregistré 1,122,000 divorces sur le continent . 
+le chômage brise les familles et porte à le alcool et à la drogue . 
+le opposition officielle a essayé de détruire Petro - Canada pendant son bref règne de six mois . 
+et que à le lieu de provoquer la rupture , 
+ils se sont prononcés contre une mesure qui aurait garanti à les Canadiens de les approvisionnements sûrs . 
+a propos de contribution , cela me rappelle une histoire . 
+madame le Président , je aimerais entendre ce que va dire le député avant de proposer ma motion . 
+le orateur qui me a précédé a dit également que il aimerait voir les provinces participer à les préparatifs de les réunions . 
+mon collègue de Toronto dit encore 53 ans . 
+de après toutes ces estimations , le Canada sera en bien plus mauvaise posture par suite de le programme que il ne le était auparavant . 
+monsieur le premier ministre , 
+en fait , elle aura de les effets plus destructifs que positifs . 
+le inflation mondiale crée de graves tensions économiques . 
+le PT7 représente le début de une nouvelle famille de moteurs dans un niveau de puissance au - dessus de le moteur PT6 qui est hautement couronné de succès . 
+monsieur le Orateur , je suis heureux de avoir le occasion de participer à ce débat de ajournement ... 
+cette politique joue un rôle aussi important dans une stratégie industrielle que le plan de ensemble ou que les plans détaillés que il faut mettre à le point . 
+on dit maintenant que la construction de le gazoduc va coûter environ 45 milliards de dollars . 
+signalons par ailleurs que on trouve toutes ces lacunes dans le bill . 
+a ce stade de le débat sur la résolution , mon parti propose trois amendements précis . 
+il ne peut donc pas prétendre avoir apporté le moindre changement à le niveau de le ensemble . 
+ce est dans le cadre de ce programme et de ententes auxiliaires que le gouvernement accorde la majeure partie de son aide à le expansion régionale . 
+que a fait le gouvernement à ce sujet ? 
+si nous utilisons le chômage pour combattre le inflation , nous pourrons relancer le économie , voilà la position de le gouvernement . 
+la conservation commence à produire de le effet . 
+on pourrait implanter une aciérie en Colombie - Britannique , par exemple . 
+a le ordre ! 
+voilà pourquoi les professions libérales ne devaient pas être imposées pour les travaux en cours . 
+monsieur le Président , je crois que ce qui se passe aujourd' hui est intéressant , mais ce ne est que un début . 
+cependant , ce sont les contribuables qui sont obligés de payer . 
+le projet de loi a pour but de revenir sur de les programmes qui ont été mis en place à une époque où nous pouvions nous le permettre . 
+ce est pourquoi nous avons dû importer 25,000 travailleurs spécialisés à un moment où le chômage augmentait . 
+comme Carter le a si bien dit dans les années 60 , une piastre est toujours une piastre , et il faut le imposer comme tel . 
+a le ordre , je vous prie . 
+cela donne en tout une réduction de $ 2,958 à le cours de les deux prochaines années , soit 15 % de le salaire initial de $ 20,000 . 
+de après les nouvelles de ce matin , la mine de minerai de fer à Heath , dans le nord de le Nouveau - Brunswick va fermer . 
+ils sont prêts à suivre cet exemple . 
+a le heure actuelle , un certain nombre de programmes de ce genre fonctionnent déjà et nous prévoyons en lancer de autres . 
+nous devons nous demander comment il se fait que cette abondance de idées et de activité ne ait pas résolu le problème de le développement . 
+je voudrais terminer sur une note positive , monsieur le Orateur . 
+je voudrais que il soit bien clair , monsieur le Orateur , que le gouvernement fédéral ne fixe pas les prix de détail . 
+la séance est ouverte à 2 heures . 
+je rappelle , monsieur le président , que le ministre parlait , pour les lignes de transmission de électricité , de les mêmes pouvoirs qui existent déjà . 
+ce est vraiment un objectif souhaitable que nous visons tous . 
+madame le Président , je voudrais poser une question supplémentaire à le ministre de les Transports . 
+prenons maintenant Petro - Canada . 
+cela va apporter de les économies énormes . 
+malheureusement , personne ne semble savoir quels seront à le juste ces effets . 
+nous avons permis à un sous - gouvernement de arracher de les pouvoirs à la Chambre de les communes . 
+ce est une somme considérable . 
+que se passe il exactement ? 
+madame le Président , je serai très bref . 
+le gouvernement dit tout simplement à les gens ce qui est bon pour eux . 
+ce sont les données désaisonnalisés , celles qui montrent une baisse de 5 % , qui comptent . 
+les discussions qui se déroulent en ce moment mettent la présidence dans une situation fort embarrassante . 
+monsieur le Président , je regrette , mais je ne ai pas vu ce communiqué de la société britannique . 
+il y a moins de bénévoles , car beaucoup de femmes sont retournées sur le marché de le travail . 
+elles travaillent avec eux . 
+leur succès dépend de la mesure dans laquelle ils se appliquent . 
+je ne sais pas se il existe un seul député à la Chambre qui se opposerait à ce que on donne davantage de argent à les personnes âgées . 
+eux aussi ont un rôle à jouer dans la chaîne alimentaire . 
+un aspect plus démocratique a été ajouté à les situations qui se présentaient dans nos circonscriptions . 
+il faudrait plutôt se efforcer de faire oublier les propos stupides que a tenus le ministre la semaine dernière . 
+le ministère remplira il le ravin qui se trouve à le extrémité de la piste 24L à le aéroport international Pearson de Toronto ? 
+si nous décidons de présenter un tel projet de loi , je lui rappellerai son offre . 
+a cela , je réponds : 
+ce est ce que je recommande à la Chambre de faire , monsieur . 
+je ignore si cela servira à quelque chose . 
+voilà le principe dont le Alliance doit se inspirer en cherchant à conclure de les accords justes et vérifiables avec le Union soviétique . 
+la même réponse se applique à les automobiles . 
+il a saisi la Chambre de un projet de loi qui aura pour effet de les restreindre . 
+le député de Bow River ( M. Taylor ) intervient dans le débat . 
+monsieur le Président , je invoque le Règlement . 
+le gouvernement ne veut pas le croire . 
+ce étaient là de les engagements extrêmement intéressants et assez révélateurs sur ce que pourrait devenir ce secteur fondamentalement important , le agriculture . 
+il se agit de le syndrome de la porte tambour et la réarrestation immédiate . 
+je espère que ensuite il portera le flambeau . 
+le argument de le gouvernement est erroné , à mon avis . 
+toutefois , nous avons suffisamment de argent pour renflouer deux banques . 
+le Règlement ! 
+ces créations peuvent être volées comme ne importe quel autre type de propriété . 
+deuxièmement , monsieur le Président , ce que nous avons fait depuis novembre dernier , ce est une amélioration de le climat de confiance . 
+ce sont de les établissements financiers très importants dans le ouest de le Canada . 
+le député de Cochrane - Supérieur ( M. Penner ) a dit tout à le heure que ce était à le gouvernement de libérer ses députés . 
+ce est vrai . 
+que fait - on de les femmes qui vivent loin de les centres où ces services sont offerts ? 
+ils demandent à les députés de le Parlement de mettre fin à toute réduction de personnel dans ces ateliers . 
+ce ne est pas une question de me joindre à le député ; nous avons de le avance sur lui . 
+le Dr Kenneth Hare , considéré chez nous comme le un de nos spécialistes les plus éminents de les questions atmosphériques , a écrit un article où il précise : 
+cela aura de les répercussions un peu partout . 
+en de autres mots , les céréaliers américains toucheront une subvention de environ $ 2 le boisseau que leur versera le gouvernement de M. Reagan . 
+le rapport complet sera déposé de ici le automne prochain . 
+si ces règles étaient appliquées , est - ce que nous traiterions effectivement tout le monde sur le même pied ? 
+cette éminente autorité à la Chambre de les communes a parlé de harcèlements sexuels , de certaines femmes qui avaient été obligées de se dévêtir pour obtenir un emploi . 
+je ne fais que avertir les députés de le existence de un problème à cause de ce qui se est passé . 
+Évidemment , quand les conservateurs étaient dans le opposition , ils tenaient de les discours qui étaient à le opposé de leurs actions de aujourd' hui . 
+en réalité , le ministre de la Justice et le solliciteur général ont répondu avec tous les détails que ils pouvaient humainement donner . 
+le vice - premier ministre croit - il que ce est ainsi que un gouvernement conscient de ses responsabilités , ou un pays indépendant doit conclure un traité international ? 
+le sous - comité parlementaire est en train de examiner toute la question de les droits à le égalité . 
+en réalité , pour les demandes concernant moins de quatre étudiants , on ne essaie pas de savoir si les emplois sont axés sur la carrière ou non . 
+de plus , nous voulons une série de critères objectifs fondés sur les éléments que je mentionne ici , par exemple : 
+si nous adoptons pareille attitude pour cette question ou de autres de le domaine public , nous trouverons toujours de les excuses pour éviter de passer à le action . 
+vous avez alors instauré votre programme , le hôtel a été abandonné et Fort St. John est devenu une ville fantôme . 
+nous , en six mois , on a consulté , on se est assis avec le ministre et on est arrivé à une entente . 
+le très honorable député ne est peut - être pas non plus de accord avec le point de vue de Mme Bégin . 
+" essayons - le , disent - ils , et voyons ses effets . 
+le MEER fournit environ 3 millions de ce montant et le ministère de les Affaires indiennes et de le Nord le reste . 
+on ne répétera jamais trop que les Canadiens se inquiètent de la montée de la grande criminalité . 
+les exportations de grains doivent fléchir de 25 % pendant la campagne 1984 - 1985 . 
+notre retard dans ce domaine est si important que tous les Canadiens en sont gênés . 
+on ne modifie pas vraiment la situation . 
+il est désormais impossible de établir une distinction valable quelconque entre les missiles nucléaires de portée intermédiaire et de portée intercontinentale . 
+puis - je demander à le député de Western Arctic de être bref , si possible . 
+le Grand Victoria est considéré comme la Mecque de le tourisme à le Canada . 
+la taxe ne serait pas prélevée pour être remboursée par la suite . 
+on se est déjà engagé à faire en sorte que leur taux de participation se accroisse de manière à atteindre à le moins les niveaux historiques sinon traditionnels . 
+ce est - à - dire à la demande de la personne qui va peut - être prétendre à le statut de réfugié . 
+voilà où nous en sommes actuellement . 
+les paiements de péréquation ont acquis à le cours de les ans une ampleur considérable . 
+les représentants de tous les partis se inquiètent de cette question . 
+je tiens également à signaler que nous avons consulté le caucus progressiste conservateur de le Manitoba et un certain nombre de personnes de cette province . 
+la localité gardera un bon souvenir de le personnel militaire et de leur famille qui ont participé à la vie de cette localité . 
+en toute déférence , je dois interrompre le très honorable premier ministre . 
+alors , je le ai expliqué . 
+si le premier ministre a déclaré que il est prêt à négocier encore avec le Québec , pourquoi adopter en vapeur ce projet de loi ? 
+ce est la raison de ailleurs pour laquelle certains de mes collègues ont fait de les interventions relativement rigoureuses à ce sujet . 
+je tiens à exposer la teneur précise de les notes qui figurent dans le état financier de le 31 mars 1984 . 
+cette décision est alors envoyée à le particulier en question . 
+tout cela est insensé . 
+dans ce dossier , monsieur le Président , de nombreuses autorités se sont donné la main pour réagir immédiatement à la situation de urgence . 
+que est - il donc advenu de les études qui ont été effectuées après cet incident ? 
+le ex - ministre de les Transports avait clairement établi que ces règlements ne seraient promulgués que dans un an . 
+je estime que nous ne avons pas les moyens de nous payer plus longtemps une pareille façon de se comporter à le cabinet . 
+ce est donc dire , monsieur le Président , que le gouvernement se doit de respecter les recommandations de le Commissaire à les langues officielles . 
+ensuite , ils réduiront le nombre de les emplois car les entreprises que ils auront achetées feront double emploi avec de autres que ils ont déjà . 
+ce est à la deuxième étape de réexamen que la Cour suprême a établi que une audience est obligatoire . 
+en ce qui concerne les avocats spécialisés en immigration , le barreau se charge de les pénaliser . 
+le autre solution consiste à investir sous forme de prêts . 
+veut - il attendre que le économie de ces régions agricoles soit complètement à terre avant de réagir à le problème de les pluies acides ? 
+il me semble que cela ne est pas compliqué à comprendre . 
+nous ne devons pas oublier toutefois que la majorité de les producteurs de boeuf et de porc ont carrément rejeté tout mécanisme de régularisation de les mises en marché . 
+si je avais été à la place de Bryce , je aurais partagé le assiette à le beurre avec les autres . 
+en un mot , nous considérons que le rôle politique et le rôle administratif doivent être séparés le un de le autre . 
+on le a négligé et liquidé , ce qui a obligé le gouvernement à investir pour faire absorber cet atelier . 
+tous ces endroits inclus dans notre patrimoine sont gérés par Parcs Canada à le profit et pour le agrément de tous les Canadiens . 
+comme je le ai dit tout à le heure , pareilles distinctions ne avaient pas été envisagées lorsque le projet de loi a été adopté en deuxième lecture . 
+les secteurs public et privé ont tous deux un rôle à remplir . 
+les critiques seront de autant plus vives que le gouvernement actuel , sauf erreur , se est engagé à agir à le grand jour . 
+ce ne est pas suffisant . 
+ce est lui qui nous a dit que la construction de le centre de entretien de VIA Rail à Montréal était remise à les calendes grecques . 
+cependant , M. Baldwin avait ensuite déclaré : 
+nous voulons que les promesses faites par les sociétés qui reprennent de les entreprises canadiennes soient révélées publiquement . 
+il faut également consulter les gouvernements provinciaux pour définir les besoins de certaines régions . 
+ils pensent que en changeant simplement le nom de AEIE en Investissement Canada , nous aurons un afflux de dollars . 
+est - ce que le ministre peut donner en cette Chambre la position de le gouvernement canadien ? 
+voici maintenant neuf mois que le nouveau gouvernement a été porté à le pouvoir , et nous attendons toujours son premier budget . 
+nous acceptons à le heure actuelle que soient enregistrées les associations canadiennes de sport amateur et il faudrait en faire autant pour les groupes provinciaux . 
+par définition , « association canadienne de sport amateur » se applique à les associations fédérales , mais non à leurs contreparties provinciales . 
+cette bataille a ravi à le Canada 1,800 vaillants marins et 24 fiers bâtiments . 
+je trouve incroyable que le président de le Conseil de le Trésor se permette de rire de un sujet aussi grave . 
+de plus , ils ont demandé de les budgets supplémentaires . 
+bon , tout le monde est de accord là - dessus . 
+le poste de directeur général a été vacant durant plus de un an , et pour cause . 
+le ministre a parlé de réunions , fort bien . 
+il fallait que il soit à Saint - Jean . 
+ce est exactement ce qui se passe . 
+il ne est pas question de les traiter séparément . 
+de toute évidence , il ne aime pas les gens qui appartiennent à le mouvement coopératif dans le est de le Canada . 
+il incombe à le gouvernement fédéral de jouer le rôle de agent de surveillance . 
+la Société veut que les employés à temps partiel constituent dorénavant 45 % de tous ses effectifs . 
+À le cours de les dernières élections provinciales à le Manitoba , 900 personnes ont voté par la poste ; surtout de les citadins . 
+alors le gros bon sens ce est quoi ? 
+les abattoirs bâtis selon la réglementation québécoise ont de les normes plus sévères . 
+les techniciens gagnent plus de argent que les écrivains et les auteurs de pièces de théâtre . 
+ils étaient tous gauchistes . 
+elles sont bien faites . 
+certes , nous demeurons un petit pays et nous sommes vulnérables pour cette raison . 
+m. Wyman compte de nombreuses années de expérience dans le secteur de les marchés financiers . 
+réfléchissons - y un petit instant . 
+il est inutile , je crois , de continuer à tourner autour de le pot pour régler la question . 
+cette façon de procéder permet à les Indiens de participer à le activité économique . 
+le un de les grands objectifs de les consultations est de faire en sorte que la relance profite également à tous . 
+je pense , monsieur le Président , que le discours de le député de Baie - Comeau était probablement de la fausse représentation . 
+la justice élémentaire exige que les emplois de les femmes soient évalués équitablement . 
+nous comptons poursuivre ces discussions en tirant parti de les opinions exprimées par de nombreux groupes intéressés . 
+je pense surtout à les mères célibataires . 
+le ministre de le Expansion économique régionale traite avec énormément de justice et de honnêteté les dossiers de le Québec . 
+en fait , le revenu agricole net était à son plus bas niveau depuis 1970 et à son troisième plus bas niveau depuis 1938 , soit en 45 ans . 
+dans la région de Laval - Deux - Montagnes , 225,000 dollars de budget en 1984 , 30,000 dollars seulement cette année . 
+ce même ministre a lui - même promis durant la campagne électorale que non seulement il consulterait les pêcheurs mais que il serait facilement accessible en cas de problème . 
+on néglige actuellement de investir dans ce domaine , surtout en Colombie - Britannique . 
+le pire , ce est que on ne a pas su obtenir une garantie de financement par la voie de une Entente de développement économique régional . 
+il devrait parler sincèrement à le lieu de nous servir tout ce charabia . 
+il a dit que British Telecom « ne se était guère montrée habile sur le plan de la commercialisation ou de la gestion de les produits » . 
+les investisseurs étrangers menaient le Canada comme se il se était agi de le cinquante - et - unième État . 
+elle ne fait pas de recherche et de développement . 
+la première question consiste à savoir pourquoi il faut stabiliser les prix dans le industrie agricole . 
+en règle générale , tous les producteurs de une denrée quelconque subissent en même temps le contrecoup de le resserrement de le étau coût - prix . 
+ce est donc une circonscription très diversifiée . 
+le véritable problème est donc que les agriculteurs abandonnent . 
+venons - en à ce qui semble être le opinion publique sur la réforme de le Sénat . 
+ce est ce que il faut et ce est le objectif visé par le gouvernement . 
+je pense que , indépendamment de notre parti , nous trouvons tous cela inacceptable . 
+revenons maintenant à le projet de loi en question . 
+ce que les conservateurs proposent de faire pour donner un caractère distinctif à leur projet de loi est une erreur . 
+et on sait comment cela peut être pénible pour de les gens qui vivent une période pas spécialement drôle de leur vie . 
+par conséquent , la création de un tel système devrait être la première priorité dans toutes les provinces où il ne en existe pas . 
+nous sommes collègues depuis longtemps . 
+elle aidera les sociétés canadiennes à redresser plus rapidement leur situation financière en attirant de nouveaux capitaux propres . 
+le universalité de les allocations familiales est maintenue . 
+la recherche ne est guère considérée comme prioritaire . 
+ah , bon ? 
+ainsi , le savon et les boissons pour les enfants coûteront davantage , de même que les aliments pour animaux domestiques , le essence et le chauffage domestique . 
+cette technique ne a rien de anormal . 
+de après le dernier budget libéral , de autre part , le revenu personnel avait augmenté de 7 % en 1984 . 
+le gouvernement dépense largement et renfloue les entreprises . 
+les femmes profiteront de nouveaux règlements concernant les prestations de survivant et le partage de les pensions entre les conjoints en cas de rupture de le mariage . 
+en réalité , si on tient compte de le Accord de le Ouest , il est plutôt probable que ce sera 2.8c . le litre . 
+nous respectons nos promesses électorales . 
+nous devons remonter le économie , créer de le emploi , rationaliser les dépenses de le État , administrer plus efficacement . 
+cela ne tient guère debout , surtout si le on regarde qui paye . 
+que feront - ils avec ce capital ? 
+cela équivaut à peu près à les 440 millions de dollars versés à Canadair en le espace de deux ans . 
+il est ressorti de ces audiences que la grande préoccupation était les gains en capital . 
+il donne à entendre à les particuliers que pendant de trop nombreuses années le gouvernement a décidé pour eux . 
+dans ce sens - là , je vous dirai que je ai rencontré dernièrement de les centaines de jeunes Canadiens , et ils ont perdu beaucoup de illusions . 
+ce est pourquoi je ne puis appuyer la demande de emprunt présentée par le gouvernement . 
+mon collègue dit « négligé le Québec » , je suis de accord avec lui aussi . 
+je suis heureux de apprendre que les sociétés de État qui ont une valeur commerciale mais ne répondent pas à les objectifs de la politique publique soient vendues . 
+lorsque nous avons préparé le budget , nous avons pris cela en considération . 
+le premier ministre respectera il cet engagement ? 
+le ministre pourrait - il préciser les effets de cette réduction ? 
+je ne ai parlé jusque ici que de les aspects géographiques de ma circonscription . 
+nous pensons que ils relèveront le défi . 
+le ministre est - il en mesure de affirmer que cette mesure est équitable ? 
+il y a longtemps que nos milieux de affaires ne ont pas reçu de un gouvernement un tel vote de confiance . 
+le parti progressiste conservateur de le Canada se y oppose . 
+ils se sont levés comme un seul homme pour applaudir bien fort . 
+huitièmement . 
+non , monsieur le Président , à le contraire . 
+je voudrais maintenant vous parler un peu de ce qui a motivé la suppression de le impôt sur les gains en capital . 
+cette initiative va augmenter la pauvreté chez les personnes les plus vulnérables , les personnes âgées , qui ne pourront pas trouver de autres sources de revenu . 
+en outre , sont stationnés sur cette base , les Snow Birds , le équipe de acrobatie aérienne de le Canada . 
+notre caucus a entendu le autre jour le Conseil économique de les provinces de le Atlantique . 
+faut pas nous prendre pour de les poires ! 
+il se agit de un problème important . 
+je ai le intention de parler surtout aujourd' hui de les nombreuses améliorations apportées à les programmes de pensions de tous les Canadiens . 
+on estimait également que il fallait compenser le érosion de la valeur de les biens due à le inflation . 
+il démontre une attitude réaliste , également parce que il agit avec douceur et intelligence . 
+le gouvernement ne se y intéresse pas et il ne se en soucie pas . 
+ils ont voté pour un changement dans la gestion de les affaires de le pays . 
+monsieur le Président , un rappel à le Règlement . 
+les faits sont clairs et nets . 
+aussi la motion de le député de Beaches nous permet de faire en cette Chambre ce que tout le monde fait présentement à travers le pays . 
+de plus , ils ont une bibliothèque spécialisée à leur service et la société ERCO dépense près de deux millions chaque année pour ses services de recherche . 
+deuxièmement , il faut aider les entreprises canadiennes à tirer parti de les possibilités de investissement et de le développement technologique . 
+non seulement les risques sont plus élevés , mais le temps nécessaire pour préparer le réapprovisionnement par navire est long . 
+monsieur le Président , une fois encore , les prévisions pessimistes de les libéraux et de les néo - démocrates en matière économique ne se sont pas concrétisées . 
+je ne ai pas le intention de ennuyer la Chambre en répétant les mêmes réponses . 
+cependant , lorsque nous avons pris le pouvoir , nous avons découvert que la tendance était à la hausse . 
+rien ne oblige non plus un ministre à déposer autre chose que le document dont il a tiré une citation . 
+en outre , il est stipulé dans notre résolution que il faudrait avoir servi plus de 365 jours à le Canada pour être admissible . 
+le gouvernement avait alors prétendu que il ne avait pas eu le temps de discuter de ce projet avec le un ou le autre de ces deux groupes . 
+autrement dit , notre destin économique est scellé . 
+ils disaient que les propriétaires allaient encore écoper parce que les taux de intérêt augmentaient . 
+notre rôle sur la scène internationale est quelque peu éclipsé . 
+en ce qui concerne le assurance - récolte , par exemple , le gouvernement fédéral a contribué la moitié de les primes et les producteurs le autre moitié . 
+donc , il est impossible pour nous de penser en ces termes . 
+elle a déclaré que le seul problème que posent le Candu et toute le option nucléaire , ce est sur le plan de la commercialisation . 
+comment se faisait - il que le on me présentait toutes ces instances ? 
+» ce est cela que le actuel premier ministre avait dit à le ancien premier ministre . 
+la majorité sont de ailleurs incapables de travailler . 
+il y a quelques jours , mon collègue de Essex - Windsor a donné à la Chambre une leçon de histoire . 
+voici le texte de le article : 
+il se chauffait à le mazout . 
+le gouvernement ne a pas encore décidé comment et quand cette modification devrait se manifester . 
+je ai parlé tantôt de le pari de le premier ministre ( M. Mulroney ) concernant le emploi en immigration . 
+cependant , le projet de loi dont nous sommes saisis aujourd' hui ne contient que deux amendements de fond et un certain nombre de amendements de ordre administratif . 
+il ne nous est pas permis en tant que société de faire ce genre de discrimination entre les gens en fonction de un pareil critère . 
+une collaboration entre le gouvernement fédéral et les provinces est indispensable pour accroître la valeur et le efficacité de nos programmes de dépistage . 
+selon lui , il vaudrait mieux attendre à le moins jusque en juin . 
+le entreprise , tout en demeurant dans le secteur privé , fut rebaptisée en 1934 la Société de les transports de le nord Limitée . 
+je félicite sincèrement le ministre de les Transports de avoir respecté le mandat initial . 
+ce ne est que aujourd' hui que le secteur privé fait savoir que il ne est pas en mesure de soutenir la concurrence de toutes ces sociétés de État . 
+les services spécialisés , comme le ravitaillement de le secteur pétrolier et gazier de la mer de Beaufort , pourraient être assurés par de autres . 
+malheureusement ou heureusement , selon le point de vue de chacun , ce ministre ne a guère obtenu de succès . 
+toutefois , la présidence pourrait peut - être en terminer avec la motion no 1 . 
+sur la côte ouest , nous avons le comité consultatif de le ministre qui , même se il ne est pas parfait , peut à le moins être utile . 
+voilà un excellent exemple de association fructueuse entre les gouvernements et le industrie . 
+monsieur le Président , je ai une question à poser à le ministre de les Transports . 
+monsieur le Président , je ne veux pas que il y ait de malentendu . 
+À le sein de le gouvernement de le Canada , divers ministères ont joué un rôle actif et sont intervenus dans le cadre de une action coordonnée et coopérative . 
+toutefois , la contradiction qui existe entre sa déclaration et celle de ses hauts fonctionnaires devrait faire le objet de une enquête indépendante . 
+je sais que nous nous en occupons à le niveau fédéral par le intermédiaire de la Société de le crédit agricole . 
+tels sont les principaux indices économiques . 
+le établissement de une sixième exploitation agricole à Bowden , en Alberta , permettra de accroître encore la production agricole de les établissements carcéraux . 
+tel était le principe de ce projet de loi à le étape de la deuxième lecture . 
+certes , personne , et surtout pas un seul député conservateur , ne y croirait . 
+ce est ce que elle a fait le 4 septembre dernier . 
+Convoquez les députés . 
+nous croyons que il est temps de établir de les règlements et de les méthodes comme il se doit . 
+leur intervention était tout à fait justifiée , car le succès de ces accords dépendra dans une très large mesure de la qualité de leur administration . 
+le Canada a tout lieu de être fier de son bilan dans ce domaine et devrait servir de modèle de tolérance pour les autres pays . 
+sur le avis de qui a il pris cette décision , puisque ses services avaient refusé ? 
+monsieur le Président , je suis heureuse que le premier ministre ait fourni ces informations à la Chambre . 
+je prie donc le député de cesser de montrer quoi que ce soit . 
+pourquoi le premier ministre se est - il montré prêt à manquer à sa promesse en premier lieu ? 
+monsieur le Président , ces questions inquisitrices de le parti libéral me font toujours sourire . 
+assurément , le député ne voudrait pas que le on impose de les sociétés qui perdent de le argent . 
+monsieur le Président , la question de le député part de une hypothèse toute gratuite . 
+combien de personnes sont employées a ) directement ou à contrat , b ) à temps plein et à temps partiel à le Bureau de le premier ministre ? 
+les cachets versés à chacun étaient conformes à le rôle joué pendant le gala et respectaient les normes de le Union de les artistes . 
+sous le gouvernement libéral , rien ne a été fait pour remédier à cette situation . 
+ils connaissent très bien le problème de surproduction . 
 36 e Législature , 2 ième Session 
 hansard RÉVISÉ * NUMÉRO 1 
 table DES MATIÈRES 
@@ -4998,450 +5445,3 @@ le vice - président :
 la présidence est convaincue que ce projet de loi se présente sous la même forme que se présentait le projet de loi C - 440 à le moment de la prorogation de la première session de la 36 e législature . 
 par conséquent , conformément à le paragraphe 86 ( 1 ) de le Règlement , le projet de loi est lu pour la deuxième fois et renvoyé à le Comité permanent de la justice et de les droits de la personne . 
 ( le projet de loi est lu pour la deuxième fois et renvoyé à un comité . ) 
-* * * 
-la LOI SUR LE VÉRIFICATEUR GÉNÉRAL 
-Mme Christiane Gagnon ( Québec , BQ ) demande à présenter le projet de loi C - 203 , Loi modifiant la Loi sur le vérificateur général ( commissaire à la pauvreté ) . 
-le projet de loi a la même forme que le projet de loi C - 490 que je ai présenté à la Chambre de les communes lors de la session précédente . 
-( les motions sont réputées adoptées , le projet de loi est lu pour la première fois et imprimé . ) 
-le vice - président : 
-la Présidence est de avis que ce projet de loi est dans le même état où était le projet de loi C - 490 à le moment de la prorogation de la première session de la 36e législature . 
-en conséquence , conformément à le paragraphe 86 ( 1 ) de le Règlement , le ordre portant deuxième lecture de ce projet de loi sera inscrit à le bas de la liste de les affaires dans le ordre de les priorités à le Feuilleton . 
-* * * 
-loi SUR Le ASSURANCE - EMPLOI 
-m . Paul Szabo ( Mississauga - Sud , Lib . ) demande à présenter le projet de loi C - 204 , Loi modifiant la Loi sur le assurance - emploi ( prestations parentales ) . 
-le Enquête longitudinale nationale de 1996 sur les enfants et les jeunes a révélé que 25p. 100 de les enfants canadiens arrivent à le âge adulte avec de les problèmes émotifs , comportementaux , scolaires ou sociaux graves . 
-le projet de loi que je propose est une réponse partielle , car il donnera plus de souplesse et de possibilités à les parents en modifiant la Loi sur le assurance - emploi pour leur donner droit à de les prestations parentales pendant une année entière . 
-je présente donc de nouveau ce projet de loi , et je espère que nous pourrons compter sur le appui de tous les députés . 
-( les motions sont adoptées , et le projet de loi est lu pour la première fois et imprimé . ) 
-* * * 
-la LOI DE Le IMPÔT SUR LE REVENU 
-m . Michel Guimond ( Beauport - Montmorency - Côte - de - Beaupré - Île - de Orléans , BQ ) demande à présenter le projet de loi C - 205 , Loi modifiant la Loi de le impôt sur le revenu ( déduction de les dépenses engagées par un mécanicien pour la fourniture de outils nécessaires à son emploi ) . 
-ce projet de loi est dans le même état et dans la même forme que le était le projet de loi C - 502 à le moment de la prorogation de la première session de la 36e législature , et je demande que il soit remis à le ordre de les priorités . 
-je rappelle que ce projet de loi pouvait faire le objet de un vote . 
-je rappelle également à le leader de le gouvernement à la Chambre que étant donné la fin de session assez houleuse que nous avons eue le 10 juin , je avais dû réduire mon discours de 20 minutes . 
-le leader de le gouvernement à la Chambre me avait donné son consentement à le effet que je pourrais refaire un discours de 20 minutes . 
-( les motions sont réputées adoptées , le projet de loi est lu pour la première fois et imprimé . ) 
-le vice - président : 
-la Présidence est de avis que ce projet de loi est dans le même état où était le projet de loi C - 502 à le moment de la prorogation de la première session de la 36e législature . 
-en conséquence , conformément à le paragraphe 86 ( 1 ) de le Règlement , le ordre portant deuxième lecture de ce projet de loi sera inscrit à le bas de la liste de les affaires dans le ordre de priorités à le Feuilleton et sera désigné comme une affaire faisant le objet de un vote . 
-* * * 
-loi SUR Le ACCÈS À Le INFORMATION 
-m . John Bryden ( Wentworth - Burlington , Lib . ) demande à présenter le projet de loi C - 206 , Loi modifiant la Loi sur le accès à le information et de autres lois en conséquence . 
-il vise essentiellement à réformer la Loi sur le accès à le information . 
-ce projet de loi a reçu le appui de 112 députés libéraux , réformistes et bloquistes . 
-( les motions sont adoptées , et le projet de loi est lu pour la première fois et imprimé . ) 
-* * * 
-le CODE CRIMINEL 
-- monsieur le Président , je suis très heureux de présenter ce projet de loi , connu précédemment sous le nom de projet de loi C - 461 , portant modification de le Code criminel afin de interdire la coercition contre une personne à le égard de les actes médicaux qui sont contraires à sa religion ou à sa croyance à le caractère inviolable de la vie humaine . 
-ce est le député de Huron - Bruce qui appuie la motion . 
-ce projet de loi a pour objet de assurer que les dispensateurs de soins de santé travaillant dans divers types de établissements médicaux ne soient jamais forcés de participer contre leur gré à de les interventions , comme les avortements et le euthanasie . 
-le projet de loi ne interdit pas explicitement le avortement ou le euthanasie , mais il rend illégal le fait de forcer une personne à participer à de telles interventions . 
-cela semble incroyable , mais il y a à le Canada de les employés médicaux qui ont été licenciés parce que la loi ne précise pas explicitement ce que est la liberté de conscience . 
-ce projet de loi précise leurs droits à cet égard . 
-( les motions sont adoptées , le projet de loi est lu pour la première fois et imprimé . ) 
-* * * 
-loi SUR LA RESPONSABILITÉ CIVILE DE Le ÉTAT ET LE CONTENTIEUX ADMINISTRATIF 
-- monsieur le Président , je suis très heureux de présenter de nouveau ce projet de loi . 
-ce projet de loi aura pour effet de veiller à ce que les détenus qui purgent de les peines de emprisonnement ne puissent poursuivre en justice le gouvernement fédéral ou ses employés , à les termes de une loi fédérale , pour une perte subie pendant leur peine de emprisonnement . 
-cette mesure législative empêcherait les prisonniers de entreprendre de les poursuites farfelues contre le gouvernement fédéral et de exploiter le régime juridique . 
-je exhorte tous les députés à examiner sérieusement ce projet de loi . 
-( les motions sont adoptées , le projet de loi est lu pour la première fois et imprimé . ) 
-* * * 
-le CODE CRIMINEL 
-un adulte commettrait dès lors un délit criminel se il avait de les relations sexuelles avec de les enfants de moins de 16 ans . 
-ce projet de loi a été présenté pour la première fois en 1996 et une autre fois en 1997 . 
-toutefois , la préoccupation croissante de les Canadiens à le égard de la pornographie et de la prostitution juvéniles rend encore plus urgent de promulguer ce projet de loi afin de protéger les jeunes et les plus vulnérables de notre société contre les prédateurs qui les menacent . 
-À le nom de nos enfants , je demande à les députés de examiner sérieusement ce projet de loi et de le appuyer . 
-( les motions sont adoptées , le projet de loi est lu pour la première fois et imprimé . ) 
-* * * 
-la LOI SUR LA BANQUE DU CANADA 
-ce retrait de le billet de mille dollars fera en sorte que on pourra lutter de façon plus efficace contre les blanchisseurs de argent , ce que la plupart de les Québécois et Québécoises , Canadiens et Canadiennes veulent bien . 
-( les motions sont réputées adoptées , le projet de loi est lu pour la première fois et imprimé . ) 
-* * * 
-la LOI DE Le IMPÔT SUR LE REVENU 
-m . Paul Crête ( Kamouraska - Rivière - du - Loup - Témiscouata - Les Basques , BQ ) demande à présenter le projet de loi C - 211 , Loi modifiant la Loi de le impôt sur le revenu ( frais afférents à un véhicule à moteur utilisé par un travailleur forestier ) . 
-ce projet de loi vise à modifier la Loi de le impôt sur le revenu pour permettre à les travailleurs forestiers qui ont travaillé à de grandes distances de leur domicile de obtenir une déduction de impôt raisonnable et ainsi permettre que la Loi de le impôt sur le revenu soit un incitatif à travailler et non le contraire . 
-cette demande a été présentée par plusieurs travailleurs forestiers de ma circonscription et aussi de ma région . 
-ce sont de les gens qui méritent de être encouragés . 
-lorsque on accepte de faire 300 , 400 , 500 , 600 kilomètres pour aller gagner sa vie , il est normal que le gouvernement puisse reconnaître la déduction qui devrait en résulter . 
-( les motions sont réputées adoptées , le projet de loi est lu pour la première fois et imprimé . ) 
-* * * 
-le CODE CANADIEN DU TRAVAIL 
-Mme Monique Guay ( Laurentides , BQ ) demande à présenter le projet de loi C - 212 , Loi modifiant le Code canadien de le travail , la Loi sur les relations de travail à le Parlement et la Loi sur les relations de travail dans la fonction publique ( disposition prohibée de une convention collective ) . 
-le objectif de le projet de loi est de éliminer les clauses de les conventions collectives qui discriminent les nouveaux arrivés sur le marché de le travail et aussi de assurer que ceux - ci bénéficient de les mêmes avantages salariaux et sociaux que ceux de leurs aînés . 
-( les motions sont réputées adoptées , le projet de loi est lu pour la première fois et imprimé . ) 
-* * * 
-loi DE 1999 SUR LA CONSTRUCTION NAVALE 
-m . Antoine Dubé ( Lévis - et - Chutes - de - la - Chaudière , BQ ) demande à présenter le projet de loi C - 213 , Loi de 1999 visant à encourager la construction navale . 
-essentiellement , il comporte trois mesures : un programme de garantie de prêts spécifique à la construction navale ; une mesure de amortissement relatif à le crédit - bail ; un crédit de impôt applicable à la construction navale , semblable à ce qui existe déjà à le Québec . 
-ces trois mesures ont été proposées il y a deux ans par le Association de construction navale de le Canada et ont reçu le appui de une coalition intersyndicale qui regroupe les 4 000 travailleurs de la construction navale à le Canada . 
-( les motions sont réputées adoptées , le projet de loi est lu pour la première fois et imprimé . ) 
-* * * 
-loi SUR LES TRAITÉS 
-m . Daniel Turp ( Beauharnois - Salaberry , BQ ) demande à présenter le projet de loi C - 214 , Loi prévoyant la participation de la Chambre de les communes à la conclusion de les traités . 
-il vise , en définitive , à démocratiser le processus par lequel le Canada conclut de tels traités . 
-( les motions sont réputées adoptées , le projet de loi est lu pour la première fois et imprimé . ) 
-* * * 
-loi SUR LE DÉPÔT DES TRAITÉS 
-m . Daniel Turp ( Beauharnois - Salaberry , BQ ) demande à présenter le projet de loi C - 215 , Loi prévoyant le dépôt de les traités à la Chambre de les communes . 
-( les motions sont réputées adoptées , le projet de loi est lu pour la première fois et imprimé . ) 
-* * * 
-loi SUR Le APPROBATION DES TRAITÉS 
-m . Daniel Turp ( Beauharnois - Salaberry , BQ ) demande à présenter le projet de loi C - 216 , Loi prévoyant le approbation de les traités par la Chambre de les communes . 
-( les motions sont réputées adoptées , le projet de loi est lu pour la première fois et imprimé . ) 
-* * * 
-loi SUR LA PUBLICATION DES TRAITÉS 
-m . Daniel Turp ( Beauharnois - Salaberry , BQ ) demande à présenter le projet de loi C - 217 , Loi prévoyant la publication de les traités . 
-( les motions sont réputées adoptées , le projet de loi est lu pour la première fois et imprimé . ) 
-* * * 
-loi SUR LA CONCLUSION DES TRAITÉS 
-m . Daniel Turp ( Beauharnois - Salaberry , BQ ) demande à présenter le projet de loi C - 218 , Loi prévoyant la consultation de les gouvernements provinciaux lors de la négociation et de la conclusion de les traités . 
-je ai donc le plaisir de déposer ce projet de loi dans le espoir que il pourra être adopté de façon à ce que le on démocratise véritablement la pratique de conclusion de les traités et que on associe les parlementaires à ces traités . 
-( les motions sont réputées adoptées , le projet de loi est lu pour la première fois et imprimé . ) 
-* * * 
-les TRAVAUX DE LA CHAMBRE 
-Lehon. Don Boudria ( leader de le gouvernement à la Chambre de les communes , Lib . ) propose : 
-que , pendant les trente premiers jours de le actuelle session de la législature , lorsque un ministre de la Couronne , proposant une motion portant première lecture de un projet de loi , déclare que celui - ci se présente sous la même forme que un projet de loi déposé par un ministre de la Couronne à la session précédente , si le Président est convaincu que ce projet de loi a la même forme que celui présenté avant la prorogation , ledit projet de loi , nonobstant le article 71 de le Règlement , soit réputé avoir été étudié et adopté à la présente session à toutes les étapes terminées à le moment de la prorogation de la session précédente . 
-je demanderai plus tard que deux autres motions soient mises à les voix également . 
-le vice - président : 
-la Chambre donne elle son consentement unanime pour que on procède de la façon décrite par le leader de le gouvernement à la Chambre ? 
-de les voix : 
-de accord . 
-le vice - président : 
-par conséquent , on considère que la question a été mise à les voix , que le vote a été demandé et que il a été différé jusque à le expiration de la période réservée à le étude de les initiatives ministérielles aujourd' hui . 
-la question est donc réglée pour le instant . 
-je vais maintenant présenter la motion no 2 à la Chambre . 
-Lehon. Don Boudria ( leader de le gouvernement à la Chambre de les communes , Lib . ) propose : 
-que , pendant les trente premiers jours de le actuelle session de la législature , lorsque un simple député présente un avis de motion que il avait déposé à la session précédente et qui , à le moment de la prorogation , était inscrit sur la liste de priorité conformément à le article 87 de le Règlement , et si le Président est convaincu que ladite motion est la même , celle - ci demeure sur la liste de priorité conformément à le article 87 de le Règlement après celles de même catégorie et conserve la désignation qui lui a été attribuée à la session précédente en conformité avec le paragraphe 92 ( 1 ) de le Règlement . 
-le vice - président : 
-plaît - il à la Chambre de adopter la motion ? 
-de les voix : 
-de accord . 
-( la motion est adoptée . ) 
-Lehon. Don Boudria ( leader de le gouvernement à la Chambre de les communes , Lib . ) propose : 
-que , nonobstant les dispositions de le alinéa 81 ( 10 ) b ) de le Règlement , sept jours soient réservés à le examen de les crédits conformément à le article 81 de le Règlement , à le cours de la période se terminant le 10 décembre 1999 . 
-le vice - président : 
-plaît - il à la chambre de adopter la motion ? 
-de les voix : 
-de accord . 
-( la motion est adoptée . ) 
-m . Sarkis Assadourian : 
-monsieur le Président , je invoque le Règlement . 
-je étais en retard de quelques minutes et je demanderais le consentement unanime de la Chambre pour présenter un projet de loi de initiative parlementaire . 
-le vice - président : 
-* * * 
-PÉTITIONS 
-les ADDITIFS DE Le ESSENCE 
-Mme Rose - Marie Ur ( Lambton - Kent - Middlesex , Lib . ) : 
-monsieur le Président , conformément à le article 36 de le Règlement , je veux présenter une pétition certifiée conforme quant à la forme et à le contenu . 
-les pétitionnaires proviennent de les régions de Grand Bend et de London . 
-ils affirment que le utilisation de le MMT comme additif à le essence présente un danger pour le environnement et se répercute sur tous les hommes , femmes et enfants de le Canada . 
-les pétitionnaires exhortent le Parlement à adopter de ici la fin de le année civile de les normes environnementales sur la composition de le essence qui en excluraient le MMT et imposeraient une faible teneur en soufre . 
-la CONSTITUTION 
-m . Randy White ( Langley - Abbotsford , Réf . ) : 
-monsieur le Président , je veux présenter une pétition sur une question qui , pour un certain député néo - démocrate , constitue un problème à le Canada . 
-les pétitionnaires demandent à la Chambre de les communes de se opposer à tout amendement à la Charte de les droits et libertés ou à de autres lois fédérales qui viserait à éliminer toute référence à la suprématie de Dieu dans notre Constitution et nos lois . 
-les pétitionnaires ajoutent que la majorité de les Canadiens croient en Dieu qui a créé le ciel et la terre et que ils ne sont pas offusqués par la mention de son nom dans le préambule de notre Charte de les droits et libertés . 
-cette pétition est déposée à le intention de la Chambre et de le député néo - démocrate qui est à le origine de ce fouillis . 
-le AGRICULTURE 
-m . Rick Borotsik ( Brandon - Souris , PC ) : 
-monsieur le Président , je ai deux pétitions semblables à présenter . 
-elles portent sur le agriculture et comptent 122 pages de signatures . 
-les pétitionnaires déclarent que le ministre fédéral de le Agriculture a présenté un programme de soutien de le revenu agricole en sachant parfaitement bien que il ne était pas adapté à la situation de le agriculture dans le ouest de le Canada et que il ne a pas présenté de programme de aide tenant compte de les véritables besoins de le agriculture . 
-* * * 
-questions AU FEUILLETON 
-m . Derek Lee ( secrétaire parlementaire de le leader de le gouvernement à la Chambre de les communes , Lib . ) : 
-monsieur le Président , je demande que toutes les questions restent à le Feuilleton . 
-le vice - président : 
-de accord ? 
-de les voix : 
-de accord . 
-* * * 
-demande DE DÉBAT De URGENCE 
-le IMMIGRATION 
-m . Leon E . Benoit ( Lakeland , Réf . ) : 
-monsieur le Président , conformément à le article 52 de le Règlement , je demande la permission de présenter une motion de ajournement de la Chambre afin de discuter de un problème précis et important qui appelle une attention urgente . 
-pendant le été , il est devenu évident que notre processus concernant les immigrants et les réfugiés est en crise . 
-le Canada est devenu une destination privilégiée pour les immigrants illégaux . 
-cette situation entraîne un problème de resquillage . 
-les gens qui ont recours à la voie normale craignent beaucoup que le traitement de leur demande soit retardé par suite de la façon peu efficace dont le gouvernement gère le processus de reconnaissance de le statut de réfugié . 
-je souligne rapidement trois événements récents qui témoignent de la nécessité de tenir un débat de urgence . 
-il est inacceptable que un pays comme le Canada ait un système qui fonctionne si mal que de les gens sont détenus pendant de les mois et de les années en attendant le résultat de le processus de reconnaissance de le statut de réfugié . 
-deuxièmement , M. Lastman , maire de Toronto , la ville la plus importante à le Canada , a exprimé publiquement de les inquiétudes à le sujet de notre système de immigration et en particulier de notre système de reconnaissance de le statut de réfugié , qui fonctionne si mal et qui se traduit par un fardeau financier supplémentaire pour sa ville . 
-si le gouvernement ne entend pas corriger le système , le maire Lastman veut que ce soit ce dernier plutôt que sa ville qui absorbe ce fardeau . 
-troisièmement , hier , selon les médias , le premier ministre de le Ontario a transmis à le gouvernement et à le ministre de le Immigration une lettre dans laquelle il dit en avoir assez de le mauvais fonctionnement de le système . 
-le premier ministre veut que le gouvernement corrige le système parce que sa province ne peut absorber les coûts que cela comporte . 
-il est important de discuter immédiatement de cette question afin de faire comprendre à les passeurs de réfugiés clandestins et à les personnes qui ont recours à leurs services que le Canada ne constituera plus une destination de accès facile . 
-nous devons mettre en place un cadre législatif grâce auquel ce processus connaîtra son aboutissement après un certain nombre de jours et de semaines plutôt que de mois et de années , comme ce est présentement le cas , et qui mettra rapidement un terme à le quasi - commerce de esclaves qui est en train de se implanter à le pays . 
-les passeurs font entrer illégalement de les réfugiés à le pays et les installent dans de les conditions qui se apparentent à celles de les esclaves . 
-il se agit là de une situation que les Canadiens ne peuvent accepter . 
-pour toutes ces raisons , il importe de tenir aujourd' hui un débat de urgence dans le but de modifier la loi pour corriger ces problèmes . 
-le vice - président : 
-je ai bien écouté le intervention de le député de Lakeland . 
-À mon avis , la demande de débat de urgence que il a présentée ne satisfait pas à les exigences de le Règlement à ce stade - ci . 
-initiatives MINISTÉRIELLES 
-le DISCOURS DU TRÔNE 
-reprise DU DÉBAT SUR Le ADRESSE EN RÉPONSE 
-m . Chuck Strahl : 
-monsieur le Président , je invoque le Règlement . 
-durant le reste de le débat sur le discours de le Trône , les députés réformistes partageront leur temps de parole . 
-Mme Karen Redman ( Kitchener - Centre , Lib . ) : 
-monsieur le Président , je partagerai mon temps de parole avec la députée de Parkdale - High Park . 
-comme ce fut le cas à le cours de les six dernières années , le Canada est le pays que les Nations Unies continuent de choisir comme étant le meilleur dans lequel vivre . 
-le discours de le Trône établit une stratégie qui nous garantira notre première place . 
-il témoigne de la volonté de le gouvernement de assurer une qualité de vie à tous les Canadiens . 
-dans les années à venir , nous nous attaquerons à les défis de la mondialisation et à les pressions qui se exercent sur une société axée sur le savoir . 
-nous nous sommes engagés à réduire les impôts de les Canadiens et à réinvestir dans les familles et les enfants . 
-le gouvernement a conçu un plan qui fait place à notre diversité et qui lui permettra de exercer ses responsabilités en tant que leader mondial . 
-aujourd' hui , je explorerai le discours de le Trône et les façons dont il influe sur ma circonscription et sur les électeurs de Kitchener - Centre . 
-de abord , je voudrais examiner la feuille de route de le gouvernement . 
-commençons par les taux de chômage . 
-ces derniers sont à leur plus bas niveau depuis 1990 . 
-je suis heureux de annoncer à la Chambre que , dans la région de Waterloo , nous avons le taux de chômage le plus bas de toutes les communautés urbaines de le pays , soit 4,9p. 100 . 
-nous avons accru considérablement les investissements en R - D et nous avons soutenu les petites et moyennes entreprises . 
-dans ma circonscription , Industrie Canada a travaillé à le sein de un partenariat à le édification de le centre destiné à les entreprises où loge le Centre de services à les entreprises Canada - Ontario . 
-ce centre offre un guichet unique à les entrepreneurs . 
-les usagers de le centre ont accès à une foule de informations et de outils utiles leur permettant de réussir et de croître . 
-la région de Waterloo est un microcosme de les changements qui se produisent de un océan à le autre . 
-il y a une génération , personne ne aurait pu concevoir une économie locale dynamique sans entreprises familiales comme les sociétés Seagram et Labbatt , ni imaginer les changements que nous avons constatés à la société Schneider' s Meats , et pourtant ils se sont bel et bien produits . 
-actuellement , à Kitchener , le nombre de petites entreprises qui voient le jour augmente sans cesse . 
-dans le ensemble de notre pays , plus de 80p. 100 de les nouveaux emplois sont créés par ce secteur , dont bon nombre dans le domaine de la haute technologie . 
-la région de Waterloo a connu une croissance incroyable dans le secteur de la haute technologie . 
-notre localité a non seulement prospéré , mais elle est aussi demeurée à la fine pointe de un économie mondiale où la concurrence est vive . 
-le discours de le Trône prononcé cette semaine montre clairement notre engagement ferme à développer notre économie en assurant la formation de une main - de oeuvre qualifiée et en procurant à les petites entreprises nouvelles les outils et les fonds dont elles ont besoin sur le plan de la recherche . 
-le gouvernement libéral veillera à ce que la formation de une main - de oeuvre qualifiée suive le évolution de les industries et de les marchés . 
-cela sera possible grâce à les conseils sectoriels qui travailleront en étroite consultation avec les chefs de entreprises . 
-le gouvernement a encore une fois reconnu le importance de les investissements étrangers à le Canada . 
-pour le triangle technologique canadien , ce sont là de excellentes nouvelles . 
-le TTC a été financé par le gouvernement fédéral afin de attirer de les investisseurs étrangers dans la région de Kitchener . 
-ses responsables se emploient à diffuser de le information à le sujet de le Canada . 
-ce est le genre de organisme que il faut encourager et avec lequel il faut entretenir de les relations . 
-nous devons aussi appuyer les entreprises qui nous aideront à respecter les engagements que nous avons contractés sur le plan environnemental , dans de les accords comme le protocole de Kyoto . 
-nos infrastructures ont aussi de les répercussions sur notre environnement . 
-À titre de ex - représentante régionale et municipale , je ai pu constater les avantages de le travail en partenariat dans le cadre de programmes comme celui concernant nos infrastructures physiques nationales . 
-dans le discours de le Trône , nous avons dit que nous continuerons de travailler avec tous les paliers de gouvernement et le secteur privé , afin de élaborer un plan quinquennal visant à améliorer les infrastructures dans les régions urbaines et rurales de le ensemble de le Canada . 
-cet engagement sera honoré de ici la fin de le an 2000 . 
-les enfants et les jeunes sont la clé de le succès de notre pays dans le XXIe siècle . 
-il est de le devoir de le gouvernement et de la collectivité , de la famille , de les amis et de les enseignants de ouvrir les portes et de encourager les jeunes à réaliser leurs rêves . 
-je suis entrée en politique avant tout pour faire en sorte que les décisions de le gouvernement se appliquent à le mieux de les intérêts de mes quatre enfants . 
-depuis dix ans que je siège à le Parlement , je porte un intérêt spécial à les jeunes de Kitchener . 
-je effectue de les visites dans les classes et je participe à les cérémonies de remise de les diplômes , ce qui me permet de rencontrer les jeunes qui seront les leaders de demain . 
-je ai été heureuse de soutenir de les organismes comme le studio de art et galerie KOR . 
-ce studio a été créé par une autre mère qui souhaitait que son fils très talentueux et de autres jeunes artistes de la région de Waterloo puissent bénéficier de les meilleures chances possibles . 
-la galerie KOR a bénéficié de le soutien de le gouvernement fédéral et a reçu un demi - million de dollars depuis que elle existe . 
-le printemps dernier , le groupe de travail de le premier ministre sur le entrepreneurship chez les jeunes a passé une journée dans ma circonscription pour rencontrer les jeunes entrepreneurs et visiter leurs entreprises . 
-les membres de le groupe de travail ont entendu les jeunes leur dire que ils avaient besoin de soutien pour obtenir le accès à de le financement et à de les ressources . 
-nous répondons à ces demandes . 
-nous avons pour but de donner à la jeune génération de Canadiens de aujourd' hui , où que ils vivent , les outils et les possibilités de succès personnel dans le économie de le savoir . 
-nous leur fournirons de le information sur les carrières et un accès à le expérience de travail et à le apprentissage . 
-nous les embaucherons pour travailler à de les projets Internet . 
-nous leur offrirons la possibilité de utiliser leurs talents à le étranger en participant à de les programmes internationaux de stages . 
-par exemple , le été dernier , Kitchener a été fière de être le hôte de les olympiades Compétences Canada . 
-le événement , de concert avec deux autres concours , a reçu 800 000 $ de la caisse de la Stratégie de emploi de les jeunes . 
-compétences Canada est un projet important car il donne à nos jeunes la possibilité de rivaliser avec de les jeunes de partout dans le monde . 
-ce concours mesurait les participants dans plus de 40 métiers , technologies et autres compétences . 
-je ne peux pas concevoir une meilleure façon de encourager les dirigeants de demain . 
-nos enfants et nos familles méritent un haut niveau de vie . 
-cela exigera , plus que jamais , une population adaptable , flexible , prête à apprendre toute la vie durant . 
-il est clair que la base de telles capacités se établit dans la petite enfance . 
-je crois fermement que la force de notre société sera fonction de les investissements que nous effectuons aujourd' hui , en tant que nation , dans nos familles et dans nos enfants . 
-le gouvernement se est engagé à faire un troisième investissement important dans la prestation nationale pour enfants de ici le an 2002 . 
-grâce à un autre allégement fiscal , nous mettrons plus de argent dans les mains de les familles ayant de les enfants . 
-nous renforcerons et rendrons plus flexibles les prestations de assurance - emploi à le chapitre de les congés parentaux . 
-nous avons agi en ce sens dans ces domaines dans le passé et nous continuerons de en faire autant dans les années qui viennent . 
-ce pays jouit de une haute qualité de vie . 
-ce est un pays dont nous devrions être fiers . 
-notre pays fait le envie de les autres . 
-notre premier ministre nous a fait profiter de une direction solide et de un engagement de tous les instants en faveur de le unité . 
-le nouveau millénaire sera extraordinaire pour tous les Canadiens et toutes les Canadiennes . 
-le nouveau millénaire sera brillant pour tous les Canadiens . 
-m . Myron Thompson ( Wild Rose , Réf . ) : 
-monsieur le Président , avec tout ce qui vole autour de ici , il y a de quoi se étonner que on ne ait pas plus de allergies . 
-je me demande si le député a visité les réserves de notre pays , comme je le ai fait ces deux dernières années , pour constater la grande qualité de vie . 
-le gouvernement ne arrête pas de dire à quel point nous sommes bien dans notre pays . 
-je me demande si le député se est promené dans les rues de Toronto , de Vancouver et de autres grandes villes et vu les gens qui sont à la rue , qui sont sans abri , bref qui ont cette merveilleuse qualité de vie dont le ministre ne arrête pas de parler . 
-je me demande si le député et le gouvernement se rendent compte de le extrême valeur de Mike Harris , de Ralph Klein et de autres premiers ministres ainsi que de la contribution et de les sacrifices que ils ont faits pour changer les choses dans leur province , sans avoir à remercier le gouvernement . 
-ils ont réussi à accomplir beaucoup de choses , en dépit de le gouvernement . 
-je me demande si le député sait que , pas plus tard que ce matin , on a annoncé que la pauvreté avait augmenté de 66p. 100 en le espace de une année . 
-un enfant sur six part à le école le ventre creux . 
-il y a un an , la situation ne était pas aussi mauvaise . 
-je me demande si le député est fier de un gouvernement qui dépense de le argent pour pendre de les lapins morts dans un musée ou pour constituer un comité chargé de déterminer si nous devrions avoir un insecte national . 
-le gouvernement fait toutes ces dépenses inutiles alors que le on nous sert ce genre de rapports . 
-quel genre de rapport est - là ? 
-que feront le député et le gouvernement pour venir à bout de les réels problèmes qui se posent dans les réserves et dans les rues de notre pays ? 
-nous parlons de la qualité de vie alors que nous pendons de les lapins morts dans les musées et que nous cherchons un insecte national . 
-quand le gouvernement va il enfin se réveiller , et que va faire le député à ce sujet ? 
-Mme Karen Redman : 
-monsieur le Président , je aimerais remercier le député de me avoir temporairement promue à le rang de ministre . 
-je ai eu le plaisir , le été passé , de me rendre dans la région arctique et dans les Territoires de le Nord - Ouest et je ai été très fière de voir le processus de autonomie gouvernementale en place . 
-récemment , en avril , nous avons assisté à la création de le Nunavut . 
-le gouvernement travaille très fort , en collaboration avec les autochtones , qui ne sont pas unanimes , afin de parvenir à une autonomie gouvernementale et de les habiliter à se faire entendre pour créer le prochain siècle à leur mesure . 
-je aimerais également signaler à le député de en face que , se il veut bien se reporter à le discours de le Trône , on y fait référence à le union sociale . 
-le une de les choses que fait le union sociale , ce est inciter tous les niveaux de gouvernement , sous la direction de le gouvernement fédéral , à cesser de se pointer de le doigt entre eux et les aider à trouver de les solutions comme celles dont a entendu parler dans les collectivités la ministre de le Travail , tandis que elle parcourait le Canada afin de étudier la question de les sans - abri et les divers moyens de faire collaborer tous les gouvernements pour résoudre ce problème . 
-il se agit de une préoccupation nationale de le gouvernement , mais pas de une question qui peut être réglée par une simple affectation de fonds . 
-la structure de le union sociale permet à les Canadiens de tenir tous les niveaux de gouvernement responsables . 
-le gouvernement se refuse cependant à compromettre les profits financiers en réduisant artificiellement le déficit de manière à faire croire à un budget équilibré . 
-nous ne créerons pas de déficits afin de accorder de les allégements fiscaux , comme le fait le Ontario . 
-Mme Sarmite Bulte ( Parkdale - High Park , Lib . ) : 
-monsieur le Président , ce est avec beaucoup de fierté que je prends la parole aujourd' hui à la Chambre de les communes , en tant que députée , pour parler de le discours de le Trône , que on a annoncé - je suis fière de le dire - comme un retour à le libéralisme traditionnel . 
-je remercie notre nouvelle Gouverneure générale de le éloquence avec laquelle elle a prononcé le discours de le Trône et je la félicite de sa nomination . 
-le gouvernement de le Canada ne peut entreprendre seul cette stratégie . 
-il ne peut le appliquer que avec le partenariat et la collaboration de les autres gouvernements , de les provinces et de les territoires , de le secteur privé , de le secteur de le bénévolat et de la population . 
-en fait , toutes les pages de le discours de le Trône soulignent le importance de travailler ensemble ou utilisent les termes « collaboration » ou « partenariat » . 
-À le tout début de le discours de le Trône , on dit sans équivoque : 
-afin que le avenir prometteur de le Canada se concrétise pour tous les citoyens , il faut unir nos efforts pour bâtir la meilleure qualité de vie possible pour tous les Canadiens et Canadiennes . 
-en tant que ardente défenseur de les arts et de la culture à le Canada et que députée de une circonscription qui compte de nombreux artistes , dont de les écrivains , de les chanteurs , de les acteurs , de les artistes de spectacle , de les cinéastes et de les producteurs , je avais commencé à entendre déplorer que le investissement dans la culture canadienne était devenu stagnant , que de autres intérêts et groupes spéciaux avaient éclipsé le importance de un investissement soutenu dans les arts . 
-certains me ont clairement rappelé que les deux derniers budgets ne renfermaient aucun nouveau programme ou incitatif favorisant les arts et la culture , exception faite de les programmes mentionnés dans le deuxième livre rouge , ce est - à - dire la plate - forme électorale de les libéraux . 
-même si ces programmes et projets de financement se étaient concrétisés , il restait que le gouvernement ne avait pris aucun nouvel engagement . 
-quel était le avenir de ce secteur qui devait aider le Canada à entrer dans le prochain siècle et assurer la souveraineté culturelle et le identité nationale de notre pays ? 
-les préoccupations de la colonie artistique ont été prises en considération et je félicite le gouvernement pour la vision et le leadership avec lesquels il continue de promouvoir les arts et la culture à le Canada . 
-les initiatives suivantes sauront , je le espère , rassurer et renforcer le milieu de les arts et de la culture . 
-le gouvernement se est désormais engagé à se assurer que les jeunes Canadiens de 13 ans et plus auront la chance de mettre à profit leur créativité et de créer leurs premières oeuvres en utilisant de les approches traditionnelles et de les techniques nouvelles dans les secteurs de les arts , de la culture , de la technologie numérique et de autres industries . 
-en prenant cet engagement , le gouvernement reconnaît le rôle important de les arts , qui contribuent à favoriser la créativité de les enfants et les préparent à évoluer à le sein de une économie de le savoir . 
-de les preuves concrètes montrent que les enfants qui se intéressent à les arts , et spécialement à la musique , dès leur jeune âge obtiennent de meilleures notes en mathématiques et en sciences que les autres enfants . 
-en fait , en novembre 1997 , le Globe and Mail publiait en première page de sa section de les arts un article qui venait confirmer ces preuves et qui concluait que les arts , et non les ordinateurs , rendent les jeunes plus créatifs . 
-le auteur de cet article affirmait : 
-non seulement le éducation artistique ne coûte pas cher , mais elle pourrait devenir essentielle dans un monde plus innovateur et plus souple . 
-ce sont les arts , et non IBM , qui rendent les jeunes intelligents . 
-le auteur ajoutait que le éducation artistique , en mettant le accent sur le processus de créativité , préparait nos jeunes à les emplois spécialisés dont notre pays a besoin et continuera de avoir besoin . 
-cela renforce la maxime selon laquelle la culture est le troisième pilier de notre politique étrangère . 
-le gouvernement se est également engagé à profiter de la prochaine ronde de négociations de le OMC pour établir un système de commerce mondial plus transparent , basé sur de les règles , qui faciliterait le accès à les marchés mondiaux pour les entreprises canadiennes de tous les secteurs et qui respecterait les besoins de les Canadiens . Et là encore , le gouvernement ne omet pas de mentionner la culture . 
-il mettra en ligne les collections de les Archives nationales , de la Bibliothèque nationale et de autres institutions clés . 
-le gouvernement annonce aussi son intention de accroître le soutien à la production canadienne dans les domaines de le édition , de le théâtre , de le cinéma , de la musique et de la vidéo et aussi de augmenter son appui à le usage de les nouveaux médias . 
-parlant de le infrastructure matérielle , le gouvernement déclare que il entend travailler avec les autres paliers de gouvernement et le secteur privé pour parvenir à une entente sur un plan quinquennal de amélioration de cette infrastructure dans les zones urbaines et dans les régions rurales . 
-la culture est un de les secteurs sur lesquels le plan mettra le accent . 
-de les plans sont en préparation pour la construction de un nouvel opéra à la fine pointe de la technologie . 
-À Winnipeg , le Manitoba Theatre Centre , qui a 41 ans et est le plus vieux théâtre régional anglophone de le Canada , a grand besoin de rénovations . 
-le théâtre a de ailleurs lancé une campagne de levée de fonds auprès de le secteur privé pour rénover ses deux édifices . 
-le annonce de le gouvernement suscite de grands espoirs étant donné que le monde de la culture avait demandé de rétablir le niveau de financement de les arts en général et de le infrastructure culturelle en particulier . 
-plus important , cet engagement en faveur de le amélioration de le infrastructure matérielle de le domaine culturel semble être une réponse directe à les recommandations 32 et 33 de le rapport de le Comité permanent de le patrimoine canadien intitulé Appartenance et identité : 
-le évolution de le rôle de le gouvernement fédéral pour soutenir la culture à le Canada , qui a été déposé à la Chambre en juin . 
-ces recommandations demandent à le gouvernement de le Canada de rétablir un fonds de capital et de adopter une stratégie financière à long terme pour remédier à la détérioration de les installations culturelles canadiennes . 
-je félicite le gouvernement de avoir répondu aussi rapidement à le rapport de le comité . 
-dans la section de le discours de le trône intitulée « La place de le Canada dans le monde » , le gouvernement déclare que il agira de concert avec les pays qui partagent les mêmes visions que lui pour réformer et renforcer les institutions internationales comme le Organisation mondiale de le commerce . 
-il a aussi mentionné que il travaillerait à définir une nouvelle approche internationale pour appuyer la diversité culturelle dans le monde . 
-par cet engagement , le gouvernement souscrit à le rapport de le Groupe de consultations sectorielles sur le commerce extérieur - Industries culturelles , publié en février 1999 , dans lequel il est recommandé que le gouvernement lance le idée de un nouveau pacte sur les échanges culturels , un nouvel instrument international qui établirait les principes de base devant présider à la formulation de les politiques culturelles . 
-en outre , cet engagement à suivre une approche nouvelle sur la scène internationale pour appuyer la diversité culturelle est également une réponse directe à la recommandation 29 contenue dans le rapport de le Comité permanent de les affaires étrangères et de le commerce international qui a été déposé à la Chambre de les communes en juin 1999 sous le titre Le Canada et le avenir de le Organisation mondiale de le commerce : 
-pour un programme de le millénaire qui sert le intérêt public . 
-la recommandation 29 exhorte le gouvernement à poursuivre la politique de rechange proposée dans le rapport de le Groupe de consultations sectorielles sur la culture visant le établissement de un nouvel instrument international portant sur la diversité culturelle . 
-je aimerais une fois de plus applaudir le gouvernement pour avoir réagi rapidement à le rapport et pour se être engagé à mettre en oeuvre cette recommandation . 
-chaque Canadien , chaque citoyen , chaque gouvernement , chaque entreprise et chaque organisation communautaire a un rôle à jouer . 
-m . Jason Kenney ( Calgary - Sud - Est , Réf . ) : 
-monsieur le Président , je ai beaucoup de temps à consacrer à la députée et je apprécie son engagement envers les arts . 
-ce est admirable . 
-mais je voudrais savoir ce que elle pense de les prétendus investissements que fait le gouvernement , ce est - à - dire de ses dépenses inutiles dans le domaine de les arts et de la culture . 
-que pense la députée en voyant la ministre de le Patrimoine investir un quart de million de dollars dans Bubbles Galore ? 
-est - elle de avis que le programme culturel de le gouvernement devrait inclure la production de films pornographiques ? 
-que pense elle de Hanging the Dead Rabbits ? 
-est - ce un investissement important dans le avenir de la culture canadienne à le XXIe siècle ? 
-la députée pense elle que il est nécessaire de défendre notre souveraineté culturelle ? 
-il y a quelques années , en partie à le moyen de une subvention fédérale , le musée de les beaux - arts de Vancouver a présenté une oeuvre appelée Pisspo , montrant une image de le Saint Père dans une jarre remplie de le urine de le artiste . 
-ce était une autre dépense effectuée par le gouvernement fédéral avec le argent de les contribuables . 
-nous pourrions citer de nombreux exemples de les dépenses absurdes , révoltantes et inutiles que fait le gouvernement dans le domaine de les arts . 
-comment la députée pourrait - elle excuser tout cela ? 
-Mme Sarmite Bulte : 
-monsieur le Président , le député de le opposition cite de les exemples de « dépenses inutiles » . 
-pour ma part , je estime que toute dépense consacrée à notre industrie de les arts et de la culture est un investissement . 
-ce est un investissement dans qui nous sommes et ce que nous sommes . 
-les goûts ne sont pas à discuter , mais il faut reconnaître que la culture et les arts représentent un secteur très vaste . 
-ce secteur , ce est notre appartenance et notre identité , comme le Comité permanent de le patrimoine canadien le a dit de une façon si éloquente . 
-je invite le député à lire le rapport de le comité et à se pencher sur ses recommandations . 
-m . RichardM. Harris ( Prince George - Bulkley Valley , Réf . ) : 
-monsieur le Président , beaucoup de Canadiens qui ont voté pour les libéraux doivent se sentir bien embarrassés aujourd' hui de entendre cette députée se porter à la défense de le oeuvre artistique dégoûtante dont mon collègue de Calgary vient de parler . 
-la députée libérale se est portée à la défense de cette ordure que elle considère comme de le art et comme un bon investissement . 
-elle doit à les Canadiens de les très grandes excuses pour avoir confirmé que le argent de nos impôts a servi à acheter cette forme de expression culturelle dégoûtante , cette oeuvre artistique , pour reprendre ses propos . 
-elle doit probablement de les excuses à certains de ses collègues aussi , qui ne sont pas particulièrement enchantés de la réponse que elle a faite à le député de Calgary . 
-Mme Sarmite Bulte : 
-monsieur le Président , je suis heureuse de prendre la parole pour donner mon appui à le gouvernement et à la ministre de le Patrimoine canadien , qui continuent de investir dans les arts et les industries culturelles à le Canada . 
-ces secteurs sont non seulement un élément vital de notre croissance économique , mais aussi , comme je le ai dit à maintes reprises , un investissement qui nourrit notre identité et sert notre souveraineté culturelle . 
-ne oublions pas que le art et la souveraineté culturelle sont indissociablement liés à notre souveraineté économique . 
-je suis fière de être membre de ce gouvernement et de appuyer son engagement à le égard de notre secteur de les arts et de la culture . 
-m . Monte Solberg ( Medicine Hat , Réf . ) : 
-monsieur le Président , je suis très heureux de avoir le occasion , aujourd' hui , de parler de le discours de le Trône et de être de retour parmi mes collègues , de ce côté de la Chambre . 
-en réponse à ce que vient de dire la députée , lorsque elle affirme que il faudrait retirer de force leur argent à les Canadiens pour le consacrer à de les projets qui sont contraires à leurs valeurs et à leurs croyances , je crois que elle va totalement à le encontre de ce pensent les Canadiens . 
-par exemple , certaines personnes ont de les convictions religieuses profondes . 
-il est répréhensible , et je crois que la plupart de les Canadiens seraient aussi de cet avis , de retirer de le argent à les contribuables pour le consacrer à de les choses que ces gens considéreraient comme blasphématoires . 
-ce est exactement ce que fait le gouvernement libéral , et je ne peux pas croire que il peut siéger en face et défendre de tels projets . 
-À le début de une année , la plupart de les gens se arrêtent et prennent de les résolutions de le Nouvel An . 
-lorsque ils ont les ressources pour le faire , ce est ce que ils font . 
-alors que le gouvernement se apprête à franchir le cap non seulement de une nouvelle année , mais de une nouvelle décennie , de un nouveau siècle et de un nouveau millénaire , il devrait en faire autant . 
-il devrait faire un effort spécial pour amorcer une réforme de ses façons de procéder . 
-la plupart de les Canadiens conviendraient avec moi que le gouvernement faillit à sa tâche dans bien de les domaines . 
-nous ne assurons pas une défense nationale adéquate . 
-nous ne assurons pas un système de justice adéquat . 
-il y a largement place à le amélioration dans le domaine de les soins de santé et de les services sociaux . 
-nous ne faisons pas de le bon travail de le côté de la reddition de comptes gouvernementale . 
-il prévoit surtout de le rafistolage , ce qui est certes la marque de le présent gouvernement . 
-lorsque on met de côté toutes les paroles creuses de ce discours de le Trône de 24 pages , que reste il ? 
-il reste le annonce que le gouvernement va annoncer à un moment donné une baisse de les impôts . 
-il reste aussi un tas de hausses de impôt qui vont nous tomber dessus très bientôt . 
-le 1 er janvier , nous allons être frappés par une hausse de les charges sociales parce que les cotisations à le Régime de pensions de le Canada augmentent encore . 
-les petites entreprises verront leurs impôts augmenter parce que leur exonération fiscale sera érodée par le inflation . 
-elles paieront davantage de impôts . 
-la même chose vaut pour le exonération de gains en capital de les petites entreprises et de les exploitations agricoles . 
-cela entraînera de les hausses de impôt pour toutes ces personnes . 
-telle est la réalité . 
-toutes ces belles paroles de le gouvernement voulant que le niveau de les impôts le préoccupe ne veut vraiment pas dire grand - chose lorsque on voit ce qui se passe en fait . 
-le gouvernement va hausser les impôts . 
-le gouvernement parle de son projet de réduire les impôts . 
-nous en entendrons parler dans les prochains jours . 
-il dit vouloir les réduire de 16,5 milliards de dollars , mais ce que il ne dit pas , ce est que il va les hausser en même temps de 18 milliards de dollars . 
-le résultat net ce est que les Canadiens , dont le fardeau fiscal ne a jamais été aussi élevé que actuellement dans toute le histoire de le Canada , seront encore plus lourdement imposés grâce à les bons soins de le ministre de les Finances et de le gouvernement libéral . 
-ce est tout à fait inacceptable . 
-ce est inacceptable pour diverses raisons . 
-tout de abord , et ce est probablement la raison la plus importante , ce est inacceptable parce que les gens en souffrent . 
-si le gouvernement faisait vraiment preuve de compassion , se il voulait être juste et offrir à la population de les solutions et de les possibilités , il aurait utilisé les 12 premières pages de le discours de le Trône pour expliquer comment il allégerait le fardeau fiscal de les Canadiens , qui sont rudement mis à contribution . 
-il est inconcevable que nous titubions sous le énorme fardeau fiscal qui nous accable actuellement et que les familles dont les revenus annuels sont inférieurs à 20 000 $ versent annuellement en impôts six milliards de dollars . 
-mon ami , le député de Crowfoot , me a raconté récemment le histoire de une femme , dont je ai pu voir la déclaration de impôt . 
-ses revenus se élevaient à 11 000 $ , et elle a payé 600 $ de impôt fédéral sur le revenu . 
-ce est honteux de la part de un parti qui dit faire preuve de compassion . 
-nous avons donné à la Chambre de nombreux exemples de particuliers dont les revenus sont extrêmement bas et qui paient de les impôts excessivement élevés . 
-je pourrais vous citer certains exemples , mais je vais brièvement vous exposer un cas qui me a été présenté hier par mon ami , le député de North Vancouver . 
-il me a remis une lettre de une femme dont le mari gagne 65 000 $ par année , ce qui , dans le esprit de bien de les gens , constitue un assez bon salaire . 
-il en résulte que cette famille doit remiser une de ses voitures . 
-elle ne peut tout simplement pas mettre assez de argent de côté pour passer à travers la période de mise à pied de cet homme . 
-ce est très troublant , quand on gagne 65 000 $ et que on réussit à peine à joindre les deux bouts à cause de le fardeau fiscal imposé par le gouvernement . 
-je ai pu consulter quelques documents qui étaient confidentiels jusque à le moment où nous les avons obtenus en invoquant la Loi sur le accès à le information , il y a quelque temps . 
-même dans les notes de information de le ministre , il est reconnu que le Canada a le fardeau fiscal le plus élevé de tous les pays de le G - 7 . 
-de tous nos partenaires commerciaux , de tous les pays les plus prospères de le monde , ce est nous qui avons , et de loin , les impôts les plus élevés . 
-je trouve toujours un peu étonnant que à le Canada , aujourd' hui , les gens consacrent une plus grande proportion de leur revenu à les impôts que à leur alimentation , à le logement et à les vêtements mis ensemble . 
-une fois que tout est payé , il ne leur reste pas grand - chose . 
-quand tous ces impôts et les nécessités de la vie sont payés , il ne nous reste plus grand - chose . 
-ce est pourquoi , à le Canada , le revenu disponible ne dépasse pas les niveaux atteints en 1980 . 
-cela fait 20 ans que il est à le même niveau . 
-il y a beaucoup de belles paroles dans le discours de le Trône à le sujet de programmes relatifs à le Internet et de un service de grosse agence de voyages pour les jeunes qui enverra ceux - ci partout dans le monde . 
-ce est bien beau tout cela , mais ce est un luxe que nous ne pouvons pas nous permettre pendant que les Canadiens croulent sous les impôts . 
-ce est ridicule . 
-si le gouvernement voulait vraiment être juste , il reconnaîtrait que ce sont les Canadiens qui ont équilibré le budget pour lui . 
-la Chambre se rend - elle compte que , aujourd' hui , la famille moyenne paie de les impôts 30p. 100 plus élevés que il y a six ans ? 
-le chiffre est de 4 300 $ . Ce est énorme . 
-ce ne est pas le ministre de les Finances ni le gouvernement qui ont équilibré le budget , mais bien les contribuables . 
-À le nom de la justice , ils devraient maintenant avoir droit à certains allégements fiscaux . 
-je veux dire quelques mots à le sujet de la situation de les agriculteurs aujourd' hui . 
-je viens de une circonscription agricole . 
-je veux montrer à quel point les impôts font mal à les agriculteurs . 
-les députés se rendent - ils compte que les impôts touchent pratiquement tous les intrants auxquels on peut penser ? 
-les taxes sur le carburant représentent environ 50p. 100 de le prix de ce produit . 
-les taxes sur les engrais , les produits chimiques et les machines agricoles représentent 15 , 20 ou même 30p. 100 de le prix de ces produits . 
-si nous pouvions réduire les impôts , nous nous trouverions à apporter une aide directe à les agriculteurs , mais ce ne est pas ce que nous voyons de la part de ce gouvernement . 
-je veux simplement dire que la façon la plus juste de traiter les Canadiens à le approche de le nouveau millénaire , ce est de alléger leur fardeau fiscal . 
-ils se serviront de ces ressources pour aider leurs familles et leurs enfants , quelque chose qui , selon ce que dit le gouvernement , lui tient beaucoup à coeur . 
-les Canadiens se serviront de ces ressources pour aider leurs amis et leurs voisins et pour améliorer leur propre situation . 
-À le bout de le compte , je crois que la plupart de les Canadiens seraient de accord pour dire que un dollar laissé à le contribuable sera bien mieux utilisé que un dollar laissé à un politicien ou à un bureaucrate . 
-m . RichardM. Harris ( Prince George - Bulkley Valley , Réf . ) : 
-monsieur le Président , je remercie mon collègue , le critique de les finances de le Parti réformiste , pour son excellente présentation dans le cadre de le débat aujourd' hui . 
-je aimerais que il se concentre sur une question qui , à mon avis , préoccupe énormément les familles canadiennes . 
-m . Monte Solberg : 
-monsieur le Président , je suis heureux de répondre à la question de mon collègue de Prince George - Bulkley Valley . 
-la réalité , ce est que le revenu disponible de les Canadiens est bloqué à les niveaux de les années 80 . 
-pour les dossiers auxquels le gouvernement prétend se intéresser le plus , comme aider les enfants , cela signifie que les enfants se retrouvent dans une terrible position . 
-je ai pris connaissance il y a peu de temps de une lettre qui me a été remise par le député de Cariboo - Chilcotin . 
-une jeune femme y expliquait que en raison de le taux de AE imposé par le gouvernement et de le fait que les gens ne pouvaient récupérer les cotisations de assurance - emploi , elle ne pourrait se permettre de inscrire son jeune fils à le hockey . 
-ce est là le genre de situation qui se produit quotidiennement partout à le pays . 
-il ne y a pas très longtemps , le chef de le Parti réformiste a fait venir à Ottawa une famille de le Nouveau - Brunswick et a expliqué quelles seraient pour celle - ci les conséquences de le plan de réduction de les impôts de le parti . 
-il signifiait que environ 3 000 $ étaient remis à cette famille . 
-nous lui avons effectivement remis ce montant . 
-que en a elle fait ? 
-ils ont aussi utilisé une partie de le argent pour rembourser un REER dans lequel ils avaient puisé pour payer leurs impôts . 
-m . Grant McNally ( Dewdney - Alouette , Réf . ) : 
-monsieur le Président , il est devenu très clair que le Parti libéral , ce est - à - dire le gouvernement de le Canada , utilise un nouveau mot de code pour parler de son activité favorite , dépenser les fonds publics , le mot investissement . 
