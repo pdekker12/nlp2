@@ -3,7 +3,7 @@
 import argparse
 import sys
 from ibm import *
-from evaluation import compute_perplexity
+from evaluation import compute_perplexity, compute_log_likelihood
 from pprint import pprint
 
 test_length=0
@@ -151,9 +151,11 @@ Copyright (c) Minh Ngo, Peter Dekker
                     alignment_count_s += 1
 
     def stat_calculate(model):
-        perplexity = compute_perplexity([model.translation_score_normalized(f, e)
-                                         for f, e in zip(foreign_corpus, source_corpus)])
-        print('Perplexity = %s' % (perplexity))
+        score = [model.translation_score_normalized(f, e)
+                 for f, e in zip(foreign_corpus, source_corpus)]
+        perplexity = compute_perplexity(score)
+        log_likelihood = compute_log_likelihood(score)
+        print('Perplexity = %s, Log-Likelihood = %s' % (perplexity, log_likelihood))
 
         if args.wa:
             stat_a = 0
