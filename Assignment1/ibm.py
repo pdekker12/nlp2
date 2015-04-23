@@ -240,7 +240,6 @@ class Model:
         should be the same
     """
     def train(self, foreign_corpus, source_corpus, clear=False, callback=None, uniform=False):
-        print('Timestamp:', time.time())
         if clear:
             print('Resetting weights')
             self.t = {}
@@ -263,6 +262,7 @@ class Model:
         self.model_setup.q = self.q
 
         for t in range(self.num_iter):
+            print('Timestamp:', time.time())
             # Set all count c(...) = 0
             # c_e: e word occurence
             # c_e_f: e and f words occurence at the same time
