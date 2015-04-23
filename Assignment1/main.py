@@ -150,7 +150,7 @@ Copyright (c) Minh Ngo, Peter Dekker
                 if type_align == 'S':
                     alignment_count_s += 1
 
-    def stat_calculate(model,iteration):
+    def stat_calculate(model):
         perplexity = compute_perplexity([model.translation_score_normalized(f, e)
                                          for f, e in zip(foreign_corpus, source_corpus)])
         print('Perplexity = %s' % (perplexity))

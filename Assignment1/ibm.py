@@ -197,7 +197,6 @@ class Model:
     def __init__(self, t={}, q={}, model_setup=Model1Setup(), num_iter=3):
         self.num_iter = num_iter
 
-        # TODO: Optimize
         self.t = t
         self.q = q
         self.model_setup = model_setup
@@ -298,7 +297,7 @@ class Model:
                         self.q[quadruple_to_int(j, i, l, m)] = c_ji_l_m[quadruple_to_int(j, i, l, m)] / c_i_l_m[triple_to_int(i, l, m)]
 
             if callback != None:
-                callback(self,t)
+                callback(self)
 
 
 def init_c_e_f(foreign_corpus,source_corpus):
