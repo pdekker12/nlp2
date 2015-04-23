@@ -238,7 +238,7 @@ class Model:
         Length of the foreign_corpus and source_corpus collections
         should be the same
     """
-    def train(self, foreign_corpus, source_corpus, clear=False, callback=None):
+    def train(self, foreign_corpus, source_corpus, clear=False, callback=None, uniform=False):
         if clear:
             print('Resetting weights')
             self.t = {}
@@ -252,9 +252,9 @@ class Model:
                 for f_w, i in zip(f, range(m)):
                     for e_w, j in zip(e, range(l)):
                         if (f_w, e_w) not in self.t:
-                            self.t[pair_to_int(e_w, f_w)] = random.random()
+                            self.t[pair_to_int(e_w, f_w)] = random.random() if not uniform else 0.1
                         if (j, i, l, m) not in self.q:
-                            self.q[quadruple_to_int(j, i, l, m)] = random.random()
+                            self.q[quadruple_to_int(j, i, l, m)] = random.random() if not uniform else 0.1
 
         # A bit bloody hack to link t and q again
         self.model_setup.t = self.t

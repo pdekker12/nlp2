@@ -55,9 +55,10 @@ def choices_descriptions():
    return """
 --ibm key supports the following: 
     IBM-M1           - IBM-Model 1, Initialized randomly
+    IBM-M1-AddN      - IBM-M2-1 with add-n-smoothing
     IBM-M2-Rand      - IBM-Model 2, Initialized randomly
     IBM-M2-1         - IBM-Model 2, Initialized by parameters from IBM-M1
-    IBM-M2-AddN    - IBM-M2-1 with add-n-smoothing
+    IBM-M2-Uniform   - IBM-Model 2, Initialized uniformly
 """
 
 
@@ -79,7 +80,8 @@ Copyright (c) Minh Ngo, Peter Dekker
     parser.add_argument('--iter-2', dest='iter2', default=3,
                         help='Number of iterations for the second stage', type=int)
 
-    ibm_mode = ['IBM-M1', 'IBM-M2-Rand', 'IBM-M2-1', 'IBM-M1-AddN','IBM-M1-HeavyNull','IBM-M1-HeurInit','IBM-M1-AllImprove']
+    ibm_mode = ['IBM-M1', 'IBM-M2-Rand', 'IBM-M2-1', 'IBM-M2-Uniform',
+                'IBM-M1-AddN','IBM-M1-HeavyNull','IBM-M1-HeurInit','IBM-M1-AllImprove']
     parser.add_argument('--ibm', choices=ibm_mode, default='IBM-M1', help='IBM Model mode')
 
     parser.add_argument('--wa', help='Denoted alignment file')
@@ -237,7 +239,7 @@ Copyright (c) Minh Ngo, Peter Dekker
 
     print('Model 1 instance:', model)
     iterations = args.iter2
-    if args.ibm == 'IBM-M2-Rand':
+    if args.ibm == 'IBM-M2-Rand' or args.ibm == 'IBM-M2-Uniform':
         print('IBM model 2 with random weights')
         model2 = Model(model_setup=Model2Setup(), num_iter=iterations)
 
@@ -245,9 +247,10 @@ Copyright (c) Minh Ngo, Peter Dekker
             model2.t = imported_t
             model2.q = imported_q
 
-        model2.train(foreign_corpus, source_corpus, clear=(args.import_file == None), callback=stat_calculate)
+        model2.train(foreign_corpus, source_corpus, clear=(args.import_file == None),
+                     callback=stat_calculate, uniform=(args.ibm == 'IBM-M2-Uniform'))
         model = model2
-    elif args.ibm == 'IBM-M2-1' or args.ibm == 'IBM-M2-AddN':
+    elif args.ibm == 'IBM-M2-1':
         print('IBM model 2 initialized by IBM-M1')
         model2 = Model(t=model.t, q=model.q, model_setup=Model2Setup(), num_iter=iterations)
         model2.train(foreign_corpus, source_corpus, clear=False, callback=stat_calculate)
