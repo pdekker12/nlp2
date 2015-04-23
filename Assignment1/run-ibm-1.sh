@@ -2,6 +2,6 @@
 
 date '+%X'
 
-python3 -u main.py --foreign ../data/combination5000.f --source ../data/combination5000.e --wa ../data/test.wa.nonullalign --ibm IBM-M1 --iter-1 40
+python3 -u main.py --foreign ../data/combination5000.f --source ../data/combination5000.e --wa ../data/test.wa.nonullalign --ibm IBM-M1 --iter-1 40 --export weights-ibm-1
 
 date '+%X'
