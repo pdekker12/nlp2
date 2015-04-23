@@ -2,6 +2,7 @@ import random
 from evaluation import compute_perplexity, compute_log_likelihood
 import math
 from collections import defaultdict
+import time
 
 MAX_SENTENCE_LENGTH = 100
 MAX_DICT_SIZE = 100000
@@ -239,6 +240,7 @@ class Model:
         should be the same
     """
     def train(self, foreign_corpus, source_corpus, clear=False, callback=None, uniform=False):
+        print('Timestamp:', time.time())
         if clear:
             print('Resetting weights')
             self.t = {}
