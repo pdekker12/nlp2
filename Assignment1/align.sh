@@ -1,10 +1,12 @@
 #!/usr/bin/env bash
+#
+# $2 - Dutch
+# $3 - English
+#
 
 if [ $1 -eq 1 ]
 then
-  python3 main.py --foreign $3 --source $2 --debug alignments.out --ibm IBM-M1
+  python3 main.py --foreign $3 --source $2 --output alignments.out --ibm IBM-M1 --iter-1 3
 else
-  # TODO: Use IBM-M2 with random initialization or with parameters from IBM-M1 ?
-  # TODO: Check if it's a required output format
-  python3 main.py --foreign $3 --source $2 --debug alignments.out --ibm IBM-M2-1
+  python3 main.py --foreign $3 --source $2 --output alignments.out --ibm IBM-M2-1 --iter-2 3
 fi
