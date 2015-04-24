@@ -1,3 +1,450 @@
+2 . 
+2 . 
+oh , oh ! 
+oh , oh ! 
+oh , oh ! 
+souvenons - nous , monsieur le Orateur , que ce sont ces secteurs de notre société qui servent de épine dorsale à notre économie . 
+bravo ! 
+bravo ! 
+monsieur le Orateur , ma question se adresse à le ministre chargé de les transports . 
+tous deux possèdent de nombreuses années de expérience dans la fabrication et la distribution de les produits forestiers . 
+1 . 
+je voudrais aussi parler de le droit de le fournisseur de choisir ses clients à son gré . 
+je en ai assez de voir que les ministres semblent éprouver certains complexes à le égard de la négociation collective . 
+je voudrais commenter un autre point particulier , monsieur le Orateur , avant de me taire . 
+a le ordre . 
+3 . 
+il ne y a pas de meilleure autorité en la matière que le député de Don Valley , non pas moi exclusivement . 
+ce est tout à fait compréhensible . 
+en outre , elle pourrait constituer une sérieuse menace pour la Confédération et le unité nationale . 
+pour cette raison , nous ne avons pas cru bon de assister à la réunion et en avons informé le COJO en conséquence . 
+monsieur le Orateur , le ministre a laissé entendre que un programme de construction plus considérable peut - être une poussée inflationniste . 
+je ne partage pas le avis de le ministre . 
+il y a beaucoup à dire sur les deux aspects de cette question . 
+a le ordre . 
+monsieur le Orateur , comme je le ai signalé à le chef de le opposition , je espère faire une déclaration à ce sujet le1er novembre . 
+ce est bien cela . 
+ce ne est pas en isolant quelque un que on le aide à se réadapter . 
+il laissait une femme et une famille . 
+monsieur le président je invoque le Règlement ; je suis persuadé que le député de Verdun ne aurait pas déprécié ma position . 
+les compagnies de assurance peuvent - elles à leur tour , agir comme compagnies aériennes ? 
+je vous le déclare , monsieur le Orateur , la population de Toronto sait que le gouvernement est incapable de fournir une réponse . 
+on a tout à fait tenu compte de leur avis sur le état de la réserve de poisson . 
+je vous remercie , monsieur le Orateur , et je remercie les députés de me permettre de poursuivre . 
+je réclame instamment cette étude approfondie , monsieur le Orateur , car nous ne savons presque rien de les raisons qui transforment les gens en criminels . 
+le gouvernement doit aider ses propres employés qui peuvent avoir besoin de une autre langue pour leur avancement . 
+je ne ai pas de scrupule quant à le genre de langage que je tiens . 
+( la motion est adoptée . ) 
+monsieur le président , la décision ne est pas prise à ce moment - ci , mais je imagine que ce est oui . 
+la question de les relations commerciales avec nos homologues européens devrait être envisagée très sérieusement . 
+ce dont nous , les Canadiens , devons nous soucier , ce est les cas où on exporte ces animaux dans ce but - là . 
+ils ont déjà indiqué les embranchements que ils songeaient à fermer . 
+ce ministre assurait la garde tandis que la moitié de les recettes et de les bénéfices de le industrie agricole canadienne étaient balayés par le exposé budgétaire . 
+en aucune façon , monsieur le président . 
+nous en faisons actuellement le analyse et je espère que bientôt la Chambre pourra être saisie de les renseignements pertinents . 
+bravo ! 
+bravo ! 
+je proposerais donc , avec le appui de le député de Halifax - East ( M. Forrestall ) : 
+quand on a saisi le énormité de le ravage exercé par le crime organisé dans notre pays , on doit envisager de les solutions en profondeur . 
+leur popularité a monté en flèche et ils ont traversé la crise avec facilité grâce à cela . 
+( 2 ) Un comité doit se en tenir à le ordre de renvoi et ne saurait y déroger . 
+je voudrais préciser un autre point , et je le fais parce que je estime que il se agit de un débat général . 
+en décembre , la Colombie - Britannique a fait savoir que elle allait se retirer de le Office canadien de commercialisation de les oeufs . 
+bien de les députés de tous les partis de ce côté - ci de la Chambre se y sont également fortement opposés . 
+ce ne est pas de ces lignes que il faudrait se inquiéter pour le instant . 
+le député a pu poser deux questions supplémentaires et , en toute justice , je pense que nous devrions laisser la parole à de autres députés . 
+je crois que ce est une bonne chose . 
+je crois que il a pris trop de temps à étudier de les demandes courantes de changements de installations le long de un pipe - line , par exemple . 
+le ministre de État chargé de les Sciences et de la Technologie devrait connaître son rayon . 
+les menuisiers de le gouvernement fédéral touchent $ 6.42 à Toronto contre $ 5.23 à Halifax et Moncton . 
+je aimerais mentionner à ce sujet un communiqué de presse qui a suivi la conférence fédérale - provinciale de les procureurs généraux de octobre 1975 . 
+monsieur le Orateur , je invoque le Règlement . 
+je pense que le terme ferroviaire est « chargement sur demande » . 
+je reviendrai plus tard à ce que coûte un bâtiment de pêche de nos jours . 
+dans la plupart de les provinces , de les règlements généraux sur le bruit ont été mis en application , et dont le principe général se énonce ainsi : 
+de accord . 
+après tout , le énergie est un bien collectif et le gouvernement pourrait fort bien adopter une politique de encouragement comme celle dont je ai parlé . 
+6 . 
+je serai heureux , quand nous en aurons le temps , de me asseoir avec les député et de explorer la question de façon productive . 
+le ministre prendra il de les mesures pour résoudre les difficultés , car il est absolument nécessaire de passer les commandes maintenant et non dans quelques mois ? 
+cela encouragera la construction de nouvelles embarcations de pêche et la création de nouvelles conserveries . 
+il y a bien de les choses que je pourrais dire à propos de le bill C - 19 . 
+je reviendrai sur cet aspect un peu plus tard , car je pense que ce est un élément que il est essentiel de souligner cet après - midi . 
+les sociétés trouvent que les règlements sont compliqués , lourds et que on les modifie sans cesse . 
+monsieur le Orateur , ma question se adresse à le ministre chargé de la Commission canadienne de le blé . 
+si je comprends bien , on prévoit un taux de intérêts annuel de 70 % . 
+nous souhaitons parvenir à une décision cette semaine . 
+nous acceptons votre opinion . 
+il fit campagne là - dessus pendant les élections . 
+12 . 
+monsieur le Orateur , voici ce que je ai à en dire : quelle cruelle comédie , car ce est jouer la comédie . 
+monsieur le Orateur , nous essaierons de nous en tenir à cette suggestion . 
+1 . a ) $ 98,355 . b ) Ils sont disponibles dans tous les grands bureaux de poste de le pays . 
+en vertu de la constitution , le activité criminelle est de compétence fédérale , tandis que le application de la loi relève de les provinces et de les municipalités . 
+je prétends que mes remarques concernant le bill , le argent dépensé pour les soins médicaux et la façon dont on le dépense . 
+de abord quelques mots à le sujet de cette maladie pour vous situer . 
+heureusement , il y en a moins cette année , elles sont plus raisonnables , plus sérieuses et plus conciliantes . 
+ce projet de loi est à le étude à la Chambre depuis plus de un an . 
+cette personne a pris sa retraite le 30 décembre 1975 après avoir complété 34 années à le service de le public . 
+le adoption de la motion de le député signifierait que la loi préciserait en détail les exigences de contenu et que nous pourrions les discuter . 
+cela ne veut pas dire nécessairement que il y a défaut de se y conformer de la part de les parties . 
+je ne lui ai pas demandé de me fournir de telles explications sur ces activités . 
+comment peut - on tant demander de une part et être assuré de si peu de le autre ? 
+peut - être proposera il ensuite une mesure nouvelle et différente qui ne le exposera pas à les accusations de censure . 
+ou ils font leur travail convenablement , ou ce est à vous de obtenir le pouvoir nécessaire pour les amener à le faire . 
+on y retrouve en effet toutes les tensions et toutes les divergences de notre pays . 
+le hon. John N . Turner ( ministre de les Finances ) propose : 
+bien que il me coûte de le admettre , les gouvernements libéraux à le Canada ont présenté de bonnes mesures législatives ... 
+en tant que député de une circonscription voisine , je connais fort bien sa persévérance et son acharnement à le travail . 
+où est la CAI ? 
+malheureusement , à le heure actuelle , cette réalité est perçue par les deux tiers de la population non pas comme un avantage , mais comme un obstacle . 
+ne nous forcez pas à accepter un moratoire . 
+ce ne est pas la première fois que les députés en entendront parler . 
+on trouvait la même recommandation dans le rapport de le 29 avril de le an dernier de le comité permanent de les privilèges et élections . 
+je crois , monsieur le président , que le ministre est mal informé . 
+dans le rapport de le ministère de les Transports sur le accident , il est dit : 
+monsieur le Orateur , le gouvernement fédéral a offert un programme de 100 millions de dollars . 
+dans la plupart de les échantillons de cette importance , ce est - à - dire un groupe de plus de 500 personnes , cela serait considéré comme négligeable . 
+de ordinaire pour demander de nouveaux pouvoirs de emprunt ou annexer un article à les bills de finances provisoires présentés à la Chambre . 
+cela touche à le coeur même de notre démocratie puisque il se agit de le droit de le peuple à le information . 
+cela réduirait la demande de pétrole . 
+la Division de les enquêtes spéciales a été abolie à le début de 1975 . 
+de plus , il ne se agit pas de faire savoir si le on est pour ou contre une forme de aide à les parents adoptifs . 
+montrez - nous les documents . 
+le Canada continue à accorder son soutien à le alliance de le OTAN comme force de dissuasion et comme assurance absolument indispensables à notre sécurité . 
+pouvez - vous imaginer une telle mesure en 1978 ? 
+non , monsieur le président . 
+bien entendu , le gouvernement tente de conclure le meilleur marché possible pour les Canadiens en faisant une série de négociations . 
+je ajouterais , monsieur le Orateur , que il faut la maintenir à ce niveau . 
+si je veux obtenir de les chiffres sur la situation de le Canada , je ne irai certainement pas consulter le discours prononcé par le premier ministre . 
+nous avons étudié tous les aspects de la question . 
+mieux vaut sans doute que je cite un journaliste de Timmins qui songeait vraisemblablement à le député . 
+monsieur le Orateur , il est vrai que je ai reçu le rapport de le comité de action de les chemins de fer de les Prairies . 
+( ii ) a ) 3 véhicules seront utilisés par 6 spécialistes canadiens dans le cadre de la prestation de aide technique . 
+1979 . 
+et nous allons appliquer chacune de les recommandations contenues dans le rapport de le Vérificateur général , chose que nous réclamons depuis dix ans . 
+je voudrais commencer , monsieur le Orateur , en faisant quelques observations générales . 
+monsieur le Orateur , je vais voir si ces chiffres sont disponibles , mais je déplore les expressions que le député a utilisées . 
+je sais que il ne a pas le intention de me empêcher de répondre à la question fort sérieuse que me a posée son collègue . 
+le opposition nous chante toujours la même rengaine : ce programme coûtera de le argent à le gouvernement . 
+notre taxe de 18 cents ne leur plaisait pas . 
+le problème est de savoir si la population canadienne a le droit de être informée sur sa constitution . 
+ils veulent choisir eux - mêmes qui ils vont défendre . 
+est - ce que cela a été mis par écrit ? 
+je suis conscient , monsieur le président , que il ne existe pas de solution miracle . 
+en 1978 , on a enregistré 1,122,000 divorces sur le continent . 
+le chômage brise les familles et porte à le alcool et à la drogue . 
+le opposition officielle a essayé de détruire Petro - Canada pendant son bref règne de six mois . 
+et que à le lieu de provoquer la rupture , 
+ils se sont prononcés contre une mesure qui aurait garanti à les Canadiens de les approvisionnements sûrs . 
+a propos de contribution , cela me rappelle une histoire . 
+madame le Président , je aimerais entendre ce que va dire le député avant de proposer ma motion . 
+le orateur qui me a précédé a dit également que il aimerait voir les provinces participer à les préparatifs de les réunions . 
+mon collègue de Toronto dit encore 53 ans . 
+de après toutes ces estimations , le Canada sera en bien plus mauvaise posture par suite de le programme que il ne le était auparavant . 
+monsieur le premier ministre , 
+en fait , elle aura de les effets plus destructifs que positifs . 
+le inflation mondiale crée de graves tensions économiques . 
+le PT7 représente le début de une nouvelle famille de moteurs dans un niveau de puissance au - dessus de le moteur PT6 qui est hautement couronné de succès . 
+monsieur le Orateur , je suis heureux de avoir le occasion de participer à ce débat de ajournement ... 
+cette politique joue un rôle aussi important dans une stratégie industrielle que le plan de ensemble ou que les plans détaillés que il faut mettre à le point . 
+on dit maintenant que la construction de le gazoduc va coûter environ 45 milliards de dollars . 
+signalons par ailleurs que on trouve toutes ces lacunes dans le bill . 
+a ce stade de le débat sur la résolution , mon parti propose trois amendements précis . 
+il ne peut donc pas prétendre avoir apporté le moindre changement à le niveau de le ensemble . 
+ce est dans le cadre de ce programme et de ententes auxiliaires que le gouvernement accorde la majeure partie de son aide à le expansion régionale . 
+que a fait le gouvernement à ce sujet ? 
+si nous utilisons le chômage pour combattre le inflation , nous pourrons relancer le économie , voilà la position de le gouvernement . 
+la conservation commence à produire de le effet . 
+on pourrait implanter une aciérie en Colombie - Britannique , par exemple . 
+a le ordre ! 
+voilà pourquoi les professions libérales ne devaient pas être imposées pour les travaux en cours . 
+monsieur le Président , je crois que ce qui se passe aujourd' hui est intéressant , mais ce ne est que un début . 
+cependant , ce sont les contribuables qui sont obligés de payer . 
+le projet de loi a pour but de revenir sur de les programmes qui ont été mis en place à une époque où nous pouvions nous le permettre . 
+ce est pourquoi nous avons dû importer 25,000 travailleurs spécialisés à un moment où le chômage augmentait . 
+comme Carter le a si bien dit dans les années 60 , une piastre est toujours une piastre , et il faut le imposer comme tel . 
+a le ordre , je vous prie . 
+cela donne en tout une réduction de $ 2,958 à le cours de les deux prochaines années , soit 15 % de le salaire initial de $ 20,000 . 
+de après les nouvelles de ce matin , la mine de minerai de fer à Heath , dans le nord de le Nouveau - Brunswick va fermer . 
+ils sont prêts à suivre cet exemple . 
+a le heure actuelle , un certain nombre de programmes de ce genre fonctionnent déjà et nous prévoyons en lancer de autres . 
+nous devons nous demander comment il se fait que cette abondance de idées et de activité ne ait pas résolu le problème de le développement . 
+je voudrais terminer sur une note positive , monsieur le Orateur . 
+je voudrais que il soit bien clair , monsieur le Orateur , que le gouvernement fédéral ne fixe pas les prix de détail . 
+la séance est ouverte à 2 heures . 
+je rappelle , monsieur le président , que le ministre parlait , pour les lignes de transmission de électricité , de les mêmes pouvoirs qui existent déjà . 
+ce est vraiment un objectif souhaitable que nous visons tous . 
+madame le Président , je voudrais poser une question supplémentaire à le ministre de les Transports . 
+prenons maintenant Petro - Canada . 
+cela va apporter de les économies énormes . 
+malheureusement , personne ne semble savoir quels seront à le juste ces effets . 
+nous avons permis à un sous - gouvernement de arracher de les pouvoirs à la Chambre de les communes . 
+ce est une somme considérable . 
+que se passe il exactement ? 
+madame le Président , je serai très bref . 
+le gouvernement dit tout simplement à les gens ce qui est bon pour eux . 
+ce sont les données désaisonnalisés , celles qui montrent une baisse de 5 % , qui comptent . 
+les discussions qui se déroulent en ce moment mettent la présidence dans une situation fort embarrassante . 
+monsieur le Président , je regrette , mais je ne ai pas vu ce communiqué de la société britannique . 
+il y a moins de bénévoles , car beaucoup de femmes sont retournées sur le marché de le travail . 
+elles travaillent avec eux . 
+leur succès dépend de la mesure dans laquelle ils se appliquent . 
+je ne sais pas se il existe un seul député à la Chambre qui se opposerait à ce que on donne davantage de argent à les personnes âgées . 
+eux aussi ont un rôle à jouer dans la chaîne alimentaire . 
+un aspect plus démocratique a été ajouté à les situations qui se présentaient dans nos circonscriptions . 
+il faudrait plutôt se efforcer de faire oublier les propos stupides que a tenus le ministre la semaine dernière . 
+le ministère remplira il le ravin qui se trouve à le extrémité de la piste 24L à le aéroport international Pearson de Toronto ? 
+si nous décidons de présenter un tel projet de loi , je lui rappellerai son offre . 
+a cela , je réponds : 
+ce est ce que je recommande à la Chambre de faire , monsieur . 
+je ignore si cela servira à quelque chose . 
+voilà le principe dont le Alliance doit se inspirer en cherchant à conclure de les accords justes et vérifiables avec le Union soviétique . 
+la même réponse se applique à les automobiles . 
+il a saisi la Chambre de un projet de loi qui aura pour effet de les restreindre . 
+le député de Bow River ( M. Taylor ) intervient dans le débat . 
+monsieur le Président , je invoque le Règlement . 
+le gouvernement ne veut pas le croire . 
+ce étaient là de les engagements extrêmement intéressants et assez révélateurs sur ce que pourrait devenir ce secteur fondamentalement important , le agriculture . 
+il se agit de le syndrome de la porte tambour et la réarrestation immédiate . 
+je espère que ensuite il portera le flambeau . 
+le argument de le gouvernement est erroné , à mon avis . 
+toutefois , nous avons suffisamment de argent pour renflouer deux banques . 
+le Règlement ! 
+ces créations peuvent être volées comme ne importe quel autre type de propriété . 
+deuxièmement , monsieur le Président , ce que nous avons fait depuis novembre dernier , ce est une amélioration de le climat de confiance . 
+ce sont de les établissements financiers très importants dans le ouest de le Canada . 
+le député de Cochrane - Supérieur ( M. Penner ) a dit tout à le heure que ce était à le gouvernement de libérer ses députés . 
+ce est vrai . 
+que fait - on de les femmes qui vivent loin de les centres où ces services sont offerts ? 
+ils demandent à les députés de le Parlement de mettre fin à toute réduction de personnel dans ces ateliers . 
+ce ne est pas une question de me joindre à le député ; nous avons de le avance sur lui . 
+le Dr Kenneth Hare , considéré chez nous comme le un de nos spécialistes les plus éminents de les questions atmosphériques , a écrit un article où il précise : 
+cela aura de les répercussions un peu partout . 
+en de autres mots , les céréaliers américains toucheront une subvention de environ $ 2 le boisseau que leur versera le gouvernement de M. Reagan . 
+le rapport complet sera déposé de ici le automne prochain . 
+si ces règles étaient appliquées , est - ce que nous traiterions effectivement tout le monde sur le même pied ? 
+cette éminente autorité à la Chambre de les communes a parlé de harcèlements sexuels , de certaines femmes qui avaient été obligées de se dévêtir pour obtenir un emploi . 
+je ne fais que avertir les députés de le existence de un problème à cause de ce qui se est passé . 
+Évidemment , quand les conservateurs étaient dans le opposition , ils tenaient de les discours qui étaient à le opposé de leurs actions de aujourd' hui . 
+en réalité , le ministre de la Justice et le solliciteur général ont répondu avec tous les détails que ils pouvaient humainement donner . 
+le vice - premier ministre croit - il que ce est ainsi que un gouvernement conscient de ses responsabilités , ou un pays indépendant doit conclure un traité international ? 
+le sous - comité parlementaire est en train de examiner toute la question de les droits à le égalité . 
+en réalité , pour les demandes concernant moins de quatre étudiants , on ne essaie pas de savoir si les emplois sont axés sur la carrière ou non . 
+de plus , nous voulons une série de critères objectifs fondés sur les éléments que je mentionne ici , par exemple : 
+si nous adoptons pareille attitude pour cette question ou de autres de le domaine public , nous trouverons toujours de les excuses pour éviter de passer à le action . 
+vous avez alors instauré votre programme , le hôtel a été abandonné et Fort St. John est devenu une ville fantôme . 
+nous , en six mois , on a consulté , on se est assis avec le ministre et on est arrivé à une entente . 
+le très honorable député ne est peut - être pas non plus de accord avec le point de vue de Mme Bégin . 
+" essayons - le , disent - ils , et voyons ses effets . 
+le MEER fournit environ 3 millions de ce montant et le ministère de les Affaires indiennes et de le Nord le reste . 
+on ne répétera jamais trop que les Canadiens se inquiètent de la montée de la grande criminalité . 
+les exportations de grains doivent fléchir de 25 % pendant la campagne 1984 - 1985 . 
+notre retard dans ce domaine est si important que tous les Canadiens en sont gênés . 
+on ne modifie pas vraiment la situation . 
+il est désormais impossible de établir une distinction valable quelconque entre les missiles nucléaires de portée intermédiaire et de portée intercontinentale . 
+puis - je demander à le député de Western Arctic de être bref , si possible . 
+le Grand Victoria est considéré comme la Mecque de le tourisme à le Canada . 
+la taxe ne serait pas prélevée pour être remboursée par la suite . 
+on se est déjà engagé à faire en sorte que leur taux de participation se accroisse de manière à atteindre à le moins les niveaux historiques sinon traditionnels . 
+ce est - à - dire à la demande de la personne qui va peut - être prétendre à le statut de réfugié . 
+voilà où nous en sommes actuellement . 
+les paiements de péréquation ont acquis à le cours de les ans une ampleur considérable . 
+les représentants de tous les partis se inquiètent de cette question . 
+je tiens également à signaler que nous avons consulté le caucus progressiste conservateur de le Manitoba et un certain nombre de personnes de cette province . 
+la localité gardera un bon souvenir de le personnel militaire et de leur famille qui ont participé à la vie de cette localité . 
+en toute déférence , je dois interrompre le très honorable premier ministre . 
+alors , je le ai expliqué . 
+si le premier ministre a déclaré que il est prêt à négocier encore avec le Québec , pourquoi adopter en vapeur ce projet de loi ? 
+ce est la raison de ailleurs pour laquelle certains de mes collègues ont fait de les interventions relativement rigoureuses à ce sujet . 
+je tiens à exposer la teneur précise de les notes qui figurent dans le état financier de le 31 mars 1984 . 
+cette décision est alors envoyée à le particulier en question . 
+tout cela est insensé . 
+dans ce dossier , monsieur le Président , de nombreuses autorités se sont donné la main pour réagir immédiatement à la situation de urgence . 
+que est - il donc advenu de les études qui ont été effectuées après cet incident ? 
+le ex - ministre de les Transports avait clairement établi que ces règlements ne seraient promulgués que dans un an . 
+je estime que nous ne avons pas les moyens de nous payer plus longtemps une pareille façon de se comporter à le cabinet . 
+ce est donc dire , monsieur le Président , que le gouvernement se doit de respecter les recommandations de le Commissaire à les langues officielles . 
+ensuite , ils réduiront le nombre de les emplois car les entreprises que ils auront achetées feront double emploi avec de autres que ils ont déjà . 
+ce est à la deuxième étape de réexamen que la Cour suprême a établi que une audience est obligatoire . 
+en ce qui concerne les avocats spécialisés en immigration , le barreau se charge de les pénaliser . 
+le autre solution consiste à investir sous forme de prêts . 
+veut - il attendre que le économie de ces régions agricoles soit complètement à terre avant de réagir à le problème de les pluies acides ? 
+il me semble que cela ne est pas compliqué à comprendre . 
+nous ne devons pas oublier toutefois que la majorité de les producteurs de boeuf et de porc ont carrément rejeté tout mécanisme de régularisation de les mises en marché . 
+si je avais été à la place de Bryce , je aurais partagé le assiette à le beurre avec les autres . 
+en un mot , nous considérons que le rôle politique et le rôle administratif doivent être séparés le un de le autre . 
+on le a négligé et liquidé , ce qui a obligé le gouvernement à investir pour faire absorber cet atelier . 
+tous ces endroits inclus dans notre patrimoine sont gérés par Parcs Canada à le profit et pour le agrément de tous les Canadiens . 
+comme je le ai dit tout à le heure , pareilles distinctions ne avaient pas été envisagées lorsque le projet de loi a été adopté en deuxième lecture . 
+les secteurs public et privé ont tous deux un rôle à remplir . 
+les critiques seront de autant plus vives que le gouvernement actuel , sauf erreur , se est engagé à agir à le grand jour . 
+ce ne est pas suffisant . 
+ce est lui qui nous a dit que la construction de le centre de entretien de VIA Rail à Montréal était remise à les calendes grecques . 
+cependant , M. Baldwin avait ensuite déclaré : 
+nous voulons que les promesses faites par les sociétés qui reprennent de les entreprises canadiennes soient révélées publiquement . 
+il faut également consulter les gouvernements provinciaux pour définir les besoins de certaines régions . 
+ils pensent que en changeant simplement le nom de AEIE en Investissement Canada , nous aurons un afflux de dollars . 
+est - ce que le ministre peut donner en cette Chambre la position de le gouvernement canadien ? 
+voici maintenant neuf mois que le nouveau gouvernement a été porté à le pouvoir , et nous attendons toujours son premier budget . 
+nous acceptons à le heure actuelle que soient enregistrées les associations canadiennes de sport amateur et il faudrait en faire autant pour les groupes provinciaux . 
+par définition , « association canadienne de sport amateur » se applique à les associations fédérales , mais non à leurs contreparties provinciales . 
+cette bataille a ravi à le Canada 1,800 vaillants marins et 24 fiers bâtiments . 
+je trouve incroyable que le président de le Conseil de le Trésor se permette de rire de un sujet aussi grave . 
+de plus , ils ont demandé de les budgets supplémentaires . 
+bon , tout le monde est de accord là - dessus . 
+le poste de directeur général a été vacant durant plus de un an , et pour cause . 
+le ministre a parlé de réunions , fort bien . 
+il fallait que il soit à Saint - Jean . 
+ce est exactement ce qui se passe . 
+il ne est pas question de les traiter séparément . 
+de toute évidence , il ne aime pas les gens qui appartiennent à le mouvement coopératif dans le est de le Canada . 
+il incombe à le gouvernement fédéral de jouer le rôle de agent de surveillance . 
+la Société veut que les employés à temps partiel constituent dorénavant 45 % de tous ses effectifs . 
+À le cours de les dernières élections provinciales à le Manitoba , 900 personnes ont voté par la poste ; surtout de les citadins . 
+alors le gros bon sens ce est quoi ? 
+les abattoirs bâtis selon la réglementation québécoise ont de les normes plus sévères . 
+les techniciens gagnent plus de argent que les écrivains et les auteurs de pièces de théâtre . 
+ils étaient tous gauchistes . 
+elles sont bien faites . 
+certes , nous demeurons un petit pays et nous sommes vulnérables pour cette raison . 
+m. Wyman compte de nombreuses années de expérience dans le secteur de les marchés financiers . 
+réfléchissons - y un petit instant . 
+il est inutile , je crois , de continuer à tourner autour de le pot pour régler la question . 
+cette façon de procéder permet à les Indiens de participer à le activité économique . 
+le un de les grands objectifs de les consultations est de faire en sorte que la relance profite également à tous . 
+je pense , monsieur le Président , que le discours de le député de Baie - Comeau était probablement de la fausse représentation . 
+la justice élémentaire exige que les emplois de les femmes soient évalués équitablement . 
+nous comptons poursuivre ces discussions en tirant parti de les opinions exprimées par de nombreux groupes intéressés . 
+je pense surtout à les mères célibataires . 
+le ministre de le Expansion économique régionale traite avec énormément de justice et de honnêteté les dossiers de le Québec . 
+en fait , le revenu agricole net était à son plus bas niveau depuis 1970 et à son troisième plus bas niveau depuis 1938 , soit en 45 ans . 
+dans la région de Laval - Deux - Montagnes , 225,000 dollars de budget en 1984 , 30,000 dollars seulement cette année . 
+ce même ministre a lui - même promis durant la campagne électorale que non seulement il consulterait les pêcheurs mais que il serait facilement accessible en cas de problème . 
+on néglige actuellement de investir dans ce domaine , surtout en Colombie - Britannique . 
+le pire , ce est que on ne a pas su obtenir une garantie de financement par la voie de une Entente de développement économique régional . 
+il devrait parler sincèrement à le lieu de nous servir tout ce charabia . 
+il a dit que British Telecom « ne se était guère montrée habile sur le plan de la commercialisation ou de la gestion de les produits » . 
+les investisseurs étrangers menaient le Canada comme se il se était agi de le cinquante - et - unième État . 
+elle ne fait pas de recherche et de développement . 
+la première question consiste à savoir pourquoi il faut stabiliser les prix dans le industrie agricole . 
+en règle générale , tous les producteurs de une denrée quelconque subissent en même temps le contrecoup de le resserrement de le étau coût - prix . 
+ce est donc une circonscription très diversifiée . 
+le véritable problème est donc que les agriculteurs abandonnent . 
+venons - en à ce qui semble être le opinion publique sur la réforme de le Sénat . 
+ce est ce que il faut et ce est le objectif visé par le gouvernement . 
+je pense que , indépendamment de notre parti , nous trouvons tous cela inacceptable . 
+revenons maintenant à le projet de loi en question . 
+ce que les conservateurs proposent de faire pour donner un caractère distinctif à leur projet de loi est une erreur . 
+et on sait comment cela peut être pénible pour de les gens qui vivent une période pas spécialement drôle de leur vie . 
+par conséquent , la création de un tel système devrait être la première priorité dans toutes les provinces où il ne en existe pas . 
+nous sommes collègues depuis longtemps . 
+elle aidera les sociétés canadiennes à redresser plus rapidement leur situation financière en attirant de nouveaux capitaux propres . 
+le universalité de les allocations familiales est maintenue . 
+la recherche ne est guère considérée comme prioritaire . 
+ah , bon ? 
+ainsi , le savon et les boissons pour les enfants coûteront davantage , de même que les aliments pour animaux domestiques , le essence et le chauffage domestique . 
+cette technique ne a rien de anormal . 
+de après le dernier budget libéral , de autre part , le revenu personnel avait augmenté de 7 % en 1984 . 
+le gouvernement dépense largement et renfloue les entreprises . 
+les femmes profiteront de nouveaux règlements concernant les prestations de survivant et le partage de les pensions entre les conjoints en cas de rupture de le mariage . 
+en réalité , si on tient compte de le Accord de le Ouest , il est plutôt probable que ce sera 2.8c . le litre . 
+nous respectons nos promesses électorales . 
+nous devons remonter le économie , créer de le emploi , rationaliser les dépenses de le État , administrer plus efficacement . 
+cela ne tient guère debout , surtout si le on regarde qui paye . 
+que feront - ils avec ce capital ? 
+cela équivaut à peu près à les 440 millions de dollars versés à Canadair en le espace de deux ans . 
+il est ressorti de ces audiences que la grande préoccupation était les gains en capital . 
+il donne à entendre à les particuliers que pendant de trop nombreuses années le gouvernement a décidé pour eux . 
+dans ce sens - là , je vous dirai que je ai rencontré dernièrement de les centaines de jeunes Canadiens , et ils ont perdu beaucoup de illusions . 
+ce est pourquoi je ne puis appuyer la demande de emprunt présentée par le gouvernement . 
+mon collègue dit « négligé le Québec » , je suis de accord avec lui aussi . 
+je suis heureux de apprendre que les sociétés de État qui ont une valeur commerciale mais ne répondent pas à les objectifs de la politique publique soient vendues . 
+lorsque nous avons préparé le budget , nous avons pris cela en considération . 
+le premier ministre respectera il cet engagement ? 
+le ministre pourrait - il préciser les effets de cette réduction ? 
+je ne ai parlé jusque ici que de les aspects géographiques de ma circonscription . 
+nous pensons que ils relèveront le défi . 
+le ministre est - il en mesure de affirmer que cette mesure est équitable ? 
+il y a longtemps que nos milieux de affaires ne ont pas reçu de un gouvernement un tel vote de confiance . 
+le parti progressiste conservateur de le Canada se y oppose . 
+ils se sont levés comme un seul homme pour applaudir bien fort . 
+huitièmement . 
+non , monsieur le Président , à le contraire . 
+je voudrais maintenant vous parler un peu de ce qui a motivé la suppression de le impôt sur les gains en capital . 
+cette initiative va augmenter la pauvreté chez les personnes les plus vulnérables , les personnes âgées , qui ne pourront pas trouver de autres sources de revenu . 
+en outre , sont stationnés sur cette base , les Snow Birds , le équipe de acrobatie aérienne de le Canada . 
+notre caucus a entendu le autre jour le Conseil économique de les provinces de le Atlantique . 
+faut pas nous prendre pour de les poires ! 
+il se agit de un problème important . 
+je ai le intention de parler surtout aujourd' hui de les nombreuses améliorations apportées à les programmes de pensions de tous les Canadiens . 
+on estimait également que il fallait compenser le érosion de la valeur de les biens due à le inflation . 
+il démontre une attitude réaliste , également parce que il agit avec douceur et intelligence . 
+le gouvernement ne se y intéresse pas et il ne se en soucie pas . 
+ils ont voté pour un changement dans la gestion de les affaires de le pays . 
+monsieur le Président , un rappel à le Règlement . 
+les faits sont clairs et nets . 
+aussi la motion de le député de Beaches nous permet de faire en cette Chambre ce que tout le monde fait présentement à travers le pays . 
+de plus , ils ont une bibliothèque spécialisée à leur service et la société ERCO dépense près de deux millions chaque année pour ses services de recherche . 
+deuxièmement , il faut aider les entreprises canadiennes à tirer parti de les possibilités de investissement et de le développement technologique . 
+non seulement les risques sont plus élevés , mais le temps nécessaire pour préparer le réapprovisionnement par navire est long . 
+monsieur le Président , une fois encore , les prévisions pessimistes de les libéraux et de les néo - démocrates en matière économique ne se sont pas concrétisées . 
+je ne ai pas le intention de ennuyer la Chambre en répétant les mêmes réponses . 
+cependant , lorsque nous avons pris le pouvoir , nous avons découvert que la tendance était à la hausse . 
+rien ne oblige non plus un ministre à déposer autre chose que le document dont il a tiré une citation . 
+en outre , il est stipulé dans notre résolution que il faudrait avoir servi plus de 365 jours à le Canada pour être admissible . 
+le gouvernement avait alors prétendu que il ne avait pas eu le temps de discuter de ce projet avec le un ou le autre de ces deux groupes . 
+autrement dit , notre destin économique est scellé . 
+ils disaient que les propriétaires allaient encore écoper parce que les taux de intérêt augmentaient . 
+notre rôle sur la scène internationale est quelque peu éclipsé . 
+en ce qui concerne le assurance - récolte , par exemple , le gouvernement fédéral a contribué la moitié de les primes et les producteurs le autre moitié . 
+donc , il est impossible pour nous de penser en ces termes . 
+elle a déclaré que le seul problème que posent le Candu et toute le option nucléaire , ce est sur le plan de la commercialisation . 
+comment se faisait - il que le on me présentait toutes ces instances ? 
+» ce est cela que le actuel premier ministre avait dit à le ancien premier ministre . 
+la majorité sont de ailleurs incapables de travailler . 
+il y a quelques jours , mon collègue de Essex - Windsor a donné à la Chambre une leçon de histoire . 
+voici le texte de le article : 
+il se chauffait à le mazout . 
+le gouvernement ne a pas encore décidé comment et quand cette modification devrait se manifester . 
+je ai parlé tantôt de le pari de le premier ministre ( M. Mulroney ) concernant le emploi en immigration . 
+cependant , le projet de loi dont nous sommes saisis aujourd' hui ne contient que deux amendements de fond et un certain nombre de amendements de ordre administratif . 
+il ne nous est pas permis en tant que société de faire ce genre de discrimination entre les gens en fonction de un pareil critère . 
+une collaboration entre le gouvernement fédéral et les provinces est indispensable pour accroître la valeur et le efficacité de nos programmes de dépistage . 
+selon lui , il vaudrait mieux attendre à le moins jusque en juin . 
+le entreprise , tout en demeurant dans le secteur privé , fut rebaptisée en 1934 la Société de les transports de le nord Limitée . 
+je félicite sincèrement le ministre de les Transports de avoir respecté le mandat initial . 
+ce ne est que aujourd' hui que le secteur privé fait savoir que il ne est pas en mesure de soutenir la concurrence de toutes ces sociétés de État . 
+les services spécialisés , comme le ravitaillement de le secteur pétrolier et gazier de la mer de Beaufort , pourraient être assurés par de autres . 
+malheureusement ou heureusement , selon le point de vue de chacun , ce ministre ne a guère obtenu de succès . 
+toutefois , la présidence pourrait peut - être en terminer avec la motion no 1 . 
+sur la côte ouest , nous avons le comité consultatif de le ministre qui , même se il ne est pas parfait , peut à le moins être utile . 
+voilà un excellent exemple de association fructueuse entre les gouvernements et le industrie . 
+monsieur le Président , je ai une question à poser à le ministre de les Transports . 
+monsieur le Président , je ne veux pas que il y ait de malentendu . 
+À le sein de le gouvernement de le Canada , divers ministères ont joué un rôle actif et sont intervenus dans le cadre de une action coordonnée et coopérative . 
+toutefois , la contradiction qui existe entre sa déclaration et celle de ses hauts fonctionnaires devrait faire le objet de une enquête indépendante . 
+je sais que nous nous en occupons à le niveau fédéral par le intermédiaire de la Société de le crédit agricole . 
+tels sont les principaux indices économiques . 
+le établissement de une sixième exploitation agricole à Bowden , en Alberta , permettra de accroître encore la production agricole de les établissements carcéraux . 
+tel était le principe de ce projet de loi à le étape de la deuxième lecture . 
+certes , personne , et surtout pas un seul député conservateur , ne y croirait . 
+ce est ce que elle a fait le 4 septembre dernier . 
+Convoquez les députés . 
+nous croyons que il est temps de établir de les règlements et de les méthodes comme il se doit . 
+leur intervention était tout à fait justifiée , car le succès de ces accords dépendra dans une très large mesure de la qualité de leur administration . 
+le Canada a tout lieu de être fier de son bilan dans ce domaine et devrait servir de modèle de tolérance pour les autres pays . 
+sur le avis de qui a il pris cette décision , puisque ses services avaient refusé ? 
+monsieur le Président , je suis heureuse que le premier ministre ait fourni ces informations à la Chambre . 
+je prie donc le député de cesser de montrer quoi que ce soit . 
+pourquoi le premier ministre se est - il montré prêt à manquer à sa promesse en premier lieu ? 
+monsieur le Président , ces questions inquisitrices de le parti libéral me font toujours sourire . 
+assurément , le député ne voudrait pas que le on impose de les sociétés qui perdent de le argent . 
+monsieur le Président , la question de le député part de une hypothèse toute gratuite . 
+combien de personnes sont employées a ) directement ou à contrat , b ) à temps plein et à temps partiel à le Bureau de le premier ministre ? 
+les cachets versés à chacun étaient conformes à le rôle joué pendant le gala et respectaient les normes de le Union de les artistes . 
+sous le gouvernement libéral , rien ne a été fait pour remédier à cette situation . 
+ils connaissent très bien le problème de surproduction . 
 36 e Législature , 2 ième Session 
 hansard RÉVISÉ * NUMÉRO 1 
 table DES MATIÈRES 
@@ -24998,450 +25445,3 @@ m . Gurbax Singh Malhi
 la cruauté envers les animaux 
 m . Peter Adams 
 questions AU FEUILLETON 
-m . Derek Lee 
-initiatives MINISTÉRIELLES 
-les CRÉDITS 
-jour désigné - Le revenu agricole 
-m . Alex Shepherd 
-m . Jay Hill 
-m . Garry Breitkreuz 
-m . Peter Adams 
-m . Rick Borotsik 
-m . Jerry Pickard 
-m . Werner Schmidt 
-m . John Solomon 
-m . Jay Hill 
-m . Howard Hilstrom 
-m . Leon E . Benoit 
-m . Murray Calder 
-m . Jay Hill 
-m . Larry McCormick 
-m . Howard Hilstrom 
-m . Mark Muise 
-m . Gerry Ritz 
-m . Bob Speller 
-m . Gerry Ritz 
-m . Garry Breitkreuz 
-m . Garry Breitkreuz 
-m . Ken Epp 
-m . Gerry Ritz 
-m . Larry McCormick 
-m . Howard Hilstrom 
-m . Dennis J . Mills 
-m . Leon E . Benoit 
-m . Werner Schmidt 
-m . Joe McGuire 
-m . Leon E . Benoit 
-m . John Solomon 
-m . Rick Casson 
-m . John Solomon 
-m . Bob Speller 
-m . Garry Breitkreuz 
-les autochtones 
-m . Peter Stoffer 
-m . Gar Knutson 
-les sans - abri 
-Mme Libby Davies 
-Mme Judy Longfield 
-( version officielle ) 
-hansard RÉVISÉ * NUMÉRO 10 
-chambre DES COMMUNES 
-le lundi 25 octobre 1999 
-la séance est ouverte à 11 heures . 
-prière 
-les TRAVAUX DE LA CHAMBRE 
-m . Derek Lee ( secrétaire parlementaire de le leader de le gouvernement à la Chambre de les communes , Lib . ) : 
-monsieur le Président , je crois que vous constaterez que il y a consentement unanime à le égard de la motion suivante concernant le partage de le temps de parole durant le débat de aujourd' hui . 
-je propose : 
-que , pendant la séance de aujourd' hui , le député qui propose la motion le jour désigné ne puisse parler plus de vingt minutes , après quoi une période ne dépassant pas dix minutes puisse lui être accordée , à le besoin , afin de permettre à les députés de poser de les questions et de faire de brèves observations sur de les sujets ayant trait à le discours , ainsi que de permettre de les réponses auxdites questions et observations , après quoi un représentant de chaque parti reconnu , autre que celui de le motionnaire , puisse parler jusque à dix minutes , suivies , dans chaque cas et à le besoin , de une période ne dépassant pas cinq minutes afin de permettre à les députés de poser de les questions et de faire de brèves observations sur de les sujets ayant trait à le discours , ainsi que de permettre de les réponses auxdites questions et observations . 
-m . Randy White ( Langley - Abbotsford , Réf . ) : 
-monsieur le Président , je invoque le Règlement . 
-je remarque que la motion dit « durant la séance actuelle » . 
-ce est que la motion a été rédigée il y a quelque temps déjà . 
-je crois comprendre que un parti présent à la Chambre entend ainsi augmenter ses possibilités de parler . 
-je voulais signaler que durant la séance de aujourd' hui , en ce qui nous concerne , ce est la motion dont nous sommes saisis qui importe . 
-se il y a un autre parti qui souhaite plus temps de parole , il ne a que à faire élire plus de députés à la Chambre . 
-m . Peter MacKay ( Pictou - Antigonish - Guysborough , PC ) : 
-monsieur le Président , je invoque le Règlement . 
-comme le a indiqué le leader parlementaire de le opposition officielle , la motion déposée aujourd' hui ne se applique que pour la journée de aujourd' hui . 
-ce est une question qui fera sûrement le objet de une discussion à le cours de une prochaine rencontre de les leaders parlementaires . 
-cette motion a bien sûr été déposée par le leader parlementaire de le opposition dans le esprit habituel de collaboration auquel le opposition officielle nous a habitués . 
-nous en reparlerons plus tard et nous déciderons alors également de le bien - fondé de élire davantage de membres . 
-le président suppléant (M. McClelland ) : 
-la Chambre consent - elle à le unanimité à ce que le leader dépose la motion ? 
-de les voix : 
-de accord . 
-le président suppléant (M. McClelland ) : 
-plaît - il à la Chambre de adopter la motion ? 
-de les voix : 
-de accord . 
-( la motion est adoptée . ) 
-initiatives MINISTÉRIELLES 
-les CRÉDITS 
-jour DÉSIGNÉ - LE REVENU AGRICOLE 
-m . Howard Hilstrom ( Selkirk - Interlake , Réf . ) : 
-que , de le avis de la Chambre , le gouvernement ne a pas réussi à défendre les intérêts de les agriculteurs canadiens contre les subventions injustes et les pratiques commerciales déloyales de les pays étrangers , et que le Programme de aide en cas de catastrophe liée à le revenu agricole ( ACRA ) est lui - même une catastrophe , puisque nos agriculteurs continuent de souffrir de faibles revenus , en particulier à le Manitoba et en Saskatchewan , où le revenu net réalisé combiné est inférieur de 98 % à la moyenne sur cinq ans , et que en conséquence , le gouvernement devrait immédiatement fournir une indemnisation de urgence à les agriculteurs qui ne sont pas couverts par le ACRA et mener une campagne internationale contre les subventions étrangères , fournir de les allégements fiscaux , réduire le coût de les intrants , réduire les frais à les usagers et se attaquer à les iniquités dans les programmes de sécurité de le revenu agricole . 
-m . Jay Hill : 
-monsieur le Président , je invoque le Règlement . 
-À le début de le débat de aujourd' hui sur la motion réformiste sur la crise agricole à le Canada , je aimerais faire savoir à la Chambre que tous les députés de le opposition officielle partageront leur temps de parole . 
-m . Howard Hilstrom : 
-monsieur le Président , avant de commencer , cette motion a le appui de le chef de le opposition . 
-ce débat ne devrait pas avoir lieu aujourd' hui parce que à le début de cette nouvelle session après la prorogation de le Parlement , soit le 12 octobre , le Parti réformiste a demandé la tenue de un débat de urgence sur la question de le revenu agricole . 
-la crise agricole a pris de très graves proportions à le cours de les 12 à 18 derniers mois et le problème a été défini pendant les audiences de le comité , par les agriculteurs et par Statistique Canada . 
-la motion que nous examinons aujourd' hui expose les problèmes qui se posent à court terme et ceux qui se posent à long terme . 
-le un de les problèmes à long terme identifiés dans cette motion concerne les pratiques de nos concurrents , à savoir les États - Unis et le Union européenne . 
-le Programme de aide en cas de catastrophe liée à le revenu agricole a été créé par le gouvernement pour faire face à la crise de le revenu agricole . 
-je y reviendrai plus tard à le cours de mon intervention . 
-en passant , je pense avoir indiqué que je partagerai mon temps de parole avec le député de Calgary - Sud - Ouest . 
-en ce qui concerne la crise de le revenu agricole , dès septembre 1998 , le Parti réformiste savait que les producteurs de le Ouest de le Canada , en particulier , et les producteurs de cultures industrielles en Ontario se trouvaient dans une situation critique à laquelle ils ne pouvaient plus faire face tout seuls . 
-le comité consultatif sur les programmes de protection de le revenu a donc été prié de examiner la question . 
-le Parti réformiste a proposé à le Comité permanent de le agriculture de tenir de les audiences à ce sujet . 
-suite à ces efforts , une recommandation a été faite à le ministre de le Agriculture , le informant de la gravité de la crise et lui suggérant à titre de solution la mise en place de un programme de aide qui tiendrait compte de la situation financière de chacun . 
-sur réception de cette recommandation de la part de le comité consultatif , qui regroupait les différentes associations agricoles de le pays , le gouvernement a décidé de adapter le application de le Programme de aide en cas de catastrophe liée à le revenu agricole en fonction de la somme de le engagement que le ministre de le Agriculture avait réussi à obtenir de le cabinet . 
-À cela se ajoutent les inondations survenues dans le sud - ouest de le Manitoba et le sud - est de la Saskatchewan , lesquelles ont assurément aggravé les problèmes de ces deux provinces . 
-les statistiques publiées par Statistique Canada révéleront que cette aggravation de la situation se soldera par un manque à gagner à le titre de les revenus nets réalisés en Saskatchewan et par une réduction notable de ces revenus à le Manitoba . 
-se agissant de voir se il y a effectivement lieu pour le gouvernement de aider davantage les agriculteurs de le Canada pour assurer la viabilité de le secteur agricole , force nous est de conclure que il doit augmenter le aide actuellement accordée à le titre de le programme de soutien interne . 
-le programme ACRA , conduit sur deux ans seulement , avait pour objet de fournir à les agriculteurs canadiens de les fonds destinés à atténuer les effets de la baisse notable de leurs revenus , baisse indépendante de leur volonté . 
-le gouvernement et le ministre de le Agriculture ne ont rien compris à le problème , ni à le fait que les agriculteurs éprouvaient de les difficultés réelles à le titre de leurs revenus . 
-le problème tient à le fait que , depuis de nombreuses années maintenant , depuis les années 1990 , les revenus agricoles nets sont en chute libre , le cours de les produits de base étant extrêmement faible . 
-cela concerne essentiellement les produits exportés hors de le Canada . 
-nous constatons également que le coût de les intrants augmente considérablement . 
-par exemple , le coût de une camionnette , qui est indispensable à la plupart de les agriculteurs , se situe entre 30 000 $ et 41 000 $ pour une camionnette convenable de une demi - tonne . 
-nous savons ce que disent dans les médias les administrateurs de le programme de le ACRA . 
-le directeur général a déclaré que , quoi que en disent les mauvaises langues , le programme fonctionne et les chèques sont émis à les producteurs . 
-il a affirmé que , selon lui , le message était passé et que la population rurale recevait de les paiements . 
-la difficulté consiste en partie à faire comprendre à nos cousins de les villes , à les citadins , quel est le problème et à leur faire appuyer la cause de les agriculteurs . 
-les défenseurs de le programme jouent essentiellement le rôle de doreurs de image en affirmant à les Canadiens que le argent est distribué et que tout va bien pour les agriculteurs , alors que en réalité , de les dizaines de milliers de agriculteurs ne reçoivent rien . 
-seul un nombre relativement restreint de agriculteurs reçoivent une aide financière . 
-les effets de cette crise se font sentir dans les collectivités , dans les familles et dans la société . 
-À le Manitoba , même le Église unie a jugé bon de faire quelque chose pour ces agriculteurs en les aidant financièrement et en mettant cette crise à le premier plan . 
-nous ne avons pas connu cela depuis les années 30 . 
-le gouvernement libéral nous a mis dans cette situation désastreuse et il ne a rien fait pour nous en sortir . 
-ce est pourquoi nous avons dû imposer ce débat aujourd' hui . 
-le Parti réformiste a formulé de nombreuses solutions à proposer à le gouvernement parce que celui - ci ne a pas mis en place un programme à long terme adéquat pour lutter contre cette crise de le revenu , et il doit maintenant présenter une solution immédiate et faire parvenir à les agriculteurs une aide financière avant la fin de le mois de octobre . 
-en décembre 1998 , le ministre de le Agriculture a promis que les agriculteurs recevraient une aide financière de ici le printemps . 
-cela ne a pas été le cas et nous blâmons le gouvernement pour cela . 
-m . Preston Manning ( chef de le opposition , Réf . ) : 
-monsieur le Président , je félicite le député de Selkirk - Interlake pour son exposé sur la crise qui secoue notre secteur agricole et je le encourage à persévérer . 
-ce est la quatrième fois en cinq mois que le opposition officielle tente de sensibiliser la Chambre et , mieux encore , le gouvernement à la gravité de la crise de le revenu agricole , crise que ne ont fait que aggraver les inondations survenues à le printemps dans certaines régions de la Saskatchewan et de le Manitoba . 
-nous décrirons de nouveau à la Chambre les faits contre lesquels les agriculteurs canadiens doivent continuer de se battre : de faibles revenus sans précédent attribuables à de les facteurs indépendants de leur volonté . 
-déjà , depuis le début de la session , nous en avons parlé dans nos réponses à le discours de le Trône , discours dans lequel le gouvernement a complètement omis de mentionner le problème . 
-si je ne pouvais présenter que une seule preuve pour inciter le gouvernement à réagir , je citerais le extrait de la motion qui précise que , à le Manitoba et en Saskatchewan , le revenu net réalisé combiné est inférieur de 98p. 100 à la moyenne sur cinq ans . 
-sur le plan humain , cela représente beaucoup plus que la perte de revenu . 
-cela représente de les larmes et de le chagrin . 
-pour certains , cela a déjà représenté la perte même de leur exploitation agricole . 
-nous en appelons encore une fois à le gouvernement . 
-se il ne est pas ému par les statistiques et par la réalité brutale de la baisse désastreuse de le revenu agricole , il doit sûrement être ému par la tragédie humaine dont se accompagne cette réalité , et ému à le point de vouloir faire davantage . 
-nous exhortons la Chambre de la rejeter en appuyant la motion à le étude . 
-À le lieu donc de poursuivre sa politique actuelle , le gouvernement devrait , comme nous le en prions , faire les six choses suivantes . 
-premièrement , nous demandons que il reconnaisse que le ACRA , son programme spécial mal conçu , est un échec . 
-il faudrait le réformer ou le remplacer de sorte que il verse réellement à les agriculteurs , en combinaison avec les contributions provinciales , de les paiements de le ordre de 25 $ à 50 $ le acre promis dans les communiqués de presse et dans les déclarations publiques de le ministre . 
-deuxièmement , nous demandons que il présente à la Chambre un plan immédiat visant à accorder un allégement fiscal à les Canadiens , y compris à les producteurs agricoles et à les familles de agriculteurs . 
-ce plan devrait inclure de les réductions de taxes sur les intrants agricoles comme le carburant et les engrais , de même que de les réductions de les frais de utilisation comme ceux qui sont perçus par la Commission canadienne de les grains et par le Agence canadienne de inspection de les aliments . 
-troisièmement , afin de trouver le argent nécessaire pour fournir une aide de urgence supplémentaire , le gouvernement devrait faire une demande officielle à le Comité permanent de les finances en ce sens afin que il débloque , dans les plus brefs délais , les sommes voulues , non pas en augmentant le total de les impôts , ni en empruntant ou en ayant à nouveau recours à le financement par le déficit , mais en rajustant les priorités actuelles de le gouvernement en matière de dépenses . 
-ce est exactement ce que devrait faire une famille ou une entreprise dans une situation similaire . 
-pour faire face à de les besoins urgents , elle serait obligée de prendre de le argent destiné à de autres fins . 
-ce est ce que le gouvernement et le Parlement devraient apprendre à faire , que ce soit pour répondre à les besoins financiers créés par une urgence dans le secteur agricole ou pour régler la note de 5 milliards de dollars laissée par le ineptie de le gouvernement dans le dossier de le équité salariale . 
-quatrièmement , afin de tenir compte de les dimensions à long terme de le problème et de garantir à les producteurs agricoles un avenir à long terme , le gouvernement devrait présenter à la Chambre un plan en vue de éliminer les lacunes de ses programmes actuels de sécurité de le revenu agricole , en particulier le assurance - récolte et le programme de stabilisation de le revenu net . 
-contrairement à le NPD , nous ne prônons pas le retour à le protectionnisme ni à les subventions créatrices de dépendance que nous avons connus dans le passé . 
-de telles mesures ne survivraient pas à la contestation en vertu soit de le ALENA soit de le OMC , et proposer ce genre de solution suscite de faux espoirs qui ne pourront que être déçus plus tard . 
-par contre , nous proposons , nous , de réformer le assurance - récolte de façon à y inclure une protection contre les catastrophes afin que on ne ait pas à inventer un programme ponctuel comme le ACRA à chaque fois que se produit une catastrophe naturelle importante comme les inondations ou la sécheresse . 
-nous préconisons la mise en place de un programme élargi de type CSRN qui répondra vraiment à les besoins , un programme unique de correction de la distorsion de les échanges , un programme unique de assurance de le revenu agricole qui dédommage les producteurs agricoles de les pertes de revenu subies en raison de les subventions versées par de autres en violation de le esprit et de la lettre de les accords de libre - échange . 
-cinquièmement , nous exigeons que soit formée immédiatement , en vue de une mission de urgence en Europe et à Washington , une Équipe Canada dirigée par le premier ministre mais comprenant le ministre de le Commerce international , le ministre de les Affaires étrangères et le ministre de le Agriculture et de le Agroalimentaire ainsi que de autres représentants provinciaux . 
-ils auraient pour mission de faire valoir , plus clairement que jamais , que les subventions européennes et américaines sont en train de faire disparaître nos agriculteurs , ce qui va à le encontre de le esprit et de la lettre de les accords internationaux de libre - échange dans le domaine de les produits agricoles . 
-nous insistons également pour que le ministre de le Agriculture cherche à convaincre le premier ministre lui - même de participer à ce débat . 
-le premier ministre a été constamment absent de tous les grands débats sur cette question à la Chambre depuis que il est entré en fonctions il y a six ans . 
-ce est inexcusable dans un pays où le agriculture compte à le nombre de les principales industries primaires et où de les centaines de milliers de Canadiens dépendent de le agriculture pour assurer leur subsistance . 
-si ce dossier tient vraiment à coeur à le premier ministre , pourquoi ne vient - il pas le dire et présenter à la Chambre un plan intégrant les mesures de urgence et les réformes agricoles que le on prie le gouvernement de adopter dans la présente motion à le lieu de se livrer à ses commentaires vides habituels ? 
-m . John Bryden ( Wentworth - Burlington , Lib . ) : 
-monsieur le Président , le 13 octobre , dans un discours important , le député de Calgary - Sud - Ouest a vertement reproché à le gouvernement de ne pas avoir une bonne politique dynamique en ce qui concerne le allégement de le fardeau fiscal et la réduction de la dette . 
-je aimerais moi aussi aider non seulement les agriculteurs de le Ouest , mais également ceux de ma circonscription , surtout les éleveurs de porc , qui ont récemment beaucoup souffert de la chute de les prix , mais notre vis - à - vis propose maintenant de accroître les sommes versées à les agriculteurs victimes de une chute de les prix et de catastrophe . 
-dans le cadre de ses observations sur la réduction de la dette et de les impôts , peut - il nous préciser le montant que le gouvernement devrait verser , selon lui , à les agriculteurs qui éprouvent de les difficultés ? 
-peut - il nous fournir de les chiffres précis ? 
-m . Preston Manning : 
-monsieur le Président , je remercie le député de avoir porté attention à mes discours , mais se il y portait encore plus attention , il aurait la réponse que il réclame . 
-je pense que nous devrions attendre de voir ce que vont demander la Saskatchewan et le Manitoba plus tard cette semaine . 
-que ce chiffre se établisse à 1 milliard ou 1,5 milliard de dollars , voici ce que il faudrait faire pour trouver cet argent . 
-tout de abord , le argent devrait entrer dans le cadre de le programme actuel de dépenses de le gouvernement . 
-nous allons tout simplement devoir apprendre à faire cela . 
-se il y a une urgence , réajustons nos dépenses et disons à le Comité permanent de les finances de faire cela . 
-nous avons certaines idées sur le endroit où on peut trouver cet argent . 
-nous serions intéressés de voir si qui que ce soit à la Chambre en a également . 
-ensuite , je ai dit dans ma réponse à le discours de le Trône que le une de les solutions consistait à réduire les impôts . 
-ce est toujours vrai . 
-pourquoi ne pas réduire les impôts , y compris les taxes sur les facteurs de production agricole ? 
-on peut réduire cela sans accroître le déficit ou les dépenses prévues de le gouvernement . 
-si on avait fait cela à le époque , les sommes contenues dans le CSRN à le heure actuelle pour faire face à de les urgences seraient nettement supérieures . 
-nous serions beaucoup mieux placés pour nous attaquer à ce problème . 
-la solution , ce est de écouter le opposition officielle lorsque elle propose de les réformes . 
-m . Alex Shepherd ( Durham , Lib . ) : 
-monsieur le Président , je ai écouté avec un vif intérêt le discours de le député . 
-comme je ai pratiqué le agriculture pendant huit ans environ , je peux comprendre quelques - unes de les préoccupations et de les questions qui assaillent actuellement notre collectivité agricole . 
-le député a demandé que le ministère de les Finances et le Comité de les finances trouvent les fonds . 
-si je me souviens bien , ce est son parti qui a proposé , dans une de ses propositions budgétaires , une réduction de quelque 600 millions de dollars dans les dépenses de le ministère de le Agriculture et de le Agroalimentaire . 
-nous avions laissé ces fonds dans cette enveloppe en vue de un financement et , pourtant , le parti de le député avait proposé de les retirer . 
-ensuite , il a proposé de élargir le programme CSRN pour que nous puissions protéger les agriculteurs contre toutes sortes de distorsions commerciales qui se produisent dans le monde entier . 
-je suis de accord avec lui . 
-il se agit de un grave problème avec lequel notre collectivité agricole est actuellement à les prises . 
-je sais que le député croit également en le égalité . 
-je le entends le répéter fréquemment . 
-entend - il protéger tous les autres intérêts commerciaux de le pays contre de les distorsions commerciales qui se produisent un peu partout dans le monde en recourant à de les programmes gouvernementaux ? 
-m . Preston Manning : 
-monsieur le Président , il y a deux réponses à cette question . 
-premièrement , le député a raison de dire que le Parti réformiste a préconisé une réduction de les dépenses en agriculture il y a plusieurs années . 
-cependant , nous avions également proposé ces autres mesures , qui compensaient largement cette réduction , selon les agriculteurs , et qui protégeraient les mécanismes de adaptation contre les distorsions . 
-ensuite , si le député possède de longs antécédents en agriculture , comme je en suis sûr , il comprendra que il existe actuellement davantage de protectionniste dans le secteur agricole que il en existe dans bien de les autres secteurs faisant le objet de le libre - échange . 
-ce est le cas depuis que on parle de libre - échange . 
-ce est le gros problème qui existe en Europe . 
-le gros problème est de réduire les subventions agricoles . 
-ce programme de adaptation contre les distorsions agricoles est particulièrement pertinent dans le secteur agricole . 
-ce est pourquoi nous le préconisons . 
-il existe de autres mesures , tant à le sein de le OMC que en vertu de le ALENA , pour se attaquer à les autres distorsions commerciales . 
-en agriculture , ces mesures sont insuffisantes , comme en témoigne la situation dans laquelle se trouvent aujourd' hui nos agriculteurs . 
-Lehon. Lyle Vanclief ( ministre de le Agriculture et de le Agroalimentaire , Lib . ) : 
-monsieur le Président , je suis heureux de pouvoir faire quelques observations sur la question et sur la motion dont la Chambre est aujourd' hui saisie . 
-cela dit , sans diminuer le ampleur de les problèmes que éprouvent certains agriculteurs , il ne faudrait pas perdre de vue le ensemble de la situation . 
-je rappelle à tous les députés que , de une façon générale , les principes fondamentaux de notre secteur de le agriculture et de le agroalimentaire sont excellents . 
-À le échelle nationale , le revenu agricole ne est que légèrement inférieur à la moyenne de cinq ans . 
-je souligne encore une fois que ce est à le échelle nationale . 
-grâce à les programmes qui composent notre filet de sécurité , le industrie de le bétail prospère , les secteurs de la gestion de la demande sont solides et , malgré le instabilité de les prix , le élevage de le porc à le Canada continue de accaparer une part toujours plus grande de la production en Amérique de le Nord , préparant ainsi le terrain pour le avenir . 
-de plus , les investissements augmentent dans le secteur agricole et les exportations de produits alimentaires sont en hausse , en particulier celles de aliments transformés , de sorte que nous bénéficions de la valeur ajoutée et de emplois qui sont ici , à le Canada . 
-ce est sans contredit un important secteur de croissance pour le avenir . 
-malheureusement , dans le cas de certains produits , il y a de les régions qui ont de les difficultés . 
-les agriculteurs font face à de les prix déprimés depuis une période prolongée , qui ne est toutefois pas aussi prolongée que le prétendent certains de nos vis - à - vis . 
-nous savons que en 1996 - 1997 , les prix de les denrées de ce secteur ont été parmi les plus élevés de les dernières décennies . 
-la situation se est toutefois aggravée à cause de les bouleversements que ont connus les marchés financiers de le monde entier , elle se est prolongée parce que les États - Unis et le Union européenne ont eu davantage recours à de les subventions et elles se est détériorée encore plus à le printemps , en raison de une humidité excessive dans certaines régions et de la sécheresse dans de autres parties de notre pays . 
-je rappelle à la Chambre que on ne a pas laissé les agriculteurs relever les défis seuls . 
-nous avons travaillé avec eux et avec les gouvernements provinciaux afin de élaborer de les solutions à court et à long terme . 
-je rappelle à tous que , comme le prévoit notre Constitution , le agriculture est une responsabilité conjointe de les provinces et de le gouvernement fédéral . 
-je veux de abord faire quelques remarques sur les solutions à court terme . 
-le Aide en cas de catastrophe liée à le revenu agricole ou ACRA prévoit le versement à les agriculteurs canadiens dans le besoin de 1,5 milliard de dollars sur une période de deux ans . 
-jusque à maintenant , 16 000 agriculteurs de notre pays ont reçu une aide financière dans le cadre de le ACRA . 
-plus de 220 millions de dollars ont été versés . 
-cela représente une somme moyenne de un peu moins de 15 000 $ par producteur . 
-on continue actuellement de traiter les demandes et de poster de les chèques . 
-plus de la moitié de les chèques ont été envoyés à les agriculteurs de les provinces les plus durement touchées , soit la Saskatchewan et le Manitoba . 
-les agriculteurs continuent de bénéficier aussi de une aide dans le cadre de les autres programmes de protection de le revenu . 
-nous avons aussi apporté à le CSRN un certain nombre de modifications qui nous ont permis de verser davantage de argent à un plus grand nombre de agriculteurs et dans de meilleurs délais . 
-quelque 24 000 agriculteurs ont déjà bénéficié de ces modifications . 
-ils ont ainsi pu obtenir plus de 260 millions de dollars de le Compte de stabilisation de le revenu net . 
-ce est pour cela que le programme existe . 
-il est approvisionné par les gouvernements provinciaux et fédéraux ainsi que par les producteurs à titre individuel . 
-le fonds est à la disposition de les producteurs , qui peuvent puiser dedans dans les années de vaches maigres . 
-je rappelle à tous que 80 000 autres agriculteurs se sont donné la possibilité de puiser dans leurs comptes de le CSRN . 
-il se y trouve 900 millions de dollars supplémentaires que ils peuvent retirer maintenant , se ils en ont besoin . 
-ces programmes et les ajustements que nous y avons faits sont en train de combler le écart entre le revenu actuel de les agriculteurs et leur moyenne quinquennale . 
-notre système de filet de sécurité aide les agriculteurs à stabiliser leur revenu à mi - chemin entre leurs meilleures et leurs pires années . 
-je ne dis pas que notre système de protection de le revenu agricole est parfait . 
-il ne y aura jamais de système parfait pour tout le monde , tous les jours et tous les ans . 
-tout ce que je dis , ce est que nous avons établi de solides fondements et que ensemble nous travaillons très fort à bâtir sur ces fondements . 
-nous avons déjà modifié le programme ACRA pour que les producteurs puissent compter sur un approvisionnement continu en fonds de ici la fin de le exercice . 
-de autres changements sont également envisagés , y compris la couverture de quelques marges négatives . 
-en plus de les mesures à court terme dont je ai parlé , je travaille sur de les solutions à long terme . 
-de concert avec nos partenaires , nous rebâtissons , renouvelons et revitalisons notre système de protection de le revenu agricole . 
-le système doit inciter les producteurs à prendre de les décisions fondées sur les conditions de le marché . 
-il doit être de portée nationale et mis à la disposition de tous les agriculteurs de le pays , quelle que soit leur région ou leur produit . 
-il doit être conforme à les obligations de le Canada en vertu de les accords commerciaux internationaux . 
-une structure de filet de sécurité qui prête le flanc à le imposition de droits compensateurs ou à de autres problèmes commerciaux ne peut que nous faire de le tort . 
-il ne doit pas favoriser la surproduction . 
-les agriculteurs canadiens sont déterminés à gérer leurs terres et le eau de façon responsable . 
-les premiers ministres et les ministres de le Agriculture de les provinces reconnaissent à quel point cette question est critique pour le secteur primaire à le Canada . 
-je vais continuer de compter sur leur bonne volonté et leur diligence pour trouver une solution qui soit dans les intérêts supérieurs de les agriculteurs de tout le Canada . 
-je poursuis également ma collaboration avec le Comité consultatif national sur les programmes de protection de le revenu , dont je rencontre fréquemment les membres . 
-ces programmes ne sont que un élément de la solution . 
-en réalité , nous ne avons tout simplement pas assez de argent . 
-en dernière analyse , il ne est probablement même pas judicieux de essayer de imiter nos concurrents . 
-les subventions plus élevées ne servent que à faire baisser les prix de les denrées , à encourager la surproduction et à nuire à les agriculteurs non seulement à le Canada , mais aussi ailleurs dans le monde . 
-je ai fait valoir ce point de vue avec fermeté auprès de mes homologues de le Union européenne , de le secrétaire à le Agriculture de les États - Unis , Dan Glickman , à la réunion de le Groupe de Cairns , en août , ainsi que à la réunion de le Groupe Quint , en septembre . 
-je vais continuer de défendre ce point de vue , car ce est à le OMC et dans ces groupes que les discussions se déroulent . 
-je vais poursuivre mes efforts pour obtenir de les appuis à la table de négociation de le OMC . 
-entre temps , le gouvernement prend de autres moyens afin de soutenir le agriculture et de fournir à les agriculteurs les outils dont ils ont besoin pour se adapter , diversifier leur production et livrer concurrence sur un marché mondial en rapide mutation . 
-dans le discours de le Trône , nous avons réaffirmé notre engagement à le égard de la recherche et de le développement de le commerce , deux pièces maîtresses dans le édification de notre avenir , notamment dans le secteur de le agriculture et de le agroalimentaire . 
-nous nous affairons aussi à réformer le système de transport et de manutention de le grain de le Ouest afin que les agriculteurs puissent compter sur un système concurrentiel et efficient pour acheminer leurs produits jusque à les ports et , de là , vers les marchés de le monde entier . 
-je suis impatient de entendre les remarques constructives de les représentants de le industrie et de les députés . 
-il ne faut cependant pas oublier que les ressources dont nous disposons sont toujours limitées . 
-notre défi consiste à distribuer ces ressources limitées de la façon la plus juste et équitable possible à ceux qui ont besoin de aide . 
-m . Preston Manning ( chef de le opposition , Réf . ) : 
-monsieur le Président , le ministre de le Agriculture a commencé ses remarques en disant que la situation ne était pas si mauvaise . 
-je lui rappelle que ce était là le thème de les discours de R . B . Bennett à la Chambre il y a longtemps . 
-il devrait réfléchir à ce qui est arrivé à R . B . Bennett . 
-je crois que nous devons débattre cette question de façon réaliste . 
-nous apprécions la présence de le ministre ici aujourd' hui . 
-pourrait - il nous donner une réponse claire à la question suivante ? 
-nous avons fait six propositions pour améliorer la situation . 
-pourrait - il nous dire se il appuie ces propositions , qui consistent à remplacer ou à réformer le programme ACRA ; à accorder de les allégements fiscaux dès maintenant ; à demander à le ministre de les Finances de rajuster les priorités budgétaires ; à réformer le régime de assurance - récolte pour y inclure une assurance en cas de catastrophe ; à faire de le CSRN un programme à long terme ; à organiser une mission commerciale de urgence en Europe et à les États - Unis et assurer la participation de le premier ministre ? 
-le ministre de le Agriculture appuie il ces propositions précises visant à améliorer la situation , oui ou non ? 
-Lehon. Lyle Vanclief : 
-il a ensuite été question de allégements fiscaux . 
-le gouvernement a réduit les impôts de 16,5 milliards de dollars dans ses deux derniers budgets . 
-les agriculteurs bénéficient aussi de ces baisses de impôt . 
-ce était très clair dans le budget . 
-avant le budget de le an dernier , le gouvernement avait prévu 900 millions de dollars pour remédier à la situation et , avec la contribution de les provinces , le aide totale se élève à 1,5 milliard de dollars . 
-quant à le CSRN , nous le avons modifié cet été en abaissant le seuil . 
-nous avons dégagé 121 millions de dollars de plus pour les producteurs et , si tous ont écouté mon discours , ils savent que ce programme aussi est à le étude . 
-pour ce qui est de le commerce , je ai énoncé la seule approche possible . 
-m . Rick Borotsik ( Brandon - Souris , PC ) : 
-monsieur le Président , le ministre de le Agriculture nous dépeint une assez belle situation , mais tout ne est pas aussi beau dans le ouest de le Canada . 
-il parle de 14 000 à 15 000 personnes dont les demandes ont été approuvées en vertu de le ACRA . 
-pour chaque demande approuvée , il y en a une autre qui a été rejetée . 
-je me demande si le ministre de le Agriculture peut dire à la Chambre si les producteurs dont la demande a été rejetée sont livrés à eux - mêmes et ne doivent espérer aucune autre forme de aide de la part de le gouvernement . 
-finalement , certaines régions ont subi de autres catastrophes naturelles inhabituelles . 
-devant de les circonstances aussi exceptionnelles , le programme ACRA ne suffit pas . 
-le ministre peut - il dire à la Chambre se il y aura de autres programmes de aide pour les producteurs victimes de désastres naturels ? 
-Lehon. Lyle Vanclief : 
-monsieur le Président , les demandes qui nous parviennent ne font pas toutes le objet de un paiement . 
-je ferais observer à le député que les demandes de toutes sortes , que il se agisse de ce programme ou de un autre , ne sont jamais acceptées dans leur ensemble . 
-je ai mis en place de les critères afin que tous les agriculteurs , où que ils vivent à le Canada , reçoivent de le aide , se ils sont admissibles . 
-comme je le ai mentionné , malheureusement , le programme ne est pas la panacée universelle . 
-les autres provinces peuvent en faire autant si elles le désirent , et nous serions heureux de en discuter avec elles . 
-m . Howard Hilstrom : 
-monsieur le Président , je invoque le Règlement . 
-je aimerais que vous demandiez à la Chambre si elle consentirait à le unanimité à prolonger de quelques minutes le temps de parole de le ministre afin que nous puissions lui poser de autres questions une fois les 10 minutes écoulées . 
-le président suppléant (M. McClelland ) : 
-le député de Selkirk - Interlake demande le consentement unanime de la Chambre pour prolonger de cinq minutes le temps alloué à le ministre de le Agriculture pour de les questions et commentaires . 
-de les voix : 
-de accord . 
-de les voix : 
-non . 
-Mme Bev Desjarlais ( Churchill , NPD ) : 
-monsieur le Président , à vrai dire , il ne est pas étonnant que les libéraux ne veulent pas prolonger le intervention de le ministre . 
-ce est que , de toute évidence , le ministre ne a pas la solution à le problème agricole . 
-je me demande quel gouvernement responsable oserait abandonner ses agriculteurs en réduisant plus que raison leurs subventions , sans se préoccuper de savoir se ils seront encore en mesure de soutenir la concurrence de les autres pays . 
-Lehon. Lyle Vanclief : 
-monsieur le Président , quand les libéraux sont arrivés à le pouvoir , le gouvernement de le Canada touchait de les recettes de 120 milliards de dollars par année et dépensait 162 milliards par année . 
-si nous devions assurer quelque soutien que ce soit , dans le secteur agricole ou dans ne importe quel autre secteur , nous ne pourrions plus poursuivre dans une voie qui mène à la faillite . 
-nous avons pris de les décisions difficiles . 
-de les programmes de soutien ont été abandonnés . 
-la députée veut cependant oublier que une somme de 1,6 milliard de dollars a été distribuée en fonds de capital pour remplacer certains programmes dans le Ouest . 
-de les programmes de ajustement de plusieurs centaines de millions de dollars ont été mis en oeuvre pour aider le secteur agricole à se adapter . 
-le gouvernement fédéral verse une contribution de 600 millions de dollars par année à les divers filets de sécurité de le revenu . 
-enfin , il a fourni à le cours de les deux dernières années une contribution additionnelle de 900 millions de dollars . 
-nous aimerions tous pouvoir faire davantage . 
-notre défi consiste cependant à faire tout ce que nous pouvons avec les ressources dont nous disposons . 
-nous continuerons de examiner la situation et tâcherons de trouver de autres moyens appropriés de venir en aide . 
-le président suppléant (M. McClelland ) : 
-avant de donner la parole à le prochain orateur , je tiens à préciser deux choses . 
-comme nous le avons fait dans le passé , lors de la période réservée à les questions et observations , si plusieurs députés semblent vouloir poser de les questions , je commencerai par désigner à le moins trois députés qui pourront le faire , se il se agit de une période de cinq minutes , de sorte que les députés sachent se ils obtiendront ou non la parole . 
-dans ce cas - là , les questions et les observations ne doivent évidemment pas dépasser 60 secondes . 
-nous procédons de cette manière depuis à peu près un an , et nous continuerons de procéder ainsi . 
-je veux également préciser que , pour la première série de interventions , le opposition officielle disposait de un temps de parole de 30 minutes , puisque nous débattons de une motion de crédits présentée à le occasion de un jour réservé à le opposition , suivie de une période de dix minutes dont cinq sont réservées à les questions et observations de la part de chacun de les partis reconnus . 
-je ai fait erreur quand je ai dit que le député partageait son temps de parole . 
-il se agissait de une période dix minutes pour commencer . 
-Mme Hélène Alarie ( Louis - Hébert , BQ ) : 
-monsieur le Président , trois éléments ressortent de cette motion , soit le échec de le gouvernement fédéral avec son programme de aide en cas de catastrophe liée à le revenu agricole , la nécessité de mettre en place immédiatement un programme de urgence pour venir en aide à les agriculteurs , et la question de les subventions déloyales que donnent de les pays étrangers à leur secteur agricole . 
-notre intervention se fera donc sur ces trois points . 
-le premier , ce est le échec de le gouvernement fédéral avec son programme ACRA . 
-À cet égard , le gouvernement ne a aucune compassion . 
-le programme fédéral de la sécurité de le revenu est un fiasco qui ignore la réalité de les agriculteurs . 
-la situation actuelle dans le domaine de le agriculture est la preuve que le programme de le ACRA ne fonctionne pas et ne peut garantir un niveau de revenu décent à les agriculteurs . 
-le gouvernement ne peut se en laver les mains . 
-il est responsable de la situation et contribue à le maintien de cette situation de crise de le revenu agricole . 
-le problème principal , mais non le seul , vient de ce que le programme de le ACRA , tel que il est conçu aujourd' hui , refuse de les avantages à plusieurs producteurs que il était censé aider à le origine . 
-tel que il est conçu actuellement , le programme de le ACRA ne distribuera pas les 900 millions de dollars de le gouvernement fédéral engagés pour les agriculteurs à le cours de les prochaines années . 
-il ne permettra pas à le gouvernement de remplir ses promesses de soutien . 
-le ACRA ne répond donc pas à les besoins de les agriculteurs . 
-les problèmes que pose le ACRA dans sa conception actuelle sont nombreux et démontrent que le gouvernement fédéral ne connaît pas vraiment les agriculteurs . 
-en effet , dans sa conception , le ACRA ne tient pas compte de la situation de les agriculteurs . 
-pourquoi les producteurs dont la marge bénéficiaire brute est négative sont - ils pénalisés ? 
-pourquoi le programme établit - il un maximum sur ce que peut recevoir un producteur agricole et que ce maximum , de le fait de son mode de calcul , diminue quand le agriculteur traverse une crise ? 
-pourquoi le ministre ne se est - il pas engagé auprès de les producteurs à dépenser la totalité de les 900 millions de dollars annoncés ? 
-pourquoi le ministre ne a il pas fait une exception , dans son programme de aide , pour inclure les producteurs ovins qui , en 1997 , ont subi de lourdes pertes lors de la crise de la tremblante de le mouton , et qui ne étaient pas admissibles à le dédommagement de 600 $ pas tête ? 
-pourquoi ne a il pas fait cet effort , compte tenu que une telle mesure ne aurait coûté que environ 1,5 million de dollars ? 
-les lacunes de le programme sont de la responsabilité de le gouvernement et contribueront à maintenir les agriculteurs dans une situation précaire . 
-la règle sur les marges négatives va sérieusement affecter les agriculteurs qui ont , cette année , de les marges négatives . 
-de le fait de le choc de les prix de les produits de le année dernière , la Fédération canadienne de le agriculture estime que il y aura 10 000 fermes ayant de les marges négatives . 
-le gouvernement fédéral est - il prêt à remplacer ses principes et à considérer ces opérations , autrement viables , indignes de une aide ? 
-est - ce que le gouvernement est prêt à répondre à la disparition éventuelle de les entreprises agricoles , de le fait de les lacunes de le ACRA ? 
-en dépit de cette situation , le gouvernement fédéral démontre son manque de compassion en ne faisant rien . 
-pourquoi ne a il pas suivi les recommandations de son comité consultatif ? 
-À le Québec , il y a un régime de stabilisation de le revenu qui est stable depuis une vingtaine de années . 
-il est tripartite et le gouvernement fédéral contribue pour le tiers . 
-le gouvernement de le Québec est satisfait présentement de le règlement de le ACRA , car le gouvernement de le Québec continue de gérer son programme et les sommes reçues ont servi à diminuer les primes de les cotisants . 
-il en est de même pour ceux qui ne ont pas accès à le régime de stabilisation , mais qui bénéficient de le CSRN , car là encore , ils sont soutenus par la province et le programme est géré par la province de Québec . 
-le deuxième point porte sur la nécessité de une intervention pour sauver les agriculteurs . 
-les agriculteurs vivent la pire crise depuis les années 1930 . 
-pour le Québec , la faiblesse de le cours de le porc , moins 34p. 100 par rapport à le année dernière , a touché directement le revenu de les agriculteurs . 
-face à cette situation , le gouvernement doit continuer de aider le secteur agricole , de autant que nous avons les moyens et la place pour le faire , tout en respectant les accords internationaux . 
-toutefois , si le gouvernement décide enfin de faire quelque chose , les mesures doivent être globales , car le malaise agricole concerne tout le pays . 
-de après les prévisions , le revenu agricole total net de le Québec sera de 526 millions de dollars , soit une baisse de 26p. 100 par rapport à le revenu moyen de les cinq dernières années . 
-enfin , le dernier point a trait à les subventions à les secteurs agricoles étrangers . 
-Ottawa est plus vertueux que la vertu elle - même . 
-selon le président de la Fédération canadienne de le agriculture , Bob Friesen , Ottawa est allé trop loin : « Le Canada a réduit les subventions au - delà de ce que on attendait de lui . 
-Ottawa pourrait faire bien davantage pour les agriculteurs sans violer les accords commerciaux . » 
-pour chaque dollar que reçoivent les agriculteurs canadiens , leurs concurrents américains et européens reçoivent , pour leur part , 2,5 $ , et ceci ne inclut pas les 8,6 milliards de dollars que ils viennent de recevoir en aide . 
-le OCDE , en 1998 , estimait que le soutien total découlant de les politiques agricoles est de 140 $ américains par habitant à le Canada , contre 363 $ à les États - Unis et 381 $ en Europe . 
-nous constatons que le argument de le ministre de le Agriculture sur les contraintes que impose le OMC ne tient pas . 
-rappelons que à la suite de le Accord de le GATT , signé en 1995 , les pays devaient se engager à réduire de 15p. 100 leurs subventions à le agriculture . 
-Mme Bev Desjarlais ( Churchill , NPD ) : 
-monsieur le Président , la députée a fait observer à juste titre que le gouvernement fédéral ne arrête pas de dire que se il doit réduire les subventions accordées à les agricultures , ce est à cause de les accords de commerce en place . 
-la réponse donnée par le ministre ce matin et le fait que le gouvernement ait réduit les subventions dans une proportion allant jusque à 60p. 100 quand il ne avait que à les réduire de 20p. 100 montrent que en fait il utilise le prétexte qui le arrange suivant le jour . 
-la députée reconnaît - elle que le gouvernement a abandonné les agriculteurs pour atteindre ses objectifs budgétaires et que il se est servi de les accords de commerce comme excuse ? 
-Mme Hélène Alarie : 
-monsieur le Président , je suis absolument de accord avec cet énoncé parce que on avait encore une marge de manoeuvre , surtout en temps de crise . 
-si le secteur agricole voguait dans ses meilleurs jours , on pourrait peut - être à ce moment - là être vertueux et avoir cette ligne dure que on a adoptée à Cairns . 
-mais , à le heure actuelle , comme on a un secteur en état de crise à la grandeur de le pays , je pense que on aurait pu aller jusque à le bout de ce que le on avait le droit de faire en vertu de les règles de le OMC . 
-m . Howard Hilstrom ( Selkirk - Interlake , Réf . ) : 
-le revenu net réalisé ne a pas baissé . 
-la question que je pose à la députée comporte deux points . 
-premièrement , la députée reconnaît - elle que le ACRA ne se attaque pas vraiment à le problème de la crise de le revenu agricole ? 
-ce ne est pas un très petit montant de argent , quelques milliers de dollars , qui va permettre de compenser la perte de revenu enregistrée par les agriculteurs depuis de longues années . 
-Mme Hélène Alarie : 
-monsieur le Président , je suis très heureuse de pouvoir répondre à la question de mon collègue . 
-effectivement , le revenu net de les agriculteurs québécois a moins diminué que celui de les agriculteurs de le Ouest canadien . 
-il y a plusieurs raisons à cela , le une étant que notre programme de soutien de le revenu est stable depuis 25 ans . 
-À le lieu de se ajuster à le gouvernement fédéral , on prend ce que le fédéral offre comme entente tripartite et on continue de avoir de la stabilité dans notre programme . 
-cela aide beaucoup . 
-le Québec se implique donc davantage que les autres provinces pour appuyer ses agriculteurs . 
-ce est le inverse . 
-si le programme ACRA répond ou ne répond pas à les besoins que on a , je pense que on en a tous fait la démonstration ce matin . 
-déjà , à le départ , il y a un problème . 
-m . Dick Proctor ( Palliser , NPD ) : 
-monsieur le Président , je ai le honneur de être le premier néo - démocrate à participer aujourd' hui à cet important débat . 
-le compte - rendu de nos délibérations indiquera que notre parti a joué un rôle de premier plan à cet égard . 
-nous avons assumé nos responsabilités en tant que parti de opposition et maintes fois signalé à la Chambre les difficultés de le secteur agricole . 
-nous les avons également signalées à le Comité permanent de le agriculture et lors de réunions avec les organismes agricoles , notamment dans les Prairies . 
-notre groupe parlementaire ne voit pas de inconvénient à le adoption de la résolution à le étude aujourd' hui . 
-nous ne sommes cependant pas de accord avec le parti qui en est à le origine , car nous sommes convaincus que les difficultés de le secteur agricole , et de les Prairies en particulier , ont été aggravées par la montée de le Parti réformiste dans le ouest canadien et le empressement zélé avec lequel le gouvernement de en face a accepté les idées boiteuses de ce parti . 
-ce ne fut rien de moins que une déclaration de guerre dans les exploitations agricoles familiales . 
-la campagne de promotion de cette mauvaise politique alimentaire a amené certains à prédire que plus de la moitié de les agriculteurs de le ouest canadien pourraient disparaître . 
-et que se est - il produit ? 
-selon un sondage Angus Reid mené il y a quelques mois , 46 pour cent de les agriculteurs de le Ouest envisagent sérieusement de plier bagage si leurs difficultés financières actuelles persistent . 
-mais le exode massif de les agriculteurs devrait plaire à les Réformistes . 
-après tout , ne est - ce pas leur chef qui , en 1992 , a déclaré à Truro , en Nouvelle - Écosse , que les provinces de les Prairies ne étaient plus en mesure de aider autant de agriculteurs que jusque - là ? 
-cette vérité brute a été corroborée en 1995 par le porte - parole principal de le Parti réformiste en matière de agriculture , le député de Kindersley - Lloydminster . 
-le leader de le opposition nous a demandé , il y a quelques minutes , de écouterM. Hermanson . 
-je me permets de citer de les propos tenus parM. Hermanson en mars 1995 : 
-je ne me plains pas de les restrictions apportées dans le financement de le agriculture . 
-les réformistes auraient probablement procédé à de les restrictions différentes et plus appropriées , je pense . 
-par « plus appropriées » , le ancien député entend certainement « plus fortes » . 
-lorsque le gouvernement libéral a entendu la proposition agricole de le Parti réformiste qui consistait à passer de un mode de aide gouvernementale à une industrie modelée par les forces de le marché , il a fait bonne contenance et a agi aussi vite que possible afin de satisfaire à ces recommandations . 
-il le a fait en coupant radicalement dans les programmes gouvernementaux de aide à le agriculture . 
-le fait est que tous les signataires de le Uruguay Round de 1993 de le GATT avaient convenu de réduire les paiements de aide intérieure de 20p. 100 sur une période de cinq ans . 
-il se agissait pour le gouvernement de une situation favorable à toutes les parties en présence ; il a donc réduit radicalement et pour de bon les paiements de aide à les agriculteurs . 
-À le lieu de simplement convenir de se conformer à le règlement de le GATT visant à réduire de 20p. 100 les paiements de aide interne , le gouvernement , comme je le ai mentionné , y est allé gaiement et les a réduits de 60p. 100 . 
-quel est le impact de ces restrictions ? 
-aujourd' hui , pour chaque dollar de blé vendu , les agriculteurs canadiens reçoivent un total de neuf cents de subventions . 
-je aimerais faire part de quelques observations à le ministre de le Agriculture . 
-il y a 11 mois , le ministre a dit à les délégués à le congrès de le Union de les producteurs de grain que il était parfaitement conscient que aussi mauvais que aient été les résultats en 1998 dans les prairies de le Manitoba et de la Saskatchewan , les prévisions pour 1999 étaient encore pires . 
-qui plus est , il se était engagé à faire quelque chose à cet égard , et ce quelque chose se appelle le ACRA . 
-le ACRA ne semble pas très bien fonctionner ni à le Manitoba ni en Saskatchewan . Le programme fonctionnerait mieux en Colombie - Britannique et en Alberta . 
-les chiffres sont là pour le prouver . 
-je suis sûr que les députés conviendront que il faut une forme particulière de génie pour prévoir avec exactitude quelles provinces seront les plus menacées le année suivante et pour concevoir un programme de aide qui offre plus à les agriculteurs de les provinces voisines que à ceux qui en ont réellement besoin . 
-puisque nous sommes à le beau milieu de les séries mondiales , il est approprié de rapporter que les agriculteurs de les Prairies paraphrasent Babe Ruth parlant de un autre programme , et disent que le ACRA ne vaut guère mieux que une tasse de crachat chaud sur les prairies . 
-ce est exactement ce que les agriculteurs voulaient dire à le ministre de le Agriculture en juillet à Prince Albert . 
-ils voulaient que il sorte de le ombre à le hôtel Marlborough le 6 juillet et que il prenne la parole pour que tous puissent le entendre et pour que un vrai dialogue puisse se amorcer entre eux et le ministre de le Agriculture et de le Agro - alimentaire . 
-je ai été étonné alors de constater que le ministre ne se rendait pas compte de le fait que les agriculteurs considèrent le ministre de le Agriculture comme leur ministre . 
-les agriculteurs voulaient parler à leur ministre et lui faire part de leurs frustrations en rapport avec les formules complexes de le ACRA , le exclusion de les marges négatives , le inclusion de le CSRN et de le revenu extérieur , le faible cours de les produits de base et le fort coût de les intrants . 
-en résumé , les agriculteurs voulaient faire connaître à leur ministre la situation qui prévaut actuellement dans le monde de le agriculture . 
-À le lieu de comprendre leur désir de se faire entendre et de amorcer un dialogue ouvert avec leur ministre , cet après - midi là le ministre de le Agriculture se est montré indifférent et même arrogant devant les centaines de agriculteurs qui étaient sur place . 
-les agriculteurs ne étaient pas de le tout intéressés à les belles petites phrases toutes faites de le ministre . 
-ils voulaient lui parler directement . 
-ils voulaient lui dire dans leurs propres mots ce qui à leur avis ne fonctionne pas dans le programme ACRA et ce qui devrait être fait pour le corriger . 
-ils voulaient désespérément lui dire que ils avaient besoin de un programme de protection de le revenu efficace et viable à long terme . 
-nous , de ce côté - ci de la Chambre , sommes bien de accord avec cela . 
-les agriculteurs savent que pour être concurrentiel , le Canada doit leur accorder un niveau de aide national semblable à celui accordé par nos concurrents commerciaux . 
-le ministre a refusé à cette occasion de accorder cette chance à les agriculteurs de les Prairies et certains de entre eux se sont montrés frustrés et désappointés . 
-À cause de le piètre rendement de le programme ACRA dans les Prairies , certains préconisent son élimination . 
-selon le avis de notre caucus , il ne y a pas lieu de démanteler le programme . 
-mais , pour que le programme ACRA fonctionne dans les Prairies , la période de référence doit être étendue à cinq ans ou plus . 
-trois ans , ce est tout simplement trop court . 
