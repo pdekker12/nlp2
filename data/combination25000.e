@@ -1,3 +1,450 @@
+2 . 
+2 . 
+oh , oh ! 
+oh , oh ! 
+oh , oh ! 
+let us remember , Mr. Speaker , that these segments of our society form the backbone of our economy . 
+hear , hear ! 
+hear , hear ! 
+Mr. Speaker , my question is directed to the Minister of Transport . 
+both have many years experience in the manufacture and distribution of forest products . 
+1 . 
+another point I should like to discuss is the right of the supplier to choose his customers as he sees fit . 
+i am getting sick and tired of ministers who seem to have some hang - up with regard to the collective bargaining process . 
+there is just one specific item more that I would like to comment upon and then I will sit down , Mr. Speaker . 
+order , please . 
+3 . 
+i can refer him to no better authority on the subject than the hon. member for Don Valley , not just myself . 
+it is quite understandable . 
+in addition , it could become a serious threat to Confederation and national unity . 
+in view of this , we deemed it inadvisable to attend the meeting and so informed COJO . 
+Mr. Speaker , the minister suggested that a greater building program might lead to inflationary pressure . 
+i disagree with the argument advanced by the minister . 
+there is a lot to be said on both sides of that question . 
+order . 
+Mr. Speaker , as I indicated to the Leader of the Opposition , I would hope to make an announcement on this question on November 1 . 
+quite right . 
+it does not bring anybody closer to rehabilitation to isolate him from the public . 
+he left a wife and family . 
+on a point of order , Mr. Chairman , I am sure the hon. member for Verdun would not have denigrated my position . 
+can the insurance industry in turn act as an airline ? 
+i say this to you , Mr. Speaker : the people of Toronto know the government has no answers . 
+their evidence on the state of each stock was taken fully into account . 
+thank you very much , Mr. Speaker , and I thank hon. members for allowing me the privilege to continue . 
+i urge this intensive study , Mr. Speaker , for we know so little about the reasons that turn people into criminals . 
+the government must assist its own employees who may need another language to advance their careers . 
+i do not have any qualms about the type of language I use . 
+motion agreed to . 
+Mr. Speaker , no decision has been reached as yet but I should think so . 
+the matter of trade relations with our European counterparts should be very seriously considered . 
+what we should be concerned with in this country is the situation when these animals are shipped out of Canada for this purpose . 
+they have already given an indication of the branches they intend to close . 
+this minister watched while half the proceeds and profits of the Canadian agriculture industry were swept away in a budget speech . 
+Mr. Chairman , absolutely none . 
+we are analysing the report now and I hope to have some information for the House in the near future . 
+hear , hear ! 
+hear , hear ! 
+i would therefore move , seconded by the hon. member for Dartmouth - Halifax East ( Mr. Forrestall ) : 
+when we realize the extent of the ravages caused by organized crime in our country , we must consider deep - rooted solutions . 
+but oh how their popularity soared and they coasted through on that . 
+( 2 ) A committee is bound by , and not at liberty to depart from , the order of reference . 
+there is one other point I should like to make , and I do so as I feel this is a general debate . 
+in December there was an announcement that British Columbia would be withdrawing from CEMA . 
+they have also given rise to considerable opposition by hon. members in all parties on this side of the House . 
+those are not the lines that one should be concerned about at this time . 
+i have allowed the hon. member two supplementaries and in fairness I think we should go to some other hon. members . 
+i think that is good . 
+i think that the time taken in handling routine applications for changes of facilities along a pipeline , for example , has been too long . 
+he is the minister who is responsible for science and technology , and he does not know . 
+federal government carpenters get $ 6.42 in Toronto and $ 5.23 in Halifax and Moncton . 
+for the record I would like to refer to a press release which followed the federal - provincial conference of attorneys general in October , 1975 . 
+Mr. Speaker , I rise on a point of order . 
+i think the railroad term is « demand loading » . 
+i will come to the cost of boats these days . 
+in most provinces , general noise regulations have been implemented , the main principle of which is as follows : 
+agreed . 
+after all , energy is used by people throughout the nation , and the government might well consider an approach using the incentive to which I have referred . 
+6 . 
+i will be glad , when we have time , to sit down with hon. members and work this matter out on a productive and prospective basis . 
+will the minister take action to clear up any difficulties because of the absolute need for placing the orders now , and not some months from now ? 
+it will spur the construction of new fishing boats and cause new processing facilities to be built . 
+there are many things I could say about Bill C - 19 . 
+i am going to say something a bit later on about that because I think it is essential to the kind of debate we are having this afternoon . 
+companies find that the rules are complicated , cumbersome and changing all the time . 
+Mr. Speaker , my question is for the minister in charge of the Canadian Wheat Board . 
+i understand that a rate of at least 70 per cent per annum is being contemplated . 
+it is our hope to make a decision this week . 
+we accept your view . 
+they fought an election on that position . 
+12 . 
+Mr. Speaker , I say to that : what a cruel hoax , because a hoax it is . 
+Mr. Speaker , we will try to stick to that suggestion . 
+1 . ( a ) $ 98,355 . ( b ) They are distributed through major post offices across the country . 
+crime is a national problem according to our constitution , while law enforcement is a provincial and local responsibility . 
+i submit that what I say is pertinent to the bill , to moneys being spent on medicare and the manner in which they are spent . 
+a few words about this disease might help to put things into perspective . 
+fortunately they are fewer this year , more reasonable and responsible , more conciliatory . 
+this bill has been before the House for more than a year . 
+retired December 30 , 1975 following completion of 34 years of public service . 
+passage of the hon. member 's motion would mean that the content requirements are spelled out in the statute and we could debate them . 
+this does not necessarily indicate non - compliance on the part of the parties . 
+i was not asking for a detailed explanation as to what he was doing . 
+how can so much be asked , on the one hand , and so little answered on the other ? 
+as a result , perhaps he will bring in different legislation which will not lay him open to the charge of censorship . 
+either they do their job properly , or you must get the power so that you can be sure that they do it properly . 
+in our national capital we have all the strains and all the divergencies of our country . 
+hon. John N . Turner ( Minister of Finance ) moved : 
+as much as I hate to admit it , there has been good legislation brought in by Liberal governments in this country -- 
+as the member for the neighbouring riding I am well aware of his persistence and hard work . 
+where is the AIB ? 
+at the moment , that fact , unfortunately , is seen in two - thirds of the country not as an opportunity , but as a barrier to opportunity . 
+do not force a moratorium down our throats . 
+this not the first time that members of parliament are going to hear that . 
+the same recommendation was made in the report of the Standing Committee on Privileges and Elections on April 29 of last year . 
+Mr. Speaker , I am afraid the hon. member is ill informed . 
+in the MOT accident report it is stated : 
+Mr. Speaker , the federal offer was for a $ 100 million program . 
+in most samples of this size -- that is , a group of over 500 -- this would be called negligible . 
+the traditional procedure for seeking new borrowing powers is to attach a clause to supply bills brought before the House . 
+this strikes at the roots of democracy , and it is the right of the people to know . 
+this would relieve the pressure on oil . 
+the Special Investigation Division has not been in existence since early 1975 . 
+moreover , this is not a matter of saying whether we are for or against some sort of assistance for adoptive parents . 
+let us see the documents . 
+canada has continued to give its support to the NATO alliance as an absolutely indispensable deterrent and an absolutely indispensable assurance of our security . 
+can you believe such a ban in 1978 ? 
+no , Mr. Chairman . 
+naturally , the government attempts to get the best possible deal for the Canadian public in any series of negotiations . 
+i would add , Mr. Speaker , that it must be continued . 
+if I want any statistics as to where this country stands , certainly I will not refer to the speech made by the Prime Minister . 
+we looked at all the implications of that . 
+perhaps it would be a good idea for me to quote a Timmins newspaper because maybe it relates to the hon. member . 
+Mr. Speaker , indeed I have the final report from the Prairie Rail Action Committee . 
+( ii ) ( a ) Three vehicles will be used by six Canadian experts related to the provision of technical assistance . 
+1979 . 
+and we will implement every recommendation in the Auditor General 's report , something which we have been calling for over the last ten years . 
+first , Mr. Speaker , I should like to make a few general remarks . 
+Mr. Chairman , I will see if there is such a figure available , but I would quarrel with the words of the hon. member . 
+i know he would not want to divert me from responding to a very serious question by his colleague . 
+continually we get the message from across the way that this program will cost the government something . 
+that is the crowd which did not like the 18 cents . 
+what is at issue here is the principle that the public of Canada has a right to know about the constitution of Canada . 
+they want to pick and choose what they will support . 
+do you have it in writing ? 
+i realize , Mr. Chairman , that there is no magic solution . 
+in 1978 Americans divorced 1,122,000 times . 
+the very result of unemployment breaks up families , and contributes to excessive alcohol and drug use . 
+the official opposition was trying to destroy Petro - Canada in the short six months it was in office . 
+instead of causing an internal schism , 
+and now they are applauding themselves for voting against security of supply . 
+as to making contributions , I am reminded of a story . 
+madam Speaker , I would like to hear from the hon. member before I move my motion . 
+the previous speaker also mentioned they would like to have the provinces involved in preparations for any meetings . 
+my friend from Toronto says 53 more years . 
+all of those estimates indicate that Canada will be in much more trouble as a result of the National Energy Program than we were in before . 
+Mr. Prime Minister : 
+indeed , there will be more divisiveness than positive effects . 
+world - wide inflation is causing a severe form of economic dislocation . 
+the PT7 represents the beginning of a new family of engines in a power range above that of the highly successful PT6 engine . 
+Mr. Speaker , I welcome the opportunity to join in this adjournment debate -- 
+the competition policy is as vital to an industrial strategy as the over - all plan or the specific set of plans which should be developed . 
+we are now talking about $ 45 billion to construct the pipeline . 
+these flaws are all reflected in this bill . 
+at this stage of the debate of the resolution , there are three specific amendments which my party proposes to introduce . 
+the government cannot claim that there is any change in the balance of ways and means . 
+a substantial provision of federal assistance for regional development comes under this program , RIDA , and subsidiary units . 
+what did the government do ? 
+he said that if we use unemployment as the solution to inflation , we will get recovery . 
+conservation is beginning to have its effect . 
+there could be a steel mill in British Columbia , for example . 
+order , please . 
+that is why professionals should not be charged for their work in progress . 
+i believe , Mr. Speaker , that what is happening today is a good thing but it is just the beginning . 
+however , the people of Canada are responsible for making those payments . 
+we are now faced with legislation that is designed to withdraw from programs that were introduced at a time when we could afford them . 
+that is why we had to import 25,000 skilled workers into this country at a time when unemployment was rising . 
+as Carter said back in the 1960s , « A buck is a buck is a buck » and should be taxed as such . 
+order , please . 
+all of this means a total cut over the next two years of $ 2,958 , or 15 per cent of the original $ 20,000 salary . 
+we heard in the news this morning that the Heath - Steele mine in northern New Brunswick is being closed down . 
+they are ready to follow our leadership . 
+we have a number of those kinds of programs and discussions going on at the present moment . 
+out of that momentum of ideas and activity , we have to ask ourselves , why has the development problem not been solved ? 
+i would like to end on a positive note , Mr. Speaker . 
+i want to make it plain , Mr. Speaker , that the federal government does not set retail prices . 
+the House met at 2 p.m. 
+i remind hon. members that the minister in respect of transmission lines referred to the same power that now exist . 
+that is truly a laudable goal with which we all agree . 
+madam Speaker , I have a supplementary question for the Minister of Transport . 
+let me come now to Petro - Canada . 
+this will result in tremendous savings . 
+unfortunately , no one seems to know what the effect will be . 
+we have allowed a subgovernment across the country to remove power from the House of Commons . 
+that is quite substantial . 
+what exactly is going on over there ? 
+madam Speaker , I will be very brief . 
+that Government simply tells the people what is good for them . 
+it is the seasonally adjusted figures which show the .5 per cent drop which are the important figures . 
+the Chair is really embarrassed by what is taking place . 
+Mr. Speaker , I am sorry , I have not seen the statement by a British firm . 
+fewer volunteers are available because so many women have returned to the work force . 
+they work with them . 
+it depends on the extent to which they apply themselves . 
+i do not know if there is a Member in this House who would oppose allocating more money for the elderly . 
+they also have a role to play in the food chain . 
+this has given a more democratic element to the things we were faced with in our constituency . 
+the problem is to obscure the memories of everyone who heard the Minister 's stupid statements of a week ago . 
+will the Ministry fill in the ravine at the end of runway 24L at the Pearson International Airport at Toronto ? 
+if we ever introduce such legislation , I will remind him of his offer . 
+my response is , so what ? 
+this , Sir , is what I recommend to the House . 
+whether that will do any good , I do not know . 
+that is the principle which must guide the Alliance in the future as we seek fair and verifiable agreements with the Soviet Union . 
+i guess the same kind of answer would have to apply to the matter of automobiles . 
+they are bringing before the House a Bill that will restrict those liberties . 
+for debate , the Hon. Member for Bow River ( Mr. Taylor ) . 
+Mr. Speaker , I rise on a point of order . 
+the Government refuses to believe it . 
+those were very challenging commitments , a sort of preview of what the very important agricultural sector might become . 
+there are two revolving - door syndrome and gating . 
+i hope he will be back with that mobilized public opinion . 
+i think the argument being made by the Government is faulty . 
+however , we do have enough money to bail out two banks . 
+order . 
+it can be stolen just as other types of property can be stolen . 
+and , second , Mr. Speaker , what we have been doing since last November is building up a climate of confidence . 
+members should know that credit unions are a very big factor in financial institutions in western Canada . 
+the Member for Cochrane - Superior ( Mr. Penner ) said earlier tonight that the onus is on the Government to free up its Members . 
+that is my point . 
+what of women who live far from centres where these services are available ? 
+they ask the Members of this House to put an end to all cuts in personnel at these shops . 
+it is not a question of joining ; we are well ahead . 
+in an article written by Dr. Kenneth Hare , recognized in this country as being one of our foremost atmospheric scientists , the following appears : 
+the impact is pervasive . 
+in other words , a subsidy of about $ 2 per bushel will come from the Reagan administration to the grain farmers of the United States . 
+the full report will be coming in before the fall . 
+if these rules were put in place , would we indeed be treating everyone in the same way ? 
+in them this former distinguished Speaker of the House talked about sexual harassment where some women had to disrobe to qualify for their jobs . 
+i am simply alerting Members to a problem that I see , given what has been happening . 
+the Conservatives while in Opposition , of course , said quite the contrary to what they are doing now . 
+in point of fact , both the Minister of Justice and the Solicitor General have responded fully , as best human beings can . 
+does the Deputy Prime Minister believe that this is the way for a responsible Government , or an independent nation , to make an international treaty ? 
+the parliamentary subcommittee is considering the whole question of equality rights . 
+the fact is that no applications involving fewer than four student employees is being subjected to any test of whether or not the jobs are career oriented . 
+we also want a series of objective criteria based on factors such as those I am referring to . 
+if we proceed on that basis in this or in any other direction in public life , we will always be able to find excuses . 
+then you brought in your program , the hotel went down the tube and Fort St. John became a ghost town . 
+well , in six months , we did consult , we sat down with the Minister and hammered out an agreement . 
+the Right Hon. Member might disagree with her perspective as well . 
+" let us try it , " they say , " and see if it works . 
+approximately $ 3 million of this amount is allocated from DREE funds , with the remainder being committed by the Department of Indian Affairs and Northern Development . 
+it cannot be stressed too often that Canadians are disturbed by the increase in violent crime . 
+grain exports are projected to fall by 25 per cent in the 1984 - 85 crop year . 
+we are so far behind in this field it makes the whole country feel embarassed . 
+they do not really change the status . 
+there is no longer any distinction to be made on a rational basis between an intermediate range and an intercontinental range nuclear missile . 
+could I ask the Member for Western Arctic for a brief answer , if possible . 
+greater Victoria is a tourist mecca . 
+that tax will not be collected and then refunded . 
+there has been a commitment in the past that their participation rate would go at least to historic levels if not traditional levels . 
+that is to say , at the request of the person who may be going to declare his refugee claim . 
+that is the actual situation . 
+equalization payments have become quite considerable through the years . 
+it has been a matter of concern to representatives of all parties . 
+i would also like to advise the House that there was a degree of consultation with respect to the PC caucus members from Manitoba . 
+the part played by military personnel and their families in the life of the town will be long remembered in a most favourable light . 
+with great respect , I must interrupt . 
+i explained it then . 
+if the Prime Minister said that he was willing to resume negociations with Quebec , why are they in such a hurry to pass this Bill ? 
+in fact , that is why a number of my colleagues have spoken out quite vigorously on the subject . 
+i should like to put on the record just exactly what is in the notes on the financial statement of March 31 , 1984 . 
+that judgment is sent to the individual in question . 
+that does not make sense . 
+Mr. Speaker , many authorities were involved in acting on this emergency . 
+however , what happened to the studies that were conducted after that incident occurred ? 
+there was a clear understanding by the former Minister of Transport that these regulations would not be promulgated for a year . 
+i feel that is an attitude in Cabinet which we do not have the luxury of allowing to continue . 
+in other words , Mr. Speaker , the Government must implement the recommendations of the Commissioner of Official Languages . 
+they will then reduce the number of jobs because what they buy will be a duplication of other operations they have . 
+it is at the second stage of review that the Supreme Court has ruled that a hearing is compulsory . 
+as for lawyers specialized in immigration matters , the Bar takes upon itself to penalize them . 
+the alternative in terms of foreign investment is loan capital . 
+does he want to wait until the economy of those rural areas is completely down before responding to the acid rain problem ? 
+i think that should not be too difficult to understand . 
+however , we must not forget that the majority of beef and pork producers have rejected outright any mechanisms for marketing stabilization . 
+if I had been in Bryce 's position , I would have been right in there with my nose to the public trough with the rest of them . 
+in other words , we consider that the political role and the administrative role should be kept separate . 
+as a result , the Government had to take steps to see that the company was taken over . 
+all of these heritage places are managed by Parks Canada for the benefit and enjoyment of all Canadians . 
+as I indicated earlier in this ruling , such discrimination was not envisaged in the Bill when it was given second reading . 
+there is a role for both the public and the private sector . 
+there will be more criticism , perhaps , because this Government , as I understand it , is committed to making things more open to the public . 
+that is not good enough . 
+he was the one who told us that the construction of a maintenance centre for VIA Rail in Montreal would be indefinitely postponed . 
+but then Mr. Baldwin said : 
+we want full public disclosure of company commitments involved in take - overs of Canadian business . 
+there is also a need to co - ordinate with provincial Governments as to what certain areas require . 
+they are of the opinion that by just changing the name from FIRA to Investment Canada we are going to have an automatic inflow of dollars . 
+can the Minister tell this House what position the Canadian Government will take in this regard ? 
+it is nine months since the election of this Government and we have yet to see a Budget . 
+we currently allow the Canadian amateur athletic associations to be registered , and it is my belief that we should allow the provincial groups as well to be registered . 
+a Canadian amateur athletic association by definition includes federal associations but does not include their provincial counterparts . 
+to this battle Canada gave 1,800 gallant sailors and 24 proud ships . 
+i find it incredible that the President of the Treasury Board would be laughing about a matter as serious as this . 
+they have also asked for additional funding . 
+well , everyone would agree with that . 
+it is no wonder that there was no permanent chief executive officer for over 12 months . 
+the Minister spoke of meetings and I applaud that . 
+we had to put that in St. John 's . 
+that is an accurate description of what is happening . 
+they cannot be treated in isolation . 
+he obviously does not like the co - op people in eastern Canada . 
+the federal Government has a responsibility to be a policing agent . 
+it wants to increase the percentage of its part - time workers to 45 per cent of its total work force . 
+in the last Manitoba provincial election , 900 mail - in votes were received and were mostly from urban voters . 
+what does basic common sense say ? 
+standards are actually stricter in abattoirs built according to Quebec regulations . 
+technicians make more than the writers and playwrights whose works are being performed . 
+they were all leftists . 
+it is well done . 
+yes , we are a small nation and we are vulnerable because of our size . 
+Mr. Wyman has many years of experience in the financial market sector . 
+let 's think about that for just a moment . 
+i do not think we should beat around the bush any longer about how to set things right . 
+it says that resource impact funding helps Indian people to get a piece of the action . 
+one of the major objectives of these consultations is to make sure that the recovery benefits all . 
+Mr. Speaker , I think that in his speech , the Hon. Member from Baie - Comeau misrepresented reality . 
+it is a matter of elementary justice that women 's jobs be fairly evaluated . 
+we intend to continue this discussion with the benefit of the views of a wide range of interested parties . 
+i think particularly of single parents . 
+the Minister of Regional Economic Expansion treats all matters related to Quebec with a great deal of fairness and honesty . 
+as a matter of fact that net farm income reached its lowest level since 1970 and the third lowest level since 1938 , some 45 years ago . 
+in the Laval - Deux - Montagnes area , $ 225,000 was spent in 1984 but only $ 30,000 will be spent this year Mr. Speaker . 
+this particular Minister made personal election promises that he would not only consult with fishermen but that he would be readily available when problems arise . 
+that investment is being neglected , primarily in British Columbia . 
+the outstanding issue has been the failure to make a funding commitment for the ERDA agreement . 
+he should come clean on this issue this afternoon instead of giving us all this gobbledy - gook . 
+he said that British Telecom « has not demonstrated its marketing savvy or product management ability » . 
+foreign investment was running Canada as though it were the fifty - first State . 
+it does not conduct research and development . 
+the first question is : why does agriculture require stabilization ? 
+as a general rule , all the producers of any given commodity are affected simultaneously by a cost - price squeeze . 
+we have a diversified riding . 
+so the real problem is that farmers are leaving farming . 
+let us go to the question of what the public seems to be saying on this issue of Senate reform . 
+as this is what is required , it is the target the Government has in mind . 
+that , I believe , we all find unacceptable , regardless of political Party . 
+let me return to the Bill which is before us . 
+it is a mistake to do what the Tories are proposing to do to differentiate their Bill . 
+we know how painful that can be for people who are going through a period of their life which is not particularly joyful . 
+the establishment of such a system should therefore be a priority in each province where it does not already exist . 
+we have been colleagues for a long time . 
+it will help Canadian companies to accelerate their return to a healthy financial position by attracting new equity investment . 
+the universal family allowance is maintained . 
+research is a low priority . 
+oh ? 
+there are increased costs for shampoo and drinks for kids , pet food , gas , and even heating the home . 
+this technique is not unusual on the basis of precedents . 
+similarly , under the last Liberal Budget , personal income increased in 1984 by 7 per cent . 
+but the Government treats itself to lavish spending and engages in bailing out corporations . 
+there will be improved survivor benefit regulations for women , standards for pension benefit splitting on marriage breakdown , and equality standards . 
+in fact , if one adds in some other things resulting from the Western Accord , I think it is more likely to be 2.8 cents per litre . 
+we follow through with our election pledges . 
+we must revive our economy , create jobs , rationalize government spending , administer with increased efficiency . 
+it does not make a lot of sense , particularly when you look at who is paying . 
+what will they do with that capital ? 
+that is roughly equal to the $ 440 million paid to Canadair in two years . 
+from these hearings , it became obvious that the major concern was capital gains . 
+it indicates to individual Canadians that for too long Government has made their decisions for them . 
+that brings to mind the hundreds of young Canadians I met recently , most of them quite disillusioned . 
+this is why I cannot find myself supportive of the request for additional funding for the Government by way of borrowing . 
+the Hon. Member says : « neglected Quebec » , and I agree . 
+i was glad to hear that Crown corporations with a commercial value but no ongoing public policy purpose will be sold . 
+we have taken these considerations very much into account when we designed the Budget . 
+will the Prime Minister live up to that commitment ? 
+can the Minister clarify the effect of the reduction ? 
+thus far , I have been describing the physical aspects of my constituency . 
+we believe they will accept the challenge . 
+can he tell them that is fair ? 
+it has been years and years since our business community got such a vote of confidence from Government . 
+the Progressive Conservative Party of Canada is providing the opposition . 
+they stood to a person and applauded loudly . 
+eight . 
+no , Mr. Speaker , not quite . 
+i would like now to go into the theory behind the removal of capital gains tax . 
+it will increase poverty in the most vulnerable people , senior citizens , who will not be able to go out and find other sources of income . 
+CFB Moose Jaw is also the home of the Snowbirds , Canada 's aerobatic air team . 
+our caucus heard the other day from the Atlantic provinces economic council . 
+come on , give us a break ! 
+that is one major problem . 
+i wish to direct the majority of my comments today to the many improvements offered in the pension programs available to all Canadians . 
+furthermore , the erosion of the cost base of assets by inflation was also regarded as something that should be compensated for . 
+the Budget is realistic because it takes a balanced and sensible approach . 
+that is not the interest or concern of this Government . 
+they voted for a change in the national affairs of our nation . 
+on a point of order , Mr. Speaker . 
+the facts are clear . 
+the motion of the Hon. Member for Beaches therefore gives us an opportunity to do in this House what everyone else is now doing throughout the country . 
+they also have a technical library , and the company spends nearly $ 2 million annually on these research services . 
+second , we want to assist Canadian businesses to exploit opportunities for investment and technological advancement . 
+not only are the risks greater but the time required to prepare for marine re - supply is lengthy . 
+Mr. Speaker , once again the Liberal and NDP forecasters of economic doom and gloom have been proven wrong . 
+i am not going to bother boring the House with those answers again . 
+however , when we came into office we discovered that the trend line was going up . 
+only the document cited need to be tabled by a Minister . 
+furthermore , there is the provision in our resolution of having had to serve for a period in excess of 365 days in Canada as the basis of eligibility . 
+the Government said that it had not had time to talk to either group about that proposal . 
+in other words , the writing is on the wall . 
+they were saying that homeowners would lose again because interest rates were rising . 
+our international role has somehow collapsed . 
+for instance , if we look at crop insurance , the federal Government has put up half the premiums and the producers have put up the other half . 
+so we cannot think in those terms . 
+the Minister has said that the only problem with Candu and the whole nuclear power option is a marketing one . 
+why was it that I was receiving those kind of representations ? 
+» that is what the present Prime Minister told the former Prime Minister . 
+most of them are unable to work . 
+a few days ago my colleague from Essex - Windsor gave the House a history lesson . 
+the article reads : 
+he said that he was burning oil . 
+the Government has yet to come to the point of determining how and when this change should take place . 
+i referred earlier to the bet taken up by the Prime Minister ( Mr. Mulroney ) concerning employment as related to immigration . 
+however , we see in the legislation before us today only two substantive amendments and a number of housekeeping amendments to the Bill . 
+we as a society cannot afford to discriminate among individuals on that sort of basis . 
+this type of federal - provincial co - operation is required to increase the sensitivity and efficiency of our current disease surveillance systems . 
+he suggested that June at least would be a better time . 
+in 1934 , the company was renamed the Northern Transportation Company Limited , still under private ownership . 
+i do commend the Minister of Transport for following through on the original terms of reference . 
+then and only then does the private sector rush in saying that it cannot have all these publicly - owned corporations interfering in the private sector . 
+specialty services such as stand - by supply vessels for the Beaufort Sea oil and gas industry can be provided by others . 
+unfortunately or fortunately , however one views the issue , that particular Minister has not met with very much success . 
+however , perhaps the Chair could dispose of Motion No. 1 . 
+on the west coast we have the Minister 's Advisory Committee which , while not perfect , is at least of assistance . 
+this is a fine example of a partnership in progress between government and industry . 
+Mr. Speaker , my question is directed to the Minister of Transport . 
+Mr. Speaker , let me be clear . 
+within the Government of Canada , a number of Departments have been actively involved and have been proceeding in a co - operative and coordinated fashion . 
+however , the contradiction between what he said and what has been said by his officials requires further independent investigation . 
+i know that we are trying to do it , at the federal level through the Farm Credit Corporation . 
+these are key economic indicators . 
+production is being expanded with the development of a sixth farm at Bowden Institution in Alberta . 
+that was the principle of the Bill as passed on second reading . 
+surely no one , and particularly no member of the Conservative Party , would believe that . 
+the people of Canada did that on September 4 . 
+call in the Members . 
+we think that now is the time for the regulations and procedures to be properly established . 
+the point was well taken because the success of these agreements will depend to a considerable degree upon the quality of their administration . 
+canada can be proud of its record on human rights and should serve as an example of tolerance to other countries . 
+whose advice did he follow in making his decision , in that his officials rejected it ? 
+Mr. Speaker , I am pleased that the Prime Minister has provided the information in the House . 
+may I therefore ask the Hon. Member to refrain from any further displays . 
+why did the Prime Minister appear prepared to disregard his promise in the first place ? 
+Mr. Speaker , I am always amused by these probing questions from the Liberal Party , the Party which says that it would control the deficit . 
+surely the Hon. Member is not suggesting that we levy taxes on companies that have been losing money . 
+Mr. Speaker , the premise of the question put by the Hon. Member is wrong . 
+how many people are employed ( a ) directly or by contract ( b ) full time and part time , in the Office of the Prime Minister ? 
+the fees paid to each performer were in keeping with the role played in the gala and with the standards of the Union des Artistes . 
+during the Liberal administration nothing was done about it . 
+they know about the overproduction problem . 
 36 th Parliament , 2 nd Session 
 edited HANSARD * NUMBER 1 
 contents 
@@ -24998,450 +25445,3 @@ Mr. Gurbax Singh Malhi
 cruelty to Animals 
 Mr. Peter Adams 
 questions ON THE ORDER PAPER 
-Mr. Derek Lee 
-government ORDERS 
-supply 
-allotted Day - Farm Income 
-Mr. Alex Shepherd 
-Mr. Jay Hill 
-Mr. Garry Breitkreuz 
-Mr. Peter Adams 
-Mr. Rick Borotsik 
-Mr. Jerry Pickard 
-Mr. Werner Schmidt 
-Mr. John Solomon 
-Mr. Jay Hill 
-Mr. Howard Hilstrom 
-Mr. Leon E . Benoit 
-Mr. Murray Calder 
-Mr. Jay Hill 
-Mr. Larry McCormick 
-Mr. Howard Hilstrom 
-Mr. Mark Muise 
-Mr. Gerry Ritz 
-Mr. Bob Speller 
-Mr. Gerry Ritz 
-Mr. Garry Breitkreuz 
-Mr. Garry Breitkreuz 
-Mr. Ken Epp 
-Mr. Gerry Ritz 
-Mr. Larry McCormick 
-Mr. Howard Hilstrom 
-Mr. Dennis J . Mills 
-Mr. Leon E . Benoit 
-Mr. Werner Schmidt 
-Mr. Joe McGuire 
-Mr. Leon E . Benoit 
-Mr. John Solomon 
-Mr. Rick Casson 
-Mr. John Solomon 
-Mr. Bob Speller 
-Mr. Garry Breitkreuz 
-native Peoples 
-Mr. Peter Stoffer 
-Mr. Gar Knutson 
-homelessness 
-Ms. Libby Davies 
-Mrs. Judi Longfield 
-( official Version ) 
-edited HANSARD * NUMBER 10 
-house OF COMMONS 
-Monday , October 25 , 1999 
-the House met at 11 a.m. 
-prayers 
-business OF THE HOUSE 
-Mr. Derek Lee ( Parliamentary Secretary to Leader of the Government in the House of Commons , Lib . ) : 
-Mr. Speaker , I think you will find unanimous consent for the following motion dealing with speaking times during today ' s debate . 
-i move : 
-that , during today ' s sitting , the Member proposing a motion on an allotted day shall not speak for more than twenty minutes , following which , a period not exceeding ten minutes shall be made available , if required , to allow members to ask questions and comment briefly on the matters relevant to the speech and to allow responses thereto , and immediately thereafter a representative of each of the recognized parties , other than that of the member proposing the motion , may be recognized to speak for not more than ten minutes , following which , in each case , a period not exceeding five minutes shall be made available , if required , to allow members to ask questions and comment briefly on matters relevant to the speech and to allow responses thereto . 
-Mr. Randy White ( Langley - Abbotsford , Ref. ) : 
-Mr. Speaker , I rise on a point of order . 
-i notice that the motion contained the words " during today ' s sitting '' . 
-in fact the motion was established some time ago . 
-i understand there may be a party in the House that wants to enhance its opportunities for speaking . 
-i just want to make the point that for today ' s sitting , as far as we are concerned , this is the motion that exists . 
-if any other party wants to have more speaking time then it should elect more seats in the House of Commons . 
-Mr. Peter MacKay ( Pictou - Antigonish - Guysborough , PC ) : 
-Mr. Speaker , I rise on a point of order . 
-as the House leader of the official opposition has indicated , the motion being put forward today is for today ' s purposes only . 
-it is certainly something that will be discussed at a future House leaders ' meeting . 
-it is put forward by the opposition House leader in the usual spirit of gentlemanly co - operation we have come to expect from the official opposition . 
-we will be discussing it in the future and we will see about electing more members in the future as well . 
-the Acting Speaker ( Mr. McClelland ) : 
-does he have the unanimous consent of the House to present the motion ? 
-some hon. members : 
-agreed . 
-the Acting Speaker ( Mr. McClelland ) : 
-is it the pleasure of the House to adopt the motion ? 
-some hon. members : 
-agreed . 
-( motion agreed to ) 
-government ORDERS 
-supply 
-allotted DAY - FARM INCOME 
-Mr. Howard Hilstrom ( Selkirk - Interlake , Ref. ) moved : 
-that , in the opinion of this House , the government has failed to defend the interests of Canadian farmers from the unfair subsidies and unfair trading practices by foreign countries and its Agriculture Income Disaster Assistance ( AIDA ) program is a catastrophe since Canadian farmers are continuing to face record low incomes , especially in the provinces of Manitoba and Saskatchewan where the combined realized net income is 98 % below the five - year average and , accordingly , the government should immediately ensure that emergency compensation is delivered to farmers that have not been served by AIDA and launch an international campaign against foreign subsidies , provide tax relief , lower input costs , reduce user fees , and address the inadequacies of the farm safety net programs . 
-Mr. Jay Hill : 
-Mr. Speaker , I rise on a point of order . 
-at the outset of today ' s debate on the Reform motion dealing with the agricultural crisis in Canada I would like to notify the House that all members of the official opposition will be splitting their time today . 
-Mr. Howard Hilstrom : 
-Mr. Speaker , the motion is seconded by the Leader of the Opposition . 
-this debate should not have even had to occur today because at the start of this session on October 12 , after the prorogation of parliament , the Reform Party had asked for an emergency debate on the issue of farm income . 
-the farm income issue has reached a crisis proportion in the past year to year and a half and has been identified as such through committee hearings , by farmers themselves and by Statistics Canada . 
-the motion today sets out both short term and long term problems that have arisen . 
-certainly one of the long term problems that is identified in the motion deals with the practices of our competitors , namely the United States and the European Union . 
-the program the government designed to address the farm income crisis was called the agriculture income disaster assistance program . 
-i will be dealing with that a little later in my speech this morning . 
-as an aside , I believe I indicated I will be splitting my time with the member for Calgary Southwest . 
-in dealing with this income crisis Reform knew as early as September 1998 that the farm situation in western Canada , in particular , and the cash crop people in Ontario were hitting a financial crunch which they were no longer able to handle totally on their own . 
-as a result , the advisory committee on safety net programs was called to examine this issue . 
-reform put forward a motion to the Standing Committee on Agriculture to hold hearings with regard to the situation . 
-what came out of that was a solid recommendation to the agriculture minister as to the seriousness of this crisis and a suggested solution , which was a program of domestic support based on individual farm income situations . 
-on receiving the recommendations from the safety net committee , which included all the different farm organizations across the country , the government took the program called AIDA and made it fit the amount of money on which the agriculture minister was able to get a commitment from cabinet . 
-on top of that we had a situation where there was a natural disaster of flooding in southwest Manitoba and southeast Saskatchewan which certainly compounded the major problems in those provinces . 
-we will see from the Stats Canada statistics that compounding will make for a negative realized net income in Saskatchewan and a drastically lowered realized net income in Manitoba . 
-when we look at whether or not the government has to do more for farmers in Canada to retain a viable agriculture sector , we see that the government has to do more in the area of domestic support than what it is doing at the present time . 
-the AIDA program was simply a two year program designed to provide funding for Canadian agriculture producers to cushion an extreme income reduction beyond their control . 
-the government and the agriculture minister totally missed the point , missed the real crisis in farm income . 
-the real crisis is that for many years now through the 1990 s net farm incomes have been dropping due to the fact that commodity prices have been extremely low . 
-this is mostly affecting commodities that are exported to other countries around the world . 
-we also see that input costs are rising dramatically . 
-the cost of a pickup , for instance , which most farmers require , is between $ 30,000 and $ 41,000 for a decent half tonne . 
-we can look at what the people who administer the AIDA program are saying in the media . 
-the managing director said that despite all of the negative talk about the program not working cheques are flowing to producers . 
-he said that he thinks the message is out there and that payments are going to the rural communities . 
-part of the problem is in getting our urban cousins , city dwellers , to understand and support agriculture . 
-in essence , they are doing a spin doctor routine by telling Canadians that money is flowing , cash is flowing and that farmers are all right , when in reality there are tens of thousands of farmers who are not receiving any money . 
-a relatively small amount of farmers are receiving money . 
-the results of this crisis are being reflected in the communities , in families and at the social level . 
-in Manitoba even the United Church has seen fit to try to do something for farmers by way of financial assistance and by bringing this crisis to the forefront . 
-that has not happened since the 1930 s . 
-the Liberal government got us into this mess and it has failed in its efforts to fix it . 
-that is why we had to force this debate today . 
-the Reform Party has put forward many solutions for the government to consider because it has failed to bring forward a suitable long term program to fight this income crisis and it is now in the position of having to come up with some immediate domestic support to get cash into farmers ' hands before the end of October . 
-the agriculture minister promised in December 1998 that he would have cash in the hands of farmers by spring . 
-that did not happen and that is a condemnation of this government . 
-Mr. Preston Manning ( Leader of the Opposition , Ref. ) : 
-Mr. Speaker , I want to compliment the member for Selkirk - Interlake for his presentation on the ongoing crisis in our agricultural sector and I urge him to persevere . 
-this is the fourth time in five months that the official opposition has tried to raise both the consciousness of the House and , more importantly , the consciousness of the government with respect to the seriousness of the income crisis facing our farmers , a crisis further compounded by flooding earlier this spring in certain parts of Saskatchewan and Manitoba . 
-once again we will lay before the House the mounting evidence that Canadian farmers continue to face record low incomes due to factors beyond their control . 
-we have already done so once before in this session during our replies to the Speech from the Throne , a speech in which the government completely failed to even acknowledge the problem . 
-if only one fact could be cited , which should be sufficient evidence in itself to prompt the government to greater action , it is the fact cited in the motion that combined realized net income for farmers in Manitoba and Saskatchewan is down 98 % from the previous five year average . 
-in human terms this means a lot more than the loss of income . 
-it means tears and heartache . 
-for some it has already meant the loss of the farm itself . 
-once again we appeal to the government . 
-if the government will not be moved by the statistics and the hard facts concerning the disastrous drop in farm income , surely it must be moved , and moved to do something more , by the human tragedy that surrounds those facts . 
-we urge the House to reject it by supporting this motion . 
-instead of pursuing its current policy , we therefore urge the government to do the following six things . 
-first , we ask that it acknowledge that its ill - conceived , ad hoc AIDA program is a failure . 
-it should be reformed or replaced so that it actually delivers payments to farmers in combination with provincial contributions in the order of the $ 25 to $ 50 per acre promised in the press releases and the public statements of the minister . 
-second , we ask that it present to the House an immediate plan to provide tax relief to Canadians , including agricultural producers and farm families . 
-this plan should include reductions in taxes on agricultural inputs such as fuel and fertilizer and it should include reductions in user fees such as those collected through the Canadian Grain Commission and the Canadian Food Inspection Agency . 
-third , in order to find the money to meet the cost of providing any additional emergency assistance , the government should make a formal and urgent request to the Standing Committee on Finance to do precisely that , to find the money ; not by increasing total taxes or borrowing or returning to deficit financing , but by readjusting the government ' s current spending priorities . 
-this is precisely what any family or business facing an emergency situation would have to do . 
-it would have to take funds from other areas to address the emergency requirements . 
-this is what the government and this parliament should be learning to do , whether it is to cope with the spending requirements of an agricultural emergency or to cope with the government ' s $ 5 billion pay equity bungle . 
-fourth , in order to address the longer term dimensions of the problem and to ensure that there is a long term future for agricultural producers , the government should present a plan to the House to redress the inadequacies of its current farm safety net programs , in particular crop insurance and the net income stabilization program . 
-unlike the NDP we do not advocate a return to the protectionist or dependency creating subsidies of the past . 
-such measures would not survive challenges under either the NAFTA or the WTO and proposing them only raises false hopes that will be dashed later on . 
-what we do advocate is reforming crop insurance to include disaster insurance so that programs like AIDA do not have to be invented on an ad hoc basis after the fact every time there is a major climatic disaster like a flood or a drought . 
-we advocate an expanded NISA - type program that will really do the job , a single trade distortion adjustment program , a single agricultural income insurance program that compensates agricultural producers for income injury suffered as a result of somebody else ' s subsidies in violation of the spirit and letter of free trade . 
-fifth , we demand the immediate formation of an emergency team Canada mission to Europe and Washington , led by the Prime Minister but including the Minister for International Trade , the Minister of Foreign Affairs , the Minister of Agriculture and Agri - Food and other provincial officials . 
-their mission would be to make the case as it has never been made before that European and American subsidies , contrary to both the spirit and the letter of free international trade in agricultural products , are killing our farmers . 
-we have one further proposal for the agricultural minister which we insist he convey to the Prime Minister and that is that the Prime Minister himself participate in this debate . 
-the Prime Minister has consistently absented himself from every major discussion of this issue in the House since he became Prime Minister six years ago . 
-this is inexcusable in a country where agriculture is one of the major primary industries and where hundreds of thousands of Canadians are dependent on agriculture for their livelihood . 
-if the Prime Minister really cares about this issue , why does he not come down here and say so , and present to the House not the usual fluff and chaff , but a plan incorporating the emergency measures and agricultural reforms which this motion urges upon the government ? 
-Mr. John Bryden ( Wentworth - Burlington , Lib . ) : 
-Mr. Speaker , in a major speech of October 13 the member for Calgary Southwest berated the government for not having a good policy or an aggressive policy with respect to tax cuts and debt reduction . 
-while I have great sympathy for helping not only western farmers but farmers in my riding , particularly the pig farmers who have recently suffered considerably from low prices , he now proposes and is advocating increased spending for crop and disaster relief for farmers . 
-within the context of his remarks about debt reduction and tax cuts , can he put a figure on what he thinks the government should be spending on farmers who are in difficulty ? 
-can he be specific in terms of the money that he would spend ? 
-Mr. Preston Manning : 
-Mr. Speaker , I thank the member for paying attention to my speeches , but if he had paid a little closer attention he would have had the answer to what he is driving at . 
-i think we should wait until we see the further updated presentations from Saskatchewan and Manitoba later this week with respect to the figure . 
-whether the figure is $ 1 billion or $ 1.5 billion , this is what we should do to meet that . 
-first , we should try to meet it within the existing government spending envelope . 
-we are simply going to have to learn to do that . 
-if there is an emergency let us readjust our spending and tell the Standing Committee on Finance to do that . 
-we have some ideas as to where to get that money . 
-we would be interested to see if anybody else in the House does as well . 
-second , I said in my reply to the throne speech that one of the answers was to cut taxes . 
-that is still part of our solution . 
-why not cut taxes , including taxes on agricultural inputs ? 
-that can be done without increasing the deficit or the spending requirements of the government . 
-if that had been done the amount of money in the NISA accounts today to deal with emergencies would be significantly higher than they are . 
-we would be in a much better situation to address this problem . 
-the answer is to listen when reforms are proposed by the official opposition . 
-Mr. Alex Shepherd ( Durham , Lib . ) : 
-Mr. Speaker , I listened very intently to the member ' s speech . 
-as someone who has farmed for about eight years , I can understand some of the concerns and issues that are going through our farm community today . 
-the member said that the finance department and the finance committee should find the money . 
-if I recall , it was his party that proposed something like a $ 600 million reduction in spending for the Department of Agriculture and Agri - Food in one of its budget proposals . 
-we left that money in that envelope for financing , yet the member ' s party would have withdrawn it . 
-second , he talked about taking the NISA program and expanding it so that we protect farmers from all kinds of trade distortions that are occurring all over the world . 
-i agree with him . 
-it is a big problem that our farm community is facing today . 
-i know that the member also believes in equality . 
-i hear him saying it time and time again . 
-is he also going to protect every other business interest in this country from trade distortions all over the world using government programs ? 
-Mr. Preston Manning : 
-Mr. Speaker , there are two responses to that question . 
-first , the point about Reform advocating a reduction in agricultural spending several years ago is correct . 
-however , we also proposed these other measures , which more than compensated for that from the farmers ' standpoint and which would protect distortion adjustment mechanisms . 
-second , if the member does have this great background in agriculture , which I am sure he does , he will understand that there is more protectionism today in the agricultural sector than there is in many of the other sectors that are subject to free trade . 
-that has been the case ever since free trade has been talked about . 
-it has been the big problem in Europe . 
-the big problem is getting subsidies down in agriculture . 
-where the trade distortion adjustment program is particularly relevant is in the agricultural sector . 
-that is why we advocate it . 
-there are other measures in both the WTO and NAFTA to deal with other trade distortions . 
-in agriculture , those measures are inadequate as is demonstrated by the situation our farmers are in today . 
-hon. Lyle Vanclief ( Minister of Agriculture and Agri - Food , Lib . ) : 
-Mr. Speaker , I am pleased to have the opportunity to make a few comments on the issue that is before the House and the motion that is before the House today . 
-at the same time , I do not want to lose sight of the larger picture , not diminishing the problems , as I say , that a number of producers have . 
-i want to remind all hon. members that the fundamentals of the agriculture and food sector remain on the whole very positive . 
-on a national basis , farm income is only slightly below the five year average . 
-i remind the House that is on a national basis . 
-thanks to the safety net programs that we have in place , the cattle industry is prospering , supply management sectors are sound and , in spite of price instability , our hog sector continues to claim an ever increasing share of North American production , laying the groundwork for the future . 
-in addition , investments in the agriculture sector are up and food exports are increasing , in particular those of processed food products so that we get the value added and the jobs here in Canada . 
-that is certainly an important area of growth for the future . 
-unfortunately , however , some commodities in some regions are in trouble . 
-these farmers are dealing with an extended period of low commodity prices but not extended to the extent that some of the members opposite are trying to make us listen to . 
-we know that the prices of commodities in 1996 - 97 were some of the highest prices that we have had in the industry for a number of decades . 
-the situation , however , has been aggravated by turmoil in the financial markets around the world , prolonged by the increasing use of subsidies in the United States and the European Union and made worse this spring in some areas by excessive moisture or , in other areas , by drought in certain parts of the country . 
-i remind the House that farmers have not been left to face these challenges alone . 
-we have been working with them and the provincial governments to develop both short term and long term solutions . 
-i remind everyone that agriculture is a joint responsibility of both the provincial and the federal governments as so declared in our constitution . 
-i want to begin by making some comments on the short term solutions . 
-agriculture income disaster assistance , or AIDA , is putting $ 1.5 billion into the hands of Canadian farmers in need over a two year period . 
-so far 16,000 farmers across the country have received money from AIDA . 
-over $ 220 million has been distributed . 
-it is averaging just a little less than $ 15,000 per producer . 
-applications are continuing to be processed and cheques are being mailed out even as we speak today . 
-over half of these cheques have gone to farmers in the hardest hit provinces of Saskatchewan and Manitoba . 
-farmers continue to receive support from other safety net programs as well . 
-a number of changes were also introduced to NISA , the result of which was more money for more farmers and faster . 
-twenty - four thousand farmers have already taken advantage of these changes . 
-as a result , they have been able to get more than $ 260 million out of their net income stabilization account . 
-that is what the program is there for . 
-it is a contribution from the federal and provincial governments and individual producers . 
-the account will be available for producers to draw on in the down years when it is needed . 
-i remind everyone that another 80,000 farmers have triggered the opportunity to take money from their NISA accounts . 
-there is another $ 900 million in those accounts which they can withdraw right now if they need to . 
-these programs and the adjustments we have made to them are closing the gap between farmers ' current incomes and their five year averages . 
-our safety net system is helping farmers to stabilize their incomes in the middle range between the higher and lower income years . 
-i am not suggesting that our farm income protection system is perfect . 
-there will never be a system that is all things to all people under every condition , every day of the year and every year . 
-what I am saying is that we do have a solid foundation in place and , together with all the players , we are working very hard to build on that foundation . 
-we have already made changes to AIDA to keep money flowing to producers between now and the end of the tax year . 
-further changes are also being considered , including coverage of some of the negative margins . 
-in addition to the short term measures I have talked about , I am also working on long term solutions . 
-together with our partners we are rebuilding , renewing and revitalizing our farm income protection system . 
-the system must encourage farmers to make production decisions based on market conditions . 
-it must be national in scope and available to farmers across the country regardless of region or commodity produced . 
-it must respect Canada ' s obligations under the international trade agreements . 
-a safety net structure that invites countervail or other trade problems will only do harm not good . 
-it must not encourage overproduction . 
-Canadian farmers are committed to responsible stewardship of their land and water . 
-provincial premiers and their agriculture ministers recognize how critical this matter is to the Canadian primary producers . 
-i will continue to count on their goodwill and diligence to develop a solution that is in the best interest of farmers across the country . 
-i continue to work and meet frequently with the national safety nets advisory committee . 
-safety nets are only one part of the solution . 
-the reality is that our pockets are just not that deep . 
-in the final analysis it is probably not even smart to try . 
-higher subsidies only serve to drive commodity prices down further , encouraging overproduction and hurting farmers not only in Canada but everywhere in the world . 
-i have made that point forcefully to my counterparts in the European Union , to my counterpart Secretary Dan Glickman in the United States , at the Cairns group meeting in August and at the Quint meeting in September . 
-i will continue to make that point because that is where the discussions take place , at the WTO and those types of forums . 
-i plan to continue working to shore up support at the WTO negotiating table . 
-meanwhile , the government is working in other ways as well to provide support to the industry and the tools farmers need to adapt , diversify and compete in a rapidly changing global marketplace . 
-in the Speech from the Throne , we reaffirmed our commitment to research and trade development , two major building blocks of the future , particularly in the agriculture and agri - food sector . 
-we are also in the process of reforming the western grain handling and transportation system to ensure that farmers have a competitive , efficient system to get their goods to port and from there to markets around the world . 
-i look forward to the constructive comments from members in the industry and members of the House . 
-as much as we would like to have an ideal situation , there are always limited resources . 
-our challenge is to target those limited resources as fairly as we can to those who need the support . 
-Mr. Preston Manning ( Leader of the Opposition , Ref. ) : 
-Mr. Speaker , the agriculture minister began his remarks by saying that the situation is not too bad . 
-i would remind him that was the theme of R . B . Bennett ' s speeches in the House a long time ago . 
-he might reflect on what happened to R . B . Bennett . 
-we have to get real in this discussion . 
-we appreciate the minister ' s presence here . 
-could he give straight answers to the following questions ? 
-we made six proposals for fixing the situation . 
-could he tell us whether he supports : replacing or reforming AIDA ; providing tax relief now ; asking finance to readjust the budget priorities ; reforming crop insurance to include disaster insurance ; expanding NISA for the long term ; and , leading an emergency trade mission to Europe and the United States and getting the Prime Minister engaged ? 
-does the agriculture minister support those specific proposals for dealing with the situation , yes or no ? 
-hon. Lyle Vanclief : 
-the second point was tax relief . 
-the government has given $ 16.5 billion in tax relief in the last two budgets . 
-farmers have benefited from that as well . 
-it was very clear in the budget . 
-before last year ' s budget there was a $ 900 million contribution made by the government toward the situation and along with the provincial government ' s contribution that comes to $ 1.5 billion . 
-regarding NISA , we made changes to NISA this summer that lowered the triggers . 
-we made another $ 121 million available to producers and , if everyone had listened , I said in my speech that we were looking at that as well . 
-regarding trade , I outlined the only approach that can be made . 
-Mr. Rick Borotsik ( Brandon - Souris , PC ) : 
-Mr. Speaker , the minister of agriculture shows a fairly rosy picture but I do know that he recognizes it is not quite that rosy in western Canada . 
-he talks about the 14,000 to 15,000 people who have been approved for AIDA . 
-for each one that has been approved there is one who has been declined . 
-i wonder if the minister of agriculture would please tell the House if those people who have been declined are simply on their own and should not expect any further assistance from the government . 
-lastly , there are extraordinary circumstances with respect to some areas that have been dealt another blow of natural disaster . 
-the AIDA program is not sufficient for those particularly extraordinary circumstances . 
-will the minister tell the House if there are going to be additional programs for natural disasters ? 
-hon. Lyle Vanclief : 
-Mr. Speaker , the applications that have come in have not all triggered a payment . 
-i would put to the hon. member that there is never a situation when 100 per cent of the applications for anything , whether it be this type of program or any type of program , have been accepted . 
-i have put criteria in place so that all farmers no matter where they live in Canada receive assistance , if they trigger those criteria . 
-as I said , unfortunately the program cannot be all things to all people at all times . 
-other provinces can do so if they wish and we would welcome those discussions with them . 
-Mr. Howard Hilstrom : 
-Mr. Speaker , I rise on a point of order . 
-Mr. Speaker , I would like you to ask the House for unanimous consent to have the minister stay just a few minutes longer so there can be more than the 10 minutes of questions . 
-the Acting Speaker ( Mr. McClelland ) : 
-the hon. member for Selkirk - Interlake has asked for the unanimous consent of the House to extend the time provided for questions and comments of the minister of agriculture by five minutes . 
-some hon. members : 
-agreed . 
-some hon. members : 
-No. 
-Ms. Bev Desjarlais ( Churchill , NDP ) : 
-Mr. Speaker , quite frankly it is not surprising that the Liberals would not want to keep the minister here . 
-obviously he does not have the answer to the agricultural problem . 
-i want to know what responsible government would abandon its farmers by cutting subsidies by unnecessarily high amounts before ensuring that they would be on a level playing field with other countries . 
-hon. Lyle Vanclief : 
-Mr. Speaker , when the Liberals took over as the government , this country took in $ 120 billion a year and spent $ 162 billion a year . 
-if we were going to sustain any kind of support whether it be in the agriculture industry or any other sector , we could no longer continue on a course of bankruptcy as a country . 
-we made some tough decisions . 
-support programs were removed . 
-the hon. member wants to forget that there was $ 1.6 billion in capital money which was put in as a replacement of some programs in western Canada . 
-adjustment programs of hundreds of millions of dollars were put in to assist the industry to adjust . 
-there is $ 600 million a year contribution by the federal government in the safety nets . 
-in the last two years there has been another $ 900 million . 
-we would all like to have more . 
-our challenge is to do as much as we can with the resources that are available . 
-we will continue to look at that and try to find other appropriate ways to assist . 
-the Acting Speaker ( Mr. McClelland ) : 
-before we go to the next speaker I want to clarify a couple of items . 
-as we have done in the past , during the time provided for questions and comments if there seems to be a number of members who wish to ask a question , I will identify at least three initially if there is a five minute period so people will know whether or not they are going to be called . 
-if that is the case , then it is obvious that questions and comments will have to be kept at around 60 seconds . 
-we have done it that way for the last year or so . We will continue to do it that way . 
-i also want to clarify that in this first round it was one 30 minute slot to the official opposition , it being a supply day motion , and then 10 minutes with a five minute question and comment for each of the recognized parties . 
-i was in error in saying that the hon. member was splitting his time . 
-it was 10 minutes to start with . 
-Ms. H é l è ne Alarie ( Louis - H é bert , BQ ) : 
-Mr. Speaker , three things are clear from this motion : the failure of the government ' s agriculture income disaster assistance program ; the need to set up an emergency program immediately to come to the aid of farmers , and the matter of the unfair subsidies paid by foreign countries to their farmers . 
-our remarks will focus on these three points . 
-the first is the government ' s failure with its AIDA program . 
-the government has no compassion . 
-the federal income security program is a fiasco that ignores the reality faced by the farmers . 
-the present situation in agriculture is proof that the AIDA program does not work and cannot guarantee farmers a decent standard of living . 
-the government cannot simply wash its hands . 
-it is responsible for the situation and is contributing to maintaining this farm income crisis situation . 
-the main problem , but not the only one , arises from the fact the AIDA program , as designed today , is denying the benefits to a number of producers that it was originally intended to provide . 
-as it is currently designed , AIDA program will not distribute the $ 900 million in federal government funds set aside for farmers in the coming years . 
-it will not enable the government to keep its promises of support . 
-AIDA therefore does not meet the needs of farmers . 
-the problems posed by AIDA are many and prove that the federal government really does not know farmers . 
-in its design , AIDA does not take account of the situation farmers are in . 
-why are agriculture producers with a negative cost - price ratio being penalized ? 
-why does the program set a ceiling on what a farmer can receive , and the method by which the ceiling is calculated means that the ceiling is lowered when the farmer is experiencing a crisis ? 
-why has the minister not made a commitment to producers to spend all of the announced $ 900 million ? 
-why has the minister not made an exception in his assistance program to include the sheep producers who experienced heavy losses in the 1997 scrapie crisis and were ineligible for the $ 600 per capita compensation ? 
-why has he not made that effort , given that it would have cost only about $ 1.5 million ? 
-the flaws in the program are the fault of the government and will contribute to keeping farmers in a precarious situation . 
-the rule on negative margins will seriously affect farmers who are in such situations this year . 
-because of the sharp drop in commodity prices this past year , the Canadian Federation of Agriculture estimates that there will be 10,000 farms with negative margins . 
-is the federal government prepared to change its principles and to give consideration to these otherwise viable operations deserving of assistance ? 
-is the government prepared to accept responsibility for the eventual disappearance of farm businesses because of the flaws in AIDA ? 
-this situation notwithstanding , the federal government is doing nothing , thus giving proof of its lack of compassion . 
-why has it not followed the recommendations of its advisory committee ? 
-in Quebec a revenue stabilization program has been in place for some twenty years . 
-it is a three - way program , with the federal government contributing one - third . 
-the Quebec government is currently satisfied with the AIDA arrangement , because the province continues to manage its own program and the moneys received were used to lower participants ' contributions . 
-the same goes for those who do not have access to the stabilization program , but who benefit from NISA because , again , they are subsidized by the province and the program is managed by Quebec . 
-the second point is the need to take action to save farmers . 
-farmers are going through the worst crisis since the thirties . 
-in Quebec , low prices for pork , down 34 % from last year , have had a direct impact on farmers ' income . 
-faced with this situation , the government must continue to help the agricultural sector , particularly since it has the means to do so , while also complying with international agreements . 
-however , if this government finally decides to act , the measures will have to be comprehensive because the agricultural issue concerns the whole country . 
-based on estimates , Quebec ' s total net farm income will be $ 526 million , that is a 26 % drop over the average income for the past five years . 
-the last point is subsidies made to the agricultural sector in foreign countries . 
-Ottawa is more virtuous than necessary . 
-according to Bob Friesen of the Canadian Federation of Agriculture , Ottawa went too far in that " Canada reduced subsidies beyond what was expected of it . 
-Ottawa could do a lot more for farmers without violating trade agreements '' . 
-for each dollar received by Canadian farmers , their American and European competitors receive $ 2.5 dollars , and this does not include the $ 8.6 billion that they just received in assistance . 
-in 1998 , the OECD estimated that total support through agricultural policies amounted to $ 140 U.S. per capita in Canada , compared to $ 363 in the United States and $ 381 in Europe . 
-as we can see , the argument invoked by the Minister of Agriculture about the constraints imposed by the WTO is not valid . 
-let us not forget that , under the 1995 GATT agreement , the signatories pledged to reduce their farm subsidies by 15 % . 
-Ms. Bev Desjarlais ( Churchill , NDP ) : 
-Mr. Speaker , the hon. member has rightly noted that the federal government has constantly been saying it had to cut subsidies to farmers due to the trade agreements that are in place . 
-the minister ' s answer this morning and the fact that the government has cut subsidies up to 60 % when it only had to cut to 20 % indicate it has really been using one excuse or the other , whatever suits that day . 
-does the hon. member agree that the government has abandoned farmers in an effort to meet a budget line and that it has been using the excuse of the trade agreements ? 
-Ms. H é l è ne Alarie : 
-Mr. Speaker , I agree completely , because the government still had some leeway , particularly in a time of crisis . 
-if the agricultural sector were in its prime , then would be the time to go all virtuous , and take the hard line adopted in Cairns . 
-but with the sector now in crisis throughout the country , I think the government could have taken the maximum leeway allowed under the WTO rules . 
-Mr. Howard Hilstrom ( Selkirk - Interlake , Ref. ) : 
-the realized net income there has not dropped . 
-my question for the hon. member is twofold . 
-first , does the hon. member recognize that AIDA does not address the real problem in the farm income crisis ? 
-the real problem is the long number of years where the income has been so low that when AIDA pays out it pays out only a very small amount , a few thousand dollars that does nothing to help the crisis . 
-Ms. H é l è ne Alarie : 
-Mr. Speaker , I am very pleased to answer the member ' s question . 
-Quebec producers ' net income from farming has indeed dropped less than that of producers in western Canada . 
-there are several reasons for this , one being that our income support program has been stable for 25 years . 
-instead of fluctuating with the federal subsidy , Quebec takes what the federal government offers under the tripartite agreement and maintains the stability of our program . 
-this is a big help . 
-Quebec therefore plays a greater role than the other provinces in supporting its farmers . 
-they do the opposite . 
-if AIDA is not meeting farmers ' needs , I think everyone who spoke this morning has shown why . 
-right from the word go , there is a problem 
-Mr. Dick Proctor ( Palliser , NDP ) : 
-Mr. Speaker , I am honoured to lead off on this important topic today on behalf of the New Democratic Party caucus . 
-the record will show that our caucus as been in the forefront of this issue . 
-we have discharged our obligation as an opposition party by bringing the crisis in agriculture to the floor of the House of Commons on numerous occasions . 
-we also brought it to the standing committee on agriculture and to meetings with farm organizations , particularly on the prairies . 
-our caucus does not have any difficulty or major disagreement with the resolution before us today . 
-our disagreement is with the party that has moved this motion because we believe strongly that the crisis in agriculture , especially on the prairies , has been accelerated by the rise of the Reform Party in western Canada and the eager acceptance by the government opposite of some of its half - baked ideas . 
-that was nothing short of a declaration of war on the family farm . 
-Shilling for this cheap food policy led to predictions at the time that up to one half of the farmers in western Canada could be wiped out . 
-well , guess what ? 
-according to an Angus Reid poll a couple of months ago 46 % of western farmers are seriously thinking about packing it in if their current demoralizing financial situation continues . 
-a mass exodus of farmers should be music to the ears of Reform members . 
-after all , it was their leader who said in Truro , Nova Scotia , in 1992 " The brute truth is that the prairie provinces cannot support the number of farmers they have been supporting '' . 
-this brute truth was corroborated in 1995 by Reform ' s lead agricultural critic , the member for Kindersley - Lloydminster . 
-the official opposition leader said a few minutes ago that we should listen to Hermanson . 
-let me quote Mr. Hermanson who said in March 1995 : 
-i am not complaining about the cuts in support to agriculture . 
-probably Reform would have done some of the cutting differently , and I think better . 
-by " better " the former member undoubtedly meant deeper . 
-when the Liberal government heard the Reform Party ' s agricultural proposal to shift from government supported to an industry shaped by market forces it put on its happy face and moved as quickly as possible to accommodate those recommendations . 
-it did so by taking a meat axe to government programs relating to agriculture . 
-the facts of the matter are that all signatories to the 1993 GATT Uruguay round agreed to lower domestic support payments by 20 % over five years . 
-it was a win - win situation for the government and accordingly it hacked and slashed support payments with a vengeance . 
-instead of simply agreeing to abide by the 20 % GATT rule in reducing domestic support payments the government , as I mentioned , has happily reduced it by 60 % . 
-what is the impact of these cuts ? 
-today , on every dollar of wheat sold the Canadian farmer receives a grand total of nine cents in subsidies . 
-i want to address some remarks to the minister of agriculture . 
-the minister told delegates to the united grain growers convention 11 months ago that he was fully aware that as bad as 1998 had been on the prairies in Manitoba and Saskatchewan the outlook for 1999 was even worse . 
-more important , he pledged to do something about it and that something became known as AIDA . 
-AIDA does not seem to be working very well in Manitoba and Saskatchewan . It seems to be working not too badly in British Columbia or Alberta . 
-there are statistics on that . 
-i am sure it could be agreed that it takes a particular form of genius to predict accurately the provinces most at risk for an upcoming year and then design an assistance program which actually extends more help to the farmers in neighbouring provinces than the farmers that actually need it . 
-since we are in the middle of the world series it is worth saying that prairie farmers are paraphrasing what Babe Ruth said about another program , that AIDA is not worth a cup of warm spit on the prairies . 
-that is exactly what farmers wanted to tell the agriculture minister to his face last July in Prince Albert . 
-they wanted him to step out of the shadow of the Marlborough Hotel on July 6 and speak so that everyone could hear him , so that there could be a genuine dialogue between farmers and their Minister of Agriculture and Agri - Food . 
-i was amazed on that occasion that the minister failed to recognize that farmers see the minister of agriculture as their minister . 
-they wanted to talk to their minister and tell him their frustrations about the complicated AIDA forms , the exclusion of negative margins , the inclusion of NISA and off farm income , the low commodity prices and high input costs . 
-in short , these farmers wanted to tell their minister about the state of agriculture as they live it on a daily basis . 
-instead of understanding their desire to be heard and to engage in any kind of meaningful dialogue with their minister , the minister of agriculture came across that afternoon as petulant and uncaring to the several hundred farmers in attendance . 
-farmers were not interested that day in the minister ' s six second sound bite . 
-they wanted to talk to him directly . 
-they wanted to tell him in their words what was wrong with AIDA from their point of view and what was needed to correct it . 
-they wanted desperately to tell him that they need an effective , long term , viable safety net program to support them . 
-we support that on this side of the House as well . 
-farmers know that for them to be competitive Canada must provide them with levels of domestic support comparable to those provided by our trading competitors . 
-the minister denied prairie farmers that opportunity on that occasion and in their disappointment and frustration some of them reacted . 
-because of how poorly AIDA is working on the prairies some people say scrap it , get rid of it . 
-our caucus does not agree with scrapping the AIDA program . 
-however for AIDA to work on the prairies the reference period must be extended to five years or more . 
-the three year reference period is simply too short . 

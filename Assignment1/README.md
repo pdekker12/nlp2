@@ -4,7 +4,6 @@ Assignment 1 - IBM-M1, IBM-M2
 Requirements
 ============
 
-* numpy
 * Python 3
 
 Running

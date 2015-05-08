@@ -210,7 +210,7 @@ Copyright (c) Minh Ngo, Peter Dekker
         #    for v in [0.7,1]:
         #        print('n=' + str(n))
         #        print('v=' + str(v * foreign_voc_size))
-        model1 = Model(model_setup=Model1ImprovedSetup(0,voc_size=0.7*foreign_voc_size,add_n=2), num_iter=iterations)
+        model1 = Model(model_setup=Model1ImprovedSetup(0,voc_size=0.1 * foreign_voc_size,add_n=0.0005), num_iter=iterations)
         train_model1(model1)
     elif args.ibm == 'IBM-M1-HeavyNull': 
         print('IBM model 1 with more weight on null alignment')
@@ -231,8 +231,8 @@ Copyright (c) Minh Ngo, Peter Dekker
     elif args.ibm == 'IBM-M1-SmoothHeavyNull': 
         print('IBM model 1 with smoothing and heavy null')
         init_model = InitModel()
-        v = 0.7* foreign_voc_size
-        n = 2
+        v = 0.1* foreign_voc_size
+        n = 0.0005
         w = 10
         model1 = Model(model_setup=Model1ImprovedSetup(3,voc_size=v,add_n=n,null_weight=w), num_iter=iterations)
         train_model1(model1)
@@ -241,8 +241,8 @@ Copyright (c) Minh Ngo, Peter Dekker
         init_model = InitModel()
         # Get heuristically initialized t from init model
         t_heur = init_model.train(foreign_corpus,source_corpus)
-        v = 0.7* foreign_voc_size
-        n = 2
+        v = 0.1* foreign_voc_size
+        n = 0.0005
         w=10
         model1 = Model(t=t_heur, model_setup=Model1ImprovedSetup(4,voc_size=v,add_n=n,null_weight=w), num_iter=iterations)
         train_model1(model1)
