@@ -1,3 +1,4 @@
+#!/usr/bin/env python2
 # Combines the source and target files of a parallel corpus
 # in order to create an input file for fast align
 # Usage: create_fastalign_input.py SOURCE_PATH TARGET_PATH

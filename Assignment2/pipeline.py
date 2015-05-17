@@ -4,7 +4,7 @@ import sys
 import subprocess
 import os
 
-corpus_paths = ["data/en-cs-combined10000.txt"]
+corpus_paths = ["../data/en-cs-combined10000.txt"]
 
 def main():
     # Previous steps done by other programs
