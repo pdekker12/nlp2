@@ -7,7 +7,7 @@ import os
 from nltk.tag import pos_tag
 from nltk.tokenize import word_tokenize
 
-corpus_paths = ["data/en-cs-combined10000.txt"]
+corpus_paths = ["../data/en-cs-combined10000.txt"]
 
 def main():
     # Previous steps done by other programs
