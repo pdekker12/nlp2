@@ -11,12 +11,16 @@ def main():
         # Load one/multiple parallel corpora
         # Align every parallel corpus
     
+    # Dictionary which contains the tagged target corpora.
+    # Every key is a different source corpus.
+    tagged_target = {}
     
     for corpus_path in corpus_paths:
+        tagged_target[corpus_path] = []
+        
         # Perform alignment
         command = "./fast_align/fast_align"
         output = subprocess.check_output([command, "-i", corpus_path])
-        print "output"
         alignment_list = output.split("\n")[:-1]
         
                 
@@ -31,12 +35,10 @@ def main():
             # POS tag this source line
             source_words=source_line.split()
             target_words=target_line.split()
-            print source_words
             source_tags = pos_tag(source_words)
-            print source_tags
             
             # Map source POS tags to target POS tags using alignment.
-            # TODO: Combine multiple tagged corpora. Use smoothing.
+            # TODO: Use smoothing.
             # Get alignments for this line
             alignments = alignment_list[i].split()
             target_tags = [None] * len(target_words)
@@ -46,12 +48,12 @@ def main():
                 target_ind = int(pair[1])
                 # Map aligned source tag to target word
                 target_tags[target_ind] = (target_words[target_ind],source_tags[source_ind][1])
-            print target_words
-            print target_tags
+            tagged_target[corpus_path].append(target_tags)
+        print tagged_target
 
-            
+        # TODO Combine multiple tagged corpora
 
-        # Evaluate the target tags using annotated corpus.
+        # TODO: Evaluate the target tags using annotated corpus.
 
 if __name__=="__main__":
     main()
