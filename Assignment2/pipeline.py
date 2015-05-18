@@ -1,4 +1,5 @@
 from nltk.tag import pos_tag 
+from nltk.tag.stanford import POSTagger
 from nltk.tokenize import word_tokenize
 import sys
 import subprocess
@@ -35,7 +36,8 @@ def main():
             # POS tag this source line
             source_words=source_line.split()
             target_words=target_line.split()
-            source_tags = pos_tag(source_words)
+            tagger = POSTagger('bidirectional-distsim-wsj-0-18.tagger')
+            source_tags = tagger.tag(source_words)
             
             # Map source POS tags to target POS tags using alignment.
             # TODO: Use smoothing.
