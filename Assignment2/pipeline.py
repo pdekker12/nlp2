@@ -9,8 +9,8 @@ corpus_paths = ["../data/en-cs-combined10000.txt"]
 
 def main():
     # Previous steps done by other programs
-        # Load one/multiple parallel corpora
-        # Align every parallel corpus
+    # Load one/multiple parallel corpora
+    # Align every parallel corpus
     
     # Dictionary which contains the tagged target corpora.
     # Every key is a different source corpus.
@@ -29,14 +29,15 @@ def main():
         corpus_file = open(corpus_path,"r")
         corpus = corpus_file.readlines()
         print len(corpus)
-        for i in range(len(corpus)):
+        for i in xrange(len(corpus)):
             split_line = corpus[i].split(" ||| ")
             source_line = split_line[0]
             target_line = split_line[1]
             # POS tag this source line
             source_words=source_line.split()
             target_words=target_line.split()
-            tagger = POSTagger('bidirectional-distsim-wsj-0-18.tagger')
+            tagger = POSTagger('stanford-postagger-2015-04-20/models/english-bidirectional-distsim.tagger',
+                               'stanford-postagger-2015-04-20/stanford-postagger.jar')
             source_tags = tagger.tag(source_words)
             
             # Map source POS tags to target POS tags using alignment.
