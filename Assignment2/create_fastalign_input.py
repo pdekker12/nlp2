@@ -4,6 +4,7 @@
 # Usage: create_fastalign_input.py SOURCE_PATH TARGET_PATH
 
 import sys
+from nltk.tokenize import word_tokenize
 
 if len(sys.argv) < 3:
     print('Too few arguments')
@@ -15,5 +16,6 @@ source_file = open(source_path, 'r')
 target_file = open(target_path, 'r')
 
 for source_sentence, target_sentence in zip(source_file, target_file):
-    if source_sentence and target_sentence:
-        print(source_sentence + ' ||| ' + target_sentence)
+    source_sentence = ' '.join(word_tokenize(source_sentence))
+    target_sentence = ' '.join(word_tokenize(target_sentence))
+    print(source_sentence + ' ||| ' + target_sentence)

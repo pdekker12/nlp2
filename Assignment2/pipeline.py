@@ -5,9 +5,7 @@ import sys
 import subprocess
 import os
 
-from nltk.tag import pos_tag
 from nltk.tag.stanford import POSTagger
-from nltk.tokenize import word_tokenize
 
 corpus_paths = ['../data/en-cs-combined10000.txt']
 encoding = locale.getdefaultlocale()[1]
@@ -57,7 +55,6 @@ def main():
                 target_tags[target_ind] = (target_words[target_ind], source_tags[source_ind][1])
             print(target_tags)
             tagged_target[corpus_path_id].append(target_tags)
-        print(tagged_target)
 
         # TODO Combine multiple tagged corpora
 
