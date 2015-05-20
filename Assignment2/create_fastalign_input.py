@@ -16,6 +16,9 @@ source_file = open(source_path, 'r')
 target_file = open(target_path, 'r')
 
 for source_sentence, target_sentence in zip(source_file, target_file):
-    source_sentence = ' '.join(word_tokenize(source_sentence))
-    target_sentence = ' '.join(word_tokenize(target_sentence))
-    print(source_sentence + ' ||| ' + target_sentence)
+    source_tokens = word_tokenize(source_sentence)
+    target_tokens = word_tokenize(target_sentence)
+    if len(source_tokens) > 0 and len(target_tokens) > 0:
+        source_sentence = ' '.join(source_tokens)
+        target_sentence = ' '.join(target_tokens)
+        print(source_sentence + ' ||| ' + target_sentence)
