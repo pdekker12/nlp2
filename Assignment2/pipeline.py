@@ -40,6 +40,7 @@ def main():
         command = './fast_align/fast_align'
         output = subprocess.check_output([command, '-i', corpus_path])
         alignment_list = output.decode(encoding).split('\n')[:-1]
+        del output
         print('Got alignments:', len(alignment_list))
 
         print('Openning the corpus', corpus_path)
@@ -54,8 +55,6 @@ def main():
                 target_words = target_line.split()
                 source_tags = tagger.tag(source_words)[0]
 
-                print('.',)
-
                 # Map source POS tags to target POS tags using alignment.
                 # TODO: Use smoothing.
                 # Get alignments for this line
@@ -65,7 +64,6 @@ def main():
                 for source_id, _ in alignments:
                     link_count[source_id] += 1
                 one_to_n_marker = [count > 1 for count in link_count]
-                print('.',)
 
                 for (source_ind, _), target_word in zip(alignments, target_words):
                     pos_tag = source_tags[source_ind][1]
@@ -76,15 +74,15 @@ def main():
                     else:
                         increase(word_count_1to1, target_word)
                         increase(wordtag_1to1_prob, key)
-                print('.')
 
-            for key in wordtag_1to1_prob:
-                wordtag_1to1_prob[key] /= word_count_1to1[key[0]]
-            print('wordtag_1to1_prob size:', len(wordtag_1to1_prob))
+        del alignment_list
+        for key in wordtag_1to1_prob:
+            wordtag_1to1_prob[key] /= word_count_1to1[key[0]]
+        print('wordtag_1to1_prob size:', len(wordtag_1to1_prob))
 
-            for key in wordtag_1toN_prob:
-                wordtag_1toN_prob[key] /= word_count_1toN[key[0]]
-            print('wordtag_1toN_prob size:', len(wordtag_1toN_prob))
+        for key in wordtag_1toN_prob:
+            wordtag_1toN_prob[key] /= word_count_1toN[key[0]]
+        print('wordtag_1toN_prob size:', len(wordtag_1toN_prob))
 
 
         del word_count_1to1
