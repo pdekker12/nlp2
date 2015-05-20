@@ -1,3 +1,4 @@
+#!/usr/bin/env python2
 from nltk.tag import pos_tag 
 from nltk.tag.stanford import POSTagger
 from nltk.tokenize import word_tokenize
