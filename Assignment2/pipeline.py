@@ -47,12 +47,9 @@ def main():
             # Map source POS tags to target POS tags using alignment.
             # TODO: Use smoothing.
             # Get alignments for this line
-            alignments = alignment.split()
-            target_tags = [None] * len(target_words)
-            for a in alignments:
-                source_ind, target_ind = tuple(map(int, a.split('-')))
-                # Map aligned source tag to target word
-                target_tags[target_ind] = (target_words[target_ind], source_tags[source_ind][1])
+            print(alignment)
+            alignments = [tuple(map(int, a.split('-'))) for a in alignment.split()]
+            target_tags = [(target_words[target_ind], source_tags[source_ind][1]) for source_ind, target_ind in alignments]
             print(target_tags)
             tagged_target[corpus_path_id].append(target_tags)
 
