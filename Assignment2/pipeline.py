@@ -98,6 +98,7 @@ def main():
                 score = wordtag_1to1_prob[key]
                 if key in wordtag_1toN_prob:
                     score += wordtag_1toN_prob[key]
+                    score /= 2.0
                 wordtag_score[key] = score
             else:
                 wordtag_score[key] = wordtag_1toN_prob[key]
