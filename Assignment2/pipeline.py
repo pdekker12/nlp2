@@ -6,6 +6,8 @@ import subprocess
 import os
 import heapq
 
+from functools import reduce
+
 from nltk.tag.stanford import POSTagger
 
 corpus_paths = ['../data/en-cs-combined10000.txt']
@@ -116,8 +118,9 @@ def main():
         wordtag_score = {}
         for word, tags in word_to_tags.items():
             toptwo = heapq.nlargest(2, tags, lambda x: x[1])
+            norm = reduce(lambda x, y: x + y[1] , toptwo, 0)
             for tag, score in toptwo:
-                wordtag_score[(word, tag)] = score
+                wordtag_score[(word, tag)] = score / norm
 
         # TODO Combine multiple tagged corpora
 
