@@ -39,6 +39,7 @@ def main():
         word_count_1to1 = {}
         word_count_1toN = {}
         word_count = {}
+        pos_count = {}
 
         # Perform alignment
         command = './fast_align/fast_align'
@@ -73,6 +74,7 @@ def main():
                     pos_tag = source_tags[source_ind][1]
                     key = (target_word, pos_tag)
                     increase(word_count, target_word)
+                    increase(pos_count, pos_tag)
                     if one_to_n_marker[source_ind]:
                         increase(word_count_1toN, target_word)
                         increase(wordtag_1toN_prob, key)
@@ -92,6 +94,8 @@ def main():
         word_norm_coef = sum(word_count.values())
         word_count = {word : count / word_norm_coef for word, count in word_count.items()}
 
+        pos_norm_coef = sum(pos_count.values())
+        pos_count = {pos_tag : count / pos_norm_coef for pos_tag, count in pos_count.items()}
 
         del word_count_1to1
         del word_count_1toN
