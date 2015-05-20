@@ -1,58 +1,63 @@
-#!/usr/bin/env python2
-from nltk.tag import pos_tag 
-from nltk.tag.stanford import POSTagger
-from nltk.tokenize import word_tokenize
+#!/usr/bin/env python3
+
+import locale
 import sys
 import subprocess
 import os
 
-corpus_paths = ["../data/en-cs-combined10000.txt"]
+from nltk.tag import pos_tag
+from nltk.tag.stanford import POSTagger
+from nltk.tokenize import word_tokenize
+
+corpus_paths = ['../data/en-cs-combined10000.txt']
+encoding = locale.getdefaultlocale()[1]
 
 def main():
     # Previous steps done by other programs
     # Load one/multiple parallel corpora
     # Align every parallel corpus
-    
+
     # Dictionary which contains the tagged target corpora.
     # Every key is a different source corpus.
-    tagged_target = {}
-    
+    tagged_target = [[]] * len(corpus_paths)
+    print('Creating a POS tagger')
+    tagger = POSTagger('stanford-postagger-2015-04-20/models/english-bidirectional-distsim.tagger',
+                       'stanford-postagger-2015-04-20/stanford-postagger.jar')
+    print('POS tagger created!')
+
     for corpus_path in corpus_paths:
-        tagged_target[corpus_path] = []
-        
+        corpus_path_id = corpus_paths.index(corpus_path)
+
         # Perform alignment
-        command = "./fast_align/fast_align"
-        output = subprocess.check_output([command, "-i", corpus_path])
-        alignment_list = output.split("\n")[:-1]
-        
-                
+        command = './fast_align/fast_align'
+        output = subprocess.check_output([command, '-i', corpus_path])
+        alignment_list = output.decode(encoding).split('\n')[:-1]
+        print('Got alignments:', len(alignment_list))
+
+        print('Openning the corpus')
         # Open corpus
-        corpus_file = open(corpus_path,"r")
+        corpus_file = open(corpus_path, 'r')
         corpus = corpus_file.readlines()
-        for i in xrange(len(corpus)):
-            split_line = corpus[i].split(" ||| ")
-            source_line = split_line[0]
-            target_line = split_line[1]
+        for corpus_line, alignment in zip(corpus, alignment_list):
+            source_line, target_line = tuple(corpus_line.split(' ||| '))
+
             # POS tag this source line
-            source_words=source_line.split()
-            target_words=target_line.split()
-            tagger = POSTagger('stanford-postagger-2015-04-20/models/english-bidirectional-distsim.tagger',
-                               'stanford-postagger-2015-04-20/stanford-postagger.jar')
+            source_words = source_line.split()
+            target_words = target_line.split()
             source_tags = tagger.tag(source_words)[0]
-            
+
             # Map source POS tags to target POS tags using alignment.
             # TODO: Use smoothing.
             # Get alignments for this line
-            alignments = alignment_list[i].split()
+            alignments = alignment.split()
             target_tags = [None] * len(target_words)
             for a in alignments:
-                pair = a.split("-")
-                source_ind = int(pair[0])
-                target_ind = int(pair[1])
+                source_ind, target_ind = tuple(map(int, a.split('-')))
                 # Map aligned source tag to target word
-                target_tags[target_ind] = (target_words[target_ind],source_tags[source_ind][1])
-            tagged_target[corpus_path].append(target_tags)
-        print tagged_target
+                target_tags[target_ind] = (target_words[target_ind], source_tags[source_ind][1])
+            print(target_tags)
+            tagged_target[corpus_path_id].append(target_tags)
+        print(tagged_target)
 
         # TODO Combine multiple tagged corpora
 
