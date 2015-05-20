@@ -38,6 +38,7 @@ def main():
         wordtag_1toN_prob = {}
         word_count_1to1 = {}
         word_count_1toN = {}
+        word_count = {}
 
         # Perform alignment
         command = './fast_align/fast_align'
@@ -71,6 +72,7 @@ def main():
                 for (source_ind, _), target_word in zip(alignments, target_words):
                     pos_tag = source_tags[source_ind][1]
                     key = (target_word, pos_tag)
+                    increase(word_count, target_word)
                     if one_to_n_marker[source_ind]:
                         increase(word_count_1toN, target_word)
                         increase(wordtag_1toN_prob, key)
@@ -86,6 +88,9 @@ def main():
         for key in wordtag_1toN_prob:
             wordtag_1toN_prob[key] /= word_count_1toN[key[0]]
         print('wordtag_1toN_prob size:', len(wordtag_1toN_prob))
+
+        word_norm_coef = sum(word_count.values())
+        word_count = {word : count / word_norm_coef for word, count in word_count.items()}
 
 
         del word_count_1to1
