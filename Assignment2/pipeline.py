@@ -4,6 +4,7 @@ import locale
 import sys
 import subprocess
 import os
+import heapq
 
 from nltk.tag.stanford import POSTagger
 
@@ -104,6 +105,19 @@ def main():
 
         del wordtag_1to1_prob
         del wordtag_1toN_prob
+
+        word_to_tags = {}
+        for (word, tag), score in wordtag_score.items():
+            if word in word_to_tags:
+                word_to_tags[word].append((tag, score))
+            else:
+                word_to_tags[word] = [(tag, score)]
+
+        wordtag_score = {}
+        for word, tags in word_to_tags.items():
+            toptwo = heapq.nlargest(2, tags, lambda x: x[1])
+            for tag, score in toptwo:
+                wordtag_score[(word, tag)] = score
 
         # TODO Combine multiple tagged corpora
 
