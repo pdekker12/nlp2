@@ -60,5 +60,5 @@ def main():
 
         # TODO: Evaluate the target tags using annotated corpus.
 
-if __name__=="__main__":
+if __name__ == '__main__':
     main()
