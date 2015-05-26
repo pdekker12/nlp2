@@ -49,18 +49,42 @@ def main():
         del output
         print('Got alignments:', len(alignment_list))
 
-        print('Openning the corpus', corpus_path)
-        # Open corpus
-        with open(corpus_path, 'r') as corpus_file:
-            for corpus_line, alignment in zip(corpus_file, alignment_list):
-                print(corpus_line)
+        def parse_corpus(corpus_file):
+            source_queue = []
+            target_queue = []
+            iteration = 0
+            chunk_size = 1000
+            for corpus_line in corpus_file:
                 source_line, target_line = tuple(corpus_line.split(' ||| '))
 
                 # POS tag this source line
                 source_words = source_line.split()
                 target_words = target_line.split()
-                source_tags = tagger.tag(source_words)[0]
 
+                source_queue.append(source_words)
+                target_queue.append(target_words)
+
+                if iteration == chunk_size - 1:
+                    source_tags = tagger.tag_sents(source_queue)
+                    print(source_tags)
+                    for source, target, tags in zip(source_queue, target_queue, source_tags):
+                        yield source, target, tags
+                    source_queue = []
+                    target_queue = []
+
+                iteration = (iteration + 1) % chunk_size
+
+            if source_queue:
+                source_tags = tagger.tag_sents(source_queue)
+                print(source_tags)
+                for source, target, tags in zip(source_queue, target_queue, source_tags):
+                    yield source, target, tags
+
+
+        print('Openning the corpus', corpus_path)
+        # Open corpus
+        with open(corpus_path, 'r') as corpus_file:
+            for (source_words, target_words, source_tags), alignment in zip(parse_corpus(corpus_file), alignment_list):
                 # Map source POS tags to target POS tags using alignment.
                 # TODO: Use smoothing.
                 # Get alignments for this line
