@@ -1,0 +1,3 @@
+[submodule "Assignment2/fast_align"]
+	path = Assignment2/fast_align
+	url = https://github.com/clab/fast_align.git

@@ -5,6 +5,7 @@ import sys
 import subprocess
 import os
 import heapq
+import pprint
 
 from functools import reduce
 
@@ -130,6 +131,7 @@ def main():
             norm = reduce(lambda x, y: x + y[1] , toptwo, 0)
             for tag, score in toptwo:
                 wordtag_score[(word, tag)] = score / norm
+        pprint.pprint(wordtag_score)
 
         # TODO Combine multiple tagged corpora
 
