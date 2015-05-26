@@ -1,10 +1,8 @@
 #!/usr/bin/env bash
-if [ ! -d "fast_align" ]; then
-  git clone https://github.com/clab/fast_align.git
-  pushd fast_align
-  make
-  popd
-fi
+
+pushd fast_align
+make
+popd
 
 if [ ! -f "stanford-postagger-2015-04-20.zip" ]; then
   wget http://nlp.stanford.edu/software/stanford-postagger-2015-04-20.zip
