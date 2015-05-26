@@ -20,6 +20,25 @@ def increase(collection, key):
     else:
         collection[key] = 1
 
+generic_to_core_pos = {
+    'NN' : 'N',
+    'NNP' : 'N',
+    'VB' : 'V',
+    'VBP' : 'V',
+    'VBG' : 'V',
+    'VBN' : 'V',
+    'VBD' : 'V',
+    'DT' : 'D',
+    'WDT' : 'D',
+    'CC' : 'C',
+    'CD' : 'NUM',
+    'RB' : 'R',
+    'WRB' : 'R',
+    'JJ' : 'J',
+    'PRP' : 'P',
+    'IN' : 'I'
+    }
+
 def main():
     # Previous steps done by other programs
     # Load one/multiple parallel corpora
