@@ -195,7 +195,7 @@ def pos_score(corpus_path, tagger):
             for generic_tag, score in toptwo_generic:
                 wordtag_score[(word, generic_tag)] = score / norm
 
-    return wordtag_score
+    return wordtag_score, pos_count, word_count
 
 
 def main():
