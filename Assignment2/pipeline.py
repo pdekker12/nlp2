@@ -128,6 +128,49 @@ def wordtag_score(wordtag_1to1_prob, wordtag_1toN_prob):
     return pos_score
 
 
+def add_unk(wordtag_1to1_prob, wordtag_1toN_prob,
+            word_count_1to1, word_count_1toN,
+            word_prob):
+    """
+        Adds an unknown word
+        Yeah, a bit bullsh*t, O(n) again. Maybe should be optimized later.
+    """
+    # Words that occur once
+    rare_words = {word for word, count in word_prob.items() if count == 1}
+    unk_count_1to1 = 0
+    unk_count_1toN = 0
+    for word in rare_words:
+        if word in word_count_1to1:
+            unk_count_1to1 += word_count_1to1[word]
+            del word_count_1to1[word]
+
+        if word in word_count_1toN:
+            unk_count_1toN += word_count_1toN[word]
+            del word_count_1toN[word]
+
+        del word_prob[word]
+    word_prob['UNK'] = len(rare_words)
+    word_count_1to1['UNK'] = unk_count_1to1
+    word_count_1toN['UNK'] = unk_count_1toN
+
+    def update_wordtag_prob(wordtag_prob):
+        rare_word_tags = [(word, tag, score) for (word, tag), score in wordtag_prob.items()
+                                             if word in rare_words]
+        unk_prob = {}
+        for word, tag, score in rare_word_tags:
+            if tag not in unk_prob:
+                unk_prob[tag] = score
+            else:
+                unk_prob[tag] += score
+            del wordtag_prob[(word, tag)]
+
+        for tag, score in unk_prob.items():
+            wordtag_prob[('UNK', tag)] = score
+
+    update_wordtag_prob(wordtag_1to1_prob)
+    update_wordtag_prob(wordtag_1toN_prob)
+
+
 def corpus_stat(corpus_path, tagger):
     """
         Calculates components of the noisy channel equation
@@ -158,6 +201,9 @@ def corpus_stat(corpus_path, tagger):
                 else:
                     increase(word_count_1to1, target_word)
                     increase(wordtag_1to1_prob, key)
+
+    add_unk(wordtag_1to1_prob, wordtag_1toN_prob,
+            word_count_1to1, word_count_1toN, word_prob)
 
     # Normalizing counters
     for key in wordtag_1to1_prob:
