@@ -17,6 +17,7 @@ encoding = locale.getdefaultlocale()[1]
 generic_to_core_pos = {
     'NN' : 'N',
     'NNP' : 'N',
+    'NNS' : 'N',
     'VB' : 'V',
     'VBP' : 'V',
     'VBG' : 'V',
@@ -32,6 +33,14 @@ generic_to_core_pos = {
     'PRP' : 'P',
     'IN' : 'I'
     }
+
+core_to_generic_pos = {}
+
+for key, value in generic_to_core_pos.items():
+    if value not in core_to_generic_pos:
+        core_to_generic_pos[value] = {key}
+    else:
+        core_to_generic_pos[value].add(key)
 
 
 def increase(collection, key):
@@ -153,7 +162,6 @@ def pos_score(corpus_path, tagger):
             wordtag_score[key] = score
         else:
             wordtag_score[key] = wordtag_1toN_prob[key]
-    print('WordTag score size:', len(wordtag_score))
 
     del wordtag_1to1_prob
     del wordtag_1toN_prob
@@ -165,12 +173,27 @@ def pos_score(corpus_path, tagger):
         else:
             word_to_tags[word] = [(tag, score)]
 
+    word_to_core_tags = {}
+    for word, tag_scores in word_to_tags.items():
+        core_tag_score = {}
+        for tag, score in tag_scores:
+            core_tag = generic_to_core_pos[tag]
+            if core_tag not in core_tag_score:
+                core_tag_score[core_tag] = score
+            else:
+                core_tag_score[core_tag] += score
+        word_to_core_tags[word] = list(core_tag_score.items())
+
     wordtag_score = {}
-    for word, tags in word_to_tags.items():
-        toptwo = heapq.nlargest(2, tags, lambda x: x[1])
-        norm = reduce(lambda x, y: x + y[1] , toptwo, 0)
-        for tag, score in toptwo:
-            wordtag_score[(word, tag)] = score / norm
+    for word, core_tags in word_to_core_tags.items():
+        toptwo_cores = heapq.nlargest(2, core_tags, lambda x: x[1])
+        norm = reduce(lambda x, y: x + y[1] , toptwo_cores, 0)
+        for tag, _ in toptwo_cores:
+            generic_tags = [(generic_tag, score) for generic_tag, score in word_to_tags[word]
+                                                 if generic_tag in core_to_generic_pos[tag]]
+            toptwo_generic = heapq.nlargest(2, generic_tags, lambda x: x[1])
+            for generic_tag, score in toptwo_generic:
+                wordtag_score[(word, generic_tag)] = score / norm
 
     return wordtag_score
 
@@ -188,6 +211,7 @@ def main():
 
     for corpus_path in corpus_paths:
         score = pos_score(corpus_path, tagger)
+        print('Score:')
         pprint.pprint(score)
         # TODO Combine multiple tagged corpora
 
