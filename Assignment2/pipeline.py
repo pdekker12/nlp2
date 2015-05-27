@@ -93,6 +93,11 @@ def mt_alignment(corpus_path):
         yield [tuple(map(int, a.split('-'))) for a in alignment.split()]
 
 
+def create_stanford_postagger():
+    return POSTagger('stanford-postagger-2015-04-20/models/english-bidirectional-distsim.tagger',
+                     'stanford-postagger-2015-04-20/stanford-postagger.jar')
+
+
 def main():
     # Previous steps done by other programs
     # Load one/multiple parallel corpora
@@ -101,8 +106,7 @@ def main():
     # Dictionary which contains the tagged target corpora.
     # Every key is a different source corpus.
     print('Creating a POS tagger')
-    tagger = POSTagger('stanford-postagger-2015-04-20/models/english-bidirectional-distsim.tagger',
-                       'stanford-postagger-2015-04-20/stanford-postagger.jar')
+    tagger = create_stanford_postagger()
     print('POS tagger created!')
 
     for corpus_path in corpus_paths:
