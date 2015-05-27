@@ -79,6 +79,20 @@ def parse_corpus(corpus_file, tagger):
             yield source, target, tags
 
 
+def mt_alignment(corpus_path):
+    """
+        Yields a list of alignments for each sentence.
+    """
+    command = './fast_align/fast_align'
+    output = subprocess.check_output([command, '-i', corpus_path])
+    alignment_list = output.decode(encoding).split('\n')[:-1]
+    del output
+    print('Got alignments:', len(alignment_list))
+
+    for alignment in alignment_list:
+        yield [tuple(map(int, a.split('-'))) for a in alignment.split()]
+
+
 def main():
     # Previous steps done by other programs
     # Load one/multiple parallel corpora
@@ -101,21 +115,10 @@ def main():
         word_count = {}
         pos_count = {}
 
-        # Perform alignment
-        command = './fast_align/fast_align'
-        output = subprocess.check_output([command, '-i', corpus_path])
-        alignment_list = output.decode(encoding).split('\n')[:-1]
-        del output
-        print('Got alignments:', len(alignment_list))
-
         print('Openning the corpus', corpus_path)
         # Open corpus
         with open(corpus_path, 'r') as corpus_file:
-            for (source_words, target_words, source_tags), alignment in zip(parse_corpus(corpus_file, tagger), alignment_list):
-                # Map source POS tags to target POS tags using alignment.
-                # TODO: Use smoothing.
-                # Get alignments for this line
-                alignments = [tuple(map(int, a.split('-'))) for a in alignment.split()]
+            for (source_words, target_words, source_tags), alignments in zip(parse_corpus(corpus_file, tagger), mt_alignment(corpus_path)):
 
                 link_count = [0] * len(source_words)
                 for source_id, _ in alignments:
@@ -134,7 +137,6 @@ def main():
                         increase(word_count_1to1, target_word)
                         increase(wordtag_1to1_prob, key)
 
-        del alignment_list
         for key in wordtag_1to1_prob:
             wordtag_1to1_prob[key] /= word_count_1to1[key[0]]
         print('wordtag_1to1_prob size:', len(wordtag_1to1_prob))
