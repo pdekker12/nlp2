@@ -109,7 +109,9 @@ def create_stanford_postagger():
 
 def wordtag_score(wordtag_1to1_prob, wordtag_1toN_prob):
     """
-        Linear combines two 1to1 and 1toN estimators.
+        Linear combines two 1to1 and 1toN estimators to receive P(t_i|w_i).
+        
+        Fossum & Abney paper, page 4.
     """
     pos_score = {}
 
@@ -173,7 +175,7 @@ def corpus_stat(corpus_path, tagger):
     return wordtag_score(wordtag_1to1_prob, wordtag_1toN_prob), word_prob, pos_prob
 
 
-def pos_score(corpus_path, tagger):
+def noisy_channel_params(corpus_path, tagger):
     """
         Magic with smoothing...
     """
@@ -209,6 +211,15 @@ def pos_score(corpus_path, tagger):
                 wordtag_score[(word, generic_tag)] = score / norm
 
     return wordtag_score, pos_prob, word_prob
+
+
+def pos_score(corpus_path, tagger):
+    """
+        Calculaltes P(w_i|t_i)
+    """
+    wordtag_score, pos_prob, word_prob = noisy_channel_params(corpus_path, tagger)
+    score = {(word, tag) : score * word_prob[word] / pos_prob[tag] for (word, tag), score in wordtag_score.items()}
+    return score
 
 
 def main():
