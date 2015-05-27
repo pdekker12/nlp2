@@ -14,12 +14,6 @@ from nltk.tag.stanford import POSTagger
 corpus_paths = ['../data/en-cs-combined10000.txt']
 encoding = locale.getdefaultlocale()[1]
 
-def increase(collection, key):
-    if key in collection:
-        collection[key] += 1
-    else:
-        collection[key] = 1
-
 generic_to_core_pos = {
     'NN' : 'N',
     'NNP' : 'N',
@@ -38,6 +32,52 @@ generic_to_core_pos = {
     'PRP' : 'P',
     'IN' : 'I'
     }
+
+
+def increase(collection, key):
+    """
+        Increases the key counter by 1 or set it to 1 if it doesn't exist.
+    """
+    if key in collection:
+        collection[key] += 1
+    else:
+        collection[key] = 1
+
+
+chunk_size = 1000
+def parse_corpus(corpus_file, tagger):
+    """
+        Parses source and target sentences into lexemes, determines POS of the source
+        sentence by chunk of chunk_size sentences per time and yields the triple as a
+        tuple.
+    """
+    source_queue = []
+    target_queue = []
+    iteration = 0
+    for corpus_line in corpus_file:
+        source_line, target_line = tuple(corpus_line.split(' ||| '))
+
+        # POS tag this source line
+        source_words = source_line.split()
+        target_words = target_line.split()
+
+        source_queue.append(source_words)
+        target_queue.append(target_words)
+
+        if iteration == chunk_size - 1:
+            source_tags = tagger.tag_sents(source_queue)
+            for source, target, tags in zip(source_queue, target_queue, source_tags):
+                yield source, target, tags
+            source_queue = []
+            target_queue = []
+
+        iteration = (iteration + 1) % chunk_size
+
+    if source_queue:
+        source_tags = tagger.tag_sents(source_queue)
+        for source, target, tags in zip(source_queue, target_queue, source_tags):
+            yield source, target, tags
+
 
 def main():
     # Previous steps done by other programs
@@ -68,42 +108,10 @@ def main():
         del output
         print('Got alignments:', len(alignment_list))
 
-        def parse_corpus(corpus_file):
-            source_queue = []
-            target_queue = []
-            iteration = 0
-            chunk_size = 1000
-            for corpus_line in corpus_file:
-                source_line, target_line = tuple(corpus_line.split(' ||| '))
-
-                # POS tag this source line
-                source_words = source_line.split()
-                target_words = target_line.split()
-
-                source_queue.append(source_words)
-                target_queue.append(target_words)
-
-                if iteration == chunk_size - 1:
-                    source_tags = tagger.tag_sents(source_queue)
-                    print(source_tags)
-                    for source, target, tags in zip(source_queue, target_queue, source_tags):
-                        yield source, target, tags
-                    source_queue = []
-                    target_queue = []
-
-                iteration = (iteration + 1) % chunk_size
-
-            if source_queue:
-                source_tags = tagger.tag_sents(source_queue)
-                print(source_tags)
-                for source, target, tags in zip(source_queue, target_queue, source_tags):
-                    yield source, target, tags
-
-
         print('Openning the corpus', corpus_path)
         # Open corpus
         with open(corpus_path, 'r') as corpus_file:
-            for (source_words, target_words, source_tags), alignment in zip(parse_corpus(corpus_file), alignment_list):
+            for (source_words, target_words, source_tags), alignment in zip(parse_corpus(corpus_file, tagger), alignment_list):
                 # Map source POS tags to target POS tags using alignment.
                 # TODO: Use smoothing.
                 # Get alignments for this line
