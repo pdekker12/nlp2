@@ -264,6 +264,8 @@ def pos_score(corpus_path, tagger):
         Calculaltes P(w_i|t_i)
     """
     wordtag_score, pos_prob, word_prob = noisy_channel_params(corpus_path, tagger)
+    # TODO: Witten-Bell smoothing implementation
+    # Fossum & Abney, 2.1.7
     score = {(word, tag) : score * word_prob[word] / pos_prob[tag] for (word, tag), score in wordtag_score.items()}
     return score
 
