@@ -107,13 +107,35 @@ def create_stanford_postagger():
                      'stanford-postagger-2015-04-20/stanford-postagger.jar')
 
 
-def pos_score(corpus_path, tagger):
+def wordtag_score(wordtag_1to1_prob, wordtag_1toN_prob):
+    """
+        Linear combines two 1to1 and 1toN estimators.
+    """
+    pos_score = {}
+
+    uniq_keys = set(wordtag_1to1_prob.keys()).union(wordtag_1toN_prob.keys())
+    for key in uniq_keys:
+        if key in wordtag_1to1_prob:
+            score = wordtag_1to1_prob[key]
+            if key in wordtag_1toN_prob:
+                score += wordtag_1toN_prob[key]
+                score /= 2.0
+            pos_score[key] = score
+        else:
+            pos_score[key] = wordtag_1toN_prob[key]
+    return pos_score
+
+
+def corpus_stat(corpus_path, tagger):
+    """
+        Calculates components of the noisy channel equation
+    """
     wordtag_1to1_prob = {}
     wordtag_1toN_prob = {}
     word_count_1to1 = {}
     word_count_1toN = {}
-    word_count = {}
-    pos_count = {}
+    word_prob= {}
+    pos_prob = {}
 
     with open(corpus_path, 'r') as corpus_file:
         for (source_words, target_words, source_tags), alignments in zip(parse_corpus(corpus_file, tagger),
@@ -126,8 +148,8 @@ def pos_score(corpus_path, tagger):
             for (source_ind, _), target_word in zip(alignments, target_words):
                 pos_tag = source_tags[source_ind][1]
                 key = (target_word, pos_tag)
-                increase(word_count, target_word)
-                increase(pos_count, pos_tag)
+                increase(word_prob, target_word)
+                increase(pos_prob, pos_tag)
                 if one_to_n_marker[source_ind]:
                     increase(word_count_1toN, target_word)
                     increase(wordtag_1toN_prob, key)
@@ -135,36 +157,27 @@ def pos_score(corpus_path, tagger):
                     increase(word_count_1to1, target_word)
                     increase(wordtag_1to1_prob, key)
 
+    # Normalizing counters
     for key in wordtag_1to1_prob:
         wordtag_1to1_prob[key] /= word_count_1to1[key[0]]
 
     for key in wordtag_1toN_prob:
         wordtag_1toN_prob[key] /= word_count_1toN[key[0]]
 
-    del word_count_1to1
-    del word_count_1toN
+    word_norm_coef = sum(word_prob.values())
+    word_prob = {word : count / word_norm_coef for word, count in word_prob.items()}
 
-    word_norm_coef = sum(word_count.values())
-    word_count = {word : count / word_norm_coef for word, count in word_count.items()}
+    pos_norm_coef = sum(pos_prob.values())
+    pos_prob = {pos_tag : count / pos_norm_coef for pos_tag, count in pos_prob.items()}
 
-    pos_norm_coef = sum(pos_count.values())
-    pos_count = {pos_tag : count / pos_norm_coef for pos_tag, count in pos_count.items()}
+    return wordtag_score(wordtag_1to1_prob, wordtag_1toN_prob), word_prob, pos_prob
 
-    wordtag_score = {}
 
-    uniq_keys = set(wordtag_1to1_prob.keys()).union(wordtag_1toN_prob.keys())
-    for key in uniq_keys:
-        if key in wordtag_1to1_prob:
-            score = wordtag_1to1_prob[key]
-            if key in wordtag_1toN_prob:
-                score += wordtag_1toN_prob[key]
-                score /= 2.0
-            wordtag_score[key] = score
-        else:
-            wordtag_score[key] = wordtag_1toN_prob[key]
-
-    del wordtag_1to1_prob
-    del wordtag_1toN_prob
+def pos_score(corpus_path, tagger):
+    """
+        Magic with smoothing...
+    """
+    wordtag_score, word_prob, pos_prob = corpus_stat(corpus_path, tagger)
 
     word_to_tags = {}
     for (word, tag), score in wordtag_score.items():
@@ -195,7 +208,7 @@ def pos_score(corpus_path, tagger):
             for generic_tag, score in toptwo_generic:
                 wordtag_score[(word, generic_tag)] = score / norm
 
-    return wordtag_score, pos_count, word_count
+    return wordtag_score, pos_prob, word_prob
 
 
 def main():
