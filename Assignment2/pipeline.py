@@ -6,6 +6,7 @@ import subprocess
 import os
 import heapq
 import pprint
+from collections import Counter
 
 from functools import reduce
 
@@ -43,16 +44,6 @@ for key, value in generic_to_core_pos.items():
         core_to_generic_pos[value] = {key}
     else:
         core_to_generic_pos[value].add(key)
-
-
-def increase(collection, key):
-    """
-        Increases the key counter by 1 or set it to 1 if it doesn't exist.
-    """
-    if key in collection:
-        collection[key] += 1
-    else:
-        collection[key] = 1
 
 
 chunk_size = 1000
@@ -163,10 +154,10 @@ def corpus_stat(corpus_path, tagger):
     """
         Calculates components of the noisy channel equation
     """
-    wordtag_1to1_prob = {}
-    wordtag_1toN_prob = {}
-    word_count = {}
-    pos_count = {}
+    wordtag_1to1_prob = Counter()
+    wordtag_1toN_prob = Counter()
+    word_count = Counter()
+    pos_count = Counter()
     corpus_size = 0
 
     with open(corpus_path, 'r') as corpus_file:
@@ -181,12 +172,12 @@ def corpus_stat(corpus_path, tagger):
             for (source_ind, _), target_word in zip(alignments, target_words):
                 pos_tag = source_tags[source_ind][1]
                 key = (target_word, pos_tag)
-                increase(word_count, target_word)
-                increase(pos_count, pos_tag)
+                word_count[target_word] += 1
+                pos_count[pos_tag] += 1
                 if one_to_n_marker[source_ind]:
-                    increase(wordtag_1toN_prob, key)
+                    wordtag_1toN_prob[key] += 1
                 else:
-                    increase(wordtag_1to1_prob, key)
+                    wordtag_1to1_prob[key] += 1
 
     add_unk(wordtag_1to1_prob, wordtag_1toN_prob, word_count)
 
