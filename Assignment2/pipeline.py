@@ -18,6 +18,7 @@ generic_to_core_pos = {
     'NN' : 'N',
     'NNP' : 'N',
     'NNS' : 'N',
+    'NNPS' : 'N',
     'VB' : 'V',
     'VBP' : 'V',
     'VBG' : 'V',
@@ -31,7 +32,8 @@ generic_to_core_pos = {
     'WRB' : 'R',
     'JJ' : 'J',
     'PRP' : 'P',
-    'IN' : 'I'
+    'IN' : 'I',
+    'POS' : 'POS' # Is it correct to map?
     }
 
 core_to_generic_pos = {}
@@ -76,7 +78,7 @@ def parse_corpus(corpus_file, tagger):
         if iteration == chunk_size - 1:
             source_tags = tagger.tag_sents(source_queue)
             for source, target, tags in zip(source_queue, target_queue, source_tags):
-                yield source, target, tags
+                yield source, target, list(map(lambda tag: (tag[0], generic_to_core_pos[tag[1]]), tags))
             source_queue = []
             target_queue = []
 
@@ -85,7 +87,7 @@ def parse_corpus(corpus_file, tagger):
     if source_queue:
         source_tags = tagger.tag_sents(source_queue)
         for source, target, tags in zip(source_queue, target_queue, source_tags):
-            yield source, target, tags
+            yield source, target, list(map(lambda tag: (tag[0], generic_to_core_pos[tag[1]]), tags))
 
 
 def mt_alignment(corpus_path):
@@ -121,37 +123,23 @@ def wordtag_score(wordtag_1to1_prob, wordtag_1toN_prob):
             score = wordtag_1to1_prob[key]
             if key in wordtag_1toN_prob:
                 score += wordtag_1toN_prob[key]
-                score /= 2.0
             pos_score[key] = score
         else:
             pos_score[key] = wordtag_1toN_prob[key]
+
     return pos_score
 
 
-def add_unk(wordtag_1to1_prob, wordtag_1toN_prob,
-            word_count_1to1, word_count_1toN,
-            word_prob):
+def add_unk(wordtag_1to1_prob, wordtag_1toN_prob, word_count):
     """
         Adds an unknown word
         Yeah, a bit bullsh*t, O(n) again. Maybe should be optimized later.
     """
     # Words that occur once
-    rare_words = {word for word, count in word_prob.items() if count == 1}
-    unk_count_1to1 = 0
-    unk_count_1toN = 0
+    rare_words = {word for word, count in word_count.items() if count == 1}
     for word in rare_words:
-        if word in word_count_1to1:
-            unk_count_1to1 += word_count_1to1[word]
-            del word_count_1to1[word]
-
-        if word in word_count_1toN:
-            unk_count_1toN += word_count_1toN[word]
-            del word_count_1toN[word]
-
-        del word_prob[word]
-    word_prob['UNK'] = len(rare_words)
-    word_count_1to1['UNK'] = unk_count_1to1
-    word_count_1toN['UNK'] = unk_count_1toN
+        del word_count[word]
+    word_count['UNK'] = len(rare_words)
 
     def update_wordtag_prob(wordtag_prob):
         rare_word_tags = [(word, tag, score) for (word, tag), score in wordtag_prob.items()
@@ -177,14 +165,14 @@ def corpus_stat(corpus_path, tagger):
     """
     wordtag_1to1_prob = {}
     wordtag_1toN_prob = {}
-    word_count_1to1 = {}
-    word_count_1toN = {}
-    word_prob= {}
-    pos_prob = {}
+    word_count = {}
+    pos_count = {}
+    corpus_size = 0
 
     with open(corpus_path, 'r') as corpus_file:
         for (source_words, target_words, source_tags), alignments in zip(parse_corpus(corpus_file, tagger),
                                                                          mt_alignment(corpus_path)):
+            corpus_size += len(source_words)
             link_count = [0] * len(source_words)
             for source_id, _ in alignments:
                 link_count[source_id] += 1
@@ -193,33 +181,23 @@ def corpus_stat(corpus_path, tagger):
             for (source_ind, _), target_word in zip(alignments, target_words):
                 pos_tag = source_tags[source_ind][1]
                 key = (target_word, pos_tag)
-                increase(word_prob, target_word)
-                increase(pos_prob, pos_tag)
+                increase(word_count, target_word)
+                increase(pos_count, pos_tag)
                 if one_to_n_marker[source_ind]:
-                    increase(word_count_1toN, target_word)
                     increase(wordtag_1toN_prob, key)
                 else:
-                    increase(word_count_1to1, target_word)
                     increase(wordtag_1to1_prob, key)
 
-    add_unk(wordtag_1to1_prob, wordtag_1toN_prob,
-            word_count_1to1, word_count_1toN, word_prob)
+    add_unk(wordtag_1to1_prob, wordtag_1toN_prob, word_count)
 
     # Normalizing counters
     for key in wordtag_1to1_prob:
-        wordtag_1to1_prob[key] /= word_count_1to1[key[0]]
+        wordtag_1to1_prob[key] /= corpus_size
 
     for key in wordtag_1toN_prob:
-        wordtag_1toN_prob[key] /= word_count_1toN[key[0]]
+        wordtag_1toN_prob[key] /= corpus_size
 
-    word_norm_coef = sum(word_prob.values())
-    word_prob = {word : count / word_norm_coef for word, count in word_prob.items()}
-
-    pos_norm_coef = sum(pos_prob.values())
-    pos_prob = {pos_tag : count / pos_norm_coef for pos_tag, count in pos_prob.items()}
-
-    return wordtag_score(wordtag_1to1_prob, wordtag_1toN_prob), word_prob, pos_prob
-
+    return wordtag_score(wordtag_1to1_prob, wordtag_1toN_prob), word_count, pos_count
 
 def noisy_channel_params(corpus_path, tagger):
     """
@@ -234,39 +212,32 @@ def noisy_channel_params(corpus_path, tagger):
         else:
             word_to_tags[word] = [(tag, score)]
 
-    word_to_core_tags = {}
-    for word, tag_scores in word_to_tags.items():
-        core_tag_score = {}
-        for tag, score in tag_scores:
-            core_tag = generic_to_core_pos[tag]
-            if core_tag not in core_tag_score:
-                core_tag_score[core_tag] = score
-            else:
-                core_tag_score[core_tag] += score
-        word_to_core_tags[word] = list(core_tag_score.items())
-
     wordtag_score = {}
-    for word, core_tags in word_to_core_tags.items():
+    norm = 0
+    for word, core_tags in word_to_tags.items():
         toptwo_cores = heapq.nlargest(2, core_tags, lambda x: x[1])
-        norm = reduce(lambda x, y: x + y[1] , toptwo_cores, 0)
-        for tag, _ in toptwo_cores:
-            generic_tags = [(generic_tag, score) for generic_tag, score in word_to_tags[word]
-                                                 if generic_tag in core_to_generic_pos[tag]]
-            toptwo_generic = heapq.nlargest(2, generic_tags, lambda x: x[1])
-            for generic_tag, score in toptwo_generic:
-                wordtag_score[(word, generic_tag)] = score / norm
+        for tag, score in toptwo_cores:
+            norm += score
+            wordtag_score[(word, tag)] = score
+
+    for key in wordtag_score:
+        wordtag_score[key] /= norm
 
     return wordtag_score, pos_prob, word_prob
 
 
 def pos_score(corpus_path, tagger):
     """
-        Calculaltes P(w_i|t_i)
+        Calculates P(w_i|t_i)
+        p(t_i|w_i) = c(w_i, t_i) / c(t_i)
+        p(t_i) = c(t_i) / c
+        p(w_i) = c(w_i) / c
+        p(w_i|t_i) = p(t_i|w_i) * c(w_i) / c(t_i)
     """
-    wordtag_score, pos_prob, word_prob = noisy_channel_params(corpus_path, tagger)
+    wordtag_score, pos_count, word_count = noisy_channel_params(corpus_path, tagger)
     # TODO: Witten-Bell smoothing implementation
     # Fossum & Abney, 2.1.7
-    score = {(word, tag) : score * word_prob[word] / pos_prob[tag] for (word, tag), score in wordtag_score.items()}
+    score = {(word, tag) : score * word_count[word] / pos_count[tag] for (word, tag), score in wordtag_score.items()}
     return score
 
 
