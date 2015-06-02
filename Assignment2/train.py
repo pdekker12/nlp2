@@ -60,7 +60,7 @@ def mt_alignment(corpus_path):
     output = subprocess.check_output([command, '-i', corpus_path])
     alignment_list = output.decode(encoding).split('\n')[:-1]
     del output
-    print('Got alignments:', len(alignment_list))
+    #print('Got alignments:', len(alignment_list))
 
     for alignment in alignment_list:
         yield [tuple(map(int, a.split('-'))) for a in alignment.split()]
@@ -133,8 +133,11 @@ def corpus_stat(corpus_path, tagger):
     corpus_size = 0
 
     with open(corpus_path, 'r') as corpus_file:
+        i = 0
         for (source_words, target_words, source_tags), alignments in zip(parse_corpus(corpus_file, tagger),
                                                                          mt_alignment(corpus_path)):
+            i+= 1
+            print(i)
             corpus_size += len(source_words)
             link_count = [0] * len(source_words)
             for source_id, _ in alignments:
@@ -230,8 +233,8 @@ def main():
 
     for corpus_path in corpus_paths:
         score, npos_count = pos_score(corpus_path, tagger)
-        print('Score:')
-        pprint.pprint(score)
+        #print('Score:')
+        #pprint.pprint(score)
         # TODO Combine multiple tagged corpora
 
         # TODO: Evaluate the target tags using annotated corpus.
