@@ -235,7 +235,7 @@ def pos_score(corpus_path, tagger):
     # TODO: Witten-Bell smoothing implementation
     # Fossum & Abney, 2.1.7
     score = {(word, tag) : score * word_count[word] / pos_count[tag] for (word, tag), score in wordtag_score.items()}
-    return score
+    return score, npos_count
 
 
 def main():
@@ -250,7 +250,7 @@ def main():
     print('POS tagger created!')
 
     for corpus_path in corpus_paths:
-        score = pos_score(corpus_path, tagger)
+        score, npos_count = pos_score(corpus_path, tagger)
         print('Score:')
         pprint.pprint(score)
         # TODO Combine multiple tagged corpora
