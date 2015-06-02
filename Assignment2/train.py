@@ -7,6 +7,7 @@ import os
 import heapq
 import pprint
 import pickle
+from pos import generic_to_core_pos, core_to_generic_pos
 from collections import Counter
 
 from functools import reduce
@@ -15,37 +16,6 @@ from nltk.tag.stanford import POSTagger
 
 corpus_paths = ['../data/en-cs-combined10000.txt']
 encoding = locale.getdefaultlocale()[1]
-
-generic_to_core_pos = {
-    'NN' : 'N',
-    'NNP' : 'N',
-    'NNS' : 'N',
-    'NNPS' : 'N',
-    'VB' : 'V',
-    'VBP' : 'V',
-    'VBG' : 'V',
-    'VBN' : 'V',
-    'VBD' : 'V',
-    'DT' : 'D',
-    'WDT' : 'D',
-    'CC' : 'C',
-    'CD' : 'NUM',
-    'RB' : 'R',
-    'WRB' : 'R',
-    'JJ' : 'J',
-    'PRP' : 'P',
-    'IN' : 'I',
-    'POS' : 'POS' # Is it correct to map?
-    }
-
-core_to_generic_pos = {}
-
-for key, value in generic_to_core_pos.items():
-    if value not in core_to_generic_pos:
-        core_to_generic_pos[value] = {key}
-    else:
-        core_to_generic_pos[value].add(key)
-
 
 chunk_size = 1000
 def parse_corpus(corpus_file, tagger):
@@ -222,6 +192,10 @@ def noisy_channel_params(corpus_path, tagger):
     for key in wordtag_score:
         wordtag_score[key] /= norm
 
+    norm = sum(npos_count.values())
+    for key in npos_count:
+        npos_count[key] /= norm
+
     return wordtag_score, pos_prob, word_prob, npos_count
 
 
@@ -234,7 +208,6 @@ def pos_score(corpus_path, tagger):
         p(w_i|t_i) = p(t_i|w_i) * c(w_i) / c(t_i)
     """
     wordtag_score, pos_count, word_count, npos_count = noisy_channel_params(corpus_path, tagger)
-    print(npos_count)
     # TODO: Witten-Bell smoothing implementation
     # Fossum & Abney, 2.1.7
     score = {(word, tag) : score * word_count[word] / pos_count[tag] for (word, tag), score in wordtag_score.items()}
