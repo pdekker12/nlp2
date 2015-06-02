@@ -158,6 +158,7 @@ def corpus_stat(corpus_path, tagger):
     wordtag_1toN_prob = Counter()
     word_count = Counter()
     pos_count = Counter()
+    npos_count = Counter()
     corpus_size = 0
 
     with open(corpus_path, 'r') as corpus_file:
@@ -169,8 +170,10 @@ def corpus_stat(corpus_path, tagger):
                 link_count[source_id] += 1
             one_to_n_marker = [count > 1 for count in link_count]
 
+            tag_seq = []
             for (source_ind, _), target_word in zip(alignments, target_words):
                 pos_tag = source_tags[source_ind][1]
+                tag_seq.append(pos_tag)
                 key = (target_word, pos_tag)
                 word_count[target_word] += 1
                 pos_count[pos_tag] += 1
@@ -178,6 +181,8 @@ def corpus_stat(corpus_path, tagger):
                     wordtag_1toN_prob[key] += 1
                 else:
                     wordtag_1to1_prob[key] += 1
+            for tag1, tag2 in zip(tag_seq, tag_seq[1:]):
+                npos_count[(tag1, tag2)] += 1
 
     add_unk(wordtag_1to1_prob, wordtag_1toN_prob, word_count)
 
@@ -188,13 +193,13 @@ def corpus_stat(corpus_path, tagger):
     for key in wordtag_1toN_prob:
         wordtag_1toN_prob[key] /= corpus_size
 
-    return wordtag_score(wordtag_1to1_prob, wordtag_1toN_prob), word_count, pos_count
+    return wordtag_score(wordtag_1to1_prob, wordtag_1toN_prob), word_count, pos_count, npos_count
 
 def noisy_channel_params(corpus_path, tagger):
     """
         Magic with smoothing...
     """
-    wordtag_score, word_prob, pos_prob = corpus_stat(corpus_path, tagger)
+    wordtag_score, word_prob, pos_prob, npos_count = corpus_stat(corpus_path, tagger)
 
     word_to_tags = {}
     for (word, tag), score in wordtag_score.items():
@@ -214,7 +219,7 @@ def noisy_channel_params(corpus_path, tagger):
     for key in wordtag_score:
         wordtag_score[key] /= norm
 
-    return wordtag_score, pos_prob, word_prob
+    return wordtag_score, pos_prob, word_prob, npos_count
 
 
 def pos_score(corpus_path, tagger):
@@ -225,7 +230,8 @@ def pos_score(corpus_path, tagger):
         p(w_i) = c(w_i) / c
         p(w_i|t_i) = p(t_i|w_i) * c(w_i) / c(t_i)
     """
-    wordtag_score, pos_count, word_count = noisy_channel_params(corpus_path, tagger)
+    wordtag_score, pos_count, word_count, npos_count = noisy_channel_params(corpus_path, tagger)
+    print(npos_count)
     # TODO: Witten-Bell smoothing implementation
     # Fossum & Abney, 2.1.7
     score = {(word, tag) : score * word_count[word] / pos_count[tag] for (word, tag), score in wordtag_score.items()}
