@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 
-import pipeline
+import train
 import unittest
 
 class PipelineChecker(unittest.TestCase):
     def test_pipeline(self):
-        pipeline.corpus_paths = ['../data/en-cs-test.txt']
-        pipeline.main()
+        train.corpus_paths = ['../data/en-cs-test.txt']
+        train.main()
 
 if __name__ == '__main__':
     unittest.main()

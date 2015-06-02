@@ -6,6 +6,7 @@ import subprocess
 import os
 import heapq
 import pprint
+import pickle
 from collections import Counter
 
 from functools import reduce
@@ -251,6 +252,9 @@ def main():
     tagger = create_stanford_postagger()
     print('POS tagger created!')
 
+    score = None
+    npos_count = None
+
     for corpus_path in corpus_paths:
         score, npos_count = pos_score(corpus_path, tagger)
         print('Score:')
@@ -258,6 +262,8 @@ def main():
         # TODO Combine multiple tagged corpora
 
         # TODO: Evaluate the target tags using annotated corpus.
+
+    pickle.dump((score, npos_count), open( "tagger.out", "wb" ))
 
 if __name__ == '__main__':
     main()
