@@ -9,6 +9,7 @@ import pprint
 import pickle
 from pos import generic_to_core_pos, core_to_generic_pos
 from collections import Counter
+from collections import defaultdict
 
 from functools import reduce
 
@@ -195,9 +196,10 @@ def noisy_channel_params(corpus_path, tagger):
     for key in wordtag_score:
         wordtag_score[key] /= norm
 
-    norm = sum(npos_count.values())
-    for key in npos_count:
-        npos_count[key] /= norm
+    ### Removed normalization, because bigram count will still be smoothed.
+    #norm = sum(npos_count.values())
+    #for key in npos_count:
+    #    npos_count[key] /= norm
 
     return wordtag_score, pos_prob, word_prob, npos_count
 
@@ -216,6 +218,46 @@ def pos_score(corpus_path, tagger):
     score = {(word, tag) : score * word_count[word] / pos_count[tag] for (word, tag), score in wordtag_score.items()}
     return score, npos_count
 
+def smooth_wb(npos_count):
+    # Compute N,T and Z counters, needed for smoothing
+    tags_after=defaultdict(list)
+    for tag1 in pos_tags:
+        for tag2 in pos_tags:
+            if ((tag1,tag2) in npos_count):
+                tags_after[tag1].append(tag2)
+    
+    # N is the number of tag tokens encountered after tag1
+    N = Counter()
+    for tag1 in tags_after:
+        N[tag1] = len(tags_after[tag1])
+    
+    # N_total is the total number of tags
+    N_total = len(core_tags)
+    
+    # T is the number of tag types encountered after tag1
+    T = Counter()
+    for tag1 in tags_after:
+        T[tag1] = len(set(tags_after[tag1]))
+    
+    print(T)
+    
+    ## TODO: Compute Z
+    
+    
+    transition_prob = {}
+    # Create dict of smoothed probabilities
+    # for all combinations of core tags
+    for tag1 in pos_tags:
+        for tag2 in pos_tags:
+            # Check if (tag1,tag2) has been found and has count > 0
+            if ((tag1,tag2) in npos_count) and npos_count[(tag1,tag2)] > 0:
+                # If count > 0, use this count to compute smoothed probability
+                transition_prob[(tag1,tag2)] = npos_count[(tag1,tag2)]/(N[tag1]+T[tag1])
+            else:
+                # If count == 0, use T to compute smoothed probability
+                transition_prob[(tag1,tag2)] = T[tag1]/(Z[tag1]+(N_total+T[tag1]))
+    
+    return transition_prob
 
 def main():
     # Previous steps done by other programs
@@ -233,8 +275,9 @@ def main():
 
     for corpus_path in corpus_paths:
         score, npos_count = pos_score(corpus_path, tagger)
-        #print('Score:')
-        #pprint.pprint(score)
+        #transition_probs = smooth_wb(npos_count)
+        
+        
         # TODO Combine multiple tagged corpora
 
         # TODO: Evaluate the target tags using annotated corpus.
