@@ -1,7 +1,7 @@
 
 generic_to_core_pos = {}
 
-f = open("data/en-ptb.map","r")
+f = open("../data/en-ptb.map","r")
 lines = f.readlines()
 for line in lines:
     splitline = line.split()
