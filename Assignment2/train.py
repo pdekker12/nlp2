@@ -7,7 +7,7 @@ import os
 import heapq
 import pprint
 import pickle
-from pos import generic_to_core_pos, core_to_generic_pos
+from pos import generic_to_core_pos, core_to_generic_pos, core_tags
 from collections import Counter
 from collections import defaultdict
 
@@ -221,8 +221,8 @@ def pos_score(corpus_path, tagger):
 def smooth_wb(npos_count):
     # Compute N,T and Z counters, needed for smoothing
     tags_after=defaultdict(list)
-    for tag1 in pos_tags:
-        for tag2 in pos_tags:
+    for tag1 in core_tags:
+        for tag2 in core_tags:
             if ((tag1,tag2) in npos_count):
                 tags_after[tag1].append(tag2)
     
@@ -239,16 +239,22 @@ def smooth_wb(npos_count):
     for tag1 in tags_after:
         T[tag1] = len(set(tags_after[tag1]))
     
-    print(T)
+    print("T",T)
     
-    ## TODO: Compute Z
+    ## Z is the number of tag types after tag1 not encountered in the training data
+    Z = Counter()
+    for tag1 in T:
+        for tag2 in core_tags:
+            if tag2 not in tags_after[tag1]:
+                Z[tag1]+=1
+    print ("Z",Z)
     
     
     transition_prob = {}
     # Create dict of smoothed probabilities
     # for all combinations of core tags
-    for tag1 in pos_tags:
-        for tag2 in pos_tags:
+    for tag1 in core_tags:
+        for tag2 in core_tags:
             # Check if (tag1,tag2) has been found and has count > 0
             if ((tag1,tag2) in npos_count) and npos_count[(tag1,tag2)] > 0:
                 # If count > 0, use this count to compute smoothed probability
@@ -275,14 +281,14 @@ def main():
 
     for corpus_path in corpus_paths:
         score, npos_count = pos_score(corpus_path, tagger)
-        #transition_probs = smooth_wb(npos_count)
+        transition_probs = smooth_wb(npos_count)
         
         
         # TODO Combine multiple tagged corpora
 
         # TODO: Evaluate the target tags using annotated corpus.
 
-    pickle.dump((score, npos_count), open( "tagger.out", "wb" ))
+    pickle.dump((score, transition_probs), open( "tagger.out", "wb" ))
 
 if __name__ == '__main__':
     main()
