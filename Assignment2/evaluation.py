@@ -2,8 +2,12 @@
 
 import train
 import pickle
+import string
 from nltk.tag.hmm import HiddenMarkovModelTagger
+from nltk.tokenize import word_tokenize
 from pos import core_tags
+import heapq
+
 
 test_corpus_path = "../data/cs-test10000.txt"
 
@@ -47,25 +51,55 @@ def run_trained_tagger(output_probs, transition_probs, raw_lines):
 
             prev_tag = heapq.nlargest(1, w_score, lambda x: x[1])[0][0]
             result.append(prev_tag)
-        result_all_lines.append(result[::-1])
-    return result
+        result_all_lines.append(list(zip(line,result[::-1])))
+    return result_all_lines
 
-# Load test corpus and convert to list of annotated and unannotated lines
+# Load test corpus and convert to list of tagged and raw lines
 def load_test_corpus():
-    unannotated_list = []
-    annotated_list = []
+    raw_list = []
+    tagged_list = []
     
     corpus_file = open(test_corpus_path,"r")
     lines = corpus_file.readlines()
     for line in lines:
         split_line = word_tokenize(line)
+        raw_sentence = []
+        tagged_sentence = []
         for token in split_line:
             # Split word and tag
-            word,tag = token.split("/")
-            # TODO...
-            line = [w for w in line if w not in string.punctuation]
-            
+            split_token = token.split("\\")
+            if len(split_token) > 1:
+                word,tag=split_token
+                #if word not in string.punctuation:
+                raw_sentence.append(word)
+                tagged_sentence.append((word,tag))
+        raw_list.append(raw_sentence)
+        tagged_list.append(tagged_sentence)
+    
+    return raw_list, tagged_list
 
+def evaluate(tagger_result, gold_lines):
+    accuracy = 0
+    if (len(tagger_result) != len(gold_lines)):
+        print("length different")
+    else:
+        total_tags = 0
+        correct = 0
+        for i in range(len(tagger_result)):
+            tagger_line = tagger_result[i]
+            gold_line = gold_lines[i]
+            if (len(tagger_line) != len(gold_line)):
+                print("length of line different")
+            else:
+                for j in range(len(tagger_line)):
+                    total_tags +=1
+                    if (tagger_line[j][1] == gold_line[j][1]):
+                        correct += 1
+        print(correct)
+        print(total_tags)
+        accuracy = correct/total_tags
+    return accuracy
+    
 def main():
     # Load tagger
     pfile = open("tagger.out","rb")
@@ -77,9 +111,10 @@ def main():
     # Load test corpus, on which algorithms can be run
     raw_lines,tagged_lines = load_test_corpus()
     
-    # Run own tagger, using trained parameter on unannotated corpus
+    # Run own tagger, using trained parameter on raw corpus
     result = run_trained_tagger(trained_params[0], trained_params[1], raw_lines)
-    
+    accuracy = evaluate(result, tagged_lines)
+    print("Accuracy: ", accuracy)
 
 if __name__ == '__main__':
     main()
