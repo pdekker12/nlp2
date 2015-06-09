@@ -15,7 +15,18 @@ from functools import reduce
 
 from nltk.tag.stanford import POSTagger
 
-corpus_paths = ['../data/europarl/en-cs10000.txt']#,'../data/europarl/de-cs10000.txt','../data/europarl/fr-cs10000.txt','../data/europarl/nl-cs10000.txt']
+languages = ["en","de","fr","es"]
+
+corpus_path = {"en":'../data/europarl/en-cs10000.txt',
+                "de":'../data/europarl/de-cs10000.txt',
+                "fr":'../data/europarl/fr-cs10000.txt',
+                "es":'../data/europarl/es-cs10000.txt'}
+
+tagger_path = {"en":'stanford-postagger-full-2015-04-20/models/english-bidirectional-distsim.tagger',
+                "de":'stanford-postagger-full-2015-04-20/models/german-hgc.tagger',
+                "fr":'stanford-postagger-full-2015-04-20/models/french.tagger',
+                "es":'stanford-postagger-full-2015-04-20/models/spanish-distsim.tagger'}
+
 encoding = locale.getdefaultlocale()[1]
 
 chunk_size = 1000
@@ -67,9 +78,9 @@ def mt_alignment(corpus_path):
         yield [tuple(map(int, a.split('-'))) for a in alignment.split()]
 
 
-def create_stanford_postagger():
-    return POSTagger('stanford-postagger-2015-04-20/models/english-bidirectional-distsim.tagger',
-                     'stanford-postagger-2015-04-20/stanford-postagger.jar')
+def create_stanford_postagger(tagger_path):
+    return POSTagger(tagger_path,
+                     'stanford-postagger-full-2015-04-20/stanford-postagger.jar')
 
 
 def wordtag_score(wordtag_1to1_prob, wordtag_1toN_prob):
@@ -270,29 +281,16 @@ def smooth_wb(npos_count):
     return transition_prob
 
 def main():
-    # Previous steps done by other programs
-    # Load one/multiple parallel corpora
-    # Align every parallel corpus
+    for language in languages:
+        print('Creating a POS tagger for', language)
+        tagger = create_stanford_postagger(tagger_path[language])
+        print('POS tagger created!')
 
-    # Dictionary which contains the tagged target corpora.
-    # Every key is a different source corpus.
-    print('Creating a POS tagger')
-    tagger = create_stanford_postagger()
-    print('POS tagger created!')
-
-    score = None
-    npos_count = None
-
-    for corpus_path in corpus_paths:
-        score, npos_count,target_vocabulary = pos_score(corpus_path, tagger)
+        score = None
+        npos_count = None
+        score, npos_count,target_vocabulary = pos_score(corpus_path[language], tagger)
         transition_probs = smooth_wb(npos_count)
-        
-        
-        # TODO Combine multiple tagged corpora
-
-        # TODO: Evaluate the target tags using annotated corpus.
-
-    pickle.dump((score, transition_probs,target_vocabulary), open( "tagger.out", "wb" ))
+        pickle.dump((score, transition_probs,target_vocabulary), open( language +".tagger.out", "wb" ))
 
 if __name__ == '__main__':
     main()
