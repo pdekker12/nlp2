@@ -1,3 +1,4 @@
+import string
 
 f_input = open("../data/cs-ud-test.conllu","r")
 lines = f_input.readlines()
@@ -17,7 +18,8 @@ while(i < len(lines)):
             tabsplit = line.split("\t")
             word = tabsplit[1]
             tag = tabsplit[3]
-            output_string += word + "\\" + tag + " "
+            if word not in string.punctuation:
+                output_string += word + "\\" + tag + " "
     i+=1
 
 print(output_string)

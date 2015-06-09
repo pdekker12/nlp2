@@ -15,7 +15,7 @@ from functools import reduce
 
 from nltk.tag.stanford import POSTagger
 
-corpus_paths = ['../data/en-cs-combined10000.txt']
+corpus_paths = ['../data/europarl/en-cs10000.txt']#,'../data/europarl/de-cs10000.txt','../data/europarl/fr-cs10000.txt','../data/europarl/nl-cs10000.txt']
 encoding = locale.getdefaultlocale()[1]
 
 chunk_size = 1000
@@ -141,7 +141,7 @@ def corpus_stat(corpus_path, tagger):
             i+= 1
             print(i)
             corpus_size += len(source_words)
-            all_target_tokens.append(target_words)
+            all_target_tokens+=target_words
             link_count = [0] * len(source_words)
             for source_id, _ in alignments:
                 link_count[source_id] += 1
@@ -220,7 +220,7 @@ def pos_score(corpus_path, tagger):
     # TODO: Witten-Bell smoothing implementation
     # Fossum & Abney, 2.1.7
     score = {(word, tag) : score * word_count[word] / pos_count[tag] for (word, tag), score in wordtag_score.items()}
-    return score, npos_count, vocabulary
+    return score, npos_count, target_vocabulary
 
 def smooth_wb(npos_count):
     # Compute N,T and Z counters, needed for smoothing
