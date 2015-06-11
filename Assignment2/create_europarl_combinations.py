@@ -2,7 +2,7 @@
 
 import subprocess
 
-sources = ["de","en","fr","es"]
+sources = ["de"]
 targets = ["cs"]
 
 path_root = "../data/europarl/"

@@ -48,7 +48,6 @@ def run_trained_tagger(output_probs, transition_probs, raw_lines):
                         bigram = (tag, prev_tag)
                         if bigram in transition_probs:
                             w_score.append((tag, output_probs[key] * transition_probs[bigram]))
-
             prev_tag = heapq.nlargest(1, w_score, lambda x: x[1])[0][0]
             result.append(prev_tag)
         result_all_lines.append(list(zip(line,result[::-1])))
@@ -102,7 +101,7 @@ def evaluate(tagger_result, gold_lines):
     
 def main():
     # Load tagger
-    pfile = open("tagger.out","rb")
+    pfile = open("fr.tagger.out","rb")
     trained_params = pickle.load(pfile)
     
     # (not used) Setup NLTK tagger using trained parameters

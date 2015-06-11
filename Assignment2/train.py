@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+import chardet
 import locale
 import sys
 import subprocess
@@ -15,7 +16,7 @@ from functools import reduce
 
 from nltk.tag.stanford import POSTagger
 
-languages = ["en","de","fr","es"]
+languages = ["de"]
 
 corpus_path = {"en":'../data/europarl/en-cs10000.txt',
                 "de":'../data/europarl/de-cs10000.txt',
@@ -29,8 +30,8 @@ tagger_path = {"en":'stanford-postagger-full-2015-04-20/models/english-bidirecti
 
 encoding = locale.getdefaultlocale()[1]
 
-chunk_size = 1000
-def parse_corpus(corpus_file, tagger):
+chunk_size = 10
+def parse_corpus(corpus_file, language, tagger):
     """
         Parses source and target sentences into lexemes, determines POS of the source
         sentence by chunk of chunk_size sentences per time and yields the triple as a
@@ -39,20 +40,26 @@ def parse_corpus(corpus_file, tagger):
     source_queue = []
     target_queue = []
     iteration = 0
+    #corpus_data = str(corpus_file.read())
+    #encoding = chardet.detect(corpus_data)["encoding"]
+    #corpus_data.decode(encoding)
+    #corpus_lines = corpus_data.split("\n")
     for corpus_line in corpus_file:
         source_line, target_line = tuple(corpus_line.split(' ||| '))
 
         # POS tag this source line
         source_words = source_line.split()
         target_words = target_line.split()
-
+        #source_words = [s.decode('utf-8') for s in source_words]
+        #target_words = [t.decode('utf-8') for t in target_words]
         source_queue.append(source_words)
         target_queue.append(target_words)
 
         if iteration == chunk_size - 1:
+            print(source_queue)
             source_tags = tagger.tag_sents(source_queue)
             for source, target, tags in zip(source_queue, target_queue, source_tags):
-                yield source, target, list(map(lambda tag: (tag[0], generic_to_core_pos[tag[1]]), tags))
+                yield source, target, list(map(lambda tag: (tag[0], generic_to_core_pos(language,tag[1])), tags))
             source_queue = []
             target_queue = []
 
@@ -61,7 +68,7 @@ def parse_corpus(corpus_file, tagger):
     if source_queue:
         source_tags = tagger.tag_sents(source_queue)
         for source, target, tags in zip(source_queue, target_queue, source_tags):
-            yield source, target, list(map(lambda tag: (tag[0], generic_to_core_pos[tag[1]]), tags))
+            yield source, target, list(map(lambda tag: (tag[0], generic_to_core_pos(language,tag[1])), tags))
 
 
 def mt_alignment(corpus_path):
@@ -133,7 +140,7 @@ def add_unk(wordtag_1to1_prob, wordtag_1toN_prob, word_count):
     update_wordtag_prob(wordtag_1toN_prob)
 
 
-def corpus_stat(corpus_path, tagger):
+def corpus_stat(language, tagger):
     """
         Calculates components of the noisy channel equation
     """
@@ -145,10 +152,10 @@ def corpus_stat(corpus_path, tagger):
     corpus_size = 0
     all_target_tokens = []
 
-    with open(corpus_path, 'r') as corpus_file:
+    with open(corpus_path[language], 'r') as corpus_file:
         i = 0
-        for (source_words, target_words, source_tags), alignments in zip(parse_corpus(corpus_file, tagger),
-                                                                         mt_alignment(corpus_path)):
+        for (source_words, target_words, source_tags), alignments in zip(parse_corpus(corpus_file, language, tagger),
+                                                                         mt_alignment(corpus_path[language])):
             i+= 1
             print(i)
             corpus_size += len(source_words)
@@ -187,11 +194,11 @@ def corpus_stat(corpus_path, tagger):
 
     return wordtag_score(wordtag_1to1_prob, wordtag_1toN_prob), word_count, pos_count, npos_count, target_vocabulary
 
-def noisy_channel_params(corpus_path, tagger):
+def noisy_channel_params(language, tagger):
     """
         Magic with smoothing...
     """
-    wordtag_score, word_prob, pos_prob, npos_count, target_vocabulary = corpus_stat(corpus_path, tagger)
+    wordtag_score, word_prob, pos_prob, npos_count, target_vocabulary = corpus_stat(language, tagger)
 
     word_to_tags = {}
     for (word, tag), score in wordtag_score.items():
@@ -219,7 +226,7 @@ def noisy_channel_params(corpus_path, tagger):
     return wordtag_score, pos_prob, word_prob, npos_count, target_vocabulary
 
 
-def pos_score(corpus_path, tagger):
+def pos_score(language, tagger):
     """
         Calculates P(w_i|t_i)
         p(t_i|w_i) = c(w_i, t_i) / c(t_i)
@@ -227,7 +234,7 @@ def pos_score(corpus_path, tagger):
         p(w_i) = c(w_i) / c
         p(w_i|t_i) = p(t_i|w_i) * c(w_i) / c(t_i)
     """
-    wordtag_score, pos_count, word_count, npos_count, target_vocabulary = noisy_channel_params(corpus_path, tagger)
+    wordtag_score, pos_count, word_count, npos_count, target_vocabulary = noisy_channel_params(language, tagger)
     # TODO: Witten-Bell smoothing implementation
     # Fossum & Abney, 2.1.7
     score = {(word, tag) : score * word_count[word] / pos_count[tag] for (word, tag), score in wordtag_score.items()}
@@ -288,7 +295,7 @@ def main():
 
         score = None
         npos_count = None
-        score, npos_count,target_vocabulary = pos_score(corpus_path[language], tagger)
+        score, npos_count,target_vocabulary = pos_score(language, tagger)
         transition_probs = smooth_wb(npos_count)
         pickle.dump((score, transition_probs,target_vocabulary), open( language +".tagger.out", "wb" ))
 
