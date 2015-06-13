@@ -7,7 +7,10 @@ from nltk.tag.hmm import HiddenMarkovModelTagger
 from nltk.tokenize import word_tokenize
 from pos import core_tags
 import heapq
+from itertools import combinations
+from collections import defaultdict
 
+evaluated_source_languages = ["en","fr","es"]
 
 test_corpus_path = "../data/cs-test10000.txt"
 
@@ -49,7 +52,8 @@ def run_trained_tagger(output_probs, transition_probs, raw_lines):
                         if bigram in transition_probs:
                             w_score.append((tag, output_probs[key] * transition_probs[bigram]))
             prev_tag = heapq.nlargest(1, w_score, lambda x: x[1])[0][0]
-            result.append(prev_tag)
+            prev_tag_prob = heapq.nlargest(1, w_score, lambda x: x[1])[0][1]
+            result.append((prev_tag,prev_tag_prob)) # add pair of tag and its probability
         result_all_lines.append(list(zip(line,result[::-1])))
     return result_all_lines
 
@@ -92,17 +96,97 @@ def evaluate(tagger_result, gold_lines):
             else:
                 for j in range(len(tagger_line)):
                     total_tags +=1
-                    if (tagger_line[j][1] == gold_line[j][1]):
+                    if (tagger_line[j][1][0] == gold_line[j][1]):
                         correct += 1
-        print(correct)
-        print(total_tags)
         accuracy = correct/total_tags
     return accuracy
+
+def linear_combination(result, combination):
+    first_lang = evaluated_source_languages[0]
     
+    combined_result = []
+    # For every parallel line in corpus
+    for i in range(len(result[first_lang])):
+        # For every word in the line
+        combined_line = []
+        for j in range(len(result[first_lang][i])):
+            # For every language
+            proposed_tags = defaultdict(list)
+            word = result[first_lang][i][j][0]
+            for language in combination:
+                tag = result[language][i][j][1][0]
+                prob = result[language][i][j][1][1]
+                # Save probability to dict,
+                # length of list also acts as counter of tag occurences
+                proposed_tags[tag].append(prob)
+            
+            # Look for tag which has been chosen the most
+            highest_count=0
+            highest_prob = 0.0
+            best_tag = ""
+            for tag in proposed_tags:
+                # If current tag has been chosen more
+                # than previous encountered tags
+                if (len(proposed_tags[tag]) > highest_count):
+                    # Current tag is best tag
+                    best_tag = tag
+                    highest_count = len(proposed_tags[best_tag])
+                    highest_prob = max(proposed_tags[best_tag])
+                    
+                # If tag has been chosen as much as other tags
+                elif (len(proposed_tags[tag]) == highest_count):
+                    # Compare probabilities
+                    if max(proposed_tags[tag]) > highest_prob:
+                        best_tag = tag
+                        highest_prob = max(proposed_tags[best_tag])
+            combined_line.append( (word,(best_tag,highest_prob)) )
+        combined_result.append(combined_line)
+    return combined_result
+
+def majority_tag(result, combination):
+    first_lang = evaluated_source_languages[0]
+    
+    combined_result = []
+    # For every parallel line in corpus
+    for i in range(len(result[first_lang])):
+        # For every word in the line
+        combined_line = []
+        for j in range(len(result[first_lang][i])):
+            # For every language
+            proposed_tags = defaultdict(list)
+            word = result[first_lang][i][j][0]
+            for language in combination:
+                tag = result[language][i][j][1][0]
+                prob = result[language][i][j][1][1]
+                # Save probability to dict,
+                # length of list also acts as counter of tag occurences
+                proposed_tags[tag].append(prob)
+            
+            # Look for tag which has been chosen the most
+            highest_count=0
+            highest_prob = 0.0
+            best_tag = ""
+            for tag in proposed_tags:
+                # If current tag has been chosen more
+                # than previous encountered tags
+                if (len(proposed_tags[tag]) > highest_count):
+                    # Current tag is best tag
+                    best_tag = tag
+                    highest_count = len(proposed_tags[best_tag])
+                    highest_prob = max(proposed_tags[best_tag])
+                    
+                # If tag has been chosen as much as other tags
+                elif (len(proposed_tags[tag]) == highest_count):
+                    # Compare probabilities
+                    if max(proposed_tags[tag]) > highest_prob:
+                        best_tag = tag
+                        highest_prob = max(proposed_tags[best_tag])
+            combined_line.append( (word,(best_tag,highest_prob)) )
+        combined_result.append(combined_line)
+    return combined_result
+
 def main():
-    # Load tagger
-    pfile = open("fr.tagger.out","rb")
-    trained_params = pickle.load(pfile)
+    
     
     # (not used) Setup NLTK tagger using trained parameters
     #nltk_tagger = setup_nltk_tagger(trained_params)
@@ -110,10 +194,28 @@ def main():
     # Load test corpus, on which algorithms can be run
     raw_lines,tagged_lines = load_test_corpus()
     
-    # Run own tagger, using trained parameter on raw corpus
-    result = run_trained_tagger(trained_params[0], trained_params[1], raw_lines)
-    accuracy = evaluate(result, tagged_lines)
-    print("Accuracy: ", accuracy)
+    result = {} 
+    # Separate languages
+    for language in evaluated_source_languages:
+        # Load tagger
+        pfile = open(language + ".tagger.out","rb")
+        trained_params = pickle.load(pfile)
+        
+        # Run own tagger, using trained parameter on raw corpus
+        result[language] = run_trained_tagger(trained_params[0], trained_params[1], raw_lines)
+        print(result[language])
+        #print(result[language])
+        accuracy = evaluate(result[language], tagged_lines)
+        print("Accuracy", language,": ", accuracy)
+    
+    # Combine languages
+    all_combinations = list(map(list,combinations(evaluated_source_languages,2))) + [evaluated_source_languages]
+    for combination in all_combinations:
+        print("Majority tag combination of", combination)
+        combined_result = majority_tag(result,combination)
+        #print(combined_result)
+        accuracy = evaluate(combined_result, tagged_lines)
+        print("Accuracy", combination,": ", accuracy)
 
 if __name__ == '__main__':
     main()

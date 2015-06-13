@@ -16,7 +16,7 @@ from functools import reduce
 
 from nltk.tag.stanford import POSTagger
 
-languages = ["de"]
+languages = ["en"]
 
 corpus_path = {"en":'../data/europarl/en-cs10000.txt',
                 "de":'../data/europarl/de-cs10000.txt',
@@ -30,7 +30,7 @@ tagger_path = {"en":'stanford-postagger-full-2015-04-20/models/english-bidirecti
 
 encoding = locale.getdefaultlocale()[1]
 
-chunk_size = 10
+chunk_size = 1000
 def parse_corpus(corpus_file, language, tagger):
     """
         Parses source and target sentences into lexemes, determines POS of the source
@@ -56,7 +56,6 @@ def parse_corpus(corpus_file, language, tagger):
         target_queue.append(target_words)
 
         if iteration == chunk_size - 1:
-            print(source_queue)
             source_tags = tagger.tag_sents(source_queue)
             for source, target, tags in zip(source_queue, target_queue, source_tags):
                 yield source, target, list(map(lambda tag: (tag[0], generic_to_core_pos(language,tag[1])), tags))
@@ -157,7 +156,7 @@ def corpus_stat(language, tagger):
         for (source_words, target_words, source_tags), alignments in zip(parse_corpus(corpus_file, language, tagger),
                                                                          mt_alignment(corpus_path[language])):
             i+= 1
-            print(i)
+            #print(i)
             corpus_size += len(source_words)
             all_target_tokens+=target_words
             link_count = [0] * len(source_words)
@@ -218,7 +217,7 @@ def noisy_channel_params(language, tagger):
     for key in wordtag_score:
         wordtag_score[key] /= norm
 
-    ### Removed normalization, because bigram count will still be smoothed.
+    ### Normalization of bigram count
     #norm = sum(npos_count.values())
     #for key in npos_count:
     #    npos_count[key] /= norm
@@ -246,22 +245,22 @@ def smooth_wb(npos_count):
     for tag1 in core_tags:
         for tag2 in core_tags:
             if ((tag1,tag2) in npos_count):
-                tags_after[tag1].append(tag2)
+                tags_after[tag1].append((tag2,npos_count[(tag1,tag2)]))
     
     # N is the number of tag tokens encountered after tag1
     N = Counter()
     for tag1 in tags_after:
-        N[tag1] = len(tags_after[tag1])
+        for tag2,count in tags_after[tag1]:
+            N[tag1] += count
     
     # N_total is the total number of tags
-    N_total = len(core_tags)
+    N_total = sum(N.values())
     
     # T is the number of tag types encountered after tag1
     T = Counter()
     for tag1 in tags_after:
-        T[tag1] = len(set(tags_after[tag1]))
+        T[tag1] = len(tags_after[tag1])
     
-    print("T",T)
     
     ## Z is the number of tag types after tag1 not encountered in the training data
     Z = Counter()
@@ -269,7 +268,6 @@ def smooth_wb(npos_count):
         for tag2 in core_tags:
             if tag2 not in tags_after[tag1]:
                 Z[tag1]+=1
-    print ("Z",Z)
     
     
     transition_prob = {}

@@ -23,13 +23,13 @@ for language in f:
             core_to_generic_dict[language][value].add(key)
 
     core_tags = list(core_to_generic_dict[language].keys())
-print(core_tags)
+#print(core_tags)
 
 def generic_to_core_pos(language,tag):
     if (language=="es"):
         # If a tag is not available, try a shorter version of the same tag
         while tag not in generic_to_core_dict[language] and tag is not "":
-            print(tag)
+            #print(tag)
             tag = tag[:-1]
     
     if tag == "":
