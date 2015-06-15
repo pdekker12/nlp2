@@ -8,7 +8,7 @@ import os
 import heapq
 import pprint
 import pickle
-from pos import generic_to_core_pos, core_to_generic_pos, core_tags
+from pos import *
 from collections import Counter
 from collections import defaultdict
 
@@ -16,7 +16,7 @@ from functools import reduce
 
 from nltk.tag.stanford import POSTagger
 
-languages = ["en"]
+languages = ["en","fr","es"]
 
 corpus_path = {"en":'../data/europarl/en-cs10000.txt',
                 "de":'../data/europarl/de-cs10000.txt',
@@ -165,6 +165,7 @@ def corpus_stat(language, tagger):
             one_to_n_marker = [count > 1 for count in link_count]
 
             tag_seq = []
+            tag_seq.append('$')
             for (source_ind, _), target_word in zip(alignments, target_words):
                 pos_tag = source_tags[source_ind][1]
                 tag_seq.append(pos_tag)
@@ -175,11 +176,8 @@ def corpus_stat(language, tagger):
                     wordtag_1toN_prob[key] += 1
                 else:
                     wordtag_1to1_prob[key] += 1
-
-            tag_seq.append('.')
             for tag1, tag2 in zip(tag_seq, tag_seq[1:]):
                 npos_count[(tag1, tag2)] += 1
-
     add_unk(wordtag_1to1_prob, wordtag_1toN_prob, word_count)
     
     target_vocabulary = set(all_target_tokens)
@@ -243,7 +241,7 @@ def smooth_wb(npos_count):
     # Compute N,T and Z counters, needed for smoothing
     tags_after=defaultdict(list)
     for tag1 in core_tags:
-        for tag2 in core_tags:
+        for tag2 in core_tags_without_start:
             if ((tag1,tag2) in npos_count):
                 tags_after[tag1].append((tag2,npos_count[(tag1,tag2)]))
     
@@ -265,7 +263,7 @@ def smooth_wb(npos_count):
     ## Z is the number of tag types after tag1 not encountered in the training data
     Z = Counter()
     for tag1 in T:
-        for tag2 in core_tags:
+        for tag2 in core_tags_without_start:
             if tag2 not in tags_after[tag1]:
                 Z[tag1]+=1
     
@@ -274,7 +272,7 @@ def smooth_wb(npos_count):
     # Create dict of smoothed probabilities
     # for all combinations of core tags
     for tag1 in core_tags:
-        for tag2 in core_tags:
+        for tag2 in core_tags_without_start:
             # Check if (tag1,tag2) has been found and has count > 0
             if ((tag1,tag2) in npos_count) and npos_count[(tag1,tag2)] > 0:
                 # If count > 0, use this count to compute smoothed probability
