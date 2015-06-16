@@ -18,10 +18,10 @@ from nltk.tag.stanford import POSTagger
 
 languages = ["en","fr","es"]
 
-corpus_path = {"en":'../data/europarl/en-cs10000.txt',
-                "de":'../data/europarl/de-cs10000.txt',
-                "fr":'../data/europarl/fr-cs10000.txt',
-                "es":'../data/europarl/es-cs10000.txt'}
+corpus_path = {"en":'../data/europarl/en-hu10000.txt',
+                "de":'../data/europarl/de-hu10000.txt',
+                "fr":'../data/europarl/fr-hu10000.txt',
+                "es":'../data/europarl/es-hu10000.txt'}
 
 tagger_path = {"en":'stanford-postagger-full-2015-04-20/models/english-bidirectional-distsim.tagger',
                 "de":'stanford-postagger-full-2015-04-20/models/german-hgc.tagger',
@@ -75,7 +75,7 @@ def mt_alignment(corpus_path):
         Yields a list of alignments for each sentence.
     """
     command = './fast_align/fast_align'
-    output = subprocess.check_output([command, '-i', corpus_path])
+    output = subprocess.check_output([command, '-I 20', '-i', corpus_path])
     alignment_list = output.decode(encoding).split('\n')[:-1]
     del output
     #print('Got alignments:', len(alignment_list))
@@ -100,9 +100,9 @@ def wordtag_score(wordtag_1to1_prob, wordtag_1toN_prob):
     uniq_keys = set(wordtag_1to1_prob.keys()).union(wordtag_1toN_prob.keys())
     for key in uniq_keys:
         if key in wordtag_1to1_prob:
-            score = wordtag_1to1_prob[key]
+            score = 0.5 * wordtag_1to1_prob[key]
             if key in wordtag_1toN_prob:
-                score += wordtag_1toN_prob[key]
+                score += 0.5 * wordtag_1toN_prob[key]
             pos_score[key] = score
         else:
             pos_score[key] = wordtag_1toN_prob[key]
@@ -183,11 +183,13 @@ def corpus_stat(language, tagger):
     target_vocabulary = set(all_target_tokens)
     
     # Normalizing counters
+    sum_1to1 = sum(wordtag_1to1_prob.values())
     for key in wordtag_1to1_prob:
-        wordtag_1to1_prob[key] /= corpus_size
-
+        wordtag_1to1_prob[key] /= sum_1to1
+    
+    sum_1toN = sum(wordtag_1toN_prob.values())
     for key in wordtag_1toN_prob:
-        wordtag_1toN_prob[key] /= corpus_size
+        wordtag_1toN_prob[key] /= sum_1toN
 
     return wordtag_score(wordtag_1to1_prob, wordtag_1toN_prob), word_count, pos_count, npos_count, target_vocabulary
 
@@ -232,8 +234,6 @@ def pos_score(language, tagger):
         p(w_i|t_i) = p(t_i|w_i) * c(w_i) / c(t_i)
     """
     wordtag_score, pos_count, word_count, npos_count, target_vocabulary = noisy_channel_params(language, tagger)
-    # TODO: Witten-Bell smoothing implementation
-    # Fossum & Abney, 2.1.7
     score = {(word, tag) : score * word_count[word] / pos_count[tag] for (word, tag), score in wordtag_score.items()}
     return score, npos_count, target_vocabulary
 
