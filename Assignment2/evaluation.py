@@ -11,7 +11,7 @@ from itertools import combinations
 from collections import defaultdict
 import operator
 
-evaluated_source_languages = ["en","fr","es"]
+evaluated_source_languages = ["en","fr","es","de"]
 n_languages = len(evaluated_source_languages)
 lin_comb_weights = [1/n_languages] * n_languages # Uniform weights
 

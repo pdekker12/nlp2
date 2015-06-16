@@ -16,7 +16,7 @@ from functools import reduce
 
 from nltk.tag.stanford import POSTagger
 
-languages = ["en","fr","es"]
+languages = ["en","fr","es","de"]
 
 corpus_path = {"en":'../data/europarl/en-hu10000.txt',
                 "de":'../data/europarl/de-hu10000.txt',
@@ -56,9 +56,13 @@ def parse_corpus(corpus_file, language, tagger):
         target_queue.append(target_words)
 
         if iteration == chunk_size - 1:
-            source_tags = tagger.tag_sents(source_queue)
-            for source, target, tags in zip(source_queue, target_queue, source_tags):
-                yield source, target, list(map(lambda tag: (tag[0], generic_to_core_pos(language,tag[1])), tags))
+            try:
+                source_tags = tagger.tag_sents(source_queue)
+                for source, target, tags in zip(source_queue, target_queue, source_tags):
+                    yield source, target, list(map(lambda tag: (tag[0], generic_to_core_pos(language,tag[1])), tags))
+            except UnicodeDecodeError:
+                for i in range(chunk_size):
+                    yield None, None, None
             source_queue = []
             target_queue = []
 
@@ -156,6 +160,8 @@ def corpus_stat(language, tagger):
         for (source_words, target_words, source_tags), alignments in zip(parse_corpus(corpus_file, language, tagger),
                                                                          mt_alignment(corpus_path[language])):
             i+= 1
+            if not source_words:
+                continue
             #print(i)
             corpus_size += len(source_words)
             all_target_tokens+=target_words
