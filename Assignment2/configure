@@ -4,7 +4,9 @@ pushd fast_align
 make
 popd
 
-if [ ! -f "stanford-postagger-2015-04-20.zip" ]; then
-  wget http://nlp.stanford.edu/software/stanford-postagger-2015-04-20.zip
-  unzip stanford-postagger-2015-04-20.zip
+if [ ! -d stanford-postagger-full-2015-04-20 ]; then
+  if [ ! -f stanford-postagger-full-2015-04-20.zip ]; then
+      wget http://nlp.stanford.edu/software/stanford-postagger-full-2015-04-20.zip
+  fi
+  unzip stanford-postagger-full-2015-04-20.zip
 fi
