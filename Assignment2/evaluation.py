@@ -5,16 +5,17 @@ import pickle
 import string
 from nltk.tag.hmm import HiddenMarkovModelTagger
 from nltk.tokenize import word_tokenize
-from pos import core_tags
+from pos import core_tags, core_tags_without_start
 import heapq
 from itertools import combinations
 from collections import defaultdict
+import operator
 
 evaluated_source_languages = ["en","fr","es"]
 n_languages = len(evaluated_source_languages)
 lin_comb_weights = [1/n_languages] * n_languages # Uniform weights
 
-test_corpus_path = "../data/cs-test10000.txt"
+test_corpus_path = "../data/hu-test10000.txt"
 
 def setup_nltk_tagger(trained_params):
     # State set: the universal POS tags
@@ -39,7 +40,7 @@ def run_trained_tagger(output_probs, transition_probs, raw_lines):
         for w in line:
             w_score = []
             found = False
-            for tag in core_tags:
+            for tag in core_tags_without_start:
                 key = (w, tag)
                 if key in output_probs:
                     bigram = (prev_tag,tag)
@@ -49,7 +50,7 @@ def run_trained_tagger(output_probs, transition_probs, raw_lines):
             if found == False:
                 w = 'UNK'
                 # TODO: Remove this copypaste
-                for tag in core_tags:
+                for tag in core_tags_without_start:
                     key = (w, tag)
                     if key in output_probs:
                         bigram = (prev_tag,tag)
@@ -102,8 +103,14 @@ def evaluate(tagger_result, gold_lines):
             else:
                 for j in range(len(tagger_line)):
                     total_tags +=1
+                    word = tagger_line[j][0]
                     if (tagger_line[j][1][0] == gold_line[j][1]):
                         correct += 1
+                    #else:
+                        #print(gold_lines[i])
+                        #print("\n")
+                        #print(word, ":", tagger_line[j][1][0] , ",", gold_line[j][1])
+                        #print("\n")
         accuracy = correct/total_tags
     return accuracy
 
@@ -119,7 +126,7 @@ def linear_combination(distribution, languages):
             lin_combination = defaultdict(float)
             word = distribution[first_lang][i][j][0]
             # Linearly combine tag probabilties from taggers
-            for tag in core_tags:
+            for tag in core_tags_without_start:
                 for l in range(len(languages)):
                     lang = languages[l]
                     prob = 0.0
@@ -128,7 +135,7 @@ def linear_combination(distribution, languages):
                     lin_combination[tag] += lin_comb_weights[l] * prob
             # Pick max tag
             max_prob = 0.0
-            for tag in core_tags:
+            for tag in core_tags_without_start:
                 if (lin_combination[tag] > max_prob):
                     max_prob = lin_combination[tag]
                     best_tag = tag
@@ -194,6 +201,8 @@ def main():
         # Load tagger
         pfile = open(language + ".tagger.out","rb")
         trained_params = pickle.load(pfile)
+        #sorted_x = sorted(trained_params[0].items(), key=operator.itemgetter(1))
+        #print(sorted_x)
         # Run own tagger, using trained parameter on raw corpus
         distribution[language], best_tags[language] = run_trained_tagger(trained_params[0], trained_params[1], raw_lines)
         #print(result[language])
