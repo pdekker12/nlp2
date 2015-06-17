@@ -102,10 +102,12 @@ def evaluate(tagger_result, gold_lines):
                 print("length of line different")
             else:
                 for j in range(len(tagger_line)):
-                    total_tags +=1
-                    word = tagger_line[j][0]
-                    if (tagger_line[j][1][0] == gold_line[j][1]):
-                        correct += 1
+                    gold_tag = gold_line[j][1]
+                    if gold_tag in core_tags_without_start:
+                        total_tags +=1
+                        word = tagger_line[j][0]
+                        if (tagger_line[j][1][0] == gold_tag):
+                            correct += 1
                     #else:
                         #print(gold_lines[i])
                         #print("\n")
@@ -116,7 +118,6 @@ def evaluate(tagger_result, gold_lines):
 
 def linear_combination(distribution, languages):
     first_lang = evaluated_source_languages[0]
-    
     combined_result = []
     # For every parallel line in corpus
     for i in range(len(distribution[first_lang])):
