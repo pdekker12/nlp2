@@ -1,34 +1,17 @@
 #!/usr/bin/env python3
 
-import train
 import pickle
-import string
-from nltk.tag.hmm import HiddenMarkovModelTagger
 from nltk.tokenize import word_tokenize
 from pos import core_tags, core_tags_without_start
 import heapq
 from itertools import combinations
 from collections import defaultdict
-import operator
 
 evaluated_source_languages = ["en","fr","es","de"]
 n_languages = len(evaluated_source_languages)
 lin_comb_weights = [1/n_languages] * n_languages # Uniform weights
 
 test_corpus_path = "../data/hu-test10000.txt"
-
-def setup_nltk_tagger(trained_params):
-    # State set: the universal POS tags
-    states = core_tags
-    # Output probabilities: probability of observing word given POS tag
-    output_probs = trained_params[1]
-    # Transition probabilities: probability of observing tag given
-    # previous tag
-    transition_probs = trained_params[1]
-    # Symbols: the target vocabulary from the training corpus
-    states = trained_params[2]
-    
-    return HiddenMarkovModelTagger(states,transition_probs,output_probs,prior_probs)
 
 def run_trained_tagger(output_probs, transition_probs, raw_lines):
     distribution_all_lines = []
@@ -186,11 +169,6 @@ def majority_tag(result, combination):
     return combined_result
 
 def main():
-    
-    
-    # (not used) Setup NLTK tagger using trained parameters
-    #nltk_tagger = setup_nltk_tagger(trained_params)
-    
     # Load test corpus, on which algorithms can be run
     raw_lines,tagged_lines = load_test_corpus()
     
