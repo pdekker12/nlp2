@@ -1,9 +1,13 @@
 #!/usr/bin/env python3
 
+import argparse
 import pickle
+import heapq
+import sys
+
 from nltk.tokenize import word_tokenize
 from pos import core_tags, core_tags_without_start
-import heapq
+
 from itertools import combinations
 from collections import defaultdict
 
@@ -170,14 +174,13 @@ def majority_tag(result, combination):
         combined_result.append(combined_line)
     return combined_result
 
-def main():
+def main(args):
     # Load test corpus, on which algorithms can be run
     raw_lines,tagged_lines = load_test_corpus()
     
     best_tags = {}
     distribution = {}
 
-    import math
     # Separate languages
     separate_language_accuracy = []
     for language in evaluated_source_languages:
@@ -195,8 +198,7 @@ def main():
 
     norm = sum(separate_language_accuracy)
     separate_language_accuracy = map(lambda x: x / norm, separate_language_accuracy)
-    import sys
-    if len(sys.argv) > 1 and sys.argv[1] == 'W1':
+    if args.weight_acc:
         lin_comb_weights = list(separate_language_accuracy)
         print('New weights:', lin_comb_weights)
 
@@ -214,4 +216,7 @@ def main():
         print("Accuracy", combination,": ", accuracy_lin)
 
 if __name__ == '__main__':
-    main()
+    parser = argparse.ArgumentParser(formatter_class=argparse.RawTextHelpFormatter)
+    parser.add_argument('--weight_acc', action='store_true', default=False, help='Accuracy dependent weights')
+    args = parser.parse_args()
+    main(args)
