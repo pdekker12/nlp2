@@ -183,6 +183,7 @@ def corpus_stat(language, tagger):
                     wordtag_1toN_prob[key] += 1
                 else:
                     wordtag_1to1_prob[key] += 1
+            tag_seq.append('.')
             for tag1, tag2 in zip(tag_seq, tag_seq[1:]):
                 npos_count[(tag1, tag2)] += 1
     add_unk(wordtag_1to1_prob, wordtag_1toN_prob, word_count)
