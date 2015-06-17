@@ -7,7 +7,7 @@ import heapq
 from nltk.tokenize import word_tokenize
 from pos import core_tags, core_tags_without_start
 from itertools import combinations
-from collections import defaultdict
+from collections import Counter, defaultdict
 
 DIRECTION = 0
 # 0 forward
@@ -116,6 +116,8 @@ def load_test_corpus():
 
 def evaluate(tagger_result, gold_lines):
     accuracy = 0
+    correct_per_pos = Counter()
+    pos_count = Counter()
     if (len(tagger_result) != len(gold_lines)):
         print("length different")
     else:
@@ -131,16 +133,20 @@ def evaluate(tagger_result, gold_lines):
                     gold_tag = gold_line[j][1]
                     if gold_tag in core_tags_without_start:
                         total_tags +=1
+                        pos_count[gold_tag] += 1
                         word = tagger_line[j][0]
                         if (tagger_line[j][1][0] == gold_tag):
                             correct += 1
+                            correct_per_pos[gold_tag] += 1
                     #else:
                         #print(gold_lines[i])
                         #print("\n")
                         #print(word, ":", tagger_line[j][1][0] , ",", gold_line[j][1])
                         #print("\n")
         accuracy = correct/total_tags
-    return accuracy
+        for key in correct_per_pos:
+            correct_per_pos[key] /= float(pos_count[key])
+    return accuracy, correct_per_pos
 
 def linear_combination(distribution):
 
@@ -211,6 +217,7 @@ def majority_tag(result):
         combined_result.append(combined_line)
     return combined_result
 
+
 def main(args):
     tlanguage = args.target
     # Load test corpus, on which algorithms can be run
@@ -221,6 +228,7 @@ def main(args):
 
     # Separate languages
     separate_language_accuracy = []
+    separate_language_pos_accuracy = []
     for slanguage in evaluated_source_languages:
         # Load tagger
         pfile = open(slanguage + "-" + tlanguage + ".tagger.out","rb")
@@ -237,8 +245,9 @@ def main(args):
             distribution2, best_tags2 = run_trained_tagger_reverse(trained_params[0], trained_params[1], raw_lines)
             best_tags[slanguage] = majority_tag([best_tags1,best_tags2]) # combine two directions
             
-        accuracy = evaluate(best_tags[slanguage], tagged_lines)
+        accuracy, accuracy_per_pos = evaluate(best_tags[slanguage], tagged_lines)
         separate_language_accuracy.append(accuracy)
+        separate_language_pos_accuracy.append(accuracy_per_pos)
         print("Accuracy", slanguage,": ", accuracy)
 
     norm = sum(separate_language_accuracy)
@@ -246,6 +255,17 @@ def main(args):
     if args.weight_acc:
         lin_comb_weights = list(separate_language_accuracy)
         print('New weights:', lin_comb_weights)
+
+    if args.weight_pos:
+        for tag in core_tags:
+            try:
+                norm = sum(pos_accuracy[tag] for pos_accuracy in separate_language_pos_accuracy)
+                for i in range(len(separate_language_pos_accuracy)):
+                    separate_language_pos_accuracy[i][tag] /= norm
+            except ZeroDivisionError:
+                del separate_language_pos_accuracy[i][tag]
+    else:
+        separate_language_pos_accuracy = None
 
     # Combine languages
     all_combinations = list(map(list,combinations(evaluated_source_languages,2))) + list(map(list,combinations(evaluated_source_languages,3))) + [evaluated_source_languages]
@@ -257,17 +277,18 @@ def main(args):
             results_distribution.append(distribution[lang])
         print("Majority tag of", combination)
         combined_result_maj = majority_tag(results_best_tags)
-        accuracy_maj = evaluate(combined_result_maj, tagged_lines)
+        accuracy_maj,_ = evaluate(combined_result_maj, tagged_lines)
         print("Accuracy", combination,": ", accuracy_maj)
         
         print("Linear tag combination of", combination)
         combined_result_lin = linear_combination(results_distribution)
-        accuracy_lin = evaluate(combined_result_lin, tagged_lines)
+        accuracy_lin,_ = evaluate(combined_result_lin, tagged_lines)
         print("Accuracy", combination,": ", accuracy_lin)
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(formatter_class=argparse.RawTextHelpFormatter)
-    parser.add_argument('--weight_acc', action='store_true', default=False, help='Accuracy dependent weights')
+        combined_result_lin = linear_combination(results_distribution)
+        accuracy_lin,_ = evaluate(combined_result_lin, tagged_lines)
+    parser.add_argument('--weight_pos', action='store_true', default=False, help='POS dependent weights')
     parser.add_argument('--target', default="cs",help='Target language')
     args = parser.parse_args()
     main(args)
