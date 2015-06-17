@@ -116,7 +116,7 @@ def evaluate(tagger_result, gold_lines):
 
 def linear_combination(distribution, languages):
     first_lang = evaluated_source_languages[0]
-    
+
     combined_result = []
     # For every parallel line in corpus
     for i in range(len(distribution[first_lang])):
@@ -196,7 +196,10 @@ def main():
     
     best_tags = {}
     distribution = {}
+
+    import math
     # Separate languages
+    separate_language_accuracy = []
     for language in evaluated_source_languages:
         # Load tagger
         pfile = open(language + ".tagger.out","rb")
@@ -207,8 +210,16 @@ def main():
         distribution[language], best_tags[language] = run_trained_tagger(trained_params[0], trained_params[1], raw_lines)
         #print(result[language])
         accuracy = evaluate(best_tags[language], tagged_lines)
+        separate_language_accuracy.append(accuracy)
         print("Accuracy", language,": ", accuracy)
-    
+
+    norm = sum(separate_language_accuracy)
+    separate_language_accuracy = map(lambda x: x / norm, separate_language_accuracy)
+    import sys
+    if len(sys.argv) > 1 and sys.argv[1] == 'W1':
+        lin_comb_weights = list(separate_language_accuracy)
+        print('New weights:', lin_comb_weights)
+
     # Combine languages
     all_combinations = list(map(list,combinations(evaluated_source_languages,2))) + [evaluated_source_languages]
     for combination in all_combinations:
