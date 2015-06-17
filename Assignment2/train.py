@@ -17,7 +17,7 @@ from functools import reduce
 
 from nltk.tag.stanford import POSTagger
 
-source_languages = ["de"]
+source_languages = ["en","fr","es","de"]
 
 corpus_path = {"en":'../data/europarl/en-hu10000.txt',
                 "de":'../data/europarl/de-hu12000.txt',
