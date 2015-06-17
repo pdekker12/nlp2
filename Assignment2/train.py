@@ -17,12 +17,12 @@ from functools import reduce
 
 from nltk.tag.stanford import POSTagger
 
-source_languages = ["de"]
+source_languages = ["en","de","fr","es"]
 
-corpus_path = {"en":'../data/europarl/en-hu10000.txt',
-                "de":'../data/europarl/de-hu12000.txt',
-                "fr":'../data/europarl/fr-hu10000.txt',
-                "es":'../data/europarl/es-hu10000.txt'}
+corpus_path = {"en":'../data/europarl/en-cs20000.txt',
+                "de":'../data/europarl/de-cs24000.txt',
+                "fr":'../data/europarl/fr-cs20000.txt',
+                "es":'../data/europarl/es-cs20000.txt'}
 
 tagger_path = {"en":'stanford-postagger-full-2015-04-20/models/english-bidirectional-distsim.tagger',
                 "de":'stanford-postagger-full-2015-04-20/models/german-hgc.tagger',
