@@ -68,7 +68,7 @@ def run_trained_tagger_reverse(output_probs, transition_probs, raw_lines):
             for tag in core_tags_without_start:
                 key = (w, tag)
                 if key in output_probs:
-                    bigram = (prev_tag,tag)
+                    bigram = (tag, prev_tag)
                     if bigram in transition_probs:
                         found = True
                         w_score.append((tag, output_probs[key] * transition_probs[bigram]))
