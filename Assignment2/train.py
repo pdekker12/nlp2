@@ -8,6 +8,7 @@ import os
 import heapq
 import pprint
 import pickle
+import argparse
 from pos import *
 from collections import Counter
 from collections import defaultdict
@@ -16,10 +17,10 @@ from functools import reduce
 
 from nltk.tag.stanford import POSTagger
 
-languages = ["en","fr","es","de"]
+source_languages = ["de"]
 
 corpus_path = {"en":'../data/europarl/en-hu10000.txt',
-                "de":'../data/europarl/de-hu10000.txt',
+                "de":'../data/europarl/de-hu12000.txt',
                 "fr":'../data/europarl/fr-hu10000.txt',
                 "es":'../data/europarl/es-hu10000.txt'}
 
@@ -289,17 +290,21 @@ def smooth_wb(npos_count):
     
     return transition_prob
 
-def main():
-    for language in languages:
-        print('Creating a POS tagger for', language)
-        tagger = create_stanford_postagger(tagger_path[language])
+def main(args):
+    tlanguage = args.target
+    for slanguage in source_languages:
+        print('Creating a POS tagger for', slanguage)
+        tagger = create_stanford_postagger(tagger_path[slanguage])
         print('POS tagger created!')
 
         score = None
         npos_count = None
-        score, npos_count,target_vocabulary = pos_score(language, tagger)
+        score, npos_count,target_vocabulary = pos_score(slanguage, tagger)
         transition_probs = smooth_wb(npos_count)
-        pickle.dump((score, transition_probs,target_vocabulary), open( language +".tagger.out", "wb" ))
+        pickle.dump((score, transition_probs,target_vocabulary), open( slanguage +"-" + tlanguage + ".tagger.out", "wb" ))
 
 if __name__ == '__main__':
-    main()
+    parser = argparse.ArgumentParser(formatter_class=argparse.RawTextHelpFormatter)
+    parser.add_argument('--target', default="cs",help='Target language')
+    args = parser.parse_args()
+    main(args)
