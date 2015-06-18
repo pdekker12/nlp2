@@ -2,7 +2,7 @@
 
 import chardet
 import locale
-import sys
+import sys  
 import subprocess
 import os
 import heapq
@@ -17,12 +17,19 @@ from functools import reduce
 
 from nltk.tag.stanford import POSTagger
 
-source_languages = ["en","fr","es","de"]
+source_languages = ["en","de","fr","es"]
 
-corpus_path = {"en": '../data/europarl/en-hu10000.txt',
-               "de": '../data/europarl/de-hu12000.txt',
-               "fr": '../data/europarl/fr-hu10000.txt',
-               "es": '../data/europarl/es-hu10000.txt'}
+corpus_path = {"hu":
+                    {"en": '../data/europarl/en-hu10000.txt',
+                     "de": '../data/europarl/de-hu12000.txt',
+                     "fr": '../data/europarl/fr-hu10000.txt',
+                     "es": '../data/europarl/es-hu10000.txt'},
+               "cs":
+                    {"en": '../data/europarl/en-hu10000.txt',
+                    "de": '../data/europarl/de-hu12000.txt',
+                    "fr": '../data/europarl/fr-hu10000.txt',
+                    "es": '../data/europarl/es-hu10000.txt'}
+              }
 
 tagger_path = {"en": 'stanford-postagger-full-2015-04-20/models/english-bidirectional-distsim.tagger',
                "de": 'stanford-postagger-full-2015-04-20/models/german-hgc.tagger',
@@ -144,7 +151,7 @@ def add_unk(wordtag_1to1_prob, wordtag_1toN_prob, word_count):
     update_wordtag_prob(wordtag_1toN_prob)
 
 
-def corpus_stat(language, tagger):
+def corpus_stat(slanguage, tlanguage, tagger):
     """
         Calculates components of the noisy channel equation
     """
@@ -156,10 +163,10 @@ def corpus_stat(language, tagger):
     corpus_size = 0
     all_target_tokens = []
 
-    with open(corpus_path[language], 'r') as corpus_file:
+    with open(corpus_path[tlanguage][slanguage], 'r') as corpus_file:
         i = 0
         for (source_words, target_words, source_tags), alignments in zip(parse_corpus(corpus_file, language, tagger),
-                                                                         mt_alignment(corpus_path[language])):
+                                                                         mt_alignment(corpus_path[tlanguage][slanguage])):
             i+= 1
             if not source_words:
                 continue
@@ -183,7 +190,7 @@ def corpus_stat(language, tagger):
                     wordtag_1toN_prob[key] += 1
                 else:
                     wordtag_1to1_prob[key] += 1
-            tag_seq.append('.')
+            tag_seq.append('@')
             for tag1, tag2 in zip(tag_seq, tag_seq[1:]):
                 npos_count[(tag1, tag2)] += 1
     add_unk(wordtag_1to1_prob, wordtag_1toN_prob, word_count)
@@ -201,11 +208,11 @@ def corpus_stat(language, tagger):
 
     return wordtag_score(wordtag_1to1_prob, wordtag_1toN_prob), word_count, pos_count, npos_count, target_vocabulary
 
-def noisy_channel_params(language, tagger):
+def noisy_channel_params(slanguage, tlanguage, tagger):
     """
         Magic with smoothing...
     """
-    wordtag_score, word_prob, pos_prob, npos_count, target_vocabulary = corpus_stat(language, tagger)
+    wordtag_score, word_prob, pos_prob, npos_count, target_vocabulary = corpus_stat(slanguage, tlanguage, tagger)
 
     word_to_tags = {}
     for (word, tag), score in wordtag_score.items():
@@ -233,7 +240,7 @@ def noisy_channel_params(language, tagger):
     return wordtag_score, pos_prob, word_prob, npos_count, target_vocabulary
 
 
-def pos_score(language, tagger):
+def pos_score(slanguage, tlanguage, tagger):
     """
         Calculates P(w_i|t_i)
         p(t_i|w_i) = c(w_i, t_i) / c(t_i)
@@ -241,7 +248,7 @@ def pos_score(language, tagger):
         p(w_i) = c(w_i) / c
         p(w_i|t_i) = p(t_i|w_i) * c(w_i) / c(t_i)
     """
-    wordtag_score, pos_count, word_count, npos_count, target_vocabulary = noisy_channel_params(language, tagger)
+    wordtag_score, pos_count, word_count, npos_count, target_vocabulary = noisy_channel_params(slanguage, tlanguage, tagger)
     score = {(word, tag) : score * word_count[word] / pos_count[tag] for (word, tag), score in wordtag_score.items()}
     return score, npos_count, target_vocabulary
 
@@ -249,7 +256,7 @@ def smooth_wb(npos_count):
     # Compute N,T and Z counters, needed for smoothing
     tags_after=defaultdict(list)
     for tag1 in core_tags:
-        for tag2 in core_tags_without_start:
+        for tag2 in core_tags:
             if ((tag1,tag2) in npos_count):
                 tags_after[tag1].append((tag2,npos_count[(tag1,tag2)]))
     
@@ -271,7 +278,7 @@ def smooth_wb(npos_count):
     ## Z is the number of tag types after tag1 not encountered in the training data
     Z = Counter()
     for tag1 in T:
-        for tag2 in core_tags_without_start:
+        for tag2 in core_tags:
             if tag2 not in tags_after[tag1]:
                 Z[tag1]+=1
     
@@ -280,7 +287,7 @@ def smooth_wb(npos_count):
     # Create dict of smoothed probabilities
     # for all combinations of core tags
     for tag1 in core_tags:
-        for tag2 in core_tags_without_start:
+        for tag2 in core_tags:
             # Check if (tag1,tag2) has been found and has count > 0
             if ((tag1,tag2) in npos_count) and npos_count[(tag1,tag2)] > 0:
                 # If count > 0, use this count to compute smoothed probability
@@ -300,7 +307,7 @@ def main(args):
 
         score = None
         npos_count = None
-        score, npos_count,target_vocabulary = pos_score(slanguage, tagger)
+        score, npos_count,target_vocabulary = pos_score(slanguage, tlanguage, tagger)
         transition_probs = smooth_wb(npos_count)
         pickle.dump((score, transition_probs,target_vocabulary), open( slanguage +"-" + tlanguage + ".tagger.out", "wb" ))
 

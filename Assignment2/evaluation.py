@@ -15,7 +15,7 @@ from collections import Counter, defaultdict
 
 evaluated_source_languages = ["en","fr","es","de"]
 n_languages = len(evaluated_source_languages)
-lin_comb_weights = [1/n_languages] * n_languages # Uniform weights
+
 
 test_corpus_path = {"hu": "../data/hu-test10000.txt", "cs": "../data/cs-test10000.txt"}
 
@@ -58,7 +58,7 @@ def run_trained_tagger_reverse(output_probs, transition_probs, raw_lines):
     distribution_all_lines = []
     result_all_lines = []
     for line in raw_lines:
-        prev_tag = '.'
+        prev_tag = '@'
         distribution = []
         result = []
         for w in reversed(line):
@@ -148,7 +148,9 @@ def evaluate(tagger_result, gold_lines):
     return accuracy, correct_per_pos
 
 def linear_combination(distribution, pos_accuracy=None):
-
+    n_languages = len(distribution)
+    lin_comb_weights = [1/n_languages] * n_languages # Uniform weights
+    #print(lin_comb_weights)
     combined_result = []
     # For every parallel line in corpus
     for i in range(len(distribution[0])):
@@ -157,23 +159,25 @@ def linear_combination(distribution, pos_accuracy=None):
         for j in range(len(distribution[0][i])):
             lin_combination = defaultdict(float)
             word = distribution[0][i][j][0]
+            #print(word)
             # Linearly combine tag probabilties from taggers
-            for tag in core_tags_without_start:
-                for l in range(len(distribution)):
-                    langresult = distribution[l]
-                    prob = 0.0
-                    if tag in langresult[i][j][1]:
-                        prob = langresult[i][j][1][tag]
+            for l in range(len(distribution)):
+                langresult = distribution[l][i][j]
+                #print("Distribution language ",l,langresult)
+                for tag in langresult[1]:
+                    prob = langresult[1][tag]
                     if pos_accuracy:
                         lin_combination[tag] += pos_accuracy[l][tag] * prob
                     else:
                         lin_combination[tag] += lin_comb_weights[l] * prob
+            #print("Linear combination",lin_combination)
             # Pick max tag
             max_prob = 0.0
             for tag in core_tags_without_start:
                 if (lin_combination[tag] > max_prob):
                     max_prob = lin_combination[tag]
                     best_tag = tag
+            #print("Best tag:",best_tag, max_prob)
             combined_line.append((word,(best_tag,max_prob)))
         combined_result.append(combined_line)
     return combined_result
@@ -236,7 +240,6 @@ def main(args):
         # Load tagger
         pfile = open(slanguage + "-" + tlanguage + ".tagger.out","rb")
         trained_params = pickle.load(pfile)
-        
         if (DIRECTION==0): # forward
             print("Forward tagging")
             # Run own tagger, using trained parameter on raw corpus
@@ -277,19 +280,22 @@ def main(args):
     all_combinations = list(map(list,combinations(evaluated_source_languages,2))) + list(map(list,combinations(evaluated_source_languages,3))) + [evaluated_source_languages]
     for combination in all_combinations:
         results_best_tags = []
-        results_distribution = []
+        
         for lang in combination:
             results_best_tags.append(best_tags[lang])
-            results_distribution.append(distribution[lang])
+        
         print("Majority tag of", combination)
         combined_result_maj = majority_tag(results_best_tags)
         accuracy_maj,_ = evaluate(combined_result_maj, tagged_lines)
         print("Accuracy", combination,": ", accuracy_maj)
-        
-        print("Linear tag combination of", combination)
-        combined_result_lin = linear_combination(results_distribution, separate_language_pos_accuracy)
-        accuracy_lin,_ = evaluate(combined_result_lin, tagged_lines)
-        print("Accuracy", combination,": ", accuracy_lin)
+        if (DIRECTION != 2):
+            results_distribution = []
+            for lang in combination:
+                results_distribution.append(distribution[lang])
+            print("Linear tag combination of", combination)
+            combined_result_lin = linear_combination(results_distribution, separate_language_pos_accuracy)
+            accuracy_lin,_ = evaluate(combined_result_lin, tagged_lines)
+            print("Accuracy", combination,": ", accuracy_lin)
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(formatter_class=argparse.RawTextHelpFormatter)
