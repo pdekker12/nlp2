@@ -9,7 +9,7 @@ from pos import core_tags, core_tags_without_start
 from itertools import combinations
 from collections import Counter, defaultdict
 
-DIRECTION = 0
+DIRECTION = 1
 # 0 forward
 # 1 backward
 # 2 bidirectional
@@ -286,8 +286,10 @@ def main(args):
         print("Accuracy", combination,": ", accuracy_lin)
 
 if __name__ == '__main__':
-        combined_result_lin = linear_combination(results_distribution)
-        accuracy_lin,_ = evaluate(combined_result_lin, tagged_lines)
+    parser = argparse.ArgumentParser(formatter_class=argparse.RawTextHelpFormatter)
+    parser.add_argument('--weight_acc', action='store_true', default=False, help='Accuracy dependent weights')
+    #combined_result_lin = linear_combination(results_distribution)
+    #accuracy_lin,_ = evaluate(combined_result_lin, tagged_lines)
     parser.add_argument('--weight_pos', action='store_true', default=False, help='POS dependent weights')
     parser.add_argument('--target', default="cs",help='Target language')
     args = parser.parse_args()
