@@ -125,8 +125,6 @@ def evaluate(tagger_result, gold_lines):
         for i in range(len(tagger_result)):
             tagger_line = tagger_result[i]
             gold_line = gold_lines[i]
-            #print(tagger_line)
-            #print(gold_line)
             if (len(tagger_line) != len(gold_line)):
                 print("length of line different")
             else:
@@ -149,7 +147,7 @@ def evaluate(tagger_result, gold_lines):
             correct_per_pos[key] /= float(pos_count[key])
     return accuracy, correct_per_pos
 
-def linear_combination(distribution):
+def linear_combination(distribution, pos_accuracy=None):
 
     combined_result = []
     # For every parallel line in corpus
@@ -159,7 +157,6 @@ def linear_combination(distribution):
         for j in range(len(distribution[0][i])):
             lin_combination = defaultdict(float)
             word = distribution[0][i][j][0]
-            #print(word)
             # Linearly combine tag probabilties from taggers
             for tag in core_tags_without_start:
                 for l in range(len(distribution)):
@@ -167,10 +164,12 @@ def linear_combination(distribution):
                     prob = 0.0
                     if tag in langresult[i][j][1]:
                         prob = langresult[i][j][1][tag]
-                    lin_combination[tag] += lin_comb_weights[l] * prob
+                    if pos_accuracy:
+                        lin_combination[tag] += pos_accuracy[l][tag] * prob
+                    else:
+                        lin_combination[tag] += lin_comb_weights[l] * prob
             # Pick max tag
             max_prob = 0.0
-            best_tag=""
             for tag in core_tags_without_start:
                 if (lin_combination[tag] > max_prob):
                     max_prob = lin_combination[tag]
@@ -242,11 +241,9 @@ def main(args):
             print("Forward tagging")
             # Run own tagger, using trained parameter on raw corpus
             distribution[slanguage], best_tags[slanguage] = run_trained_tagger(trained_params[0], trained_params[1], raw_lines)
-            #print(distribution[slanguage])
         elif (DIRECTION==1): # backward
             print("Backward tagging")
             distribution[slanguage], best_tags[slanguage] = run_trained_tagger_reverse(trained_params[0], trained_params[1], raw_lines)
-            #print(distribution[slanguage])
         elif (DIRECTION==2): # bidirectional
             print("Bidirectional tagging")
             distribution1, best_tags1 = run_trained_tagger(trained_params[0], trained_params[1], raw_lines)
@@ -290,7 +287,7 @@ def main(args):
         print("Accuracy", combination,": ", accuracy_maj)
         
         print("Linear tag combination of", combination)
-        combined_result_lin = linear_combination(results_distribution)
+        combined_result_lin = linear_combination(results_distribution, separate_language_pos_accuracy)
         accuracy_lin,_ = evaluate(combined_result_lin, tagged_lines)
         print("Accuracy", combination,": ", accuracy_lin)
 
