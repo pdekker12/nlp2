@@ -22,8 +22,8 @@ for language in f:
         else:
             core_to_generic_dict[language][value].add(key)
 
-    core_tags_without_start = list(core_to_generic_dict[language].keys())
-    core_tags = core_tags_without_start + ['$']
+core_tags_without_start = list(next(iter(core_to_generic_dict.values())).keys())
+core_tags = core_tags_without_start + ['$']
 
 for lang_file in f.values():
     lang_file.close()
