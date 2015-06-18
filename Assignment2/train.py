@@ -252,7 +252,8 @@ def main(args):
 
         score, npos_count, target_vocabulary = pos_score(slanguage, tlanguage, tagger)
         transition_probs = smooth_wb(npos_count)
-        pickle.dump((score, transition_probs,target_vocabulary), open(slanguage + '-' + tlanguage + '.tagger.out', 'wb' ))
+        print(transition_probs)
+        pickle.dump((score, transition_probs,target_vocabulary), open(slanguage + '-' + tlanguage + '.tagger.out', 'wb'))
 
 
 if __name__ == '__main__':

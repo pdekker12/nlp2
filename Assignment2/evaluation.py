@@ -57,6 +57,7 @@ def run_trained_tagger(output_probs, transition_probs, raw_lines):
 def run_trained_tagger_reverse(output_probs, transition_probs, raw_lines):
     distribution_all_lines = []
     result_all_lines = []
+
     for line in raw_lines:
         prev_tag = '@'
         distribution = []
@@ -77,9 +78,10 @@ def run_trained_tagger_reverse(output_probs, transition_probs, raw_lines):
                 for tag in core_tags_without_start:
                     key = (w, tag)
                     if key in output_probs:
-                        bigram = (tag,prev_tag)
+                        bigram = (tag, prev_tag)
                         if bigram in transition_probs:
                             w_score.append((tag, output_probs[key] * transition_probs[bigram]))
+
             prev_tag = heapq.nlargest(1, w_score, lambda x: x[1])[0][0]
             prev_tag_prob = heapq.nlargest(1, w_score, lambda x: x[1])[0][1]
             distribution.append(dict(w_score)) # add all possible tags and possibiliees
