@@ -1,44 +1,17 @@
 #!/usr/bin/env python3
 
-import chardet
-import locale
-import sys  
 import subprocess
-import os
 import heapq
-import pprint
 import pickle
 import argparse
-from pos import *
+from pos import generic_to_core_pos, core_tags
+from config import source_languages, corpus_path, tagger_path, chunk_size, encoding
 from collections import Counter
 from collections import defaultdict
 
-from functools import reduce
-
 from nltk.tag.stanford import POSTagger
 
-source_languages = ["en","de","fr","es"]
 
-corpus_path = {"hu":
-                    {"en": '../data/europarl/en-hu10000.txt',
-                     "de": '../data/europarl/de-hu12000.txt',
-                     "fr": '../data/europarl/fr-hu10000.txt',
-                     "es": '../data/europarl/es-hu10000.txt'},
-               "cs":
-                    {"en": '../data/europarl/en-hu10000.txt',
-                    "de": '../data/europarl/de-hu12000.txt',
-                    "fr": '../data/europarl/fr-hu10000.txt',
-                    "es": '../data/europarl/es-hu10000.txt'}
-              }
-
-tagger_path = {"en": 'stanford-postagger-full-2015-04-20/models/english-bidirectional-distsim.tagger',
-               "de": 'stanford-postagger-full-2015-04-20/models/german-hgc.tagger',
-               "fr": 'stanford-postagger-full-2015-04-20/models/french.tagger',
-               "es": 'stanford-postagger-full-2015-04-20/models/spanish-distsim.tagger'}
-
-encoding = locale.getdefaultlocale()[1]
-
-chunk_size = 1000
 def parse_corpus(corpus_file, language, tagger):
     """
         Parses source and target sentences into lexemes, determines POS of the source
@@ -47,39 +20,31 @@ def parse_corpus(corpus_file, language, tagger):
     """
     source_queue = []
     target_queue = []
-    iteration = 0
-    #corpus_data = str(corpus_file.read())
-    #encoding = chardet.detect(corpus_data)["encoding"]
-    #corpus_data.decode(encoding)
-    #corpus_lines = corpus_data.split("\n")
-    for corpus_line in corpus_file:
-        source_line, target_line = tuple(corpus_line.split(' ||| '))
+
+    for iteration, corpus_line in enumerate(corpus_file):
+        source_line, target_line = corpus_line.split(' ||| ')
 
         # POS tag this source line
         source_words = source_line.split()
         target_words = target_line.split()
-        #source_words = [s.decode('utf-8') for s in source_words]
-        #target_words = [t.decode('utf-8') for t in target_words]
         source_queue.append(source_words)
         target_queue.append(target_words)
 
-        if iteration == chunk_size - 1:
+        if iteration % chunk_size == chunk_size - 1:
             try:
                 source_tags = tagger.tag_sents(source_queue)
                 for source, target, tags in zip(source_queue, target_queue, source_tags):
-                    yield source, target, list(map(lambda tag: (tag[0], generic_to_core_pos(language,tag[1])), tags))
+                    yield source, target, list(map(lambda tag: (tag[0], generic_to_core_pos(language, tag[1])), tags))
             except UnicodeDecodeError:
                 for i in range(chunk_size):
                     yield None, None, None
             source_queue = []
             target_queue = []
 
-        iteration = (iteration + 1) % chunk_size
-
     if source_queue:
         source_tags = tagger.tag_sents(source_queue)
         for source, target, tags in zip(source_queue, target_queue, source_tags):
-            yield source, target, list(map(lambda tag: (tag[0], generic_to_core_pos(language,tag[1])), tags))
+            yield source, target, list(map(lambda tag: (tag[0], generic_to_core_pos(language, tag[1])), tags))
 
 
 def mt_alignment(corpus_path):
@@ -90,15 +55,13 @@ def mt_alignment(corpus_path):
     output = subprocess.check_output([command, '-I 20', '-i', corpus_path])
     alignment_list = output.decode(encoding).split('\n')[:-1]
     del output
-    #print('Got alignments:', len(alignment_list))
 
     for alignment in alignment_list:
         yield [tuple(map(int, a.split('-'))) for a in alignment.split()]
 
 
 def create_stanford_postagger(tagger_path):
-    return POSTagger(tagger_path,
-                     'stanford-postagger-full-2015-04-20/stanford-postagger.jar')
+    return POSTagger(tagger_path, 'stanford-postagger-full-2015-04-20/stanford-postagger.jar')
 
 
 def wordtag_score(wordtag_1to1_prob, wordtag_1toN_prob):
@@ -134,14 +97,10 @@ def add_unk(wordtag_1to1_prob, wordtag_1toN_prob, word_count):
     word_count['UNK'] = len(rare_words)
 
     def update_wordtag_prob(wordtag_prob):
-        rare_word_tags = [(word, tag, score) for (word, tag), score in wordtag_prob.items()
-                                             if word in rare_words]
-        unk_prob = {}
+        rare_word_tags = [(word, tag, score) for (word, tag), score in wordtag_prob.items() if word in rare_words]
+        unk_prob = Counter()
         for word, tag, score in rare_word_tags:
-            if tag not in unk_prob:
-                unk_prob[tag] = score
-            else:
-                unk_prob[tag] += score
+            unk_prob[tag] += score
             del wordtag_prob[(word, tag)]
 
         for tag, score in unk_prob.items():
@@ -149,6 +108,12 @@ def add_unk(wordtag_1to1_prob, wordtag_1toN_prob, word_count):
 
     update_wordtag_prob(wordtag_1to1_prob)
     update_wordtag_prob(wordtag_1toN_prob)
+
+
+def normalize(dictionary):
+    norm = sum(dictionary.values())
+    for key in dictionary:
+        dictionary[key] /= norm
 
 
 def corpus_stat(slanguage, tlanguage, tagger):
@@ -160,26 +125,21 @@ def corpus_stat(slanguage, tlanguage, tagger):
     word_count = Counter()
     pos_count = Counter()
     npos_count = Counter()
-    corpus_size = 0
     all_target_tokens = []
 
     with open(corpus_path[tlanguage][slanguage], 'r') as corpus_file:
-        i = 0
-        for (source_words, target_words, source_tags), alignments in zip(parse_corpus(corpus_file, language, tagger),
+        for (source_words, target_words, source_tags), alignments in zip(parse_corpus(corpus_file, slanguage, tagger),
                                                                          mt_alignment(corpus_path[tlanguage][slanguage])):
-            i+= 1
             if not source_words:
                 continue
-            #print(i)
-            corpus_size += len(source_words)
-            all_target_tokens+=target_words
+
+            all_target_tokens += target_words
             link_count = [0] * len(source_words)
             for source_id, _ in alignments:
                 link_count[source_id] += 1
             one_to_n_marker = [count > 1 for count in link_count]
 
-            tag_seq = []
-            tag_seq.append('$')
+            tag_seq = ['$']
             for (source_ind, _), target_word in zip(alignments, target_words):
                 pos_tag = source_tags[source_ind][1]
                 tag_seq.append(pos_tag)
@@ -198,46 +158,31 @@ def corpus_stat(slanguage, tlanguage, tagger):
     target_vocabulary = set(all_target_tokens)
     
     # Normalizing counters
-    sum_1to1 = sum(wordtag_1to1_prob.values())
-    for key in wordtag_1to1_prob:
-        wordtag_1to1_prob[key] /= sum_1to1
-    
-    sum_1toN = sum(wordtag_1toN_prob.values())
-    for key in wordtag_1toN_prob:
-        wordtag_1toN_prob[key] /= sum_1toN
+    normalize(wordtag_1to1_prob)
+    normalize(wordtag_1toN_prob)
 
     return wordtag_score(wordtag_1to1_prob, wordtag_1toN_prob), word_count, pos_count, npos_count, target_vocabulary
+
 
 def noisy_channel_params(slanguage, tlanguage, tagger):
     """
         Magic with smoothing...
     """
-    wordtag_score, word_prob, pos_prob, npos_count, target_vocabulary = corpus_stat(slanguage, tlanguage, tagger)
+    word_given_tag_score, word_prob, pos_prob, npos_count, target_vocabulary = corpus_stat(slanguage, tlanguage, tagger)
 
-    word_to_tags = {}
-    for (word, tag), score in wordtag_score.items():
-        if word in word_to_tags:
-            word_to_tags[word].append((tag, score))
-        else:
-            word_to_tags[word] = [(tag, score)]
+    word_to_tags = defaultdict(list)
+    for (word, tag), score in word_given_tag_score.items():
+        word_to_tags[word].append((tag, score))
 
-    wordtag_score = {}
-    norm = 0
+    word_given_tag_score = {}
     for word, core_tags in word_to_tags.items():
         toptwo_cores = heapq.nlargest(2, core_tags, lambda x: x[1])
         for tag, score in toptwo_cores:
-            norm += score
-            wordtag_score[(word, tag)] = score
+            word_given_tag_score[(word, tag)] = score
 
-    for key in wordtag_score:
-        wordtag_score[key] /= norm
+    normalize(word_given_tag_score)
 
-    ### Normalization of bigram count
-    #norm = sum(npos_count.values())
-    #for key in npos_count:
-    #    npos_count[key] /= norm
-
-    return wordtag_score, pos_prob, word_prob, npos_count, target_vocabulary
+    return word_given_tag_score, pos_prob, word_prob, npos_count, target_vocabulary
 
 
 def pos_score(slanguage, tlanguage, tagger):
@@ -249,16 +194,17 @@ def pos_score(slanguage, tlanguage, tagger):
         p(w_i|t_i) = p(t_i|w_i) * c(w_i) / c(t_i)
     """
     wordtag_score, pos_count, word_count, npos_count, target_vocabulary = noisy_channel_params(slanguage, tlanguage, tagger)
-    score = {(word, tag) : score * word_count[word] / pos_count[tag] for (word, tag), score in wordtag_score.items()}
+    score = {(word, tag): score * word_count[word] / pos_count[tag] for (word, tag), score in wordtag_score.items()}
     return score, npos_count, target_vocabulary
+
 
 def smooth_wb(npos_count):
     # Compute N,T and Z counters, needed for smoothing
-    tags_after=defaultdict(list)
+    tags_after = defaultdict(list)
     for tag1 in core_tags:
         for tag2 in core_tags:
-            if ((tag1,tag2) in npos_count):
-                tags_after[tag1].append((tag2,npos_count[(tag1,tag2)]))
+            if (tag1, tag2) in npos_count:
+                tags_after[tag1].append((tag2, npos_count[(tag1, tag2)]))
     
     # N is the number of tag tokens encountered after tag1
     N = Counter()
@@ -273,30 +219,29 @@ def smooth_wb(npos_count):
     T = Counter()
     for tag1 in tags_after:
         T[tag1] = len(tags_after[tag1])
-    
-    
-    ## Z is the number of tag types after tag1 not encountered in the training data
+
+    # Z is the number of tag types after tag1 not encountered in the training data
     Z = Counter()
     for tag1 in T:
         for tag2 in core_tags:
             if tag2 not in tags_after[tag1]:
-                Z[tag1]+=1
-    
-    
+                Z[tag1] += 1
+
     transition_prob = {}
     # Create dict of smoothed probabilities
     # for all combinations of core tags
     for tag1 in core_tags:
         for tag2 in core_tags:
             # Check if (tag1,tag2) has been found and has count > 0
-            if ((tag1,tag2) in npos_count) and npos_count[(tag1,tag2)] > 0:
+            if ((tag1, tag2) in npos_count) and npos_count[(tag1, tag2)] > 0:
                 # If count > 0, use this count to compute smoothed probability
-                transition_prob[(tag1,tag2)] = npos_count[(tag1,tag2)]/(N[tag1]+T[tag1])
+                transition_prob[(tag1, tag2)] = npos_count[(tag1, tag2)] / (N[tag1] + T[tag1])
             else:
                 # If count == 0, use T to compute smoothed probability
-                transition_prob[(tag1,tag2)] = T[tag1]/(Z[tag1]+(N_total+T[tag1]))
-    
+                transition_prob[(tag1, tag2)] = T[tag1] / (Z[tag1] + (N_total + T[tag1]))
+
     return transition_prob
+
 
 def main(args):
     tlanguage = args.target
@@ -305,14 +250,13 @@ def main(args):
         tagger = create_stanford_postagger(tagger_path[slanguage])
         print('POS tagger created!')
 
-        score = None
-        npos_count = None
-        score, npos_count,target_vocabulary = pos_score(slanguage, tlanguage, tagger)
+        score, npos_count, target_vocabulary = pos_score(slanguage, tlanguage, tagger)
         transition_probs = smooth_wb(npos_count)
-        pickle.dump((score, transition_probs,target_vocabulary), open( slanguage +"-" + tlanguage + ".tagger.out", "wb" ))
+        pickle.dump((score, transition_probs,target_vocabulary), open(slanguage + '-' + tlanguage + '.tagger.out', 'wb' ))
+
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(formatter_class=argparse.RawTextHelpFormatter)
-    parser.add_argument('--target', default="cs",help='Target language')
+    parser.add_argument('--target', default="cs", help='Target language')
     args = parser.parse_args()
     main(args)
