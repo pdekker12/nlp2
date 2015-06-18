@@ -9,7 +9,7 @@ from pos import core_tags, core_tags_without_start
 from itertools import combinations
 from collections import Counter, defaultdict
 
-DIRECTION = 1
+DIRECTION = 0
 # 0 forward
 # 1 backward
 # 2 bidirectional
@@ -62,7 +62,7 @@ def run_trained_tagger_reverse(output_probs, transition_probs, raw_lines):
         prev_tag = '$'
         distribution = []
         result = []
-        for w in reverse(line):
+        for w in reversed(line):
             w_score = []
             found = False
             for tag in core_tags_without_start:
@@ -86,7 +86,7 @@ def run_trained_tagger_reverse(output_probs, transition_probs, raw_lines):
             distribution.append(dict(w_score)) # add all possible tags and possibiliees
             result.append((prev_tag,prev_tag_prob)) # add pair of best tag and its probability
         distribution_all_lines.append(list(zip(line,distribution)))
-        result_all_lines.append(list(zip(line,result[::,-1])))
+        result_all_lines.append(list(zip(line,result[::-1])))
     return distribution_all_lines, result_all_lines
 
 
@@ -148,7 +148,7 @@ def evaluate(tagger_result, gold_lines):
             correct_per_pos[key] /= float(pos_count[key])
     return accuracy, correct_per_pos
 
-def linear_combination(distribution):
+def linear_combination(distribution, pos_accuracy=None):
 
     combined_result = []
     # For every parallel line in corpus
@@ -165,7 +165,10 @@ def linear_combination(distribution):
                     prob = 0.0
                     if tag in langresult[i][j][1]:
                         prob = langresult[i][j][1][tag]
-                    lin_combination[tag] += lin_comb_weights[l] * prob
+                    if pos_accuracy:
+                        lin_combination[tag] += pos_accuracy[l][tag] * prob
+                    else:
+                        lin_combination[tag] += lin_comb_weights[l] * prob
             # Pick max tag
             max_prob = 0.0
             for tag in core_tags_without_start:
@@ -281,7 +284,7 @@ def main(args):
         print("Accuracy", combination,": ", accuracy_maj)
         
         print("Linear tag combination of", combination)
-        combined_result_lin = linear_combination(results_distribution)
+        combined_result_lin = linear_combination(results_distribution, separate_language_pos_accuracy)
         accuracy_lin,_ = evaluate(combined_result_lin, tagged_lines)
         print("Accuracy", combination,": ", accuracy_lin)
 
