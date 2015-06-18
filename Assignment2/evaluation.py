@@ -9,15 +9,15 @@ from pos import core_tags, core_tags_without_start
 from itertools import combinations
 from collections import Counter, defaultdict
 
+from config import source_languages, test_corpus_path
+
 # 0 forward
 # 1 backward
 # 2 bidirectional
 
-evaluated_source_languages = ["en","fr","es","de"]
+evaluated_source_languages = source_languages
 n_languages = len(evaluated_source_languages)
 
-
-test_corpus_path = {"hu": "../data/hu-test10000.txt", "cs": "../data/cs-test10000.txt"}
 
 def run_trained_tagger(output_probs, transition_probs, raw_lines):
     distribution_all_lines = []
@@ -36,7 +36,7 @@ def run_trained_tagger(output_probs, transition_probs, raw_lines):
                     if bigram in transition_probs:
                         found = True
                         w_score.append((tag, output_probs[key] * transition_probs[bigram]))
-            if found == False:
+            if not found:
                 w = 'UNK'
                 # TODO: Remove this copypaste
                 for tag in core_tags_without_start:
@@ -57,6 +57,7 @@ def run_trained_tagger(output_probs, transition_probs, raw_lines):
 def run_trained_tagger_reverse(output_probs, transition_probs, raw_lines):
     distribution_all_lines = []
     result_all_lines = []
+
     for line in raw_lines:
         prev_tag = '@'
         distribution = []
@@ -71,15 +72,16 @@ def run_trained_tagger_reverse(output_probs, transition_probs, raw_lines):
                     if bigram in transition_probs:
                         found = True
                         w_score.append((tag, output_probs[key] * transition_probs[bigram]))
-            if found == False:
+            if not found:
                 w = 'UNK'
                 # TODO: Remove this copypaste
                 for tag in core_tags_without_start:
                     key = (w, tag)
                     if key in output_probs:
-                        bigram = (tag,prev_tag)
+                        bigram = (tag, prev_tag)
                         if bigram in transition_probs:
                             w_score.append((tag, output_probs[key] * transition_probs[bigram]))
+
             prev_tag = heapq.nlargest(1, w_score, lambda x: x[1])[0][0]
             prev_tag_prob = heapq.nlargest(1, w_score, lambda x: x[1])[0][1]
             distribution.append(dict(w_score)) # add all possible tags and possibiliees
@@ -94,7 +96,7 @@ def load_test_corpus(tlanguage):
     raw_list = []
     tagged_list = []
     
-    corpus_file = open(test_corpus_path[tlanguage],"r")
+    corpus_file = open(test_corpus_path[tlanguage], 'r')
     lines = corpus_file.readlines()
     for line in lines:
         split_line = word_tokenize(line)
@@ -113,28 +115,29 @@ def load_test_corpus(tlanguage):
     
     return raw_list, tagged_list
 
+
 def evaluate(tagger_result, gold_lines):
     accuracy = 0
     correct_per_pos = Counter()
     pos_count = Counter()
-    if (len(tagger_result) != len(gold_lines)):
-        print("length different")
+    if len(tagger_result) != len(gold_lines):
+        print('length different')
     else:
         total_tags = 0
         correct = 0
         for i in range(len(tagger_result)):
             tagger_line = tagger_result[i]
             gold_line = gold_lines[i]
-            if (len(tagger_line) != len(gold_line)):
-                print("length of line different")
+            if len(tagger_line) != len(gold_line):
+                print('length of line different')
             else:
                 for j in range(len(tagger_line)):
                     gold_tag = gold_line[j][1]
                     if gold_tag in core_tags_without_start:
-                        total_tags +=1
+                        total_tags += 1
                         pos_count[gold_tag] += 1
                         word = tagger_line[j][0]
-                        if (tagger_line[j][1][0] == gold_tag):
+                        if tagger_line[j][1][0] == gold_tag:
                             correct += 1
                             correct_per_pos[gold_tag] += 1
                     #else:
@@ -146,6 +149,7 @@ def evaluate(tagger_result, gold_lines):
         for key in correct_per_pos:
             correct_per_pos[key] /= float(pos_count[key])
     return accuracy, correct_per_pos
+
 
 def linear_combination(distribution, pos_accuracy=None):
     n_languages = len(distribution)
@@ -178,9 +182,10 @@ def linear_combination(distribution, pos_accuracy=None):
                     max_prob = lin_combination[tag]
                     best_tag = tag
             #print("Best tag:",best_tag, max_prob)
-            combined_line.append((word,(best_tag,max_prob)))
+            combined_line.append((word, (best_tag, max_prob)))
         combined_result.append(combined_line)
     return combined_result
+
 
 def majority_tag(result):
     combined_result = []
@@ -200,20 +205,20 @@ def majority_tag(result):
                 proposed_tags[tag].append(prob)
             
             # Look for tag which has been chosen the most
-            highest_count=0
+            highest_count = 0
             highest_prob = 0.0
-            best_tag = ""
+            best_tag = ''
             for tag in proposed_tags:
                 # If current tag has been chosen more
                 # than previous encountered tags
-                if (len(proposed_tags[tag]) > highest_count):
+                if len(proposed_tags[tag]) > highest_count:
                     # Current tag is best tag
                     best_tag = tag
                     highest_count = len(proposed_tags[best_tag])
                     highest_prob = max(proposed_tags[best_tag])
                     
                 # If tag has been chosen as much as other tags
-                elif (len(proposed_tags[tag]) == highest_count):
+                elif len(proposed_tags[tag]) == highest_count:
                     # Compare probabilities
                     if max(proposed_tags[tag]) > highest_prob:
                         best_tag = tag
@@ -238,17 +243,17 @@ def main(args):
     separate_language_pos_accuracy = []
     for slanguage in evaluated_source_languages:
         # Load tagger
-        pfile = open(slanguage + "-" + tlanguage + ".tagger.out","rb")
+        pfile = open(slanguage + '-' + tlanguage + '.tagger.out', 'rb')
         trained_params = pickle.load(pfile)
-        if (DIRECTION==0): # forward
-            print("Forward tagging")
+        if DIRECTION == 0: # forward
+            print('Forward tagging')
             # Run own tagger, using trained parameter on raw corpus
             distribution[slanguage], best_tags[slanguage] = run_trained_tagger(trained_params[0], trained_params[1], raw_lines)
-        elif (DIRECTION==1): # backward
-            print("Backward tagging")
+        elif DIRECTION == 1: # backward
+            print('Backward tagging')
             distribution[slanguage], best_tags[slanguage] = run_trained_tagger_reverse(trained_params[0], trained_params[1], raw_lines)
-        elif (DIRECTION==2): # bidirectional
-            print("Bidirectional tagging")
+        elif DIRECTION == 2: # bidirectional
+            print('Bidirectional tagging')
             distribution1, best_tags1 = run_trained_tagger(trained_params[0], trained_params[1], raw_lines)
 
             distribution2, best_tags2 = run_trained_tagger_reverse(trained_params[0], trained_params[1], raw_lines)
@@ -277,7 +282,8 @@ def main(args):
         separate_language_pos_accuracy = None
     
     # Combine languages
-    all_combinations = list(map(list,combinations(evaluated_source_languages,2))) + list(map(list,combinations(evaluated_source_languages,3))) + [evaluated_source_languages]
+    all_combinations = list(map(list, combinations(evaluated_source_languages, 2)))\
+                       + list(map(list, combinations(evaluated_source_languages, 3))) + [evaluated_source_languages]
     for combination in all_combinations:
         results_best_tags = []
         names=""
@@ -287,23 +293,23 @@ def main(args):
         print("Majority tag of", combination)
         combined_result_maj = majority_tag(results_best_tags)
         accuracy_maj,_ = evaluate(combined_result_maj, tagged_lines)
-        print("Accuracy", combination,": ", accuracy_maj)
-        if (DIRECTION != 2):
+        print('Accuracy', combination, ':', accuracy_maj)
+        if DIRECTION != 2:
             results_distribution = []
             for lang in combination:
                 results_distribution.append(distribution[lang])
-            print("Linear tag combination of", combination)
+            print('Linear tag combination of', combination)
             combined_result_lin = linear_combination(results_distribution, separate_language_pos_accuracy)
             accuracy_lin,_ = evaluate(combined_result_lin, tagged_lines)
             print("Accuracy", combination,": ", accuracy_lin)
         
-        print(names,"&&",accuracy_maj,accuracy_lin)
+        print(names,"&&",accuracy_maj,accuracy_lin)2
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(formatter_class=argparse.RawTextHelpFormatter)
     parser.add_argument('--weight_acc', action='store_true', default=False, help='Accuracy dependent weights')
     parser.add_argument('--weight_pos', action='store_true', default=False, help='POS dependent weights')
-    parser.add_argument('--target', default="cs",help='Target language')
-    parser.add_argument('--direction', default=0,help='Direction: 0 forward, 1 backward, 2 bidirectional')
+    parser.add_argument('--target', default='cs', help='Target language')
+    parser.add_argument('--direction', default=0, help='Direction: 0 forward, 1 backward, 2 bidirectional')
     args = parser.parse_args()
     main(args)

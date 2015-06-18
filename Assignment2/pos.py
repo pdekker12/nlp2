@@ -4,11 +4,11 @@ from collections import defaultdict
 generic_to_core_dict = defaultdict(dict)
 core_to_generic_dict = defaultdict(dict)
 
-f = {}
-f["en"] = open("../data/en-ptb.map","r")
-f["de"] = open("../data/de-negra.map","r")
-f["fr"] = open("../data/fr-paris.map","r")
-f["es"] = open("../data/es-cast3lb.map","r")
+f = {'en': open('../data/en-ptb.map', 'r'),
+     'de': open('../data/de-negra.map', 'r'),
+     'fr': open('../data/fr-paris.map', 'r'),
+     'es': open('../data/es-cast3lb.map', 'r')
+     }
 
 for language in f:
     lines = f[language].readlines()
@@ -22,20 +22,25 @@ for language in f:
         else:
             core_to_generic_dict[language][value].add(key)
 
-    core_tags_without_start = list(core_to_generic_dict[language].keys())
-    core_tags = core_tags_without_start + ['$','@']
+core_tags_without_start = list(next(iter(core_to_generic_dict.values())).keys())
+core_tags = core_tags_without_start + ['$', '@']
 
-def generic_to_core_pos(language,tag):
-    if (language=="es"):
+for lang_file in f.values():
+    lang_file.close()
+
+
+def generic_to_core_pos(language, tag):
+    if language == 'es':
         # If a tag is not available, try a shorter version of the same tag
-        while tag not in generic_to_core_dict[language] and tag is not "":
+        while tag not in generic_to_core_dict[language] and tag:
             #print(tag)
             tag = tag[:-1]
     
-    if tag == "":
-        return ""
+    if not tag:
+        return ''
     
     return generic_to_core_dict[language][tag]
 
-def core_to_generic_pos(language,tag):
+
+def core_to_generic_pos(language, tag):
     return core_to_generic_dict[language][tag]
