@@ -303,7 +303,7 @@ def main(args):
             accuracy_lin,_ = evaluate(combined_result_lin, tagged_lines)
             print("Accuracy", combination,": ", accuracy_lin)
         
-        print(names,"&&",accuracy_maj,accuracy_lin)2
+        print(names,"&&",accuracy_maj,accuracy_lin)
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(formatter_class=argparse.RawTextHelpFormatter)

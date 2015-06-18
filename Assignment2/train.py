@@ -11,6 +11,7 @@ from collections import defaultdict
 
 from nltk.tag.stanford import POSTagger
 
+
 def parse_corpus(corpus_file, language, tagger):
     """
         Parses source and target sentences into lexemes, determines POS of the source
@@ -128,6 +129,7 @@ def corpus_stat(slanguage, tlanguage, tagger):
 
     with open(corpus_path[tlanguage][slanguage], 'r') as corpus_file:
         for (source_words, target_words, source_tags), alignments in zip(parse_corpus(corpus_file, slanguage, tagger),
+                                                                         mt_alignment(corpus_path[tlanguage][slanguage])):
             if not source_words:
                 continue
 
