@@ -25,10 +25,10 @@ corpus_path = {"hu":
                      "fr": '../data/europarl/fr-hu10000.txt',
                      "es": '../data/europarl/es-hu10000.txt'},
                "cs":
-                    {"en": '../data/europarl/en-hu10000.txt',
-                    "de": '../data/europarl/de-hu12000.txt',
-                    "fr": '../data/europarl/fr-hu10000.txt',
-                    "es": '../data/europarl/es-hu10000.txt'}
+                    {"en": '../data/europarl/en-cs10000.txt',
+                    "de": '../data/europarl/de-cs12000.txt',
+                    "fr": '../data/europarl/fr-cs10000.txt',
+                    "es": '../data/europarl/es-cs10000.txt'}
               }
 
 tagger_path = {"en": 'stanford-postagger-full-2015-04-20/models/english-bidirectional-distsim.tagger',
@@ -165,7 +165,7 @@ def corpus_stat(slanguage, tlanguage, tagger):
 
     with open(corpus_path[tlanguage][slanguage], 'r') as corpus_file:
         i = 0
-        for (source_words, target_words, source_tags), alignments in zip(parse_corpus(corpus_file, language, tagger),
+        for (source_words, target_words, source_tags), alignments in zip(parse_corpus(corpus_file, slanguage, tagger),
                                                                          mt_alignment(corpus_path[tlanguage][slanguage])):
             i+= 1
             if not source_words:

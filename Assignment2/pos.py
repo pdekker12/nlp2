@@ -23,7 +23,7 @@ for language in f:
             core_to_generic_dict[language][value].add(key)
 
     core_tags_without_start = list(core_to_generic_dict[language].keys())
-    core_tags = core_tags_without_start + ['$']
+    core_tags = core_tags_without_start + ['$','@']
 
 def generic_to_core_pos(language,tag):
     if (language=="es"):
