@@ -9,7 +9,6 @@ from pos import core_tags, core_tags_without_start
 from itertools import combinations
 from collections import Counter, defaultdict
 
-DIRECTION = 1
 # 0 forward
 # 1 backward
 # 2 bidirectional
@@ -18,7 +17,7 @@ evaluated_source_languages = ["en","fr","es","de"]
 n_languages = len(evaluated_source_languages)
 lin_comb_weights = [1/n_languages] * n_languages # Uniform weights
 
-test_corpus_path = "../data/cs-test10000.txt"
+test_corpus_path = {"hu": "../data/hu-test10000.txt", "cs": "../data/cs-test10000.txt"}
 
 def run_trained_tagger(output_probs, transition_probs, raw_lines):
     distribution_all_lines = []
@@ -59,10 +58,10 @@ def run_trained_tagger_reverse(output_probs, transition_probs, raw_lines):
     distribution_all_lines = []
     result_all_lines = []
     for line in raw_lines:
-        prev_tag = '$'
+        prev_tag = '.'
         distribution = []
         result = []
-        for w in reverse(line):
+        for w in reversed(line):
             w_score = []
             found = False
             for tag in core_tags_without_start:
@@ -78,7 +77,7 @@ def run_trained_tagger_reverse(output_probs, transition_probs, raw_lines):
                 for tag in core_tags_without_start:
                     key = (w, tag)
                     if key in output_probs:
-                        bigram = (prev_tag,tag)
+                        bigram = (tag,prev_tag)
                         if bigram in transition_probs:
                             w_score.append((tag, output_probs[key] * transition_probs[bigram]))
             prev_tag = heapq.nlargest(1, w_score, lambda x: x[1])[0][0]
@@ -86,16 +85,16 @@ def run_trained_tagger_reverse(output_probs, transition_probs, raw_lines):
             distribution.append(dict(w_score)) # add all possible tags and possibiliees
             result.append((prev_tag,prev_tag_prob)) # add pair of best tag and its probability
         distribution_all_lines.append(list(zip(line,distribution)))
-        result_all_lines.append(list(zip(line,result[::,-1])))
+        result_all_lines.append(list(zip(line,result[::-1])))
     return distribution_all_lines, result_all_lines
 
 
 # Load test corpus and convert to list of tagged and raw lines
-def load_test_corpus():
+def load_test_corpus(tlanguage):
     raw_list = []
     tagged_list = []
     
-    corpus_file = open(test_corpus_path,"r")
+    corpus_file = open(test_corpus_path[tlanguage],"r")
     lines = corpus_file.readlines()
     for line in lines:
         split_line = word_tokenize(line)
@@ -126,6 +125,8 @@ def evaluate(tagger_result, gold_lines):
         for i in range(len(tagger_result)):
             tagger_line = tagger_result[i]
             gold_line = gold_lines[i]
+            #print(tagger_line)
+            #print(gold_line)
             if (len(tagger_line) != len(gold_line)):
                 print("length of line different")
             else:
@@ -158,6 +159,7 @@ def linear_combination(distribution):
         for j in range(len(distribution[0][i])):
             lin_combination = defaultdict(float)
             word = distribution[0][i][j][0]
+            #print(word)
             # Linearly combine tag probabilties from taggers
             for tag in core_tags_without_start:
                 for l in range(len(distribution)):
@@ -168,6 +170,7 @@ def linear_combination(distribution):
                     lin_combination[tag] += lin_comb_weights[l] * prob
             # Pick max tag
             max_prob = 0.0
+            best_tag=""
             for tag in core_tags_without_start:
                 if (lin_combination[tag] > max_prob):
                     max_prob = lin_combination[tag]
@@ -177,7 +180,6 @@ def linear_combination(distribution):
     return combined_result
 
 def majority_tag(result):
-    
     combined_result = []
     # For every parallel line in corpus
     for i in range(len(result[0])):
@@ -219,9 +221,11 @@ def majority_tag(result):
 
 
 def main(args):
+    
+    DIRECTION = int(args.direction)
     tlanguage = args.target
     # Load test corpus, on which algorithms can be run
-    raw_lines,tagged_lines = load_test_corpus()
+    raw_lines,tagged_lines = load_test_corpus(tlanguage)
     
     best_tags = {}
     distribution = {}
@@ -235,11 +239,16 @@ def main(args):
         trained_params = pickle.load(pfile)
         
         if (DIRECTION==0): # forward
+            print("Forward tagging")
             # Run own tagger, using trained parameter on raw corpus
             distribution[slanguage], best_tags[slanguage] = run_trained_tagger(trained_params[0], trained_params[1], raw_lines)
+            #print(distribution[slanguage])
         elif (DIRECTION==1): # backward
+            print("Backward tagging")
             distribution[slanguage], best_tags[slanguage] = run_trained_tagger_reverse(trained_params[0], trained_params[1], raw_lines)
+            #print(distribution[slanguage])
         elif (DIRECTION==2): # bidirectional
+            print("Bidirectional tagging")
             distribution1, best_tags1 = run_trained_tagger(trained_params[0], trained_params[1], raw_lines)
 
             distribution2, best_tags2 = run_trained_tagger_reverse(trained_params[0], trained_params[1], raw_lines)
@@ -288,9 +297,8 @@ def main(args):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(formatter_class=argparse.RawTextHelpFormatter)
     parser.add_argument('--weight_acc', action='store_true', default=False, help='Accuracy dependent weights')
-    #combined_result_lin = linear_combination(results_distribution)
-    #accuracy_lin,_ = evaluate(combined_result_lin, tagged_lines)
     parser.add_argument('--weight_pos', action='store_true', default=False, help='POS dependent weights')
     parser.add_argument('--target', default="cs",help='Target language')
+    parser.add_argument('--direction', default=0,help='Direction: 0 forward, 1 backward, 2 bidirectional')
     args = parser.parse_args()
     main(args)
