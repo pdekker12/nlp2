@@ -236,7 +236,7 @@ def main(args):
         accuracy, accuracy_per_pos = evaluate(best_tags[slanguage], tagged_lines)
         separate_language_accuracy.append(accuracy)
         separate_language_pos_accuracy.append(accuracy_per_pos)
-        print( slanguage,"&", accuracy)
+        print(slanguage, '&', accuracy)
 
     norm = sum(separate_language_accuracy)
     separate_language_accuracy = map(lambda x: x / norm, separate_language_accuracy)
