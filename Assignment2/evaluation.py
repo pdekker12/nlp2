@@ -151,6 +151,7 @@ def linear_combination(distribution, pos_accuracy=None):
                         lin_combination[tag] += pos_accuracy[l][tag] * prob
                     else:
                         lin_combination[tag] += lin_comb_weights[l] * prob
+
             #print("Linear combination",lin_combination)
             # Pick max tag
             max_prob = 0.0
@@ -241,8 +242,7 @@ def main(args):
         separate_language_pos_accuracy.append(accuracy_per_pos)
         print(slanguage, '&', accuracy)
 
-    norm = sum(separate_language_accuracy)
-    separate_language_accuracy = map(lambda x: x / norm, separate_language_accuracy)
+    print(separate_language_pos_accuracy)
     if args.weight_acc:
         lin_comb_weights = list(separate_language_accuracy)
         print('New weights:', lin_comb_weights)
@@ -280,7 +280,7 @@ def main(args):
             accuracy_lin, _ = evaluate(combined_result_lin, tagged_lines)
             print('Accuracy', combination, ':', accuracy_lin)
         
-            print(names, '&&', accuracy_maj ,accuracy_lin)
+            print(names, '&&', accuracy_maj, accuracy_lin)
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(formatter_class=argparse.RawTextHelpFormatter)
