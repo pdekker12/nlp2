@@ -278,9 +278,9 @@ def main(args):
             print('Linear tag combination of', combination)
             combined_result_lin = linear_combination(results_distribution, separate_language_pos_accuracy)
             accuracy_lin, _ = evaluate(combined_result_lin, tagged_lines)
-            print("Accuracy", combination,": ", accuracy_lin)
+            print('Accuracy', combination, ':', accuracy_lin)
         
-        print(names,"&&",accuracy_maj,accuracy_lin)
+            print(names, '&&', accuracy_maj ,accuracy_lin)
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(formatter_class=argparse.RawTextHelpFormatter)
