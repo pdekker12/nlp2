@@ -74,6 +74,9 @@ def load_test_corpus(tlanguage):
     lines = corpus_file.readlines()
     for line in lines:
         split_line = word_tokenize(line)
+        if not split_line:
+            continue
+
         raw_sentence = []
         tagged_sentence = []
         for token in split_line:
