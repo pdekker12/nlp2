@@ -256,8 +256,8 @@ def main(args):
         separate_language_pos_accuracy = None
     
     # Combine languages
-    all_combinations = list(map(list, combinations(evaluated_source_languages, 2)))\
-                       + list(map(list, combinations(evaluated_source_languages, 3))) + [evaluated_source_languages]
+    all_combinations = list(map(list, combinations(evaluated_source_languages, 2))) +\
+                       list(map(list, combinations(evaluated_source_languages, 3))) + [evaluated_source_languages]
     for combination in all_combinations:
         results_best_tags = []
         names=""
@@ -266,7 +266,7 @@ def main(args):
             names += lang + "-"
         print("Majority tag of", combination)
         combined_result_maj = majority_tag(results_best_tags)
-        accuracy_maj,_ = evaluate(combined_result_maj, tagged_lines)
+        accuracy_maj, _ = evaluate(combined_result_maj, tagged_lines)
         print('Accuracy', combination, ':', accuracy_maj)
         if DIRECTION != 2:
             results_distribution = []
@@ -274,7 +274,7 @@ def main(args):
                 results_distribution.append(distribution[lang])
             print('Linear tag combination of', combination)
             combined_result_lin = linear_combination(results_distribution, separate_language_pos_accuracy)
-            accuracy_lin,_ = evaluate(combined_result_lin, tagged_lines)
+            accuracy_lin, _ = evaluate(combined_result_lin, tagged_lines)
             print("Accuracy", combination,": ", accuracy_lin)
         
         print(names,"&&",accuracy_maj,accuracy_lin)
