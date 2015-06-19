@@ -203,6 +203,7 @@ def majority_tag(result):
 
 
 def main(args):
+    
     DIRECTION = int(args.direction)
     tlanguage = args.target
     # Load test corpus, on which algorithms can be run
@@ -235,7 +236,7 @@ def main(args):
         accuracy, accuracy_per_pos = evaluate(best_tags[slanguage], tagged_lines)
         separate_language_accuracy.append(accuracy)
         separate_language_pos_accuracy.append(accuracy_per_pos)
-        print('Accuracy', slanguage, ':', accuracy)
+        print( slanguage,"&", accuracy)
 
     norm = sum(separate_language_accuracy)
     separate_language_accuracy = map(lambda x: x / norm, separate_language_accuracy)
@@ -253,17 +254,17 @@ def main(args):
                 del separate_language_pos_accuracy[i][tag]
     else:
         separate_language_pos_accuracy = None
-
+    
     # Combine languages
     all_combinations = list(map(list, combinations(evaluated_source_languages, 2)))\
                        + list(map(list, combinations(evaluated_source_languages, 3))) + [evaluated_source_languages]
     for combination in all_combinations:
         results_best_tags = []
-        
+        names=""
         for lang in combination:
             results_best_tags.append(best_tags[lang])
-        
-        print('Majority tag of', combination)
+            names += lang + "-"
+        print("Majority tag of", combination)
         combined_result_maj = majority_tag(results_best_tags)
         accuracy_maj,_ = evaluate(combined_result_maj, tagged_lines)
         print('Accuracy', combination, ':', accuracy_maj)
@@ -273,9 +274,10 @@ def main(args):
                 results_distribution.append(distribution[lang])
             print('Linear tag combination of', combination)
             combined_result_lin = linear_combination(results_distribution, separate_language_pos_accuracy)
-            accuracy_lin, _ = evaluate(combined_result_lin, tagged_lines)
-            print('Accuracy', combination, ':', accuracy_lin)
-
+            accuracy_lin,_ = evaluate(combined_result_lin, tagged_lines)
+            print("Accuracy", combination,": ", accuracy_lin)
+        
+        print(names,"&&",accuracy_maj,accuracy_lin)
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(formatter_class=argparse.RawTextHelpFormatter)
