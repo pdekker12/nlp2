@@ -135,7 +135,7 @@ def linear_combination(distribution, pos_accuracy=None):
         # For every word in the line
         combined_line = []
         for j in range(len(distribution[0][i])):
-            lin_combination = defaultdict(float)
+            lin_combination = Counter()
             word = distribution[0][i][j][0]
             #print(word)
             # Linearly combine tag probabilties from taggers
