@@ -19,20 +19,28 @@ evaluated_source_languages = source_languages
 n_languages = len(evaluated_source_languages)
 
 
-def run_trained_tagger(output_probs, transition_probs, raw_lines):
+def run_trained_tagger(output_probs, transition_probs, raw_lines, reverse=False):
+    def pair(first, second):
+        if reverse:
+            return second, first
+        else:
+            return first, second
     distribution_all_lines = []
     result_all_lines = []
     for line in raw_lines:
-        prev_tag = '$'
+        prev_tag = '@' if reverse else '$'
         distribution = []
         result = []
-        for w in line:
+
+        line_iter = reversed(line) if reverse else iter(line)
+
+        for w in line_iter:
             w_score = []
             found = False
             for tag in core_tags_without_start:
                 key = (w, tag)
                 if key in output_probs:
-                    bigram = (prev_tag,tag)
+                    bigram = pair(prev_tag, tag)
                     if bigram in transition_probs:
                         found = True
                         w_score.append((tag, output_probs[key] * transition_probs[bigram]))
@@ -42,52 +50,18 @@ def run_trained_tagger(output_probs, transition_probs, raw_lines):
                 for tag in core_tags_without_start:
                     key = (w, tag)
                     if key in output_probs:
-                        bigram = (prev_tag,tag)
-                        if bigram in transition_probs:
-                            w_score.append((tag, output_probs[key] * transition_probs[bigram]))
-            prev_tag = heapq.nlargest(1, w_score, lambda x: x[1])[0][0]
-            prev_tag_prob = heapq.nlargest(1, w_score, lambda x: x[1])[0][1]
-            distribution.append(dict(w_score)) # add all possible tags and possibiliees
-            result.append((prev_tag,prev_tag_prob)) # add pair of best tag and its probability
-        distribution_all_lines.append(list(zip(line,distribution)))
-        result_all_lines.append(list(zip(line,result)))
-    return distribution_all_lines, result_all_lines
-
-
-def run_trained_tagger_reverse(output_probs, transition_probs, raw_lines):
-    distribution_all_lines = []
-    result_all_lines = []
-
-    for line in raw_lines:
-        prev_tag = '@'
-        distribution = []
-        result = []
-        for w in reversed(line):
-            w_score = []
-            found = False
-            for tag in core_tags_without_start:
-                key = (w, tag)
-                if key in output_probs:
-                    bigram = (tag, prev_tag)
-                    if bigram in transition_probs:
-                        found = True
-                        w_score.append((tag, output_probs[key] * transition_probs[bigram]))
-            if not found:
-                w = 'UNK'
-                # TODO: Remove this copypaste
-                for tag in core_tags_without_start:
-                    key = (w, tag)
-                    if key in output_probs:
-                        bigram = (tag, prev_tag)
+                        bigram = pair(prev_tag, tag)
                         if bigram in transition_probs:
                             w_score.append((tag, output_probs[key] * transition_probs[bigram]))
 
             prev_tag = heapq.nlargest(1, w_score, lambda x: x[1])[0][0]
             prev_tag_prob = heapq.nlargest(1, w_score, lambda x: x[1])[0][1]
             distribution.append(dict(w_score)) # add all possible tags and possibiliees
-            result.append((prev_tag,prev_tag_prob)) # add pair of best tag and its probability
-        distribution_all_lines.append(list(zip(line,distribution)))
-        result_all_lines.append(list(zip(line,result[::-1])))
+            result.append((prev_tag, prev_tag_prob)) # add pair of best tag and its probability
+        distribution_all_lines.append(list(zip(line, distribution)))
+
+        result_all_lines.append(list(zip(line, result[::-1] if reverse else result)))
+
     return distribution_all_lines, result_all_lines
 
 
@@ -129,7 +103,7 @@ def evaluate(tagger_result, gold_lines):
             tagger_line = tagger_result[i]
             gold_line = gold_lines[i]
             if len(tagger_line) != len(gold_line):
-                print('length of line different')
+                print('length of line different:', tagger_line, gold_line, len(tagger_result))
             else:
                 for j in range(len(tagger_line)):
                     gold_tag = gold_line[j][1]
@@ -178,7 +152,7 @@ def linear_combination(distribution, pos_accuracy=None):
             # Pick max tag
             max_prob = 0.0
             for tag in core_tags_without_start:
-                if (lin_combination[tag] > max_prob):
+                if lin_combination[tag] > max_prob:
                     max_prob = lin_combination[tag]
                     best_tag = tag
             #print("Best tag:",best_tag, max_prob)
@@ -223,7 +197,7 @@ def majority_tag(result):
                     if max(proposed_tags[tag]) > highest_prob:
                         best_tag = tag
                         highest_prob = max(proposed_tags[best_tag])
-            combined_line.append( (word,(best_tag,highest_prob)) )
+            combined_line.append((word, (best_tag, highest_prob)))
         combined_result.append(combined_line)
     return combined_result
 
@@ -232,7 +206,7 @@ def main(args):
     DIRECTION = int(args.direction)
     tlanguage = args.target
     # Load test corpus, on which algorithms can be run
-    raw_lines,tagged_lines = load_test_corpus(tlanguage)
+    raw_lines, tagged_lines = load_test_corpus(tlanguage)
     
     best_tags = {}
     distribution = {}
@@ -250,14 +224,14 @@ def main(args):
             distribution[slanguage], best_tags[slanguage] = run_trained_tagger(trained_params[0], trained_params[1], raw_lines)
         elif DIRECTION == 1: # backward
             print('Backward tagging')
-            distribution[slanguage], best_tags[slanguage] = run_trained_tagger_reverse(trained_params[0], trained_params[1], raw_lines)
+            distribution[slanguage], best_tags[slanguage] = run_trained_tagger(trained_params[0], trained_params[1], raw_lines, reverse=True)
         elif DIRECTION == 2: # bidirectional
             print('Bidirectional tagging')
             distribution1, best_tags1 = run_trained_tagger(trained_params[0], trained_params[1], raw_lines)
 
-            distribution2, best_tags2 = run_trained_tagger_reverse(trained_params[0], trained_params[1], raw_lines)
+            distribution2, best_tags2 = run_trained_tagger(trained_params[0], trained_params[1], raw_lines, reverse=True)
             best_tags[slanguage] = majority_tag([best_tags1,best_tags2]) # combine two directions
-            
+
         accuracy, accuracy_per_pos = evaluate(best_tags[slanguage], tagged_lines)
         separate_language_accuracy.append(accuracy)
         separate_language_pos_accuracy.append(accuracy_per_pos)
